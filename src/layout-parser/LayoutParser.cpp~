@@ -1,0 +1,104 @@
+/*!
+ * \brief  Парсер верстки.
+ * \author Rostislav Velichko. rostislav.vel@gmail.com
+ * \date   17.11.2012
+ */
+
+#include <iostream>
+#include <sstream>
+#include <exception>
+#include <string>
+#include <cstdint>
+#include <memory>
+#include <map>
+
+#include <boost/filesystem/operations.hpp>
+#include <boost/filesystem/fstream.hpp>
+#include <boost/filesystem.hpp>
+#include <boost/foreach.hpp>
+#include <boost/lexical_cast.hpp>
+#include <boost/format.hpp>
+#include <boost/program_options.hpp>
+
+#include "Plugin.hpp"
+#include "TagCreator.hpp"
+#include "Tree.hpp"
+#include "Tag.hpp"
+
+
+namespace b = boost;
+namespace bfs = b::filesystem;
+
+
+namespace HtmlParser {
+
+    class TagStructure {
+        TagObjs _sequence;
+
+    public:
+        TagStructure(BaseTag *parent_tag, const LibTree &tree, const LibTreeIter &parent_it) {
+            std::uint32_t cnum = tree.number_of_children(parent_it);
+
+            for (std::uint32_t i = 0; i < cnum; i++) {
+                LibTreeIter it = tree.child(parent_it, i);
+
+                if (not it->isComment()) {
+                    it->parseAttributes();
+                    BaseTagCreator* tag_creator = BaseTagCreator::get(it->tagName());
+                    PTag new_tag(
+                        (*tag_creator)(parent_tag, it->tagName(), it->attributes(), it->text())
+                        );
+
+                    if (tree.number_of_children(it)) {
+                        TagObjs child_tags = TagStructure(new_tag.get(), tree, it);
+                        new_tag->childs(child_tags);
+                    }
+                    _sequence.push_back(new_tag);
+                    (*new_tag)();
+                }
+            }
+        }
+
+        operator TagObjs () {
+            return _sequence;
+        }
+    };
+}
+
+
+class LayoutParser
+    : public Plugin
+{
+public:
+    bool execute() {
+        try {
+            namespace bpo = boost::program_options;
+            std::string src_path = (bfs::current_path()).string();
+
+            bpo::options_description desc("");
+            desc.add_options()
+                ("help,h", "help.")
+                ("path,p", bpo::value< std::string >()->default_value(src_path), "Path to web leayout sources.")
+                ;
+            bpo::variables_map vm;
+            bpo::store(bpo::parse_command_line(Plugin::_argc, Plugin::_argv, desc), vm);
+            bpo::notify(vm);
+
+            if (vm.count("help")) {
+                std::cout << desc << std::endl;
+                return true;
+            }
+
+            std::cout << "Src path: `" << (vm["path"].as< std::string >() + "/" + "index.html") << "`\n";
+
+            HtmlParser::Tree tree(vm["path"].as< std::string >() + "/" + "index.html");
+
+            return true;
+        }
+        catch(const std::exception &e) {
+            std::cerr << e.what() << std::endl;
+            return false;
+        }
+        return true;
+    }
+} lauout_parser;
