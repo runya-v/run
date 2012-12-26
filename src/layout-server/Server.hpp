@@ -15,8 +15,6 @@ namespace LayoutParser {
     class Server
         : public cppcms::application
     {
-        std::string _str;
-
     public:
         Server(cppcms::service &srv);
     };

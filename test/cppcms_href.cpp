@@ -100,13 +100,13 @@ public:
         attach(
             new numbers(srv),
             "numbers",
-            "/numbers{1}", // mapping
+            "./numbers{1}", // mapping
             "/numbers((.*))?",
             1);   // dispatching
         attach(
             new letters(srv),
             "letters",
-            "/letters{1}", // mapping
+            "./letters{1}", // mapping
             "/letters((.*))?",
             1);   // dispatching
 
@@ -120,9 +120,9 @@ public:
     {
         response().out()
             << "<a href=\"/\">Root</a><br>"
-            << "<a href=\"/numbers\">Numbers</a><br>"
-            << "<a href=\"/letters\">Letters</a><br>"
-            << "<a href=\"/numbers/odd\">Odd Numbers</a><br>";
+            << "<a href=\"./numbers\">Numbers</a><br>"
+            << "<a href=\"./letters\">Letters</a><br>"
+            << "<a href=\"./numbers/odd\">Odd Numbers</a><br>";
     }
 };
 

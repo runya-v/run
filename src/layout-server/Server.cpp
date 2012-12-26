@@ -14,42 +14,15 @@
 #include <cppcms/url_dispatcher.h>
 #include <cppcms/url_mapper.h>
 
-#include "HtmlParser.hpp"
+#include "HtmlHref.hpp"
 #include "Server.hpp"
 
 
 namespace LayoutParser {
 
-    class HtmlHref
-        : public cppcms::application
-    {
-        std::string _html;
-
-    public:
-        HtmlHref(cppcms::service &srvc, const std::string& html)
-            : cppcms::application(srvc)
-            , _html(html)
-        {}
-
-        void operator() () {
-            response().out() << _html;
-        }
-    };
-
-
-    typedef std::shared_ptr< HtmlHref > PHtmlHref;
-    typedef std::set< PHtmlHref >       HtmlHrefs;
-    typedef HtmlHrefs::iterator         HtmlHrefIter;
-
-
-    HtmlHrefs html_hrefs_;
-
-
     Server::Server(cppcms::service &srvc)
         : cppcms::application(srvc)
     {
-        HtmlParser("index.html");
-
         if (HtmlParser::_htmls_.empty()) {
             response().out() <<
                 "<html>\n"
@@ -64,11 +37,15 @@ namespace LayoutParser {
         }
         else {
             for (const HtmlValue& html : HtmlParser::_htmls_) {
-                PHtmlHref html_href = std::make_shared< HtmlHref >(srvc, html.second);
-                html_hrefs_.insert(html_href);
-
-                dispatcher().assign(html.first, &HtmlHref::operator(), html_href.get());
-                mapper().assign(html.first);
+                HtmlHref* html_href = new HtmlHref(srvc, html);
+                dispatcher().assign("", &HtmlHref::init, html_href);
+                mapper().assign("");
+                attach(
+                    html_href,
+                    html_href->name(),
+                    html_href->url(),
+                    html_href->regex(),
+                    1);
             }
         }
     }

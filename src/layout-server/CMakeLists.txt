@@ -4,6 +4,7 @@ add_library(${PLUGIN} SHARED
     ${MAIN_SRC_DIR}/Plugin.cpp
     HtmlTree.cpp
     HtmlParser.cpp
+    HtmlHref.cpp
     Server.cpp
     Main.cpp
     )
