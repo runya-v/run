@@ -14,6 +14,9 @@
 
 namespace LayoutParser {
 
+    namespace bfs = boost::filesystem;
+
+
     Htmls HtmlParser::_htmls_;
     WebFiles HtmlParser::_styles_;
     WebFiles HtmlParser::_images_;
@@ -39,10 +42,15 @@ namespace LayoutParser {
 
 
     std::string HtmlParser::filePath(const std::string& href) {
-        namespace bfs = boost::filesystem;
-
         bfs::path file_path = bfs::path(href);
-        file_path = bfs::current_path() / file_path.parent_path() / file_path.filename();
+        bfs::path parent_path = file_path.parent_path();
+
+        if (parent_path not_eq bfs::path(".")) {
+            file_path = parent_path / file_path.filename();
+        }
+        else {
+            file_path = file_path.filename();
+        }
 
         if (bfs::exists(file_path)) {
             return file_path.string();
@@ -80,7 +88,7 @@ namespace LayoutParser {
 
         if (html_it == _htmls_.end()) {
             std::clog << "New html: `" << file_path << "`\n";
-            HtmlTree tree(file_path);
+            HtmlTree tree((bfs::current_path() / bfs::path(file_path)).string());
             _htmls_[file_path] = tree;
             HtmlParser(tree, ((LibTree)tree).begin());
         }

@@ -7,8 +7,8 @@
 
 #include <cppcms/applications_pool.h>
 #include <cppcms/service.h>
-
-#include "Server.hpp"
+#include "HtmlParser.hpp"
+//#include "Server.hpp"
 #include "Error.hpp"
 #include "Plugin.hpp"
 
@@ -22,16 +22,24 @@ public:
 
     bool execute() {
         namespace lo = LayoutParser;
+        lo::HtmlParser("index.html");
 
-        try {
-            cppcms::service srv(Plugin::_argc, Plugin::_argv);
-            srv.applications_pool().mount(cppcms::applications_factory< lo::Server >());
-            srv.run();
-        }
-        catch(const std::exception &e) {
-            std::cerr << e.what() << std::endl;
-            return false;
-        }
+        //for (const HtmlValue& html : HtmlParser::_htmls_) {
+        //    PHtmlHref html_href = std::make_shared< HtmlHref >(srvc, html.second);
+        //    html_hrefs_.insert(html_href);
+        //
+        //    dispatcher().assign(html.first, &HtmlHref::operator(), html_href.get());
+        //    mapper().assign(html.first);
+        //}
+        //try {
+        //    cppcms::service srv(Plugin::_argc, Plugin::_argv);
+        //    srv.applications_pool().mount(cppcms::applications_factory< lo::Server >());
+        //    srv.run();
+        //}
+        //catch(const std::exception &e) {
+        //    std::cerr << e.what() << std::endl;
+        //    return false;
+        //}
         return true;
     }
 } layout_server_;
