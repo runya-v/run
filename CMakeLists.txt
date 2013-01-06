@@ -59,7 +59,7 @@ find_package(Boost 1.49.0 COMPONENTS
 
 if(Boost_FOUND)
   include_directories(${Boost_INCLUDE_DIRS})
-  message("Include Boost directories \"${Boost_INCLUDE_DIRS}\"")
+  message("Include Boost directories: \"${Boost_INCLUDE_DIRS}\"")
 else()
   message(FATAL_ERROR "Boost libraries not found. Please get a copy from http://www.boost.org")
 endif()
@@ -68,6 +68,26 @@ link_directories("/usr/lib")
 link_directories("/usr/local/lib")
 
 include_directories(${MAIN_SRC_DIR})
+
+# Поиск cppcms библиотеки
+find_path(CPPCMS_DIR NAMES "cppcms/application.h" PATHS "/usr/include" "/usr/local/include")
+find_library(CPPCMS_LIBRARY NAMES cppcms libcppcms PATHS "/usr/lib" "/usr/local/lib")
+
+if(${CPPCMS_LIBRARY} STREQUAL "CPPCMS_LIBRARY-NOTFOUND")
+    message(FATAL_ERROR "CppCMS library is not found.")
+else()
+    message("Include CppCMS directory: \"${CPPCMS_DIR}\"")
+endif()
+
+# Поиск htmlcxx библиотеки
+find_path(HTMLCXX_DIR NAMES "html/ParserDom.h" "html/CharsetConverter.h" PATHS "/usr/include/htmlcxx" "/usr/local/include/htmlcxx")
+find_library(HTMLCXX_LIBRARY NAMES htmlcxx libhtmlcxx PATHS "/usr/lib" "/usr/local/lib")
+
+if(${HTMLCXX_LIBRARY} STREQUAL "HTMLCXX_LIBRARY-NOTFOUND")
+    message(FATAL_ERROR "htmlcxx library is not found.")
+else()
+    message("Include htmlcxx directory: \"${HTMLCXX_DIR}\"")
+endif()
 
 # Элементы.
 add_subdirectory("${MAIN_SRC_DIR}")

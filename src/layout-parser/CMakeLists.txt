@@ -10,12 +10,16 @@ add_library(${PLUGIN} SHARED
     LayoutParser.cpp
     )
 
-include_directories("/usr/local/include/htmlcxx")
+include_directories(
+    ${CPPCMS_DIR} 
+    ${HTMLCXX_DIR}
+    )
+
 target_link_libraries(
     ${PLUGIN}
     dl
-    cppcms
-    htmlcxx
+    ${CPPCMS_LIBRARY}
+    ${HTMLCXX_LIBRARY}
     ${Boost_FILESYSTEM_LIBRARY}
     ${Boost_PROGRAM_OPTIONS_LIBRARY}
     )

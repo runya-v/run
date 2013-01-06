@@ -38,7 +38,7 @@ public:
         try {
             namespace bfs = boost::filesystem;
             namespace bpo = boost::program_options;
-            namespace hp = LayoutParser;
+            namespace hp = HtmlParser;
 
             std::string src_path = (bfs::current_path()).string();
 
