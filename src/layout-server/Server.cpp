@@ -47,6 +47,9 @@ namespace LayoutParser {
                     html_href->regex(),
                     1);
             }
+            dispatcher().assign("", &Server::init, this);
+            mapper().assign("");
+            mapper().root("");
         }
     }
 } // LayoutParser
