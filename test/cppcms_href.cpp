@@ -11,44 +11,76 @@
 #include <stdlib.h>
 
 
-static const index[] =
-    "<html>\n"
-    "   <head>\n"
-    "      <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n"
-    "      <title>Страничка А</title>\n"
-    "   </head>\n"
-    "   <body>\n"
-    "       <h1>Web Сервер предосталяющий сервис на базе готовой вёрстки.</h1>\n"
-    "       <div class=\"href A\"><a href=\"./href_a.html\"></a></div>"
-    "       <div class=\"href B\"><a href=\"./href_b.html\"></a></div>"
-    "   </body>\n"
-    "</html>\n";
+class Href_a :
+    public cppcms::application
+{
+    Href_a(cppcms::service &srv) 
+        : cppcms::application(srv) 
+    {}
 
-static const href_a[] =
-    "<html>\n"
-    "   <head>\n"
-    "      <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n"
-    "      <title>Страничка А</title>\n"
-    "   </head>\n"
-    "   <body>\n"
-    "       <h1>Страничка А.</h1>\n"
-    "       <div class=\"logo\"><a href=\"./index.html\"></a></div>"
-    "       <div class=\"href B\"><a href=\"./href_b.html\"></a></div>"
-    "   </body>\n"
-    "</html>\n";
+    void init() {
+        response().out() <<
+            "<html>\n"
+            "   <head>\n"
+            "      <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n"
+            "      <title>Страничка А</title>\n"
+            "   </head>\n"
+            "   <body>\n"
+            "       <h1>Web Сервер предосталяющий сервис на базе готовой вёрстки.</h1>\n"
+            "       <div class=\"href A\"><a href=\"./href_a.html\"></a></div>"
+            "       <div class=\"href B\"><a href=\"./href_b.html\"></a></div>"
+            "   </body>\n"
+            "</html>\n";
+    }
+};
 
-static const href_b[] =
-    "<html>\n"
-    "   <head>\n"
-    "      <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n"
-    "      <title>Страничка Б</title>\n"
-    "   </head>\n"
-    "   <body>\n"
-    "       <h1>Страничка Б.</h1>\n"
-    "       <div class=\"logo\"><a href=\"./index.html\"></a></div>"
-    "       <div class=\"href A\"><a href=\"./href_a.html\"></a></div>"
-    "   </body>\n"
-    "</html>\n";
+
+class Href_b :
+    public cppcms::application
+{
+    Href_b(cppcms::service &srv) 
+        : cppcms::application(srv) 
+    {}
+    
+    void init() {
+        response().out() <<
+            "<html>\n"
+            "   <head>\n"
+            "      <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n"
+            "      <title>Страничка А</title>\n"
+            "   </head>\n"
+            "   <body>\n"
+            "       <h1>Страничка А.</h1>\n"
+            "       <div class=\"logo\"><a href=\"./index.html\"></a></div>"
+            "       <div class=\"href B\"><a href=\"./href_b.html\"></a></div>"
+            "   </body>\n"
+            "</html>\n";
+    }
+};
+
+
+class Index :
+    public cppcms::application
+{
+    Index(cppcms::service &srv) 
+        : cppcms::application(srv) 
+    {}
+
+    void init() {
+        response().out() <<
+            "<html>\n"
+            "   <head>\n"
+            "      <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />\n"
+            "      <title>Страничка Б</title>\n"
+            "   </head>\n"
+            "   <body>\n"
+            "       <h1>Страничка Б.</h1>\n"
+            "       <div class=\"logo\"><a href=\"./index.html\"></a></div>"
+            "       <div class=\"href A\"><a href=\"./href_a.html\"></a></div>"
+            "   </body>\n"
+            "</html>\n";
+    }
+};
 
 
 //class numbers :
@@ -136,7 +168,7 @@ static const href_b[] =
 //};
 
 
-class myapp:
+class MyApp:
     public cppcms::application
 {
 public:
@@ -144,43 +176,47 @@ public:
         cppcms::application(srv)
     {
         attach(
-            new numbers(srv),
-            "numbers",
-            "./numbers{1}", // mapping
-            "/numbers((.*))?",
+            new Index(srv),
+            "index.html",
+            "./index.html{1}",
+            "/index.html((.*))?",
             1);   // dispatching
         attach(
-            new letters(srv),
-            "letters",
-            "./letters{1}", // mapping
-            "/letters((.*))?",
+            new Href_a(srv),
+            "href_a.html",
+            "./href_a.html{1}",
+            "/href_a.html((.*))?",
             1);   // dispatching
+        attach(
+            new Href_a(srv),
+            "href_b.html",
+            "./href_b.html{1}",
+            "/href_b.html((.*))?",
+            1);
 
-        dispatcher().assign("",&myapp::describe,this);
+        dispatcher().assign("", &MyApp::init, this);
         mapper().assign(""); // default URL
 
         mapper().root("");
     }
 
-    void describe()
+    void init()
     {
         response().out()
-            << "<a href=\"/\">Root</a><br>"
-            << "<a href=\"./numbers\">Numbers</a><br>"
-            << "<a href=\"./letters\">Letters</a><br>"
-            << "<a href=\"./numbers/odd\">Odd Numbers</a><br>";
+            << "<a href=\"./index.html\">Index</a><br>"
+            << "<a href=\"./href_a.html\">Href A</a><br>"
+            << "<a href=\"./href_b.html\">Href B</a><br>";
     }
 };
 
 
-int main(int argc,char ** argv)
-{
+int main(int argc, char **argv) {
     try {
         cppcms::service app(argc,argv);
-        app.applications_pool().mount(cppcms::applications_factory<myapp>());
+        app.applications_pool().mount(cppcms::applications_factory< MyApp >());
         app.run();
     }
     catch(std::exception const &e) {
-        std::cerr<<e.what()<<std::endl;
+        std::cerr << e.what() << std::endl;
     }
 }
