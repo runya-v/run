@@ -1,9 +1,11 @@
 cmake_minimum_required(VERSION 2.8)
 
+message("\nConfigure project Run...")
+
 project(Run)
 
 if(NOT CMAKE_BUILD_TYPE)
-  set(CMAKE_BUILD_TYPE Debug CACHE STRING
+    set(CMAKE_BUILD_TYPE Debug CACHE STRING
         "Choose the type of build, options are: None Debug Release RelWithDebInfo MinSizeRel."
         FORCE
         )
@@ -38,12 +40,12 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${ROOT}/${CMAKE_BUILD_TYPE}/bin)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${ROOT}/${CMAKE_BUILD_TYPE}/lib)
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${ROOT}/${CMAKE_BUILD_TYPE}/lib)
 
-message("MAIN_SRC_DIR:                   ${MAIN_SRC_DIR}")
-message("BINARY_DIR:                     ${BINARY_DIR}")
-message("ROOT:                           ${ROOT}")
-message("CMAKE_RUNTIME_OUTPUT_DIRECTORY: ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}")
-message("CMAKE_LIBRARY_OUTPUT_DIRECTORY: ${CMAKE_LIBRARY_OUTPUT_DIRECTORY}")
-message("CMAKE_ARCHIVE_OUTPUT_DIRECTORY: ${CMAKE_ARCHIVE_OUTPUT_DIRECTORY}")
+message("-- MAIN_SRC_DIR:                   ${MAIN_SRC_DIR}")
+message("-- BINARY_DIR:                     ${BINARY_DIR}")
+message("-- ROOT:                           ${ROOT}")
+message("-- CMAKE_RUNTIME_OUTPUT_DIRECTORY: ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}")
+message("-- CMAKE_LIBRARY_OUTPUT_DIRECTORY: ${CMAKE_LIBRARY_OUTPUT_DIRECTORY}")
+message("-- CMAKE_ARCHIVE_OUTPUT_DIRECTORY: ${CMAKE_ARCHIVE_OUTPUT_DIRECTORY}")
 
 # Устанавливаем зависимости на boost.
 set(Boost_USE_MULTITHREADED ON)
@@ -58,10 +60,10 @@ find_package(Boost 1.49.0 COMPONENTS
     )
 
 if(Boost_FOUND)
-  include_directories(${Boost_INCLUDE_DIRS})
-  message("Include Boost directories: \"${Boost_INCLUDE_DIRS}\"")
+    include_directories(${Boost_INCLUDE_DIRS})
+    message("-- Boost_INCLUDE_DIRS: \"${Boost_INCLUDE_DIRS}\"")
 else()
-  message(FATAL_ERROR "Boost libraries not found. Please get a copy from http://www.boost.org")
+    message(FATAL_ERROR "Boost libraries not found. Please get a copy from http://www.boost.org")
 endif()
 
 link_directories("/usr/lib")
@@ -76,7 +78,8 @@ find_library(CPPCMS_LIBRARY NAMES cppcms libcppcms PATHS "/usr/lib" "/usr/local/
 if(${CPPCMS_LIBRARY} STREQUAL "CPPCMS_LIBRARY-NOTFOUND")
     message(FATAL_ERROR "CppCMS library is not found.")
 else()
-    message("Include CppCMS directory: \"${CPPCMS_DIR}\"")
+    message("-- CPPCMS_DIR:         \"${CPPCMS_DIR}\"")
+    message("-- CPPCMS_LIBRARY:     \"${CPPCMS_LIBRARY}\"")
 endif()
 
 # Поиск htmlcxx библиотеки
@@ -86,7 +89,8 @@ find_library(HTMLCXX_LIBRARY NAMES htmlcxx libhtmlcxx PATHS "/usr/lib" "/usr/loc
 if(${HTMLCXX_LIBRARY} STREQUAL "HTMLCXX_LIBRARY-NOTFOUND")
     message(FATAL_ERROR "htmlcxx library is not found.")
 else()
-    message("Include htmlcxx directory: \"${HTMLCXX_DIR}\"")
+    message("-- HTMLCXX_DIR:        \"${HTMLCXX_DIR}\"")
+    message("-- HTMLCXX_LIBRARY:    \"${HTMLCXX_LIBRARY}\"")
 endif()
 
 # Элементы.
@@ -100,7 +104,7 @@ if(BUILD_TESTS)
     message("Include tests directory to build process")
 
     set(TEST_DIR ${CMAKE_CURRENT_SOURCE_DIR}/test)
-    message("TEST_DIR:                   ${TEST_DIR}")
+    message("-- TEST_DIR:                   ${TEST_DIR}")
 
     add_subdirectory("${TEST_DIR}")
 else(BUILD_TESTS)
@@ -113,7 +117,7 @@ if(BUILD_UTESTS)
     enable_testing()
 
     set(UTEST_DIR ${CMAKE_CURRENT_SOURCE_DIR}/utest)
-    message("UTEST_DIR:                   ${UTEST_DIR}")
+    message("-- UTEST_DIR:                   ${UTEST_DIR}")
 
     add_subdirectory("${UTEST_DIR}")
 else(BUILD_UTESTS)

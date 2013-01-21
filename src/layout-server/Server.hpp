@@ -17,5 +17,7 @@ namespace LayoutParser {
     {
     public:
         Server(cppcms::service &srv);
+
+        void init();
     };
 } // LayoutParser

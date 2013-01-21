@@ -52,4 +52,7 @@ namespace LayoutParser {
             mapper().root("");
         }
     }
+
+    void init() {
+    }
 } // LayoutParser
