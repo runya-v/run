@@ -5,12 +5,17 @@
  */
 
 
+// g++ WtCppHw.cpp -std=c++0x -I/usr/local/include/ -L/usr/local/lib/ -lwt -lwthttp -lboost_signals
+// ./a.out --docroot . --http-address 0.0.0.0 --http-port 8080
+
+
 #include <Wt/WApplication>
 #include <Wt/WBreak>
 #include <Wt/WContainerWidget>
 #include <Wt/WLineEdit>
 #include <Wt/WPushButton>
 #include <Wt/WText>
+
 
 // c++0x only, for std::bind
 // #include <functional>
@@ -68,8 +73,7 @@ HelloApplication::HelloApplication(const WEnvironment& env)
   /*
    * - using an arbitrary function object (binding values with boost::bind())
    */
-  nameEdit_->enterPressed().connect
-    (boost::bind(&HelloApplication::greet, this));
+  nameEdit_->enterPressed().connect(boost::bind(&HelloApplication::greet, this));
 
   /*
    * - using a c++0x lambda:
