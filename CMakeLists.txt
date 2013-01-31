@@ -55,6 +55,7 @@ find_package(Boost 1.49.0 COMPONENTS
     filesystem
     program_options
     system
+    signals
     regex
     unit_test_framework
     )
@@ -93,11 +94,27 @@ else()
     message("-- HTMLCXX_LIBRARY:    \"${HTMLCXX_LIBRARY}\"")
 endif()
 
+# Поиск WtCpp библиотеки
+find_path(WTCPP_DIR NAMES "Wt/WApplication" PATHS "/usr/include/Wt" "/usr/local/include/Wt")
+find_library(WTCPP_LIBRARY NAMES wt libwt PATHS "/usr/lib" "/usr/local/lib")
+find_library(WTCPPHTTP_LIBRARY NAMES wthttp libwthttp PATHS "/usr/lib" "/usr/local/lib")
+find_library(WTCPPEXT_LIBRARY NAMES wtext libwtext PATHS "/usr/lib" "/usr/local/lib")
+
+if(${WTCPP_DIR} STREQUAL "WTCPP_DIR-NOTFOUND")
+    message(FATAL_ERROR "htmlcxx library is not found.")
+else()
+    message("-- WTCPP_DIR:          \"${WTCPP_DIR}\"")
+    message("-- WTCPP_LIBRARY:      \"${WTCPP_LIBRARY}\"")
+    message("-- WTCPPHTTP_LIBRARY   \"${WTCPPHTTP_LIBRARY}\"")
+    message("-- WTCPPEXT_LIBRARY    \"${WTCPPEXT_LIBRARY}\"")
+endif()
+
 # Элементы.
 add_subdirectory("${MAIN_SRC_DIR}")
 add_subdirectory("${MAIN_SRC_DIR}/layout-parser")
 add_subdirectory("${MAIN_SRC_DIR}/layout-server")
 add_subdirectory("${MAIN_SRC_DIR}/company-parser")
+add_subdirectory("${MAIN_SRC_DIR}/companyes-web")
 
 # Директорию test включается только, если определен макро BUILD_TESTS=1
 if(BUILD_TESTS)
