@@ -21,7 +21,7 @@
 #include <Wt/WVBoxLayout>
 #include <Wt/WOverlayLoadingIndicator>
 
-#include "RubricksCreator.hpp"
+#include "RegionsCreator.hpp"
 
 
 namespace Web {
@@ -38,7 +38,7 @@ namespace Web {
             std::string absolute_path = boost::filesystem::system_complete(boost::filesystem::path(".")).string();
 
             this->messageResourceBundle().use(this->appRoot() + "rus_locale");
-             this->useStyleSheet(this->appRoot() + "main.css");
+            this->useStyleSheet(this->appRoot() + "main.css");
             this->setTitle(Wt::WString::tr("Title"));
 
             Wt::WApplication *app = Wt::WApplication::instance();
@@ -53,7 +53,7 @@ namespace Web {
             menu->setRenderAsList(true);
             menu->setStyleClass("menu");
 
-            new RubricksCreator(absolute_path, contents, menu);
+            new RegionsCreator(absolute_path, contents, menu);
 
             Wt::WHBoxLayout* hlayout = new Wt::WHBoxLayout();
             hlayout->addWidget(menu, 0);

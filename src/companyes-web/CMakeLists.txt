@@ -1,8 +1,10 @@
 set(APP_NAME companyes-web)
 
 add_executable(${APP_NAME}
-    RubricksCreator.cpp
-    RubrickView.cpp
+    SignaledMenuItem.cpp
+    RubrickWidget.cpp
+    RegionView.cpp
+    RegionsCreator.cpp
     Main.cpp
     )
 

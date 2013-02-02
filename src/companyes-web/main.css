@@ -14,7 +14,7 @@ ul {
 }
 
 h1 {
-    background: #009a3e no-repeat right top;
+    background: #003a9e no-repeat right top;
     font-size: 1.8em;
     font-weight: 50;
     letter-spacing: 1px;
@@ -69,29 +69,30 @@ ul.menu {
 }
 
 ul.menu a {
-    color: #BEBEBE;
+    color: #8E8E8E;
     font-weight: 600;
     letter-spacing: 1px;
     text-decoration:none;
     padding-bottom:5px;
-    border-bottom: 1px dashed #008B12;
+    border-bottom: 1px dashed #008B88;
     display: block;
-    width: 390px;
+    width: 100%;
 }
 
 ul.menu .itemselected, ul.menu .itemselected a, ul.menu .itemselected a {
-    color: #005322;
+    color: #005355;
 }
 
 ul.menu .item, ul.menu a.item, ul.menu .item a {
-    color: #BEBEBE;
+    color: #8E8E8E;
     text-decoration: none;
     font-size: 100%;
 }
 
 ul.menu a:hover, ul.menu .item a:hover {
-    color: #00B991;
+    color: #000991;
     text-decoration: none;
+    display:block
 }
 
 ul.submenu {
@@ -99,6 +100,7 @@ ul.submenu {
     padding-bottom: 0px;
     width: 250;
     border-right: 3px;
+    display:none
 }
 
 .itemselected ul.submenu {
@@ -116,6 +118,6 @@ ul.submenu li a {
 span.title {
     font-size: 150%;
     font-weight: bold;
-    color: #008B12;
+    color: #008B77;
 }
 

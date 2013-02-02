@@ -11,12 +11,13 @@
 #include <Wt/WStackedWidget>
 #include <Wt/WMenu>
 
-#include "RubrickView.hpp"
+#include "RegionView.hpp"
+
 
 namespace Web {
 
-    class RubricksCreator {
+    class RegionsCreator {
     public:
-        RubricksCreator(const std::string &path, Wt::WStackedWidget *content, Wt::WMenu *menu);
+        RegionsCreator(const std::string &path, Wt::WStackedWidget *content, Wt::WMenu *menu);
     };
 }

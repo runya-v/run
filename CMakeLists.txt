@@ -120,7 +120,7 @@ add_subdirectory("${MAIN_SRC_DIR}/companyes-web")
 if(BUILD_TESTS)
     message("Include tests directory to build process")
 
-    set(TEST_DIR ${CMAKE_CURRENT_SOURCE_DIR}/test)
+    set(TEST_DIR ${MAIN_SRC_DIR}/test)
     message("-- TEST_DIR:                   ${TEST_DIR}")
 
     add_subdirectory("${TEST_DIR}")
@@ -133,7 +133,7 @@ if(BUILD_UTESTS)
     message("Include unit tests directory to build process")
     enable_testing()
 
-    set(UTEST_DIR ${CMAKE_CURRENT_SOURCE_DIR}/utest)
+    set(UTEST_DIR ${MAIN_SRC_DIR}/utest)
     message("-- UTEST_DIR:                   ${UTEST_DIR}")
 
     add_subdirectory("${UTEST_DIR}")
