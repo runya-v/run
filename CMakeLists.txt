@@ -115,6 +115,7 @@ add_subdirectory("${MAIN_SRC_DIR}/layout-parser")
 add_subdirectory("${MAIN_SRC_DIR}/layout-server")
 add_subdirectory("${MAIN_SRC_DIR}/company-parser")
 add_subdirectory("${MAIN_SRC_DIR}/companyes-web")
+add_subdirectory("${MAIN_SRC_DIR}/http-server")
 
 # Директорию test включается только, если определен макро BUILD_TESTS=1
 if(BUILD_TESTS)
