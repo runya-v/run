@@ -48,7 +48,7 @@ namespace http_server {
             case Reply::not_implemented:       return asio::buffer(not_implemented);
             case Reply::bad_gateway:           return asio::buffer(bad_gateway);
             case Reply::service_unavailable:   return asio::buffer(service_unavailable);
-            default:                           return Reply::Buffer(internal_server_error);
+            default:                           return Reply::Buffer(internal_server_error.c_str());
             }
         }
     } // namespace status_strings

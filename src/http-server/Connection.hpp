@@ -22,7 +22,7 @@
 namespace http_server {
 
     /// Represents a single connection from a client.
-    class connection
+    class Connection
         : public boost::enable_shared_from_this< Connection >
         , private boost::noncopyable
     {
@@ -55,7 +55,7 @@ namespace http_server {
 
     public:
         /// Construct a connection with the given io_service.
-        explicit connection(boost::asio::io_service& io_service, request_handler& handler);
+        explicit Connection(boost::asio::io_service& io_service, RequestHandler& handler);
 
         /// Get the socket associated with the connection.
         boost::asio::ip::tcp::socket& socket();

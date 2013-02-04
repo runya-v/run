@@ -14,7 +14,7 @@ add_executable(${APP_BIN}
     main.cpp
     )
 
-target_link_libraries(${APP_LIB}
+target_link_libraries(${APP_BIN}
     ${APP_LIB}
     dl
     ${Boost_SYSTEM_LIBRARY}

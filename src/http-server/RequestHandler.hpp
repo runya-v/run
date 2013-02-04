@@ -6,32 +6,31 @@
 
 #pragma once
 
-
 #include <string>
 #include <boost/noncopyable.hpp>
 
+
 namespace http_server {
 
-struct reply;
-struct request;
+    struct Reply;
+    struct Request;
 
-/// The common handler for all incoming requests.
-class RequestHandler
-  : private boost::noncopyable
-{
-public:
-  /// Construct with a directory containing files to be served.
-  explicit RequestHandler(const std::string& doc_root);
+    /// The common handler for all incoming requests.
+    class RequestHandler
+        : private boost::noncopyable
+    {
+        /// The directory containing the files to be served.
+        std::string doc_root_;
 
-  /// Handle a request and produce a reply.
-  void handle_request(const request& req, reply& rep);
+        /// Perform URL-decoding on a string. Returns false if the encoding was
+        /// invalid.
+        static bool urlDecode(const std::string& in, std::string& out);
 
-private:
-  /// The directory containing the files to be served.
-  std::string doc_root_;
+    public:
+        /// Construct with a directory containing files to be served.
+        explicit RequestHandler(const std::string& doc_root);
 
-  /// Perform URL-decoding on a string. Returns false if the encoding was
-  /// invalid.
-  static bool url_decode(const std::string& in, std::string& out);
-};
+        /// Handle a request and produce a reply.
+        void handleRequest(const Request &req, Reply &rep);
+    };
 } // namespace http_server

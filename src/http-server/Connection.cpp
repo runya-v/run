@@ -8,7 +8,7 @@
 
 namespace http_server {
 
-    Connection::Connection(boost::asio::io_service& io_service, request_handler& handler)
+    Connection::Connection(boost::asio::io_service& io_service, RequestHandler &handler)
         : strand_(io_service)
         , socket_(io_service)
         , request_handler_(handler)

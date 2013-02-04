@@ -9,16 +9,16 @@
 namespace http_server {
 
     namespace asio     = boost::asio;
-    namespace asio_tcp = asio::ip::tcp;
 
+    typedef asio::ip::tcp Tcp;
     typedef boost::thread Thread;
     typedef boost::shared_ptr< Thread > PThread;
     typedef std::vector< PThread > PThreads;
 
 
     void Server::startAccept() {
-        new_connection_.reset(new connection(io_service_, request_handler_));
-        acceptor_.async_accept(new_connection_->socket(), boost::bind(&server::handleAccept, this, asio::placeholders::error));
+        new_connection_.reset(new Connection(io_service_, request_handler_));
+        acceptor_.async_accept(new_connection_->socket(), boost::bind(&Server::handleAccept, this, asio::placeholders::error));
     }
 
 
@@ -49,19 +49,19 @@ namespace http_server {
         signals_.add(SIGQUIT);
 #       endif // defined(SIGQUIT)
 
-        signals_.async_wait(boost::bind(&server::handleStop, this));
+        signals_.async_wait(boost::bind(&Server::handleStop, this));
 
         // Open the acceptor with the option to reuse the address (i.e. SO_REUSEADDR).
 
-        asio_tcp::resolver resolver(io_service_);
-        asio_tcp::resolver::query query(address, port);
-        asio_tcp::endpoint endpoint = *resolver.resolve(query);
+        Tcp::resolver resolver(io_service_);
+        Tcp::resolver::query query(address, port);
+        Tcp::endpoint endpoint = *resolver.resolve(query);
         acceptor_.open(endpoint.protocol());
-        acceptor_.set_option(asio_tcp::acceptor::reuse_address(true));
+        acceptor_.set_option(Tcp::acceptor::reuse_address(true));
         acceptor_.bind(endpoint);
         acceptor_.listen();
 
-        start_accept();
+        startAccept();
     }
 
 

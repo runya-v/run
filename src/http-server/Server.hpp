@@ -13,8 +13,8 @@
 #include <boost/noncopyable.hpp>
 #include <boost/shared_ptr.hpp>
 
-#include "connection.hpp"
-#include "request_handler.hpp"
+#include "Connection.hpp"
+#include "RequestHandler.hpp"
 
 
 namespace http_server {
@@ -35,10 +35,10 @@ namespace http_server {
         boost::asio::ip::tcp::acceptor acceptor_;
 
         //! \brief Объект нового соединения для обработки.
-        connection_ptr new_connection_;
+        PConnection new_connection_;
 
         //! \brief Объект обработчик всех входящих запросов.
-        request_handler request_handler_;
+        RequestHandler request_handler_;
 
         /*!
          * \brief Метод инициализации асинхронной операции приёма соединений.

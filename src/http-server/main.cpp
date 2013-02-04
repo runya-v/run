@@ -15,8 +15,7 @@
 
 
 int main(int argc, char **argv) {
-    try
-    {
+    try {
         // Check command line arguments.
         if (argc not_eq 5) {
             std::cerr << "Usage: http_server <address> <port> <threads> <doc_root>\n";
@@ -37,6 +36,5 @@ int main(int argc, char **argv) {
     catch (std::exception& e) {
         std::cerr << "exception: " << e.what() << "\n";
     }
-
     return 0;
 }
