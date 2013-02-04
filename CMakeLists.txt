@@ -57,6 +57,7 @@ find_package(Boost 1.49.0 COMPONENTS
     system
     signals
     regex
+    thread
     unit_test_framework
     )
 

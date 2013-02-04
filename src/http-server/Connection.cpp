@@ -23,10 +23,8 @@ namespace http_server {
     void Connection::start() {
         socket_.async_read_some(
             boost::asio::buffer(buffer_),
-            strand_.wrap(
-                boost::bind(&Connection::handle_read, shared_from_this(),
-                boost::asio::placeholders::error,
-                boost::asio::placeholders::bytes_transferred)));
+            strand_.wrap(boost::bind(
+                &Connection::handleRead, shared_from_this(), boost::asio::placeholders::error, boost::asio::placeholders::bytes_transferred)));
     }
 
 
@@ -36,24 +34,25 @@ namespace http_server {
             boost::tie(result, boost::tuples::ignore) = request_parser_.parse(request_, buffer_.data(), buffer_.data() + bytes_transferred);
 
             if (result) {
-                request_handler_.handle_request(request_, reply_);
+                request_handler_.handleRequest(request_, reply_);
                 boost::asio::async_write(
                     socket_,
-                    reply_.to_buffers(),
-                    strand_.wrap(boost::bind(&Connection::handle_write, shared_from_this(), boost::asio::placeholders::error)));
+                    reply_.toBuffers(),
+                    strand_.wrap(boost::bind(&Connection::handleWrite, shared_from_this(), boost::asio::placeholders::error)));
             }
-            else if (!result) {
-                reply_ = reply::stock_reply(reply::bad_request);
+            else if (not result) {
+                reply_ = Reply::stockReply(Reply::bad_request);
                 boost::asio::async_write(
                     socket_,
-                    reply_.to_buffers(),
-                    strand_.wrap(boost::bind(&Connection::handle_write, shared_from_this(), boost::asio::placeholders::error)));
+                    reply_.toBuffers(),
+                    strand_.wrap(boost::bind(&Connection::handleWrite, shared_from_this(), boost::asio::placeholders::error)));
             }
             else {
                 socket_.async_read_some(
                     boost::asio::buffer(buffer_),
-                    strand_.wrap(
-                        boost::bind(&Connection::handle_read, shared_from_this(),
+                    strand_.wrap(boost::bind(
+                        &Connection::handleRead,
+                        shared_from_this(),
                         boost::asio::placeholders::error,
                         boost::asio::placeholders::bytes_transferred)));
             }

@@ -48,7 +48,7 @@ namespace http_server {
             case Reply::not_implemented:       return asio::buffer(not_implemented);
             case Reply::bad_gateway:           return asio::buffer(bad_gateway);
             case Reply::service_unavailable:   return asio::buffer(service_unavailable);
-            default:                           return Reply::Buffer(internal_server_error.c_str());
+            default:                           return asio::buffer(internal_server_error);
             }
         }
     } // namespace status_strings
@@ -68,11 +68,11 @@ namespace http_server {
         for (std::size_t i = 0; i < headers.size(); ++i) {
             Header &h = headers[i];
             buffers.push_back(asio::buffer(h.name));
-            buffers.push_back(asio::buffer(misc_strings::name_value_separator));
+            buffers.push_back(asio::buffer(misc_strings::_name_value_separator));
             buffers.push_back(asio::buffer(h.value));
-            buffers.push_back(asio::buffer(misc_strings::crlf));
+            buffers.push_back(asio::buffer(misc_strings::_crlf));
         }
-        buffers.push_back(asio::buffer(misc_strings::crlf));
+        buffers.push_back(asio::buffer(misc_strings::_crlf));
         buffers.push_back(asio::buffer(content));
 
         return buffers;
@@ -185,7 +185,7 @@ namespace http_server {
     Reply Reply::stockReply(Reply::StatusType status) {
         Reply rep;
         rep.status = status;
-        rep.content = stock_replies::to_string(status);
+        rep.content = stock_replies::toString(status);
         rep.headers.resize(2);
         rep.headers[0].name = "Content-Length";
         rep.headers[0].value = boost::lexical_cast< std::string >(rep.content.size());
