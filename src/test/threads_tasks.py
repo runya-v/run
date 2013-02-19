@@ -1,0 +1,71 @@
+#!/usr/bin/env python
+
+import sys
+import Queue
+import threading
+import random
+
+
+class Help:
+    
+    def __init__(self):
+        msg = "Use: %s <num threads> <max message id>\n"
+        print msg % sys.argv[0]
+
+
+class MessageGenerator(threading.Thread):
+
+    def __init__(self, work_queue, max_msg_id=10):
+        super(MessageGenerator, self).__init__()
+        self.work_queue = work_queue
+        self.max_msg_id = max_msg_id
+
+    def run(self):
+        try:
+            while True:
+                self.work_queue.put(random.randint(0, self.max_msg_id))
+        finally:
+            pass
+
+
+class Worker(threading.Thread):
+
+    def __init__(self, work_queue):
+        super(Worker, self).__init__()
+        self.work_queue = work_queue
+        self.msg_list_list = [[]]
+
+    def run(self):
+        try:
+            while True:
+                msg_id = self.work_queue.get()
+                self.msg_list_list[msg_id]
+                
+        finally:
+            pass
+
+
+class ServiceModel:
+    
+    def __int__(self, threads_num, max_msg_id):
+        work_queue = Queue.Queue()
+
+        MessageGenerator(work_queue, max_msg_id).start()
+
+        for i in range(threads_num):
+            Worker(work_queue).start()
+
+
+def main(argv=sys.argv):
+
+    if len(argv) <= 2:
+        Help()
+        return 1
+    
+    ServiceModel(int(argv[1]), int(argv[2]))
+
+    return 0    
+
+
+if __name__ == "__main__":
+    sys.exit(main())

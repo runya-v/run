@@ -58,6 +58,7 @@ find_package(Boost 1.49.0 COMPONENTS
     signals
     regex
     thread
+    random
     unit_test_framework
     )
 
@@ -96,18 +97,22 @@ else()
 endif()
 
 # Поиск WtCpp библиотеки
-find_path(WTCPP_DIR NAMES "Wt/WApplication" PATHS "/usr/include/Wt" "/usr/local/include/Wt")
-find_library(WTCPP_LIBRARY NAMES wt libwt PATHS "/usr/lib" "/usr/local/lib")
-find_library(WTCPPHTTP_LIBRARY NAMES wthttp libwthttp PATHS "/usr/lib" "/usr/local/lib")
-find_library(WTCPPEXT_LIBRARY NAMES wtext libwtext PATHS "/usr/lib" "/usr/local/lib")
+find_path(WT_DIR NAMES "Wt/WApplication" PATHS "/usr/include/Wt" "/usr/local/include/Wt")
+find_library(WT_LIBRARY NAMES wt libwt PATHS "/usr/lib" "/usr/local/lib")
+find_library(WTHTTP_LIBRARY NAMES wthttp libwthttp PATHS "/usr/lib" "/usr/local/lib")
+find_library(WTEXT_LIBRARY NAMES wtext libwtext PATHS "/usr/lib" "/usr/local/lib")
+find_library(WTDBO_LIBRARY NAMES wtdbo libwdbo PATHS "/usr/lib" "/usr/local/lib")
+find_library(WTDBOSQLITE3_LIBRARY NAMES wtdbosqlite3 libwtdbosqlite3 PATHS "/usr/lib" "/usr/local/lib")
 
-if(${WTCPP_DIR} STREQUAL "WTCPP_DIR-NOTFOUND")
-    message(FATAL_ERROR "htmlcxx library is not found.")
+if(${WT_DIR} STREQUAL "WT_DIR-NOTFOUND")
+    message(FATAL_ERROR "Wt C++ toolkit library is not found.")
 else()
-    message("-- WTCPP_DIR:          \"${WTCPP_DIR}\"")
-    message("-- WTCPP_LIBRARY:      \"${WTCPP_LIBRARY}\"")
-    message("-- WTCPPHTTP_LIBRARY   \"${WTCPPHTTP_LIBRARY}\"")
-    message("-- WTCPPEXT_LIBRARY    \"${WTCPPEXT_LIBRARY}\"")
+    message("-- WT_DIR:              \"${WT_DIR}\"")
+    message("-- WT_LIBRARY:          \"${WT_LIBRARY}\"")
+    message("-- WTHTTP_LIBRARY       \"${WTHTTP_LIBRARY}\"")
+    message("-- WTEXT_LIBRARY        \"${WTEXT_LIBRARY}\"")
+    message("-- WTDBO_LIBRARY        \"${WTDBO_LIBRARY}\"")
+    message("-- WTDBOSQLITE3_LIBRARY \"${WTDBOSQLITE3_LIBRARY}\"")
 endif()
 
 # Элементы.

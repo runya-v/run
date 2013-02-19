@@ -9,11 +9,18 @@ add_executable(${APP_NAME}
     )
 
 target_link_libraries(${APP_NAME}
-    ${WTCPP_LIBRARY}
-    ${WTCPPHTTP_LIBRARY}
+    ${WTHTTP_LIBRARY}
+    ${WTEXT_LIBRARY}
+    ${WT_LIBRARY}
+    ${Boost_RANDOM_LIBRARY}
     ${Boost_SIGNALS_LIBRARY}
     ${Boost_SYSTEM_LIBRARY}
     ${Boost_FILESYSTEM_LIBRARY}
+    ${Boost_PROGRAM_OPTIONS_LIBRARY}
+    ${Boost_REGEX_LIBRARY}
+    ${Boost_THREAD_LIBRARY}
+    ${Boost_DATE_TIME_LIBRARY}
+    ssl
     )
 
 # Копирование файла локализации
