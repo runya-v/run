@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# author: Velichko Rostislav, @: 20.02.13
 
 import sys
 import Queue
@@ -82,7 +83,7 @@ class Worker(threading.Thread):
             pass
 
 
-class ServiceModel:
+class Model:
     
     def __init__(self, threads_num, max_msg_id=10):
         lock = threading.Lock()
@@ -113,9 +114,9 @@ def main(argv=sys.argv):
         return 1
 
     if len(argv) == 3:
-        ServiceModel(int(argv[1]), int(argv[2]))
+        Model(int(argv[1]), int(argv[2]))
     else:
-        ServiceModel(int(argv[1]))
+        Model(int(argv[1]))
 
     return 0    
 
