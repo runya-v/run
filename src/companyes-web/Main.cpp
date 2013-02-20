@@ -35,10 +35,10 @@ namespace Web {
         CompanyesApplication(const Wt::WEnvironment& env)
             : Wt::WApplication(env)
         {
-            std::string absolute_path = boost::filesystem::system_complete(boost::filesystem::path(".")).string();
+            std::string absolute_path = boost::filesystem::system_complete(boost::filesystem::path(docRoot())).string();
 
-            this->messageResourceBundle().use(this->appRoot() + "rus_locale");
-            this->useStyleSheet(this->appRoot() + "main.css");
+            this->messageResourceBundle().use((boost::filesystem::path(".") / "rus_locale").string());
+            this->useStyleSheet((boost::filesystem::path(".") / "main.css").string());
             this->setTitle(Wt::WString::tr("Title"));
 
             Wt::WApplication *app = Wt::WApplication::instance();

@@ -1,5 +1,6 @@
 #include <boost/filesystem.hpp>
 #include <boost/foreach.hpp>
+#include <boost/algorithm/string.hpp>
 
 #include "RegionsCreator.hpp"
 
