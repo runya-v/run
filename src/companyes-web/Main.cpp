@@ -51,8 +51,8 @@ namespace Web {
             menu->setRenderAsList(true);
             menu->setStyleClass("menu");
 
-            std::string absolute_roop_path = boost::filesystem::system_complete(boost::filesystem::path(docRoot())).string();
-            new RegionsCreator(absolute_roop_path, contents, menu);
+            std::string absolute_path = boost::filesystem::system_complete(boost::filesystem::path(".")).string();
+            new RegionsCreator(absolute_path, contents, menu);
 
             Wt::WHBoxLayout* hlayout = new Wt::WHBoxLayout();
             hlayout->addWidget(menu, 0);

@@ -58,11 +58,11 @@ namespace Web {
                         ItemIter it = items.find(num);
 
                         if (it not_eq items.end()) {
-                            it->second.push_back(region_path.stem().string());
+                            it->second.push_back(region_path.string());
                         }
                         else {
                             lines.clear();
-                            lines.push_back(region_path.stem().string());
+                            lines.push_back(region_path.string());
                             items[num] = lines;
                         }
                     }
