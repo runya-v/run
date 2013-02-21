@@ -13,7 +13,7 @@ endif(NOT CMAKE_BUILD_TYPE)
 
 # Общие флаги для всех сборок.
 add_definitions(
-    -std=c++0x
+    -std=c++11
     -pipe -fPIC -Wall
     -D__STDC_LIMIT_MACROS=1 -I.
     -DDLL_PUBLIC=__attribute__\(\(visibility\(\"default\"\)\)\)

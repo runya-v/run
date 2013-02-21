@@ -4,8 +4,8 @@
  * \date   16.10.2012
  */
 
+// Скрипт переконвертации вёрстки в utf-8
 // if [ -d ./layout ]; then rm -r ./layout; fi; mkdir layout; for X in $(find ~/Загрузки/Верстка-11/ -name "*\.html"); do iconv -f WINDOWS-1251 -t UTF-8 $X  > layout/${X##*/}; done
-
 
 #include <iostream>
 #include <sstream>
@@ -14,18 +14,18 @@
 #include <cstdint>
 #include <map>
 
-#include "boost/filesystem/operations.hpp"
-#include "boost/filesystem/fstream.hpp"
-#include "boost/filesystem.hpp"
+#include <boost/filesystem/operations.hpp>
+#include <boost/filesystem/fstream.hpp>
+#include <boost/filesystem.hpp>
 #include <boost/foreach.hpp>
 #include <boost/lexical_cast.hpp>
 #include <boost/format.hpp>
-#include "boost/program_options.hpp"
+#include <boost/program_options.hpp>
 
-#include "html/CharsetConverter.h"
-#include "html/Uri.h"
-#include "html/ParserDom.h"
-#include "html/utils.h"
+#include <html/CharsetConverter.h>
+#include <html/Uri.h>
+#include <html/ParserDom.h>
+#include <html/utils.h>
 
 #include "Plugin.hpp"
 

@@ -15,9 +15,6 @@
 
 
 int main(int argc, char **argv) {
-    char c = 'a';
-
-
     try {
         // Check command line arguments.
         if (argc not_eq 5) {

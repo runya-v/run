@@ -1,10 +1,12 @@
 #include <vector>
 #include <string>
 #include <map>
+#include <limits>
 
 #include <boost/filesystem.hpp>
 #include <boost/foreach.hpp>
 #include <boost/algorithm/string.hpp>
+#include <boost/lexical_cast.hpp>
 
 #include <Wt/WString>
 #include <Wt/WTable>
@@ -25,10 +27,8 @@ namespace Web {
     namespace ba = boost::algorithm;
 
     typedef std::vector<std::string> Lines;
-    typedef Lines::value_type LinesValue;
     typedef std::map<int, Lines> Items;
     typedef Items::iterator ItemIter;
-    typedef Items::value_type ItemValue;
 
 
     RegionView::RegionView(const std::string &abs_path_name, Wt::WStackedWidget *contents, Wt::WMenu *parent_menu)
@@ -52,12 +52,13 @@ namespace Web {
                     ba::split(lines, region_path.stem().string(), ba::is_any_of("-."), ba::token_compress_on);
 
                     if (lines.size() >= 2) {
-                        int num = boost::lexical_cast< std::string >(lines[lines.size()-1]);
+                        std::string str_num = lines[lines.size()-1];
+                        int num = std::numeric_limits<int>::max() - boost::lexical_cast< int >(str_num);
 
                         ItemIter it = items.find(num);
 
                         if (it not_eq items.end()) {
-                            it.second.push_back(region_path.stem().string())
+                            it->second.push_back(region_path.stem().string());
                         }
                         else {
                             lines.clear();
@@ -68,12 +69,13 @@ namespace Web {
                 }
             }
 
-            for (const ItemValue& item : Items) {
-                for (const LinesValue& line : item.second) {
+            for (auto item : items) {
+                for (auto line : item.second) {
                     RubrickWidget *widget = new RubrickWidget(line, this);
-                    SignaledMenuItem *item = new SignaledMenuItem(Wt::WString::fromUTF8(region_path.stem().string()), widget);
-                    menu->addItem(item);
-                    item->activateSignal().connect(widget, &RubrickWidget::fullContent);
+                    bfs::path region_path(line);
+                    SignaledMenuItem *menu_item = new SignaledMenuItem(Wt::WString::fromUTF8(region_path.stem().string()), widget);
+                    menu->addItem(menu_item);
+                    menu_item->activateSignal().connect(widget, &RubrickWidget::fullContent);
                 }
             }
         }
