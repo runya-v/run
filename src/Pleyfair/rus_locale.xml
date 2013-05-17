@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<messages>
+    <message id="Title">Сервер демонстрации Плейфилд шифрования</message>
+    <message id="Header"><h1>Сервер демонстрации Плейфилд шифрования</h1></message>
+    <message id="Cript">Шифрование</message>
+    <message id="UnCript">Дешифрование</message>
+    <message id="OnButton">Выполнить</message>
+    <message id="PathToKeyFile">Путь к файлу ключа</message>
+    <message id="PathToCriptFile">Путь к зашифрованному файлу</message>
+    <message id="PathToTextFile">Путь к текстовому файлу</message>
+    <message id="ResultView">Выод результата</message>
+    <message id="NewAction">Вернуться</message>
+    <message id="FileToLarge">Размер файла слишком большой</message>
+    <message id="CannotCropt">Невозможно зашифровать файл</message>
+    <message id="CannotUnCropt">Невозможно расшифровать файл</message>
+</messages>
