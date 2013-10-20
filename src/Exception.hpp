@@ -1,9 +1,3 @@
-// Module Name:  <Exception.cpp>
-// Project:      <ForexD>
-// Copyright (c) Forex Club.
-
-// Базовый класс исключения.
-
 #pragma once
 
 #include <cstdint>
@@ -14,8 +8,7 @@
 #include <boost/format.hpp>
 
 
-namespace base
-{
+namespace base {
     // Для того чтобы объявить собственный класс исключения, его необходимо
     // унаследовать от данного класса. В случае необходимости возможно
     // переопределение методов message и where в дочернем классе. В таком случае
@@ -55,8 +48,7 @@ namespace base
 
         // Получение информации о конкретной ошибке.
         template<class T>
-        const typename T::value_type* get() const
-        {
+        const typename T::value_type* get() const {
             return boost::get_error_info<T>(*this);
         }
     };

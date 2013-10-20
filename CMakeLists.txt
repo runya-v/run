@@ -100,7 +100,7 @@ if(MYSQL_FOUND)
     link_directories(${MYSQL_LIBRARIES})
     include_directories(${MYSQL_INCLUDE_DIR})
 else(MYSQL_FOUND)
-    message(FATAL_ERROR "MySQL libraries not found. Please install a misql++3 library.")
+    message(FATAL_ERROR "MySQL libraries not found. Please install a mysql++3 library.")
 endif(MYSQL_FOUND)
 
 
@@ -151,6 +151,8 @@ endif()
 link_directories("/usr/lib")
 link_directories("/usr/local/lib")
 
+
+# Установка общих директорий включаемых файлов
 include_directories(${SRC_DIR})
 
 
@@ -161,17 +163,21 @@ add_subdirectory("${SRC_DIR}/layout-server")
 add_subdirectory("${SRC_DIR}/company-parser")
 add_subdirectory("${SRC_DIR}/companyes-web")
 add_subdirectory("${SRC_DIR}/http-server")
-add_subdirectory("${SRC_DIR}/Pleyfair")
 
 
 # Директорию test включается только, если определен макро BUILD_TESTS=1
 if(BUILD_TESTS)
     message("Include tests directory to build process")
 
-    set(TEST_DIR ${MAIN_SRC_DIR}/test)
-    message("-- TEST_DIR:                   ${TEST_DIR}")
+    set(TESTS_DIR ${SRC_DIR}/tests)
+    message("-- TESTS_DIR: ${TESTS_DIR}")
 
-    add_subdirectory("${TEST_DIR}")
+    enable_testing()
+
+    set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${TESTS_DIR})
+    include(UTest)
+
+    add_subdirectory("${TESTS_DIR}")
 else(BUILD_TESTS)
     message("Directory tests is not included to build. Run cmake -DBUILD_TESTS=1 to include.")
 endif(BUILD_TESTS)

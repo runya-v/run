@@ -1,8 +1,7 @@
 set(PLUGIN "layout_parser")
 
 add_library(${PLUGIN} SHARED
-    ${MAIN_SRC_DIR}/Plugin.cpp
-    #Main.cpp
+    ${SRC_DIR}/Plugin.cpp
     Tag.cpp
     Tree.cpp
     TagCreator.cpp

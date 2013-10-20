@@ -1,10 +1,16 @@
-set(RUN_BIN run)
+set(BASE_LIB base)
+add_library(${BASE_LIB}
+    Exception.cpp
+    Log.cpp
+    Settings.cpp
+    ThreadPool.cpp
+    )
 
+set(RUN_BIN run)
 add_executable(${RUN_BIN}
     Plugin.cpp
     main.cpp
     )
-
 target_link_libraries(${RUN_BIN}
     dl
     ${Boost_SYSTEM_LIBRARY}

@@ -4,7 +4,7 @@ set(LIBXML2_INCLUDE_DIRS ${LIBXML2_INCLUDE_DIR})
 set(PLUGIN "layout_server")
 
 add_library(${PLUGIN} SHARED
-    ${MAIN_SRC_DIR}/Plugin.cpp
+    ${SRC_DIR}/Plugin.cpp
     HtmlTree.cpp
     HtmlParser.cpp
     HtmlHref.cpp

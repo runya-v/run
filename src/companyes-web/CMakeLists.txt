@@ -24,7 +24,7 @@ target_link_libraries(${APP_NAME}
     )
 
 # Копирование файла локализации
-configure_file(${MAIN_SRC_DIR}/companyes-web/rus_locale.xml ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/rus_locale.xml COPYONLY)
+configure_file(${SRC_DIR}/companyes-web/rus_locale.xml ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/rus_locale.xml COPYONLY)
 
 # Копирование файла настроек web текста
-configure_file(${MAIN_SRC_DIR}/companyes-web/main.css ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/main.css COPYONLY)
+configure_file(${SRC_DIR}/companyes-web/main.css ${CMAKE_RUNTIME_OUTPUT_DIRECTORY}/main.css COPYONLY)

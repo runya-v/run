@@ -9,7 +9,7 @@ else(BUILD_UTESTS)
 endif(BUILD_UTESTS)
 
 add_library(${PLUGIN} SHARED
-    ${MAIN_SRC_DIR}/Plugin.cpp
+    ${SRC_DIR}/Plugin.cpp
     main.cpp
     CompanyFileSeparator.cpp
     CompanyParser.cpp

@@ -106,7 +106,6 @@ public:
 
 
 extern "C" {
-
     /*!
      * \brief Метод получения объекта из загруженной библиотеки и его инициализации
      * \param parent Указатель на базовый плагин
@@ -116,5 +115,4 @@ extern "C" {
      * \param env    Массив переменных окружения
      */
     Plugin* Get(Plugin *parent, const char *name, int argc, char **argv, char **env);
-
 } // extern "C"
