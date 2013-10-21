@@ -311,6 +311,7 @@ namespace HtmlParser {
     };
 }
 
+
 class LayoutParser {
 public:
     LayoutParser(const std::string &path) {
@@ -321,7 +322,9 @@ public:
     }
 };
 
+
 #include <regex>
+
 
 class LpMain
     : public Plugin

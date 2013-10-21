@@ -18,7 +18,26 @@
 #include <map>
 
 
+#define OPEN_FUNC_NAME "Get"
+
 class Config;
+class Plugin;
+
+
+extern "C" {
+    //! \brief Типы получения объекта загруженного плагина.
+    typedef Plugin*(*GetPluginFunc)(Plugin *parent, const char *name, int argc, char **argv, char **env);
+
+    /*!
+     * \brief Метод получения объекта из загруженной библиотеки и его инициализации
+     * \param parent Указатель на базовый плагин
+     * \param name   Имя загруженной библиотеки (полный путь)
+     * \param argc   Количество аргументов
+     * \param argv   Массив аргументов
+     * \param env    Массив переменных окружения
+     */
+    Plugin* Get(Plugin *parent, const char *name, int argc, char **argv, char **env);
+} // extern "C"
 
 
 class Plugin {
@@ -34,11 +53,6 @@ class Plugin {
     typedef std::map< std::string, Lib >  Plugins;
     typedef Plugins::iterator             PluginIter;
     typedef Plugins::value_type           PluginValue;
-
-    //! \brief Типы получения объекта загруженного плагина.
-    typedef Plugin* (*GetPluginFunc)(
-        Plugin *parent, const char *name, int argc, char **argv, char **env
-        );
 
     Plugins _plugins;
 
@@ -61,11 +75,11 @@ class Plugin {
     void loadLibrary(const std::string &lib_path);
 
 protected:
-    Plugin     *_parent;
+    Plugin      *_parent;
     std::string _name;
     int         _argc;
-    char      **_argv;
-    char      **_env;
+    char        **_argv;
+    char        **_env;
 
 public:
     static Plugin *s_plugin;
@@ -99,20 +113,3 @@ public:
     //! \brief Метод получения текущего количества загруженных плагинов.
     std::size_t size();
 };
-////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
-#define OPEN_FUNC_NAME "Get"
-
-
-extern "C" {
-    /*!
-     * \brief Метод получения объекта из загруженной библиотеки и его инициализации
-     * \param parent Указатель на базовый плагин
-     * \param name   Имя загруженной библиотеки (полный путь)
-     * \param argc   Количество аргументов
-     * \param argv   Массив аргументов
-     * \param env    Массив переменных окружения
-     */
-    Plugin* Get(Plugin *parent, const char *name, int argc, char **argv, char **env);
-} // extern "C"

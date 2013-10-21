@@ -62,4 +62,4 @@ function(add_unit_test EXECUTABLE EXTRA_ARGS)
         # Добавление теста из собранного бинарника в систему тестирования.
         add_boost_tests(${EXECUTABLE} "--catch_system_errors=no" ${EXECUTABLE}.cpp)
     endif(TEST_${EXECUTABLE})
-endfunction(add_unit_tests)
+endfunction(add_unit_test)

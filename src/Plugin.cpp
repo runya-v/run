@@ -20,23 +20,27 @@
 #include <dlfcn.h>
 #endif // _WIN32
 
+#ifdef __GNUC__
+__extension__
+#endif
+
 #include "Plugin.hpp"
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
 #ifdef _WIN32
-#define LIBRARY_EXTENSION ".dll"
-#define LIB_OPEN(pLibName) LoadLibrary((pLibName))
+#define LIBRARY_EXTENSION            ".dll"
+#define LIB_OPEN(pLibName)           LoadLibrary((pLibName))
 #define LIB_GET_PROC(pLib, pLibName) GetProcAddress((pLib),(pLibName))
-#define LIB_ERROR GetLastError()
-#define LIB_CLOSE(pLib) FreeLibrary((pLib))
-#define LIB_CLOSE_RESULT(result) ((result) == true)
+#define LIB_ERROR                    GetLastError()
+#define LIB_CLOSE(pLib)              FreeLibrary((pLib))
+#define LIB_CLOSE_RESULT(result)     ((result) == true)
 #else // _WIN32
-#define LIBRARY_EXTENSION ".so"
-#define LIB_OPEN(pLibName) dlopen((pLibName), RTLD_LAZY)
-#define LIB_GET_PROC(pLib, pLibName) dlsym((pLib),(pLibName))
-#define LIB_ERROR dlerror()
-#define LIB_CLOSE(pLib) dlclose((pLib))
-#define LIB_CLOSE_RESULT(result) ((result) == 0)
+#define LIBRARY_EXTENSION            ".so"
+#define LIB_OPEN(pLibName)           ::dlopen((pLibName), RTLD_LAZY)
+#define LIB_GET_PROC(pLib, pLibName) ::dlsym((pLib),(pLibName))
+#define LIB_ERROR                    ::dlerror()
+#define LIB_CLOSE(pLib)              ::dlclose((pLib))
+#define LIB_CLOSE_RESULT(result)     ((result) == 0)
 #endif // _WIN32
 ////////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -118,15 +122,17 @@ Plugin* Plugin::get(const std::string &name) {
         }
     }
     else {
-        Handler lib = LIB_OPEN(name.c_str());
+        auto lib = LIB_OPEN(name.c_str());
 
         if (lib) {
             std::clog << "Load library: `" << name << "`\n" << std::flush;
 
-            GetPluginFunc func = (GetPluginFunc)LIB_GET_PROC(lib, OPEN_FUNC_NAME);
+            auto get_ptr = LIB_GET_PROC(lib, "Get");
+            GetPluginFunc get_func;
+            std::memcpy(&get_func, &get_ptr, sizeof(get_ptr));
 
-            if (func) {
-                Plugin *plugin = func(this, name.c_str(), _argc, _argv, _env);
+            if (get_func not_eq nullptr) {
+                Plugin *plugin = get_func(this, name.c_str(), _argc, _argv, _env);
 
                 if (plugin) {
                     plugin->_name = name;

@@ -20,21 +20,6 @@ using namespace base;
 #endif
 
 
-static std::string logFileName(std::uint32_t i, bool z) {
-    time_t now = time(NULL);
-    struct tm * ptm = localtime(&now);
-    char buffer[32];
-    // Format: Mo, 15.06.2009 20:20:00
-    strftime(buffer, 32, "%a,%d.%m.%Y-%H:%M:%S", ptm);
-
-    boost::format f = boost::format("%s-%u.%s") 
-        % buffer 
-        % i 
-        % (z ? "zippedlog" : "log");
-    return f.str();
-}
-
-
 namespace boost {
     void tss_cleanup_implemented(void)
     {}
@@ -62,32 +47,33 @@ namespace boost {
 }
 
 
-Log::Log()
-    : _fileNumber(0)
-    , _fileSize(std::numeric_limits<std::uint32_t>::max())
-    , _fileLineNumber(0)
-    , _is_run(false)
-{
-    _config.set("Log.log-out", true);
-    _config.set("Log.log-out-file", true);
-    _config.set("Log.log-compress", false);
-    _config.set("Log.log-depth", 1);
-    start();
+static std::string logFileName(std::uint32_t i, bool z) {
+    time_t now = time(NULL);
+    struct tm * ptm = localtime(&now);
+    char buffer[32];
+    // Format: Mo, 15.06.2009 20:20:00
+    strftime(buffer, 32, "%a,%d.%m.%Y-%H:%M:%S", ptm);
+
+    boost::format f = boost::format("%s-%u.%s") 
+        % buffer 
+        % i 
+        % (z ? "zippedlog" : "log")
+        ;
+    return f.str();
 }
 
 
-Log::Log(base::ConfigDepot &config)
-    : _fileNumber(0)
-    , _fileSize(std::numeric_limits<std::uint32_t>::max())
-    , _fileLineNumber(0)
+Log::Log()
+    : _file_number(0)
+    , _file_size(std::numeric_limits<std::uint32_t>::max())
+    , _file_line_number(0)
     , _is_run(false)
+    , _log_out(false)
+    , _log_out_file(true)
+    , _log_file_compress(false)
+    , _log_file_depth(LOG_FILE_DEPTH)
 {
-    if (not config.isSection()) {
-        _config = config.unload("Log");
-    }
-    else {
-        _config = config;
-    }
+    start();
 }
 
 
@@ -119,24 +105,24 @@ void Log::execute() {
         auto time    = task.get<3>();
 
         boost::format f = boost::format("%5u. [%s] [%s] [%s] %s\n")
-            % boost::lexical_cast<std::string>(_fileLineNumber++)
-            % boost::posix_time::to_simple_string(time)
+            % boost::lexical_cast<std::string>(_file_line_number++)
+            % bpt::to_simple_string(time)
             % boost::lexical_cast<std::string>(module)
             % boost::lexical_cast<std::string>(level)
             % message;
 
-        if (_config.get<bool>("log-out", true)) {
+        if (_log_out) {
             std::cout << f.str() << std::flush;
         }
 
-        if (_config.get<bool>("log-out-file", false)) {
-            if (_fileSize >= _config.get<std::uint32_t>("log-out-file", 1024 * 1024)) {
+        if (_log_out_file) {
+            if (_file_size >= _log_file_depth) {
                 open();
             }
 
             if (_file.is_open()) {
                 _file << f.str();
-                _fileSize = static_cast<std::uint32_t>(_file.tellp());
+                _file_size = static_cast<std::uint32_t>(_file.tellp());
             }
         }
     }
@@ -152,7 +138,7 @@ void Log::open() {
     if (_file.is_open()) {
         close();
     }
-    _file.open(logFileName(_fileNumber, false));
+    _file.open(logFileName(_file_number, false));
 }
 
 
@@ -164,25 +150,25 @@ void Log::close() {
 
     auto now = std::chrono::system_clock::now();
 
-    for (auto it = boost::filesystem::directory_iterator(boost::filesystem::path(".")); it != boost::filesystem::directory_iterator(); ++it) {
+    for (auto it = boost::filesystem::directory_iterator(boost::filesystem::path(".")); it not_eq boost::filesystem::directory_iterator(); ++it) {
         if (not boost::filesystem::is_regular_file(it->status())) {
             continue;
         }
 
-        boost::filesystem::path p(it->path());
+        boost::filesystem::path file_path(it->path());
 
-        if (p.extension() == ".log" || p.extension() == ".zippedlog") {
+        if (file_path.extension() == ".log" or file_path.extension() == ".zlog") {
             auto mod = std::chrono::system_clock::from_time_t(boost::filesystem::last_write_time(it->path()));
 
-            if (mod + std::chrono::hours(_config.get<std::uint32_t>("log-depth", 30 * 24)) < now) {
-                boost::filesystem::remove(p);
+            if (mod + std::chrono::hours(_log_file_depth) < now) {
+                boost::filesystem::remove(file_path);
             }
         }
     }
 
-    if (_config.get<bool>("log-compress",false)) {
-        std::ifstream ifs(logFileName(_fileNumber, false));
-        std::ofstream ofs(logFileName(_fileNumber, true), std::ios_base::out | std::ios_base::binary);
+    if (_log_file_compress) {
+        std::ifstream ifs(logFileName(_file_number, false));
+        std::ofstream ofs(logFileName(_file_number, true), std::ios_base::out | std::ios_base::binary);
 
         boost::iostreams::filtering_stream<boost::iostreams::output> zipper;
 
@@ -193,10 +179,9 @@ void Log::close() {
 
         ifs.close();
 
-        boost::filesystem::remove(boost::filesystem::path(logFileName(_fileNumber, false)));
+        boost::filesystem::remove(boost::filesystem::path(logFileName(_file_number, false)));
     }
-
-    _fileNumber++;
+    ++_file_number;
 }
 
 

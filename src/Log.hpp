@@ -12,12 +12,13 @@
 #include <boost/fusion/include/boost_tuple.hpp>
 #include <boost/date_time/posix_time/posix_time.hpp>
 
+#include "base.hpp"
 #include "Singleton.hpp"
-#include "Service.hpp"
-#include "ConfigDepot.hpp"
 
 
 namespace base {
+    static const uint32_t LOG_FILE_DEPTH = 1024 * 1024;
+    
     
     class Log {
     public:
@@ -46,24 +47,25 @@ namespace base {
 
         std::ofstream _file;
 
-        std::uint32_t _fileNumber;
-        std::uint32_t _fileSize;
-        std::uint32_t _fileLineNumber;
+        std::uint32_t _file_number;
+        std::uint32_t _file_size;
+        std::uint32_t _file_line_number;
 
         Queue _queue;
         std::mutex _mutex;
         std::condition_variable _cond;
 
-        ConfigDepot _config;
         ThreadPtr _thread;
         bool _is_run;
+        
+        bool _log_out;
+        bool _log_out_file;
+        bool _log_file_compress;
+        uint32_t _log_file_depth;
 
     public:
         Log();
-        explicit Log(base::ConfigDepot& config);
         ~Log();
-
-        void setConfig(base::ConfigDepot& config);
 
         void print(const std::string& module, const Level& level, const std::string& message);
 
