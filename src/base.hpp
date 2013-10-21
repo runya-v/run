@@ -33,6 +33,7 @@ extern "C" {
 #include <boost/asio.hpp>
 #include <boost/uuid/uuid.hpp>
 #include <boost/regex.hpp>
+#include <boost/lexical_cast.hpp>
 
 
 namespace base {
@@ -40,6 +41,10 @@ namespace base {
     namespace asio = boost::asio;
     namespace bs   = boost::system;
     namespace bpt  = boost::posix_time;
+
+    class Task;
+    class Timer;
+    class ThreadPool;
 
     typedef asio::signal_set     SignalSet;
     typedef asio::io_service     IoService;
@@ -61,23 +66,32 @@ namespace base {
     typedef bs::error_code   ErrorCode;
     typedef bs::system_error SystemError;
 
-    typedef bpt::ptime Ptime;
-    typedef bpt::time_duration TimeDuration;
-
-    typedef bpt::seconds Seconds;
-    typedef boost::uuids::uuid Uuid;
+    typedef bpt::ptime             Ptime;
+    typedef bpt::time_duration     TimeDuration;
+    typedef bpt::seconds           Seconds;
+    typedef boost::uuids::uuid     Uuid;
+    typedef std::shared_ptr<Timer> TimerPtr;
 
     typedef std::shared_ptr<std::thread> ThreadPtr;
-
-    class ThreadPool;
-    typedef std::shared_ptr<ThreadPool> ThreadPoolPtr;
-    typedef std::weak_ptr<ThreadPool>   ThreadPoolWptr;
-
-    class Timer;
-    typedef std::shared_ptr<Timer> TimerPtr;
+    typedef std::shared_ptr<Task>        TaskPtr;
+    typedef std::shared_ptr<ThreadPool>  ThreadPoolPtr;
+    typedef std::weak_ptr<ThreadPool>    ThreadPoolWptr;
 
     typedef std::function<void()>                 Handle;
     typedef std::function<void(const ErrorCode&)> AsioHandle;
+    typedef std::function<void(const TaskPtr&)>   TaskHandle;
+    
+    inline std::time_t castToTimeT(const std::string &time_str)
+    {
+        struct tm time_tm = {};
+        time_tm.tm_hour = boost::lexical_cast<int>(time_str.substr(0, 2));         //int hours since midnight     00-23
+        time_tm.tm_min  = boost::lexical_cast<int>(time_str.substr(3, 2));         //int minutes after the hour   00-59
+        time_tm.tm_sec  = boost::lexical_cast<int>(time_str.substr(6, 2));         //int seconds after the minute 00-60
+        time_tm.tm_mday = boost::lexical_cast<int>(time_str.substr(9, 2));         //int day of the month         01-31
+        time_tm.tm_mon  = boost::lexical_cast<int>(time_str.substr(12, 2)) - 1;    //int months since January     00-11
+        time_tm.tm_year = boost::lexical_cast<int>(time_str.substr(15, 4)) - 1900; //int years since              1900
+        return mktime(&time_tm);
+    }
 } // namespace base
 
 

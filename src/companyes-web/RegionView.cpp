@@ -17,7 +17,7 @@
 #include <Wt/WSubMenuItem>
 
 #include "RubrickWidget.hpp"
-#include "SignaledMenuItem.hpp"
+//#include "SignaledMenuItem.hpp"
 #include "RegionView.hpp"
 
 
@@ -73,9 +73,11 @@ namespace Web {
                 for (auto line : item.second) {
                     RubrickWidget *widget = new RubrickWidget(line, this);
                     bfs::path region_path(line);
-                    SignaledMenuItem *menu_item = new SignaledMenuItem(Wt::WString::fromUTF8(region_path.stem().string()), widget);
+                    
+                    //SignaledMenuItem *menu_item = new SignaledMenuItem(Wt::WString::fromUTF8(region_path.stem().string()), widget);
+                    Wt::WMenuItem *menu_item = new Wt::WMenuItem(Wt::WString::fromUTF8(region_path.stem().string()), widget);
+                    menu_item->triggered().connect(widget, &RubrickWidget::fullContent);
                     menu->addItem(menu_item);
-                    menu_item->activateSignal().connect(widget, &RubrickWidget::fullContent);
                 }
             }
         }

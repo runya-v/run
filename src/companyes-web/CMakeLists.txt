@@ -1,7 +1,7 @@
 set(APP_NAME companyes-web)
 
 add_executable(${APP_NAME}
-    SignaledMenuItem.cpp
+    #SignaledMenuItem.cpp
     RubrickWidget.cpp
     RegionView.cpp
     RegionsCreator.cpp
@@ -12,6 +12,10 @@ target_link_libraries(${APP_NAME}
     ${WTHTTP_LIBRARY}
     ${WTEXT_LIBRARY}
     ${WT_LIBRARY}
+    z
+    crypto
+    ssl
+    pthread
     ${Boost_RANDOM_LIBRARY}
     ${Boost_SIGNALS_LIBRARY}
     ${Boost_SYSTEM_LIBRARY}
@@ -20,7 +24,6 @@ target_link_libraries(${APP_NAME}
     ${Boost_REGEX_LIBRARY}
     ${Boost_THREAD_LIBRARY}
     ${Boost_DATE_TIME_LIBRARY}
-    ssl
     )
 
 # Копирование файла локализации

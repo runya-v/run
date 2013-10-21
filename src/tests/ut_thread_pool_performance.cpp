@@ -1,10 +1,3 @@
-// Module Name:  <ut_thread_pool.cpp>
-// Project:      <ForexD>
-// Copyright (c) Forex Club.
-
-// Тест работы с диспетчером подписок к хранилищу инструментов.
-
-
 #ifndef BOOST_STATIC_LINK
 #   define BOOST_TEST_DYN_LINK
 #endif // BOOST_STATIC_LINK
@@ -16,6 +9,7 @@
 
 #include <boost/test/unit_test.hpp>
 #include <boost/test/output_test_stream.hpp>
+#include <boost/format.hpp>
 
 #include <cmath>
 #include <atomic>
@@ -24,7 +18,6 @@
 
 #include "ThreadPool.hpp"
 #include "Task.hpp"
-#include "forexd.hpp"
 
 
 struct UnitWork
@@ -40,7 +33,7 @@ struct UnitWork
         strftime(buf, sizeof(buf), "%H:%M:%S %d.%m.%Y", ptm);
 
         _time = buf;
-        _tm = cast_to_time_t(buf);
+        _tm = base::castToTimeT(buf);
     }
 
     UnitWork& operator= (const UnitWork &work)

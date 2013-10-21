@@ -7,14 +7,14 @@
 #pragma once
 
 #include <Wt/WWidget>
-#include <Wt/WMenuItem>
+#include <Wt/WSubMenuItem>
 #include <Wt/WString>
 
 
 namespace Web {
 
     class SignaledMenuItem
-        : public Wt::WMenuItem
+        : public Wt::WSubMenuItem
     {
     public:
         SignaledMenuItem(const Wt::WString &text, Wt::WWidget *contents, LoadPolicy policy = Wt::WMenuItem::LazyLoading);

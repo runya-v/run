@@ -4,6 +4,7 @@ add_library(${BASE_LIB}
     Log.cpp
     Settings.cpp
     ThreadPool.cpp
+    Task.cpp
     )
 
 set(RUN_BIN run)
