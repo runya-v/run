@@ -10,7 +10,7 @@ namespace base {
     class Task
         : public std::enable_shared_from_this<Task>
     {
-        Ptime _create_time;
+        TimePoint _create_time;
 
     protected:
         std::string _data;

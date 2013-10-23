@@ -76,13 +76,13 @@ struct CalcWorkUnitTime
 
     CalcWorkUnitTime()
     {
-        base::Ptime start_time = base::bpt::microsec_clock::local_time();
+        boost::posix_time::ptime start_time = boost::posix_time::microsec_clock::local_time();
         for (std::uint64_t i = 0; i < CALC_ITERATIONS; i++)
         {
             WorkTask wt(1);
             wt();
         }
-        base::TimeDuration dt = base::bpt::microsec_clock::local_time() - start_time;
+        boost::posix_time::time_duration dt = boost::posix_time::microsec_clock::local_time() - start_time;
         _unit_time = std::ceil((double)dt.total_microseconds() / (double)CALC_ITERATIONS);
 
         boost::format f = boost::format("Unit work time: %d mks;")
@@ -143,7 +143,7 @@ public:
         std::this_thread::sleep_for(std::chrono::milliseconds(1000));
 
         auto exec_handle = std::bind(&Worker::handleExecute, this, base::ph::_1);
-        base::Ptime start_time(boost::posix_time::microsec_clock::local_time());
+        boost::posix_time::ptime start_time(boost::posix_time::microsec_clock::local_time());
         std::uint64_t task_count = 0;
         //_task_timer = std::make_shared<base::Task>((base::TaskHandle&&)exec_handle);
 

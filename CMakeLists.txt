@@ -52,7 +52,7 @@ set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${BINARY_DIR}/${CMAKE_BUILD_TYPE}/lib)
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${BINARY_DIR}/${CMAKE_BUILD_TYPE}/lib)
 
 
-# Поиск библиотек Boost версии старше 1.50
+# Поиск библиотек Boost версии старше 1.48
 find_package(Boost 1.48 COMPONENTS
     date_time
     filesystem
@@ -111,8 +111,8 @@ find_library(CPPCMS_LIBRARY NAMES cppcms libcppcms PATHS "/usr/lib" "/usr/local/
 if(${CPPCMS_LIBRARY} STREQUAL "CPPCMS_LIBRARY-NOTFOUND")
     message(FATAL_ERROR "CppCMS library is not found.")
 else()
-    message("-- CPPCMS_DIR:         \"${CPPCMS_DIR}\"")
-    message("-- CPPCMS_LIBRARY:     \"${CPPCMS_LIBRARY}\"")
+    message(STATUS "CPPCMS_DIR:         \"${CPPCMS_DIR}\"")
+    message(STATUS "CPPCMS_LIBRARY:     \"${CPPCMS_LIBRARY}\"")
 endif()
 
 
@@ -123,27 +123,27 @@ find_library(HTMLCXX_LIBRARY NAMES htmlcxx libhtmlcxx PATHS "/usr/lib" "/usr/loc
 if(${HTMLCXX_LIBRARY} STREQUAL "HTMLCXX_LIBRARY-NOTFOUND")
     message(FATAL_ERROR "htmlcxx library is not found.")
 else()
-    message("-- HTMLCXX_DIR:        \"${HTMLCXX_DIR}\"")
-    message("-- HTMLCXX_LIBRARY:    \"${HTMLCXX_LIBRARY}\"")
+    message(STATUS "HTMLCXX_DIR:        \"${HTMLCXX_DIR}\"")
+    message(STATUS "HTMLCXX_LIBRARY:    \"${HTMLCXX_LIBRARY}\"")
 endif()
 
 # Поиск WtCpp библиотеки
 find_path(WT_DIR NAMES "Wt/WApplication" PATHS "/usr/include/Wt" "/usr/local/include/Wt")
-find_library(WT_LIBRARY NAMES wt libwt PATHS "/usr/lib" "/usr/local/lib")
-find_library(WTHTTP_LIBRARY NAMES wthttp libwthttp PATHS "/usr/lib" "/usr/local/lib")
-find_library(WTEXT_LIBRARY NAMES wtext libwtext PATHS "/usr/lib" "/usr/local/lib")
-find_library(WTDBO_LIBRARY NAMES wtdbo libwdbo PATHS "/usr/lib" "/usr/local/lib")
+find_library(WT_LIBRARY           NAMES wt           libwt           PATHS "/usr/lib" "/usr/local/lib")
+find_library(WTHTTP_LIBRARY       NAMES wthttp       libwthttp       PATHS "/usr/lib" "/usr/local/lib")
+find_library(WTEXT_LIBRARY        NAMES wtext        libwtext        PATHS "/usr/lib" "/usr/local/lib")
+find_library(WTDBO_LIBRARY        NAMES wtdbo        libwdbo         PATHS "/usr/lib" "/usr/local/lib")
 find_library(WTDBOSQLITE3_LIBRARY NAMES wtdbosqlite3 libwtdbosqlite3 PATHS "/usr/lib" "/usr/local/lib")
 
 if(${WT_DIR} STREQUAL "WT_DIR-NOTFOUND")
     message(FATAL_ERROR "Wt C++ toolkit library is not found.")
 else()
-    message("-- WT_DIR:              \"${WT_DIR}\"")
-    message("-- WT_LIBRARY:          \"${WT_LIBRARY}\"")
-    message("-- WTHTTP_LIBRARY       \"${WTHTTP_LIBRARY}\"")
-    message("-- WTEXT_LIBRARY        \"${WTEXT_LIBRARY}\"")
-    message("-- WTDBO_LIBRARY        \"${WTDBO_LIBRARY}\"")
-    message("-- WTDBOSQLITE3_LIBRARY \"${WTDBOSQLITE3_LIBRARY}\"")
+    message(STATUS "WT_DIR:              \"${WT_DIR}\"")
+    message(STATUS "WT_LIBRARY:          \"${WT_LIBRARY}\"")
+    message(STATUS "WTHTTP_LIBRARY       \"${WTHTTP_LIBRARY}\"")
+    message(STATUS "WTEXT_LIBRARY        \"${WTEXT_LIBRARY}\"")
+    message(STATUS "WTDBO_LIBRARY        \"${WTDBO_LIBRARY}\"")
+    message(STATUS "WTDBOSQLITE3_LIBRARY \"${WTDBOSQLITE3_LIBRARY}\"")
 endif()
 
 
@@ -170,7 +170,7 @@ if(BUILD_TESTS)
     message("Include tests directory to build process")
 
     set(TESTS_DIR ${SRC_DIR}/tests)
-    message("-- TESTS_DIR: ${TESTS_DIR}")
+    message(STATUS "TESTS_DIR: ${TESTS_DIR}")
 
     enable_testing()
 

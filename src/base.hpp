@@ -5,6 +5,7 @@
 #include <string>
 #include <vector>
 #include <memory>
+#include <chrono>
 #include <functional>
 
 #define BOOST_THREAD_USE_LIB
@@ -38,37 +39,50 @@ extern "C" {
 
 namespace base {
     namespace ph   = std::placeholders;
+    namespace chr  = std::chrono;
     namespace asio = boost::asio;
     namespace bs   = boost::system;
-    namespace bpt  = boost::posix_time;
 
     class Task;
     class Timer;
     class ThreadPool;
 
-    typedef asio::signal_set     SignalSet;
-    typedef asio::io_service     IoService;
-    typedef IoService::work      Work;
-    typedef IoService::strand    Strand;
-    typedef asio::ip::tcp        Tcp;
-    typedef Tcp::socket          Socket;
-    typedef Tcp::resolver        Resolver;
-    typedef Resolver::query      Query;
-    typedef Resolver::iterator   ResolverIter;
-    typedef Tcp::endpoint        Endpoint;
-    typedef asio::deadline_timer DeadLineTimer;
+    typedef asio::signal_set      SignalSet;
+    typedef asio::io_service      IoService;
+    typedef IoService::work       Work;
+    typedef IoService::strand     Strand;
+    typedef asio::ip::udp         Udp;
+    typedef asio::ip::tcp         Tcp;
+    typedef Udp::socket           UdpSocket;
+    typedef Tcp::socket           TcpSocket;
+    typedef Udp::resolver         UdpResolver;
+    typedef Tcp::resolver         TcpResolver;
+    typedef UdpResolver::query    UdpQuery;
+    typedef TcpResolver::query    TcpQuery;
+    typedef UdpResolver::iterator UdpResolverIter;
+    typedef TcpResolver::iterator TcpResolverIter;
+    typedef Udp::endpoint         UdpEndpoint;
+    typedef Tcp::endpoint         TcpEndpoint;
+    typedef asio::deadline_timer  DeadLineTimer;
 
     typedef std::shared_ptr<Work>          WorkPtr;
     typedef std::shared_ptr<DeadLineTimer> DeadLineTimerPtr;
 
     typedef std::size_t(IoService::*IoServiceRunFunc)();
+    
+    typedef std::chrono::high_resolution_clock HighResolutionClock;
+    typedef HighResolutionClock::time_point    TimePoint;
+    
+    typedef chr::nanoseconds  Nano;
+    typedef chr::microseconds Micro;
+    typedef chr::milliseconds Milli;
+    typedef chr::seconds 	  Secs; 
+    typedef chr::minutes 	  Mins; 
+    typedef chr::hours 	      Hours;
 
     typedef bs::error_code   ErrorCode;
     typedef bs::system_error SystemError;
 
-    typedef bpt::ptime             Ptime;
-    typedef bpt::time_duration     TimeDuration;
-    typedef bpt::seconds           Seconds;
     typedef boost::uuids::uuid     Uuid;
     typedef std::shared_ptr<Timer> TimerPtr;
 

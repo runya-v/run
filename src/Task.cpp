@@ -7,7 +7,7 @@ using namespace base;
 
 
 Task::Task(TaskHandle &&handle_exec)
-    : _create_time(bpt::microsec_clock::local_time())
+    : _create_time(HighResolutionClock::now())
     , _task_handle_exec(handle_exec)
     , _handle_exec([](){})
     , _handle_next([](){})
@@ -15,7 +15,7 @@ Task::Task(TaskHandle &&handle_exec)
 
 
 Task::Task(Handle &&handle_exec)
-    : _create_time(bpt::microsec_clock::local_time())
+    : _create_time(HighResolutionClock::now())
     , _task_handle_exec([](const TaskPtr&){})
     , _handle_exec(handle_exec)
     , _handle_next([](){})
@@ -49,5 +49,5 @@ std::string& Task::getData() {
 
 
 std::uint64_t Task::getTimeInterval() {
-    return (bpt::microsec_clock::local_time() - _create_time).total_microseconds();
+    return chr::duration_cast<Micro>(_create_time - HighResolutionClock::now()).count();
 }

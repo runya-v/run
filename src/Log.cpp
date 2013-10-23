@@ -106,7 +106,7 @@ void Log::execute() {
 
         boost::format f = boost::format("%5u. [%s] [%s] [%s] %s\n")
             % boost::lexical_cast<std::string>(_file_line_number++)
-            % bpt::to_simple_string(time)
+            % boost::posix_time::to_simple_string(time)
             % boost::lexical_cast<std::string>(module)
             % boost::lexical_cast<std::string>(level)
             % message;
