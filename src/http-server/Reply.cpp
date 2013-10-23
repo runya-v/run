@@ -32,23 +32,23 @@ namespace http_server {
 
         Reply::Buffer toBuffer(Reply::StatusType status) {
             switch (status) {
-            case Reply::ok:                    return asio::buffer(ok);
-            case Reply::created:               return asio::buffer(created);
-            case Reply::accepted:              return asio::buffer(accepted);
-            case Reply::no_content:            return asio::buffer(no_content);
-            case Reply::multiple_choices:      return asio::buffer(multiple_choices);
-            case Reply::moved_permanently:     return asio::buffer(moved_permanently);
-            case Reply::moved_temporarily:     return asio::buffer(moved_temporarily);
-            case Reply::not_modified:          return asio::buffer(not_modified);
-            case Reply::bad_request:           return asio::buffer(bad_request);
-            case Reply::unauthorized:          return asio::buffer(unauthorized);
-            case Reply::forbidden:             return asio::buffer(forbidden);
-            case Reply::not_found:             return asio::buffer(not_found);
-            case Reply::internal_server_error: return asio::buffer(internal_server_error);
-            case Reply::not_implemented:       return asio::buffer(not_implemented);
-            case Reply::bad_gateway:           return asio::buffer(bad_gateway);
-            case Reply::service_unavailable:   return asio::buffer(service_unavailable);
-            default:                           return asio::buffer(internal_server_error);
+                case Reply::ok:                    return asio::buffer(ok);
+                case Reply::created:               return asio::buffer(created);
+                case Reply::accepted:              return asio::buffer(accepted);
+                case Reply::no_content:            return asio::buffer(no_content);
+                case Reply::multiple_choices:      return asio::buffer(multiple_choices);
+                case Reply::moved_permanently:     return asio::buffer(moved_permanently);
+                case Reply::moved_temporarily:     return asio::buffer(moved_temporarily);
+                case Reply::not_modified:          return asio::buffer(not_modified);
+                case Reply::bad_request:           return asio::buffer(bad_request);
+                case Reply::unauthorized:          return asio::buffer(unauthorized);
+                case Reply::forbidden:             return asio::buffer(forbidden);
+                case Reply::not_found:             return asio::buffer(not_found);
+                case Reply::internal_server_error: return asio::buffer(internal_server_error);
+                case Reply::not_implemented:       return asio::buffer(not_implemented);
+                case Reply::bad_gateway:           return asio::buffer(bad_gateway);
+                case Reply::service_unavailable:   return asio::buffer(service_unavailable);
+                default:                           return asio::buffer(internal_server_error);
             }
         }
     } // namespace status_strings
