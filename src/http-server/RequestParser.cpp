@@ -16,8 +16,6 @@ namespace http_server {
 
 
     boost::tribool RequestParser::consume(Request& req, char input) {
-        list($method, $uri, $http) = preg_split('/\s+/', $request);
-        
         switch (state_) {
         case method_start:
             if (not isChar(input) or isCtl(input) or isTspecial(input)) {

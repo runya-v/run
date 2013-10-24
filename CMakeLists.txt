@@ -15,12 +15,14 @@ endif(NOT CMAKE_BUILD_TYPE)
 add_definitions(
     -std=gnu++11
     -pedantic  -pedantic-errors
-    -pipe -fPIC -Wall
+    -pipe -fPIC 
+    -Wall -Wno-long-long -Wno-inline 
+    -finline-functions -finline-limit=2000
+    --param large-function-growth=5000 --param inline-unit-growth=600 
     -D__STDC_LIMIT_MACROS=1 -I.
     -D_GLIBCXX_USE_NANOSLEEP
     -DDLL_PUBLIC=__attribute__\(\(visibility\(\"default\"\)\)\)
     )
-
 
 if(${CMAKE_BUILD_TYPE} STREQUAL "Debug")
     #Добавление профилировки: для включения профилировки запускаем cmake -DGPROF=1.
@@ -32,7 +34,7 @@ if(${CMAKE_BUILD_TYPE} STREQUAL "Debug")
     #Добавляем флаги для построения отладочной инфомрации.
     add_definitions(-fno-inline-functions -fno-inline)
 elseif(${CMAKE_BUILD_TYPE} STREQUAL "Release")
-    add_definitions(-O2 -ggdb3)
+    add_definitions(-O3 -ggdb3)
 endif(${CMAKE_BUILD_TYPE} STREQUAL "Debug")
 
 
@@ -163,6 +165,7 @@ add_subdirectory("${SRC_DIR}/layout-server")
 add_subdirectory("${SRC_DIR}/company-parser")
 add_subdirectory("${SRC_DIR}/companyes-web")
 add_subdirectory("${SRC_DIR}/http-server")
+#add_subdirectory("${SRC_DIR}/ctpp2")
 
 
 # Директорию test включается только, если определен макро BUILD_TESTS=1
