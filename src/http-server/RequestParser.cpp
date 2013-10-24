@@ -15,27 +15,6 @@ namespace http_server {
     }
 
 
-    std::string method                    = "\\w+ (/\\w+)+ HTTP/\\d.\\d\r\n(\\w)[ \\t]";
-    std::string uri                       = "";
-    std::string http_version_h            = "";
-    std::string http_version_t_1          = "";
-    std::string http_version_t_2          = "";
-    std::string http_version_p            = "";
-    std::string http_version_slash        = "";
-    std::string http_version_major_start  = "";
-    std::string http_version_major        = "";
-    std::string http_version_minor_start  = "";
-    std::string http_version_minor        = "";
-    std::string expecting_newline_1       = "";
-    std::string header_line_start         = "";
-    std::string header_lws                = "";
-    std::string header_name               = "";
-    std::string space_before_header_value = "";
-    std::string header_value              = "";
-    std::string expecting_newline_2       = "";
-    std::string expecting_newline_3       = "";
-
-
     boost::tribool RequestParser::consume(Request& req, char input) {
         list($method, $uri, $http) = preg_split('/\s+/', $request);
         
