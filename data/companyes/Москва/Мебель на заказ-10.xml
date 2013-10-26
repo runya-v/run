@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Мебельный салон Пронто</title>
+    <field_location type="field">
+        <latitude>55.643769</latitude>
+        <longitude>37.496075</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Мебель на заказ</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Островитянова, 9</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 517-17-23</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 506-90-33</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Капитал-МС</title>
+    <field_location type="field">
+        <latitude>55.788479</latitude>
+        <longitude>37.663279</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Мебель на заказ</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Лобачика, 13</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 269-77-05</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ЭргоСистем</title>
+    <field_location type="field">
+        <latitude>55.602698</latitude>
+        <longitude>37.658886</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Мебель на заказ</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Элеваторная, 15</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 227-69-67</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Аларм-инвест</title>
+    <field_location type="field">
+        <latitude>55.890527</latitude>
+        <longitude>37.585476</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Мебель на заказ</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Алтуфьевское ш., 83</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 209-37-44</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Альтерна</title>
+    <field_location type="field">
+        <latitude>55.753559</latitude>
+        <longitude>37.609218</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Мебель на заказ</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Новоторжская, 7</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (4822) 34-15-59</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (903) 809-90-90</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Вип-евро</title>
+    <field_location type="field">
+        <latitude>55.820577</latitude>
+        <longitude>37.647226</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Мебель на заказ</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Ярославская, 15, корп.1, 12</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 981-16-91</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Идеальная Мебель</title>
+    <field_location type="field">
+        <latitude>55.711377</latitude>
+        <longitude>37.607385</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Мебель на заказ</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Серпуховский Вал, 19, стр. 8</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (915) 177-13-78</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Матрасы и Кровати</title>
+    <field_location type="field">
+        <latitude>55.655965</latitude>
+        <longitude>37.764240</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Мебель на заказ</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Братиславская, 23</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (926) 834-64-30</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Komandor</title>
+    <field_location type="field">
+        <latitude>55.740289</latitude>
+        <longitude>37.658796</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Мебель на заказ</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Марксистская, 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 664-35-62</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ГамбсЪ</title>
+    <field_location type="field">
+        <latitude>55.80056</latitude>
+        <longitude>37.711895</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Мебель на заказ</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Краснобогатырская, 90</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 502-98-71</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 997-56-17</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">ГК Элвис-Телеком</title>
+    <field_location type="field">
+        <latitude>55.782851</latitude>
+        <longitude>37.567851</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">IP-телефония</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Скаковая, 3, корп.1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 776-55-13</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 602-93-13</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (800) 200-08-35</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">СмарТел</title>
+    <field_location type="field">
+        <latitude>55.739088</latitude>
+        <longitude>37.582601</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">IP-телефония</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, 2-й Неопалимовский пер., 1/12</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 988-81-66</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Гранд альянс</title>
+    <field_location type="field">
+        <latitude>55.794345</latitude>
+        <longitude>37.511877</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">IP-телефония</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Новопесчаная, 21</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 704-13-46</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

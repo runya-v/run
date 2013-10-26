@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Главспецсалют</title>
+    <field_location type="field">
+        <latitude>55.803555</latitude>
+        <longitude>37.713539</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Фейерверки и пиротехника</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Лермонтовская, 17, стр. 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 963-87-90</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 168-66-64</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пиро Альянс</title>
+    <field_location type="field">
+        <latitude>55.829300</latitude>
+        <longitude>37.651169</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Фейерверки и пиротехника</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, просп. Мира, 186, корп.2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 782-81-63</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 682-67-31</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Мосиноптторг</title>
+    <field_location type="field">
+        <latitude>55.784592</latitude>
+        <longitude>37.600783</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Фейерверки и пиротехника</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Палиха, 14</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Сигнал</title>
+    <field_location type="field">
+        <latitude>55.851677</latitude>
+        <longitude>37.576007</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Фейерверки и пиротехника</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Нововладыкинский пр-д, 8, стр. 3</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 507-92-92</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Скай Стар</title>
+    <field_location type="field">
+        <latitude>55.785184</latitude>
+        <longitude>37.711500</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Фейерверки и пиротехника</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Семеновская Малая, 11/2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 502-30-57</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Булкар-Сервис</title>
+    <field_location type="field">
+        <latitude>55.195056</latitude>
+        <longitude>37.535053</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Автопогрузчики, электрокары</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Щербинка г., Симферопольское ш., 13/1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 500-57-64</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Фирма Аст</title>
+    <field_location type="field">
+        <latitude>55.773054</latitude>
+        <longitude>37.872532</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Автопогрузчики, электрокары</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Балашихинский р-н, Реутов г., ул. Транспортная, 1/2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 528-16-15</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

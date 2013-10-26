@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Центрстройарсенал</title>
+    <field_location type="field">
+        <latitude>55.732641</latitude>
+        <longitude>37.582421</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Строительство гидротехнических сооружений</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Оболенский пер., 10, стр. 6</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 245-11-55</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 246-32-67</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 246-09-57</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Экология-Водстрой</title>
+    <field_location type="field">
+        <latitude>55.711341</latitude>
+        <longitude>37.475162</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Строительство гидротехнических сооружений</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Нежинская, 9</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 916-55-79</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Гидротехник-16, Гидротехник-17</title>
+    <field_location type="field">
+        <latitude>55.691257</latitude>
+        <longitude>37.580625</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Строительство гидротехнических сооружений</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Гримау, 6</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 723-69-33</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 789-89-22</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Монтажгидрострой</title>
+    <field_location type="field">
+        <latitude>55.736235</latitude>
+        <longitude>37.590856</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Строительство гидротехнических сооружений</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Зубовский бул., 17</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 246-06-24</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Строймол</title>
+    <field_location type="field">
+        <latitude>55.859918</latitude>
+        <longitude>37.641126</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Строительство гидротехнических сооружений</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Вересковая, 8</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 189-66-62</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

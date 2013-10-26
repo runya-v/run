@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Предприниматель Колупаев В.Ю.</title>
+    <field_location type="field">
+        <latitude>55.706188</latitude>
+        <longitude>37.740938</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Военная форма, камуфляж</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Текстильщиков 11-я, 4</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 179-41-66</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 709-65-51</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 709-65-52</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Военторг Броня</title>
+    <field_location type="field">
+        <latitude>55.824415</latitude>
+        <longitude>37.632251</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Военная форма, камуфляж</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. 1-я Останкинская, 53, зал Е, пав. 8-9</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 504-67-73</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Военформ Производство</title>
+    <field_location type="field">
+        <latitude>55.674976</latitude>
+        <longitude>37.613018</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Военная форма, камуфляж</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Электролитный пр-д, 7а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 619-54-32</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

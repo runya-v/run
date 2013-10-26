@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Медицинского Маркетинга агентство</title>
+    <field_location type="field">
+        <latitude>55.685934</latitude>
+        <longitude>37.387271</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Медицинские информационные услуги</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Одинцовский р-н, Заречье пос., корп.F, Кампус-Кунцево 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 414-98-35</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

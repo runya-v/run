@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Главное бюро медико-социальной экспертизы</title>
+    <field_location type="field">
+        <latitude>55.985221</latitude>
+        <longitude>37.184207</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Медико-социальная экспертиза</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Зеленоград г., корп.911</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 731-17-62</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Бюро медико-социальной экспертизы Филиал № 8</title>
+    <field_location type="field">
+        <latitude>55.734243</latitude>
+        <longitude>37.616953</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Медико-социальная экспертиза</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Полянка Малая, 9</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 238-03-42</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 238-99-08</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Главное бюро медико-социальной экспертизы</title>
+    <field_location type="field">
+        <latitude>55.812580</latitude>
+        <longitude>37.572495</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Медико-социальная экспертиза</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Костякова, 8/6</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 976-15-92</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 976-48-67</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Аэропорт Внуково Врачебно-летная экспертная комиссия</title>
+    <field_location type="field">
+        <latitude>55.608982</latitude>
+        <longitude>37.296787</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Медико-социальная экспертиза</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Внуково пос., ул. Большая Внуковская, 25а, стр. 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 436-21-04</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Главное бюро медико-социальной экспертизы Федерального медико-биологического агентства</title>
+    <field_location type="field">
+        <latitude>55.799502</latitude>
+        <longitude>37.459038</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Медико-социальная экспертиза</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Гамалеи, 13</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 196-09-61</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

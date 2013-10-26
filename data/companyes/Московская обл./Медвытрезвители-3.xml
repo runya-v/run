@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Медицинский Вытрезвитель при ОВД г. Долгопрудного</title>
+    <field_location type="field">
+        <latitude>55.939076</latitude>
+        <longitude>37.513053</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Медвытрезвители</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Долгопрудный г., ул. Циолковского, 30</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 408-41-48</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Отдел Внутренних Дел Озерского района Медицинский вытрезвитель</title>
+    <field_location type="field">
+        <latitude>54.856320</latitude>
+        <longitude>38.566993</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Медвытрезвители</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Озерский р-н, Озеры г., ул. Калинина, 51</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49670) 2-10-27</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Балашихинский</title>
+    <field_location type="field">
+        <latitude>55.754157</latitude>
+        <longitude>37.913801</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Медвытрезвители</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Балашиха г., ул. Лесная, 21</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 524-23-19</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 524-34-69</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 524-32-40</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

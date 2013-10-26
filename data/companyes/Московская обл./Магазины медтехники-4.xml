@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Магазин Медтехника г. Солнечногорск</title>
+    <field_location type="field">
+        <latitude>56.189615</latitude>
+        <longitude>36.986533</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Магазины медтехники</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Солнечногорский р-н, Солнечногорск г.</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (4962) 64-86-74</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">АВТ Медикэлс</title>
+    <field_location type="field">
+        <latitude>55.886271</latitude>
+        <longitude>37.440730</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Магазины медтехники</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Химки г., ул. Ленинградская, стр. 6, вл. 39, Бизнес-парк Химки, зд. 2, оф. В1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 937-34-95</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 937-34-18</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 257-02-50</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 937-34-41</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 257-02-61</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Медтехника</title>
+    <field_location type="field">
+        <latitude>55.929888</latitude>
+        <longitude>37.984220</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Магазины медтехники</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Щелковский р-н, Щелково г., ул. Талсинская, 12е</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49656) 2-98-09</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (985) 975-23-44</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (49656) 2-82-90</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Аэромедтех г. Воскресенск</title>
+    <field_location type="field">
+        <latitude>55.324058</latitude>
+        <longitude>38.683531</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Магазины медтехники</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Воскресенский р-н, Воскресенск г., ул. Победы, 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 442-41-77</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

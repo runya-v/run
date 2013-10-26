@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Московский Областной Наркологический Диспансер</title>
+    <field_location type="field">
+        <latitude>55.781899</latitude>
+        <longitude>37.696939</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Диспансеры наркологические</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Почтовая Б., 40</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 265-20-26</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 267-74-67</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 265-36-80</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Московский областной наркологический диспансер</title>
+    <field_location type="field">
+        <latitude>55.801045</latitude>
+        <longitude>37.553082</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Диспансеры наркологические</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Восьмого Марта, 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 612-61-52</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ВАО (№ 8) Детское и подростковое отделение</title>
+    <field_location type="field">
+        <latitude>55.795757</latitude>
+        <longitude>37.822550</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Диспансеры наркологические</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Парковая 16-я, 13</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 461-15-23</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 461-73-75</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Garant+</title>
+    <field_location type="field">
+        <latitude>55.880450</latitude>
+        <longitude>37.612892</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Оформление и изготовление витрин</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Юрловский пр-д, 20, стр. 3</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (906) 780-20-27</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (903) 237-32-55</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (965) 126-66-12</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Печатная Артель</title>
+    <field_location type="field">
+        <latitude>55.809848</latitude>
+        <longitude>37.643102</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Оформление и изготовление витрин</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Староалексеевская, 24</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 508-75-46</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

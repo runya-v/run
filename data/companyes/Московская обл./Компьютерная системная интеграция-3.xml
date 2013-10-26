@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Комп технолоджи</title>
+    <field_location type="field">
+        <latitude>55.805316</latitude>
+        <longitude>38.987791</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Компьютерная системная интеграция</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Орехово-Зуево г., ул. Стачки 1885-го года, 6</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (4964) 15-33-66</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Компания Технополь г. Дубна</title>
+    <field_location type="field">
+        <latitude>56.731595</latitude>
+        <longitude>37.159620</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Компьютерная системная интеграция</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Талдомский р-н, Дубна г., ул. Энтузиастов, 5</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 212-79-96</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (49621) 3-39-35</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Компьютел Технологии</title>
+    <field_location type="field">
+        <latitude>55.749871</latitude>
+        <longitude>37.877715</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Компьютерная системная интеграция</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Реутов г., ул. Челомея, 10</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 791-06-37</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

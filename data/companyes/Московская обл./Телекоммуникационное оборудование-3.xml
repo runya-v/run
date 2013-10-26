@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Аникс</title>
+    <field_location type="field">
+        <latitude>56.084998</latitude>
+        <longitude>37.932270</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Телекоммуникационное оборудование</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Пушкинский р-н, Лесной пос., ул. Советская, 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 993-10-76</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 993-17-71</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">22 Экспериментальный завод Средств Связи</title>
+    <field_location type="field">
+        <latitude>55.930897</latitude>
+        <longitude>37.76818</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Телекоммуникационное оборудование</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Мытищи г., Силикатный 1-й пер., 6</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 583-72-75</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Талдомский Опытный завод Промсвязь пос. Северный</title>
+    <field_location type="field">
+        <latitude>56.727181</latitude>
+        <longitude>37.622324</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Телекоммуникационное оборудование</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Талдомский р-н, Северный пос., ул. Зеленая, 16</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49620) 7-44-80</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (49620) 7-45-70</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

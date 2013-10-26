@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Медицинский центр Сан-Ван</title>
+    <field_location type="field">
+        <latitude>56.033807</latitude>
+        <longitude>35.953758</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Медицинское комплексное обслуживание</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Волоколамск г., ул. Пролетарская, 13</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49636) 2-69-70</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (49636) 4-29-70</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

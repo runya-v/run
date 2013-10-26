@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Красногорская типография</title>
+    <field_location type="field">
+        <latitude>55.811917</latitude>
+        <longitude>37.313205</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Копировальные центры</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Красногорск г., Коммунальный кварт., 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 562-04-33</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 562-80-50</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 562-84-70</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Ксерокопия г. Ногинск</title>
+    <field_location type="field">
+        <latitude>55.841119</latitude>
+        <longitude>38.441292</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Копировальные центры</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Ногинский р-н, Ногинск г., ул. Ленточная, 10</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (926) 388-80-61</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Копицентр г. Чехов</title>
+    <field_location type="field">
+        <latitude>55.148277</latitude>
+        <longitude>37.483472</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Копировальные центры</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Чеховский р-н, Чехов г., ул. Монтажная, 3</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 726-79-71</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

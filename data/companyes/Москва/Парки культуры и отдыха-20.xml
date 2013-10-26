@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Зона Отдыха Борисовские Пруды</title>
+    <field_location type="field">
+        <latitude>55.635269</latitude>
+        <longitude>37.731784</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Парки культуры и отдыха</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Борисовские Пруды</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (916) 505-94-19</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 393-47-50</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Перовский Парк Культуры и Отдыха</title>
+    <field_location type="field">
+        <latitude>55.738632</latitude>
+        <longitude>37.775990</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Парки культуры и отдыха</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Лазо, вл. 7</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 368-26-21</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 368-26-10</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Лианозовский Парк Культуры и Отдыха</title>
+    <field_location type="field">
+        <latitude>55.901748</latitude>
+        <longitude>37.566063</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Парки культуры и отдыха</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Угличская, 13</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 908-35-00</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Парк Культуры и Отдыха Люблино</title>
+    <field_location type="field">
+        <latitude>55.686492</latitude>
+        <longitude>37.741854</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Парки культуры и отдыха</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Тихая, 23</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 350-12-60</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 350-22-88</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Бабушкинский Парк Культуры и Отдыха</title>
+    <field_location type="field">
+        <latitude>55.865940</latitude>
+        <longitude>37.681308</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Парки культуры и отдыха</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Менжинского, 6</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 184-09-18</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 184-34-22</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Парк культуры и отдыха Фили</title>
+    <field_location type="field">
+        <latitude>55.742519</latitude>
+        <longitude>37.468766</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Парки культуры и отдыха</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Филевская Большая, 32, стр. 3</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 146-05-31</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Парк Фестивальный</title>
+    <field_location type="field">
+        <latitude>55.791957</latitude>
+        <longitude>37.621723</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Парки культуры и отдыха</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Сущевский Вал, 56, корп.4</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 688-57-87</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Парк Культуры и Отдыха Красная Пресня</title>
+    <field_location type="field">
+        <latitude>55.755601</latitude>
+        <longitude>37.550181</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Парки культуры и отдыха</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Мантулинская, 5, стр. 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 256-33-42</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 256-16-54</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Зона Отдыха Тропарево</title>
+    <field_location type="field">
+        <latitude>55.634034</latitude>
+        <longitude>37.488574</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Парки культуры и отдыха</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Академика Виноградова, 12</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 339-38-52</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Парк Победы</title>
+    <field_location type="field">
+        <latitude>55.729184</latitude>
+        <longitude>37.511616</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Парки культуры и отдыха</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Братьев Фонченко, 7</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 148-83-00</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Савеловский Парк</title>
+    <field_location type="field">
+        <latitude>55.804020</latitude>
+        <longitude>37.561176</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Парки культуры и отдыха</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Петровско-Разумовский пр-д, 29</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 761-14-36</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Парк в Пойме Реки Городни</title>
+    <field_location type="field">
+        <latitude>55.635269</latitude>
+        <longitude>37.731784</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Парки культуры и отдыха</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Борисовские Пруды</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 613-64-73</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Лианозовский Парк Культуры и Отдыха ф-л</title>
+    <field_location type="field">
+        <latitude>55.815473</latitude>
+        <longitude>37.590488</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Парки культуры и отдыха</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Гончарова, 6</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 908-35-00</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 639-73-65</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Парк 40-Летия ВЛКСМ</title>
+    <field_location type="field">
+        <latitude>55.679783</latitude>
+        <longitude>37.511948</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Парки культуры и отдыха</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Вернадского просп.</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 133-72-38</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 132-58-33</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Таганский Детский Парк</title>
+    <field_location type="field">
+        <latitude>55.741434</latitude>
+        <longitude>37.661141</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Парки культуры и отдыха</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Таганская, 15а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 911-10-16</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Ботанический Сад Первого Московского Государственного Медицинского Университета им. Сеченова И.М.</title>
+    <field_location type="field">
+        <latitude>55.751796</latitude>
+        <longitude>37.532637</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Парки культуры и отдыха</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Тестовская, вл. 20</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 256-81-96</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 256-63-96</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Екатерининский Парк</title>
+    <field_location type="field">
+        <latitude>55.784005</latitude>
+        <longitude>37.621723</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Парки культуры и отдыха</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Екатерининская Б., 27</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 600-63-91</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 600-60-77</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Воронцовский Парк</title>
+    <field_location type="field">
+        <latitude>55.667747</latitude>
+        <longitude>37.534379</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Парки культуры и отдыха</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Воронцовский парк, Нет здания</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 580-26-78</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Красная Пресня ПКиО</title>
+    <field_location type="field">
+        <latitude>55.755601</latitude>
+        <longitude>37.550181</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Парки культуры и отдыха</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Мантулинская, 5, стр. 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 259-84-19</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 256-23-06</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 259-27-98</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 256-16-54</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 256-33-42</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 259-76-13</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Кузьминки ПКиО</title>
+    <field_location type="field">
+        <latitude>55.688446</latitude>
+        <longitude>37.772154</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Парки культуры и отдыха</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Заречье, 1, стр. 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 175-33-69</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 175-72-88</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 372-96-98</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 175-94-72</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 175-92-40</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 172-28-84</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

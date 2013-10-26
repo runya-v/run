@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Асфальтобетонный завод Бутово</title>
+    <field_location type="field">
+        <latitude>55.642266</latitude>
+        <longitude>37.477714</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Асфальтобетон, асфальтирование</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Ленинский просп., 135, корп.2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Асфальтобетон УЧ-к № 1</title>
+    <field_location type="field">
+        <latitude>55.708795</latitude>
+        <longitude>37.445329</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Асфальтобетон, асфальтирование</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Генерала Дорохова, 2а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 443-79-79</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ПК Вираж</title>
+    <field_location type="field">
+        <latitude>55.686432</latitude>
+        <longitude>37.609236</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Асфальтобетон, асфальтирование</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, просп. Нагорный, 12, корп.2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 127-32-66</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 127-33-68</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 176-07-00</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Шоссе</title>
+    <field_location type="field">
+        <latitude>55.839648</latitude>
+        <longitude>37.425791</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Асфальтобетон, асфальтирование</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, просп. Строительный, 12</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 497-66-82</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 497-65-47</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 492-90-00</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Каток</title>
+    <field_location type="field">
+        <latitude>55.635264</latitude>
+        <longitude>37.636626</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Асфальтобетон, асфальтирование</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Промышленная, 6а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 782-97-45</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 782-94-07</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Дорзапад-М</title>
+    <field_location type="field">
+        <latitude>55.646970</latitude>
+        <longitude>37.383921</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Асфальтобетон, асфальтирование</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Производственная, вл. 15</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 733-09-59</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Темех-1</title>
+    <field_location type="field">
+        <latitude>55.708014</latitude>
+        <longitude>37.422925</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Асфальтобетон, асфальтирование</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Рябиновая, 17, стр. 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 448-76-63</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 783-85-91</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Трансстромсервис Асфальтобетонный завод</title>
+    <field_location type="field">
+        <latitude>55.686919</latitude>
+        <longitude>37.432906</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Асфальтобетон, асфальтирование</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Генерала Дорохова, вл. 27</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 446-08-83</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 446-08-92</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 446-08-93</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Центродорстрой Астар</title>
+    <field_location type="field">
+        <latitude>55.699943</latitude>
+        <longitude>37.619683</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Асфальтобетон, асфальтирование</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Варшавское ш., корп.2, вл. 141</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 730-64-65</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Эталонстрой</title>
+    <field_location type="field">
+        <latitude>55.702673</latitude>
+        <longitude>37.649004</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Асфальтобетон, асфальтирование</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Автозаводская, 23</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 674-62-06</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Завод строительных изделий</title>
+    <field_location type="field">
+        <latitude>55.677047</latitude>
+        <longitude>37.949365</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Асфальтобетон, асфальтирование</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. 1-я Вольская, вл. 45</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 940-86-99</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Маренго</title>
+    <field_location type="field">
+        <latitude>55.999435</latitude>
+        <longitude>37.162306</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Асфальтобетон, асфальтирование</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Алабушевская, Нет здания</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 731-50-24</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 731-30-22</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Асфальтобетонный завод № 1</title>
+    <field_location type="field">
+        <latitude>55.761072</latitude>
+        <longitude>37.514428</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Асфальтобетон, асфальтирование</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Шелепихинская наб., 34</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 256-14-31</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ДРСУ Асфальтобетонное производство</title>
+    <field_location type="field">
+        <latitude>55.889513</latitude>
+        <longitude>37.689887</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Асфальтобетон, асфальтирование</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, просп. Проектируемый 185</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 712-71-18</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Лагос</title>
+    <field_location type="field">
+        <latitude>55.677047</latitude>
+        <longitude>37.949365</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Асфальтобетон, асфальтирование</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Вольская 1-я, вл. 45</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 988-94-85</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (901) 510-27-19</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Центродорстрой Астар Асфальтобетонный завод</title>
+    <field_location type="field">
+        <latitude>55.579638</latitude>
+        <longitude>37.610673</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Асфальтобетон, асфальтирование</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Дорожная, 21</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 381-61-33</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 382-92-92</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Бутово Асфальтобетонный завод</title>
+    <field_location type="field">
+        <latitude>55.753559</latitude>
+        <longitude>37.609218</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Асфальтобетон, асфальтирование</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Проектируемый №185 пр-д</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 712-71-18</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 712-57-63</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Союз-Лес завод</title>
+    <field_location type="field">
+        <latitude>55.854658</latitude>
+        <longitude>37.541728</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Асфальтобетон, асфальтирование</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Лихоборская наб., 13а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 154-83-74</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 153-42-21</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Суперасфальт ТБВ</title>
+    <field_location type="field">
+        <latitude>55.713897</latitude>
+        <longitude>37.723466</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Асфальтобетон, асфальтирование</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Волгоградский просп., 45а, вл. 49</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 709-68-50</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

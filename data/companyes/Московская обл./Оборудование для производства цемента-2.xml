@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Специализированное Ремонтное предприятие Центрцемремонт г. Воскресенск</title>
+    <field_location type="field">
+        <latitude>55.258048</latitude>
+        <longitude>38.740934</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Оборудование для производства цемента</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Воскресенский р-н, Воскресенск г., ул. Гиганта, 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 443-04-87</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (496) 443-03-51</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Флагман г. Воскресенск</title>
+    <field_location type="field">
+        <latitude>55.320345</latitude>
+        <longitude>38.665942</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Оборудование для производства цемента</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Воскресенский р-н, Воскресенск г., ул. Докторова, 4</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 441-01-78</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (496) 442-83-41</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

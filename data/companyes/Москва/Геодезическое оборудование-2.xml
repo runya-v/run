@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">106 Экспериментальный Оптико-Механический завод</title>
+    <field_location type="field">
+        <latitude>55.808634</latitude>
+        <longitude>37.771939</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Геодезическое оборудование</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Щелковское ш., вл. 23</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 163-60-02</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 163-54-11</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 164-99-12</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Гран НПЦ</title>
+    <field_location type="field">
+        <latitude>55.762789</latitude>
+        <longitude>37.662425</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Геодезическое оборудование</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Казакова, 13</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 267-77-28</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

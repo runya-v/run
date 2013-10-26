@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Специализированная клиническая больница восстановительного лечения</title>
+    <field_location type="field">
+        <latitude>55.73196</latitude>
+        <longitude>37.67845</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Больницы физиотерапевтические</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Талалихина, 26а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 676-11-51</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 676-05-74</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Предприниматель Королева Н.М.</title>
+    <field_location type="field">
+        <latitude>55.715494</latitude>
+        <longitude>37.796157</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ритуальные услуги для животных</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Академика Скрябина, 4</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 542-77-36</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Алома</title>
+    <field_location type="field">
+        <latitude>55.806737</latitude>
+        <longitude>37.524327</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ритуальные услуги для животных</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Усиевича, 16</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 745-17-87</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 971-02-16</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 971-39-15</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

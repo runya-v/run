@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Спецмелиоводхоз</title>
+    <field_location type="field">
+        <latitude>55.772765</latitude>
+        <longitude>37.629421</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Мелиоративные работы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, пл. Сухаревская М., 6, стр. 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 607-57-66</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 607-58-65</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 608-63-36</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 607-58-17</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 608-79-67</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

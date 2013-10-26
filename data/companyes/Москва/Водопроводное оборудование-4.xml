@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">КлимаТим</title>
+    <field_location type="field">
+        <latitude>55.811857</latitude>
+        <longitude>37.592069</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Водопроводное оборудование</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Руставели, 10, корп.2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (915) 081-58-77</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Арагон (Арагон ООО)</title>
+    <field_location type="field">
+        <latitude>55.854052</latitude>
+        <longitude>37.519701</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Водопроводное оборудование</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Лихоборская наб., 3</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 741-42-54</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">М-Корп</title>
+    <field_location type="field">
+        <latitude>55.819939</latitude>
+        <longitude>37.581514</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Водопроводное оборудование</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Яблочкова, 16, оф. 22</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (926) 690-31-81</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (926) 619-29-30</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">СТКС-М</title>
+    <field_location type="field">
+        <latitude>55.707426</latitude>
+        <longitude>37.690587</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Водопроводное оборудование</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Южнопортовая, 7, стр. 6</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 604-42-64</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 710-07-48</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 926-55-48</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 710-07-45</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

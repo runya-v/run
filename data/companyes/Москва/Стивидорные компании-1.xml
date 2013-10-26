@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Межрегиональная Транспортная Корпорация</title>
+    <field_location type="field">
+        <latitude>55.744769</latitude>
+        <longitude>37.646525</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Стивидорные компании</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Гончарная, 16, стр. 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 915-71-39</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 915-29-83</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 915-77-92</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 916-58-32</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

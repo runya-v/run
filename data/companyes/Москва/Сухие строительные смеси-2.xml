@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Интеркомплексстрой</title>
+    <field_location type="field">
+        <latitude>55.647158</latitude>
+        <longitude>37.545249</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Сухие строительные смеси</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Введенского, 8</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 332-57-00</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 995-84-80</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Лигранд</title>
+    <field_location type="field">
+        <latitude>55.744156</latitude>
+        <longitude>37.738755</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Сухие строительные смеси</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Фрезерная 1-я, 2/1, стр. 10</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 730-17-76</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 730-63-78</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 730-79-07</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 730-17-79</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

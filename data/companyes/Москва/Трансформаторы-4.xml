@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Нормальное Напряжение</title>
+    <field_location type="field">
+        <latitude>55.843960</latitude>
+        <longitude>37.427103</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Трансформаторы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Фабрициуса, 35, корп.40</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 504-10-30</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 504-20-38</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Торговый Дом Терра-К</title>
+    <field_location type="field">
+        <latitude>55.678549</latitude>
+        <longitude>37.583023</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Трансформаторы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Черемушкинская Б., 34</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 719-77-03</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 719-77-00</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Алтайский Трансформаторный завод</title>
+    <field_location type="field">
+        <latitude>55.761325</latitude>
+        <longitude>37.641180</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Трансформаторы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Потаповский пер., 5, стр. 1, офис 108</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 725-56-57</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 725-56-58</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 725-56-59</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Амфолинк</title>
+    <field_location type="field">
+        <latitude>55.762409</latitude>
+        <longitude>37.554035</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Трансформаторы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Звенигородская 2-я, 13, стр. 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 739-34-30</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

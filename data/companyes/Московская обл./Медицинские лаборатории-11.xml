@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Клинико-Диагностическая Лаборатория при ЦРБ</title>
+    <field_location type="field">
+        <latitude>55.091000</latitude>
+        <longitude>38.775222</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Медицинские лаборатории</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Коломна г., ул. Октябрьской Революции, 318</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (4966) 12-53-19</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Центральная районная поликлиника Лаборатория диагностики СПИДа</title>
+    <field_location type="field">
+        <latitude>55.148241</latitude>
+        <longitude>37.479492</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Медицинские лаборатории</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Чехов г., ул. Пионерская, 4</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 722-16-10</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Микробиологическая Лаборатория Чеховской Районной Больницы № 2</title>
+    <field_location type="field">
+        <latitude>55.165703</latitude>
+        <longitude>37.427327</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Медицинские лаборатории</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Чеховский р-н, Чехов, ул. Гагарина, 37</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49672) 3-72-24</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Лаборатория Иммунно-Ферментного Анализа Одинцовской Центральной Районной Больницы</title>
+    <field_location type="field">
+        <latitude>55.684762</latitude>
+        <longitude>37.266232</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Медицинские лаборатории</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Одинцовский р-н, Одинцово г., ул. Маршала Бирюзова, 9</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 593-56-43</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Бактериологическая лаборатория Красногорской Городской Больницы № 2</title>
+    <field_location type="field">
+        <latitude>55.823945</latitude>
+        <longitude>37.330911</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Медицинские лаборатории</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Красногорский р-н, Красногорск г., ул. Пионерская, 21</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 562-24-22</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Научно-исследовательская лаборатория Информационные технологии в спорте</title>
+    <field_location type="field">
+        <latitude>55.9296</latitude>
+        <longitude>37.522957</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Медицинские лаборатории</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Долгопрудный г., ул. Первомайская, 30, стр. 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 408-64-72</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Станция Переливания Крови Лаборатория СПИД г. Орехово-Зуево</title>
+    <field_location type="field">
+        <latitude>55.801354</latitude>
+        <longitude>38.997870</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Медицинские лаборатории</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Орехово-Зуевский р-н, Орехово-Зуево г., ул. Барышникова, 13/5</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 425-77-90</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (496) 425-73-79</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (496) 425-77-36</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Лаборатория Ххi Век г. Воскресенск</title>
+    <field_location type="field">
+        <latitude>55.325134</latitude>
+        <longitude>38.673255</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Медицинские лаборатории</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Воскресенский р-н, Воскресенск г., ул. Хрипунова, 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 449-64-42</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Патологоанатомическая Лаборатория № 162</title>
+    <field_location type="field">
+        <latitude>55.687710</latitude>
+        <longitude>37.261157</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Медицинские лаборатории</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Одинцово г., ул. Бирюзова Маршала, 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 440-94-41</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Лаборатория МУ ЛПУ Городская центральная больница</title>
+    <field_location type="field">
+        <latitude>55.958724</latitude>
+        <longitude>38.027375</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Медицинские лаборатории</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Югорск г., ул. Попова, 29</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (34675) 6-79-09</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (34675) 6-79-12</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Бактериологическая Лаборатория МУ</title>
+    <field_location type="field">
+        <latitude>56.347444</latitude>
+        <longitude>37.516494</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Медицинские лаборатории</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Дмитров г., ул. Профессиональная, 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49622) 7-41-32</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

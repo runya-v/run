@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Администрация Аэропорта Домодедово ФГУП</title>
+    <field_location type="field">
+        <latitude>55.414327</latitude>
+        <longitude>37.900470</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Авиатранспорт</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Домодедовский р-н, Домодедово аэропорт</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 787-86-01</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 258-53-87</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Коммерческое агентство Аэропорта Домодедово</title>
+    <field_location type="field">
+        <latitude>55.414327</latitude>
+        <longitude>37.900470</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Авиатранспорт</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Домодедово аэропорт</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 795-35-00</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 795-34-89</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 795-35-11</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Фгуап МЧС России</title>
+    <field_location type="field">
+        <latitude>55.599850</latitude>
+        <longitude>38.122129</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Авиатранспорт</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Жуковский г., аэродром Раменское</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 556-56-39</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Межрегиональное Территориальное управление Воздушного Транспорта Центральных Районов Росавиации</title>
+    <field_location type="field">
+        <latitude>55.694845</latitude>
+        <longitude>37.864501</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Авиатранспорт</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Люберецкий р-н, Люберцы г., Октябрьский просп., 15</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 503-50-88</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Полет Авиационная Компания</title>
+    <field_location type="field">
+        <latitude>55.414327</latitude>
+        <longitude>37.900470</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Авиатранспорт</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Домодедовский р-н, Домодедово аэропорт</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 926-86-67</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Ил центр Поддержания Летной Годности</title>
+    <field_location type="field">
+        <latitude>55.599850</latitude>
+        <longitude>38.122129</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Авиатранспорт</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Жуковский г.</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 556-51-21</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 556-76-09</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 556-77-90</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

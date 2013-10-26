@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Инжресурсдиагностика</title>
+    <field_location type="field">
+        <latitude>55.781038</latitude>
+        <longitude>37.573600</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Газовое хозяйство, газоснабжение</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Ленинградский просп., 13</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 250-43-94</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 251-27-72</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">РосАвтономГаз</title>
+    <field_location type="field">
+        <latitude>55.781393</latitude>
+        <longitude>37.598528</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Газовое хозяйство, газоснабжение</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Новослободская, 23, 535</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 725-04-05</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Газпромрегионгаз Московский областной ф-л Ремонтно-эксплуатационная служба № 2</title>
+    <field_location type="field">
+        <latitude>55.881268</latitude>
+        <longitude>37.477166</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Газовое хозяйство, газоснабжение</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Левобережная, 28</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 457-74-18</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 459-58-11</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Газпромрегионгаз Ремонтно-эксплуатационная служба № 3</title>
+    <field_location type="field">
+        <latitude>55.69061</latitude>
+        <longitude>37.825645</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Газовое хозяйство, газоснабжение</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Волгоградский просп., стр. 201</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 372-01-01</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Оргтехсервис</title>
+    <field_location type="field">
+        <latitude>55.599209</latitude>
+        <longitude>37.511050</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Газовое хозяйство, газоснабжение</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Одоевского просп., 7, корп.7</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 423-67-55</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 423-12-33</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Компания Коминфо</title>
+    <field_location type="field">
+        <latitude>55.723009</latitude>
+        <longitude>37.577768</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Газовое хозяйство, газоснабжение</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Комсомольский просп., 35</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 242-34-50</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Сигма-Фт</title>
+    <field_location type="field">
+        <latitude>55.788500</latitude>
+        <longitude>37.692061</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Газовое хозяйство, газоснабжение</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Матросская Тишина, 15/17</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 268-22-45</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 268-64-61</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 268-64-15</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">МГ-Техстрой</title>
+    <field_location type="field">
+        <latitude>55.767944</latitude>
+        <longitude>37.573977</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Газовое хозяйство, газоснабжение</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Климашкина, 12, стр. 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 253-25-45</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Строймастер</title>
+    <field_location type="field">
+        <latitude>55.736143</latitude>
+        <longitude>37.686195</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Газовое хозяйство, газоснабжение</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Калитниковская Б., 38</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 911-00-00</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 911-70-50</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Бриз-1</title>
+    <field_location type="field">
+        <latitude>55.847740</latitude>
+        <longitude>37.424417</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Газовое хозяйство, газоснабжение</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Туристская, 6, корп.2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 949-90-00</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 493-41-18</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Виктория-ГАЗ</title>
+    <field_location type="field">
+        <latitude>55.840194</latitude>
+        <longitude>37.443281</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Газовое хозяйство, газоснабжение</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Новопоселковая, 6, корп.7, офис 807</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 497-53-64</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 497-57-90</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Газэнергосервис</title>
+    <field_location type="field">
+        <latitude>55.769975</latitude>
+        <longitude>37.634919</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Газовое хозяйство, газоснабжение</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Селиверстов пер., 9/15</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 607-77-38</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 607-26-02</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 607-15-64</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

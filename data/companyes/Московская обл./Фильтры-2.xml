@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Пластек</title>
+    <field_location type="field">
+        <latitude>55.926378</latitude>
+        <longitude>37.815157</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Фильтры</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Королев г., ул. Грабина, 4</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 221-84-50</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ТД Крисар</title>
+    <field_location type="field">
+        <latitude>55.903938</latitude>
+        <longitude>37.875883</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Фильтры</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Королев г., ул. Силикатная, 65</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 589-93-92</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (926) 606-07-34</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (903) 612-83-22</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (498) 601-48-89</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

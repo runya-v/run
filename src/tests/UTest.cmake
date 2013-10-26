@@ -38,7 +38,7 @@ endfunction(add_boost_tests)
 
 # Процедура добавления теста в систему сборки и тестирования.
 # Параметры:
-#  add_unit_test(EXECUTABLE EXTRA_ARGS SOURCES)
+#  add_unit_test(EXECUTABLE EXTRA_ARGS)
 #   EXECUTABLE -- имя теста.
 #   EXTRA_ARGS -- списко зависимостей.
 function(add_unit_test EXECUTABLE EXTRA_ARGS)

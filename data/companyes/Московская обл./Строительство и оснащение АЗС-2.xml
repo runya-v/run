@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Ника</title>
+    <field_location type="field">
+        <latitude>55.763832</latitude>
+        <longitude>37.863711</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Строительство и оснащение АЗС</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Реутов г., ул. Гагарина, 16</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 528-53-72</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Строительная фирма Творчество г. Домодедово</title>
+    <field_location type="field">
+        <latitude>55.415835</latitude>
+        <longitude>37.786051</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Строительство и оснащение АЗС</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Домодедовский р-н, Домодедово г., микрорайон Центральный, Каширское ш., 107а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 797-62-35</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (496) 797-66-80</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

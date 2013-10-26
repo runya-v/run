@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Радоптима</title>
+    <field_location type="field">
+        <latitude>55.678621</latitude>
+        <longitude>37.517015</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Чартерные перевозки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Кравченко, 12</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 138-21-38</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Налко</title>
+    <field_location type="field">
+        <latitude>55.886625</latitude>
+        <longitude>37.703972</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Чартерные перевозки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Стартовая, 7</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 474-17-72</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Траверс-Авиа Сервис</title>
+    <field_location type="field">
+        <latitude>55.608897</latitude>
+        <longitude>37.298922</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Чартерные перевозки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Рейсовая 2-я, 8/29</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 436-48-92</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 720-17-51</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 436-75-66</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Лукойл-Авиа</title>
+    <field_location type="field">
+        <latitude>55.977884</latitude>
+        <longitude>37.390245</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Чартерные перевозки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Шереметьевское ш., 2, корп.20</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 981-77-71</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 933-16-34</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 933-16-35</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Меридиан Авиационная Компания</title>
+    <field_location type="field">
+        <latitude>55.696448</latitude>
+        <longitude>37.549022</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Чартерные перевозки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Университетский просп., 9</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 155-68-22</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 727-00-50</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 155-67-72</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

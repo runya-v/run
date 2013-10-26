@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Базис Шеко</title>
+    <field_location type="field">
+        <latitude>55.771540</latitude>
+        <longitude>37.679826</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Подземные работы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Фридриха Энгельса, 3/5</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 676-71-81</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Бауэр Шпециальтибау ГмбХ</title>
+    <field_location type="field">
+        <latitude>55.758909</latitude>
+        <longitude>37.563503</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Подземные работы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Трехгорный Б. пер., 6, офис 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 255-69-51</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 252-16-18</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 255-16-18</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 255-07-88</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

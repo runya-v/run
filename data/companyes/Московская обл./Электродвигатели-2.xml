@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Электропромагрегат</title>
+    <field_location type="field">
+        <latitude>55.818589</latitude>
+        <longitude>37.329563</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Электродвигатели</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Красногорский р-н, Красногорск г., Волоколамское ш., 11/1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 562-82-36</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 562-99-06</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Техмет-1</title>
+    <field_location type="field">
+        <latitude>55.922035</latitude>
+        <longitude>37.840992</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Электродвигатели</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Мытищинский р-н, Королев г., просп. Королева, 5в</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 516-85-52</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 516-84-78</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 516-84-08</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

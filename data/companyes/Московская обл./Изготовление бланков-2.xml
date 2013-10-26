@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Школьные технологии</title>
+    <field_location type="field">
+        <latitude>56.009224</latitude>
+        <longitude>36.345585</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Изготовление бланков</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Истринский р-н, Деньково пос., ул. Центральная, 113</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (917) 528-13-43</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Формс Технолоджи</title>
+    <field_location type="field">
+        <latitude>55.551721</latitude>
+        <longitude>37.073175</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Изготовление бланков</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Наро-Фоминский р-н, Апрелевка, ул. Августовская, 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49634) 0-34-63</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 500-34-63</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 785-76-15</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

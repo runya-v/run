@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Региональное агентство по Сбору Платежей и Просроченных Задолженностей</title>
+    <field_location type="field">
+        <latitude>55.441223</latitude>
+        <longitude>37.573169</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Коллекторские агентства</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Подольский р-н, Подольск г., ул. Лобачева, 13</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 739-78-03</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 968-57-69</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

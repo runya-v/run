@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Арго</title>
+    <field_location type="field">
+        <latitude>55.668924</latitude>
+        <longitude>37.738818</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Тротуарная плитка</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Люблинская, 72</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 585-79-53</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 785-68-02</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Бетон Дс</title>
+    <field_location type="field">
+        <latitude>55.848716</latitude>
+        <longitude>37.536095</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Тротуарная плитка</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Автомоторная, 5</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 154-75-51</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 154-75-01</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 154-75-71</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 154-71-38</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 154-73-44</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Лана Гранд</title>
+    <field_location type="field">
+        <latitude>55.717568</latitude>
+        <longitude>37.774113</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Тротуарная плитка</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Рязанский просп., 26</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 174-00-00</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

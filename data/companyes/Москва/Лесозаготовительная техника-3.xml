@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Лескомплект</title>
+    <field_location type="field">
+        <latitude>55.775454</latitude>
+        <longitude>37.628397</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Лесозаготовительная техника</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Щепкина, 9</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Блаунт</title>
+    <field_location type="field">
+        <latitude>55.613687</latitude>
+        <longitude>37.585619</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Лесозаготовительная техника</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Красного Маяка, 16, корп.2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 313-98-45</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 315-29-01</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 742-05-45</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 334-92-80</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Дилвиз</title>
+    <field_location type="field">
+        <latitude>55.668605</latitude>
+        <longitude>37.452489</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Лесозаготовительная техника</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Никулинская, 23, корп.1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 437-54-01</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 437-47-39</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

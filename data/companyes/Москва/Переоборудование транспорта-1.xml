@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Commerc Group</title>
+    <field_location type="field">
+        <latitude>55.652405</latitude>
+        <longitude>37.385879</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Переоборудование транспорта</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Боровский пр-д, вл. 15а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (926) 843-29-82</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (929) 610-98-33</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Центральный Аэроклуб им. Чкалова В.П. Российской Оборонной Спортивно-Технической Организации</title>
+    <field_location type="field">
+        <latitude>55.822519</latitude>
+        <longitude>37.443335</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Аэроклубы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Волоколамское ш., 88, стр. 8</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 490-33-11</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 491-77-22</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пилотажная Группа-Юношеская Планерная школа</title>
+    <field_location type="field">
+        <latitude>55.782061</latitude>
+        <longitude>37.544494</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Аэроклубы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Поликарпова, 23а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 941-75-56</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 945-68-73</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 941-79-77</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

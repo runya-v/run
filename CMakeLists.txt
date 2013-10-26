@@ -53,6 +53,23 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${BINARY_DIR}/${CMAKE_BUILD_TYPE}/bin)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${BINARY_DIR}/${CMAKE_BUILD_TYPE}/lib)
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${BINARY_DIR}/${CMAKE_BUILD_TYPE}/lib)
 
+# Указание общих настроек
+link_directories("/usr/lib")
+link_directories("/usr/local/lib")
+
+
+# Установка общих директорий включаемых файлов
+include_directories(${SRC_DIR})
+
+
+# Настройка опций сборки компонент
+OPTION(ENADLE_MYSQL   "Enable MYSQL support [default: ON]"   OFF)
+OPTION(ENADLE_CPPCMS  "Enable CPPCMS support [default: ON]"  OFF)
+OPTION(ENADLE_HTMLCXX "Enable HTMLCXX support [default: ON]" OFF)
+OPTION(ENADLE_CTPP2   "Enable CTPP2 support [default: ON]"   ON)
+OPTION(ENADLE_WTCPP   "Enable WTCPP support [default: ON]"   OFF)
+OPTION(ENADLE_TESTS   "Enable TESTS support [default: ON]"   ON)
+
 
 # Поиск библиотек Boost версии старше 1.48
 find_package(Boost 1.48 COMPONENTS
@@ -90,86 +107,45 @@ else(Boost_FOUND)
     message(FATAL_ERROR "Boost libraries not found. Please get a copy from http://www.boost.org")
 endif(Boost_FOUND)
 
-# Поиск библиотек MySQL
+
+# Поиск дополнительных библиотек
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_CURRENT_SOURCE_DIR}")
+include(TakeComponent)
+ 
 
-find_package(MYSQL)
-
-if(MYSQL_FOUND)
-    message(STATUS "MYSQL_INCLUDE_DIR: \"${MYSQL_INCLUDE_DIR}\"")
-    message(STATUS "MYSQL_LIBRARIES: \"${MYSQL_LIBRARIES}\"")
-
-    link_directories(${MYSQL_LIBRARIES})
-    include_directories(${MYSQL_INCLUDE_DIR})
-else(MYSQL_FOUND)
-    message(FATAL_ERROR "MySQL libraries not found. Please install a mysql++3 library.")
-endif(MYSQL_FOUND)
-
-
-# Поиск cppcms библиотеки
-find_path(CPPCMS_DIR NAMES "cppcms/application.h" PATHS "/usr/include" "/usr/local/include")
-find_library(CPPCMS_LIBRARY NAMES cppcms libcppcms PATHS "/usr/lib" "/usr/local/lib")
-
-if(${CPPCMS_LIBRARY} STREQUAL "CPPCMS_LIBRARY-NOTFOUND")
-    message(FATAL_ERROR "CppCMS library is not found.")
-else()
-    message(STATUS "CPPCMS_DIR:         \"${CPPCMS_DIR}\"")
-    message(STATUS "CPPCMS_LIBRARY:     \"${CPPCMS_LIBRARY}\"")
-endif()
-
-
-# Поиск htmlcxx библиотеки
-find_path(HTMLCXX_DIR NAMES "html/ParserDom.h" "html/CharsetConverter.h" PATHS "/usr/include/htmlcxx" "/usr/local/include/htmlcxx")
-find_library(HTMLCXX_LIBRARY NAMES htmlcxx libhtmlcxx PATHS "/usr/lib" "/usr/local/lib")
-
-if(${HTMLCXX_LIBRARY} STREQUAL "HTMLCXX_LIBRARY-NOTFOUND")
-    message(FATAL_ERROR "htmlcxx library is not found.")
-else()
-    message(STATUS "HTMLCXX_DIR:        \"${HTMLCXX_DIR}\"")
-    message(STATUS "HTMLCXX_LIBRARY:    \"${HTMLCXX_LIBRARY}\"")
-endif()
-
-# Поиск WtCpp библиотеки
-find_path(WT_DIR NAMES "Wt/WApplication" PATHS "/usr/include/Wt" "/usr/local/include/Wt")
-find_library(WT_LIBRARY           NAMES wt           libwt           PATHS "/usr/lib" "/usr/local/lib")
-find_library(WTHTTP_LIBRARY       NAMES wthttp       libwthttp       PATHS "/usr/lib" "/usr/local/lib")
-find_library(WTEXT_LIBRARY        NAMES wtext        libwtext        PATHS "/usr/lib" "/usr/local/lib")
-find_library(WTDBO_LIBRARY        NAMES wtdbo        libwdbo         PATHS "/usr/lib" "/usr/local/lib")
-find_library(WTDBOSQLITE3_LIBRARY NAMES wtdbosqlite3 libwtdbosqlite3 PATHS "/usr/lib" "/usr/local/lib")
-
-if(${WT_DIR} STREQUAL "WT_DIR-NOTFOUND")
-    message(FATAL_ERROR "Wt C++ toolkit library is not found.")
-else()
-    message(STATUS "WT_DIR:              \"${WT_DIR}\"")
-    message(STATUS "WT_LIBRARY:          \"${WT_LIBRARY}\"")
-    message(STATUS "WTHTTP_LIBRARY       \"${WTHTTP_LIBRARY}\"")
-    message(STATUS "WTEXT_LIBRARY        \"${WTEXT_LIBRARY}\"")
-    message(STATUS "WTDBO_LIBRARY        \"${WTDBO_LIBRARY}\"")
-    message(STATUS "WTDBOSQLITE3_LIBRARY \"${WTDBOSQLITE3_LIBRARY}\"")
-endif()
-
-
-# Указание общих настроек
-link_directories("/usr/lib")
-link_directories("/usr/local/lib")
-
-
-# Установка общих директорий включаемых файлов
-include_directories(${SRC_DIR})
-
-
-# Элементы.
+# Включение в сборку компонент
 add_subdirectory("${SRC_DIR}")
-add_subdirectory("${SRC_DIR}/layout-parser")
-add_subdirectory("${SRC_DIR}/layout-server")
 add_subdirectory("${SRC_DIR}/company-parser")
-add_subdirectory("${SRC_DIR}/companyes-web")
-add_subdirectory("${SRC_DIR}/http-server")
-#add_subdirectory("${SRC_DIR}/ctpp2")
 
+if(ENADLE_CTPP2)
+    take_component(CTPP2)
+    add_subdirectory("${SRC_DIR}/http-server")
+endif(ENADLE_CTPP2)
 
-# Директорию test включается только, если определен макро BUILD_TESTS=1
-if(BUILD_TESTS)
+if(ENADLE_WTCPP)
+    take_component(WTCPP)
+    add_subdirectory("${SRC_DIR}/companyes-web")
+endif(ENADLE_WTCPP)
+
+if(ENADLE_CPPCMS)
+    take_component(CPPCMS)
+endif(ENADLE_CPPCMS)
+
+if(ENADLE_HTMLCXX)
+    take_component(HTMLCXX)
+endif(ENADLE_HTMLCXX)
+
+if(ENADLE_CPPCMS AND ENADLE_HTMLCXX)
+    add_subdirectory("${SRC_DIR}/layout-parser")
+    add_subdirectory("${SRC_DIR}/layout-server")
+endif(ENADLE_CPPCMS AND ENADLE_HTMLCXX)
+
+if(ENADLE_MYSQL)
+    take_component(MYSQL)
+endif(ENADLE_MYSQL)
+
+# Директорию test включается только, если определен макро ENABLE_TESTS=ON
+if(ENADLE_TESTS)
     message("Include tests directory to build process")
 
     set(TESTS_DIR ${SRC_DIR}/tests)
@@ -181,6 +157,6 @@ if(BUILD_TESTS)
     include(UTest)
 
     add_subdirectory("${TESTS_DIR}")
-else(BUILD_TESTS)
-    message("Directory tests is not included to build. Run cmake -DBUILD_TESTS=1 to include.")
-endif(BUILD_TESTS)
+else(ENADLE_TESTS)
+    message("Directory tests is not included to build. Run cmake -DENABLE_TESTS=ON to include.")
+endif(ENADLE_TESTS)

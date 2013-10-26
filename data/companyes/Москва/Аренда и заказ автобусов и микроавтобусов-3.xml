@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Translinegroup</title>
+    <field_location type="field">
+        <latitude>55.782380</latitude>
+        <longitude>37.598699</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Аренда и заказ автобусов и микроавтобусов</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Новослободская, 20</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 973-93-61</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 973-94-14</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 972-75-65</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 971-30-62</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ИП Ляхов В.И.</title>
+    <field_location type="field">
+        <latitude>55.859256</latitude>
+        <longitude>37.602058</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Аренда и заказ автобусов и микроавтобусов</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Отрадная, 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (909) 151-52-51</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ТрансАльянс</title>
+    <field_location type="field">
+        <latitude>55.687624</latitude>
+        <longitude>37.613135</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Аренда и заказ автобусов и микроавтобусов</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Нагорный пр-д, 10, стр. 3</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 127-46-14</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 926-09-18</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

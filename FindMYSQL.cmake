@@ -37,7 +37,7 @@ endif(MYSQL_INCLUDE_DIR AND MYSQL_LIBRARY)
 
 if(MYSQL_FOUND)
     if(NOT MYSQL_FIND_QUIETLY)
-        message(STATUS "Found MySQL: ${MYSQL_LIBRARY}")
+        message(STATUS "MySQL quietly not found")
     endif(NOT MYSQL_FIND_QUIETLY)
 else(MYSQL_FOUND)
     if(MYSQL_FIND_REQUIRED)

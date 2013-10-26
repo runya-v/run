@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Речной вокзал Северный</title>
+    <field_location type="field">
+        <latitude>55.850676</latitude>
+        <longitude>37.467392</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Морские и речные вокзалы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Ленинградское ш., 51</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 458-87-68</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 626-94-09</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 457-40-50</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 783-73-44</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Южного Речного Вокзала касса</title>
+    <field_location type="field">
+        <latitude>55.689542</latitude>
+        <longitude>37.675613</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Морские и речные вокзалы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, просп. Андропова, 11, корп.2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 618-08-11</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Московские кабельные сети Филиал № 21</title>
+    <field_location type="field">
+        <latitude>55.861166</latitude>
+        <longitude>37.570707</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Электросетевые компании</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Дубнинская, 8а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 481-92-00</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 481-11-56</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 480-57-86</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 480-07-30</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 668-22-48</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 481-19-00</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 669-04-21</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 481-19-11</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Стройинжиниринг</title>
+    <field_location type="field">
+        <latitude>55.802649</latitude>
+        <longitude>37.535350</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Электросетевые компании</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Красноармейская, 27</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 641-79-92</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Мосэнергомонтаж ЖКУ</title>
+    <field_location type="field">
+        <latitude>56.011681</latitude>
+        <longitude>37.481163</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Мытищинский р-н, Лобня г., ул. Ленина, 15</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 577-03-33</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Люберецкая Квартирно-Эксплуатационная Часть ДУ № 2</title>
+    <field_location type="field">
+        <latitude>55.677565</latitude>
+        <longitude>37.875443</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Люберецкий р-н, Люберцы г., микрорайон Городок А, корп.43</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 741-52-40</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Балашихинская Квартирно-Эксплуатационная Часть</title>
+    <field_location type="field">
+        <latitude>55.823530</latitude>
+        <longitude>37.926153</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Балашихинский р-н, Балашиха г., микрорайон Гагарина, 20</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 523-63-11</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Балашихинская Квартирно-Эксплуатационная Часть ДУ № 1</title>
+    <field_location type="field">
+        <latitude>55.824764</latitude>
+        <longitude>37.921966</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Балашихинский р-н, Балашиха г., микрорайон Гагарина, 10</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 523-30-91</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Нахабинская Квартирно-Эксплуатационная Часть ДУ № 2</title>
+    <field_location type="field">
+        <latitude>55.839871</latitude>
+        <longitude>37.137540</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Красногорский р-н, Нахабино пос., ул. Школьная, 13</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (498) 720-21-49</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (498) 720-21-47</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Архангельская Квартирно-Эксплуатационная Часть ДУ № 2</title>
+    <field_location type="field">
+        <latitude>55.817148</latitude>
+        <longitude>37.311193</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Красногорский р-н, Красногорск г., ул. Комсомольская, 45</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 562-20-92</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Нахабинская Квартирно-Эксплуатационная Часть</title>
+    <field_location type="field">
+        <latitude>55.836120</latitude>
+        <longitude>37.178647</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Красногорский р-н, Нахабино пос., ул. Панфилова, 12а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 566-26-67</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Московская Железная Дорога Московско-Курское отд. Московско-Павелецкая дистанция гражданских соружений участок № 2 пос. Жилево (Ступинский район)</title>
+    <field_location type="field">
+        <latitude>54.984181</latitude>
+        <longitude>38.022596</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Ступинский р-н, Жилево пос., ул. Железнодорожная</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 649-53-15</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (496) 649-54-39</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Апрелевка РЭУ-2 пос. Калининец</title>
+    <field_location type="field">
+        <latitude>55.544759</latitude>
+        <longitude>36.979391</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Наро-Фоминский р-н, Калининец пос., 8</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 342-63-95</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (496) 342-63-83</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Газэнергосервис</title>
+    <field_location type="field">
+        <latitude>55.577546</latitude>
+        <longitude>37.901260</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Лыткарино, ул. Ленина, 19</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 552-16-33</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Подмосковье-Сервис Эук</title>
+    <field_location type="field">
+        <latitude>55.890058</latitude>
+        <longitude>37.445087</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Химки г., ул. Соколовская, 5-й кв-л., д. 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 575-69-07</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Государственный Космический Научно-Производственный центр им. Хруничева М.В. ЖКО ЖЭУ № 11</title>
+    <field_location type="field">
+        <latitude>55.681798</latitude>
+        <longitude>37.265136</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Одинцовский р-н, Одинцово г., ул. Маршала Жукова, 41</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 596-41-04</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Научный центр РАН в Черниголовке ЖКО г. Черноголовка</title>
+    <field_location type="field">
+        <latitude>56.009099</latitude>
+        <longitude>38.378805</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Ногинский р-н, Черноголовка г., Институтский просп., 8</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49652) 2-22-17</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (49652) 2-50-80</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Наро-Фоминская Квартирно-Эксплуатационная Часть г. Наро-Фоминск</title>
+    <field_location type="field">
+        <latitude>55.383009</latitude>
+        <longitude>36.730675</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Наро-Фоминский р-н, Наро-Фоминск г.</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 344-16-18</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (496) 344-20-06</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (496) 344-20-07</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (496) 344-15-89</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Жилищно-ремонтное эксплуатационное управление г. Жуковский</title>
+    <field_location type="field">
+        <latitude>55.585510</latitude>
+        <longitude>38.135262</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Раменский р-н, Жуковский г., ул. Амет-Хан-Султана, 5</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (498) 484-20-44</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Центральный завод Полигонного Учебного Оборудования Минобороны РФ ДУ № 195 ФГУП г. Бронницы</title>
+    <field_location type="field">
+        <latitude>55.425027</latitude>
+        <longitude>38.268923</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Бронницы г., ул. Советская, 75</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 466-51-42</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Квартирно-Эксплуатационная Часть Петелинская ДУ № 1 г. Кубинка-1</title>
+    <field_location type="field">
+        <latitude>55.572981</latitude>
+        <longitude>36.704507</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Одинцовский р-н, Кубинка г., Кубинка-1 военный городок</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 509-03-23</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Ногинская Квартирно-Эксплуатационная Часть г. Ногинск</title>
+    <field_location type="field">
+        <latitude>55.854032</latitude>
+        <longitude>38.442343</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Ногинский р-н, Ногинск г., ул. Патриаршая, 4</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 514-11-45</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Квартирно-Эксплуатационная Часть Теплый Стан</title>
+    <field_location type="field">
+        <latitude>55.611546</latitude>
+        <longitude>37.468012</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Ленинский р-н, Видное-4 г., ул. Героя России Соломатина</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 339-09-77</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 339-54-11</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Квартирно-Эксплуатационная Часть Теплый Стан ДУ № 1</title>
+    <field_location type="field">
+        <latitude>55.611546</latitude>
+        <longitude>37.468012</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Ленинский р-н, Видное-4 г., ул. Героя России Соломатина</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 424-36-24</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Архангельская Квартирно-Эксплуатационная Часть</title>
+    <field_location type="field">
+        <latitude>55.789436</latitude>
+        <longitude>37.300602</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Красногорский р-н, Архангельское пос.</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 561-98-13</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Квартирно-Эксплуатационное управление Московского Военного Округа Министерства Обороны ФГУП</title>
+    <field_location type="field">
+        <latitude>55.611546</latitude>
+        <longitude>37.468012</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Ленинский р-н, Видное-4 г., ул. Героя России Соломатина</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 339-61-16</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пущинский Научный центр РАН ЖЭУ г. Пущино</title>
+    <field_location type="field">
+        <latitude>54.834268</latitude>
+        <longitude>37.618938</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Серпуховский р-н, Пущино г., микрорайон В, 35</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (4967) 73-57-34</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Коломенская Квартирно-Эксплуатационная Часть г. Коломна</title>
+    <field_location type="field">
+        <latitude>55.100855</latitude>
+        <longitude>38.751525</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Коломенский р-н, Коломна г., ул. Ивановская, 8</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 619-26-71</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (496) 614-55-87</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Квартирно-Эксплуатационная Часть Симоновское г. Солнечногорск</title>
+    <field_location type="field">
+        <latitude>55.923175</latitude>
+        <longitude>37.868741</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Солнечногорский р-н, Солнечногорск-7 г., ул. Подмосковная, 31</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (4962) 63-93-26</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (4962) 63-54-22</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (4962) 63-92-03</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Болшевская Квартирно-Эксплуатационная Часть района</title>
+    <field_location type="field">
+        <latitude>55.939182</latitude>
+        <longitude>37.832153</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Пушкинский р-н, Юбилейный г., ул. Тихонравова, 9</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 519-04-87</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 519-85-20</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Мытищинская Квартирно-Эксплуатационная Часть района Кэу г. Москвы</title>
+    <field_location type="field">
+        <latitude>55.927387</latitude>
+        <longitude>37.742312</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Мытищинский р-н, Мытищи г., Рупасовский 2-й пер., 55</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 583-52-80</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Квартирно-Эксплуатационная Часть г. Подольск</title>
+    <field_location type="field">
+        <latitude>55.423903</latitude>
+        <longitude>37.517599</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Подольский р-н, Подольск г., ул. Парковая, 56</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (4967) 52-77-08</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (4967) 52-77-19</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Квартирно-Эксплуатационная Часть (района) № 194 ГУ г. Долгопрудный</title>
+    <field_location type="field">
+        <latitude>55.948412</latitude>
+        <longitude>37.529519</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Мытищинский р-н, Долгопрудный г., ул. Восточная, 47</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 408-22-36</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">201 Квартирно-Эксплуатационная Часть района г. Клин</title>
+    <field_location type="field">
+        <latitude>56.333744</latitude>
+        <longitude>36.738813</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Клинский р-н, Клин г., ул. Чайковского, 8</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49624) 5-81-10</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Министерства Обороны РФ Кэу г. Москвы, Люберецкая Кэч, Ду № 2</title>
+    <field_location type="field">
+        <latitude>55.759223</latitude>
+        <longitude>37.926305</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Балашиха город, Салтыковка м/р-н, Мирской пр-д, 3</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 984-52-78</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 984-52-76</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Мосэнергостроя СПК Ужкх ЖЭУ № 3</title>
+    <field_location type="field">
+        <latitude>55.932319</latitude>
+        <longitude>37.658059</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Мытищи г., Осташковское ш., 70б</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 472-93-58</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Инфракомплекс-Сервис</title>
+    <field_location type="field">
+        <latitude>56.012516</latitude>
+        <longitude>37.221622</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Солнечногорский р-н, Ржавки пос., 1, офис 24</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 797-70-16</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 735-99-09</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 797-70-08</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Министерства Обороны РФ Кэу г. Москвы Краснознаменская Кэч № 217</title>
+    <field_location type="field">
+        <latitude>55.586049</latitude>
+        <longitude>37.039758</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Краснознаменск г., ул. Строителей, 5</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 590-01-30</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Министерства Обороны РФ Кэу г. Москвы Люберецкая Кэч</title>
+    <field_location type="field">
+        <latitude>55.682199</latitude>
+        <longitude>37.897371</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Люберцы г., Городок А, 30</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 503-42-88</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 503-42-90</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 558-21-58</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 503-42-81</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Эксплуатация- Сервис Моис-1</title>
+    <field_location type="field">
+        <latitude>55.891502</latitude>
+        <longitude>37.422773</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Ведомственные коммунальные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Химки г., ул. Лавочкина, 8</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 572-36-85</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 572-37-49</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

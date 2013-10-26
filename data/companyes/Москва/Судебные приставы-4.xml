@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Федеральная Служба Судебных Приставов (ФССП России), Гл. управление по г. Москве Межрайонный отдел по особым исполнительным производствам</title>
+    <field_location type="field">
+        <latitude>55.778335</latitude>
+        <longitude>37.699633</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Судебные приставы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Почтовая Б., 26в, стр. 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 955-58-01</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Федеральная Служба Судебных Приставов (ФССП России), Гл. управление по г. Москве Отдел дознания и административной практики</title>
+    <field_location type="field">
+        <latitude>55.741029</latitude>
+        <longitude>37.576313</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Судебные приставы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Плющиха, 42</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 248-16-50</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 248-16-72</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 248-51-82</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 248-51-85</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Служба судебных приставов СЗАО</title>
+    <field_location type="field">
+        <latitude>55.848028</latitude>
+        <longitude>37.361292</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Судебные приставы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Митинская, 40, корп.1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 794-09-01</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 754-39-01</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 794-10-49</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 759-21-02</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Служба судебных приставов ЮЗАО</title>
+    <field_location type="field">
+        <latitude>55.679351</latitude>
+        <longitude>37.522926</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Судебные приставы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Марии Ульяновой, 9, корп.1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 138-32-51</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 133-84-51</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 138-28-51</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 133-00-06</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 133-84-19</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 133-00-16</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

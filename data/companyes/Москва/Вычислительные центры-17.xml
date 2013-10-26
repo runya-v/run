@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">АО Маст</title>
+    <field_location type="field">
+        <latitude>55.737101</latitude>
+        <longitude>37.575127</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Вычислительные центры</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Плющиха, 62</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Центр Вычислительных и Инженерных Работ</title>
+    <field_location type="field">
+        <latitude>55.754963</latitude>
+        <longitude>37.670438</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Вычислительные центры</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Сыромятнический просп., 8, стр. 6</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Инмаркет.ру</title>
+    <field_location type="field">
+        <latitude>55.824243</latitude>
+        <longitude>37.571076</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Вычислительные центры</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Дмитровское ш., 25, корп.1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 976-75-11</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ИВЦ</title>
+    <field_location type="field">
+        <latitude>55.634181</latitude>
+        <longitude>37.629960</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Вычислительные центры</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Промышленная, 11</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 782-96-12</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Главный Информационно-Вычислительный центр Металлургии Центринформ</title>
+    <field_location type="field">
+        <latitude>55.823419</latitude>
+        <longitude>37.495743</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Вычислительные центры</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Ленинградское ш., 18</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 150-85-01</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Вычислительный центр Коллективного Пользования</title>
+    <field_location type="field">
+        <latitude>55.726391</latitude>
+        <longitude>37.741405</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Вычислительные центры</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Газгольдерная, 14</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 171-05-21</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Главный Вычислительный центр Интуриста</title>
+    <field_location type="field">
+        <latitude>55.761680</latitude>
+        <longitude>37.616521</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Вычислительные центры</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Дмитровский пер., 4, стр. 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 621-33-10</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Центр Автоматизированного Начисления Социальных Выплат и Подготовки Аналитической Информации по Социальной Защите Населения г. Москвы ГУ</title>
+    <field_location type="field">
+        <latitude>55.771575</latitude>
+        <longitude>37.664725</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Вычислительные центры</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Басманный 1-й пер., 10</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 265-60-05</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 607-85-13</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Российские Железные Дороги ф-л Главный вычислительный центр</title>
+    <field_location type="field">
+        <latitude>55.770168</latitude>
+        <longitude>37.652445</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Вычислительные центры</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Каланчевская, 2/1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 623-07-01</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 262-09-09</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 262-63-96</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Лидник</title>
+    <field_location type="field">
+        <latitude>55.841559</latitude>
+        <longitude>37.568866</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Вычислительные центры</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Дмитровское ш., 51, корп.1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 482-43-15</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 482-06-14</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Управления Делами Президента РФ Клиническая больница ФГУ Отд. автоматизации лечебно-диагностических процессов</title>
+    <field_location type="field">
+        <latitude>55.837262</latitude>
+        <longitude>37.744594</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Вычислительные центры</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Лосиноостровская, 45</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 167-68-95</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 167-53-39</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 167-24-47</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Информационно-Вычислительный комплекс АНО</title>
+    <field_location type="field">
+        <latitude>55.800418</latitude>
+        <longitude>37.474444</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Вычислительные центры</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, пл. Академика Курчатова, 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 196-96-14</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 196-49-84</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агромикро</title>
+    <field_location type="field">
+        <latitude>55.861863</latitude>
+        <longitude>37.516224</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Вычислительные центры</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Флотская, 90</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 456-52-43</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Инвест-Сервис</title>
+    <field_location type="field">
+        <latitude>55.655422</latitude>
+        <longitude>37.618794</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Вычислительные центры</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Варшавское ш., 74, корп.2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">КТМ</title>
+    <field_location type="field">
+        <latitude>55.740852</latitude>
+        <longitude>37.617563</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Вычислительные центры</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Полянка Б., 7/10, стр. 3</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 953-77-79</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 953-77-66</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Московской Железной Дороги ИВЦ (ОАО РЖД) Московско-Рязанский Вц</title>
+    <field_location type="field">
+        <latitude>55.775019</latitude>
+        <longitude>37.657098</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Вычислительные центры</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Комсомольская пл., 2а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 266-92-41</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 266-31-91</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Мосэнерго ИВЦ</title>
+    <field_location type="field">
+        <latitude>55.735317</latitude>
+        <longitude>37.560125</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Вычислительные центры</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Бережковская наб., 16</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 240-97-93</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 240-98-45</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 240-49-84</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 240-49-60</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 240-33-88</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 240-98-19</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 240-33-96</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 240-93-53</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 240-93-50</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

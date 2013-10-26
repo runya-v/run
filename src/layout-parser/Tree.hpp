@@ -10,10 +10,10 @@
 #include <string>
 #include <map>
 
-#include "html/CharsetConverter.h"
-#include "html/Uri.h"
-#include "html/ParserDom.h"
-#include "html/utils.h"
+#include "htmlcxx/html/CharsetConverter.h"
+#include "htmlcxx/html/Uri.h"
+#include "htmlcxx/html/ParserDom.h"
+#include "htmlcxx/html/utils.h"
 
 
 namespace HtmlParser {

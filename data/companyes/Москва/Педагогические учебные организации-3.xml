@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Московский Педагогический государственный университет (МПГУ) центр информационных педагогических технологий</title>
+    <field_location type="field">
+        <latitude>55.822837</latitude>
+        <longitude>37.515865</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Педагогические учебные организации</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Клары Цеткин, 25</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 450-14-01</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 450-22-59</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 450-40-80</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Московский Педагогический государственный университет (МПГУ), Математический факультет</title>
+    <field_location type="field">
+        <latitude>55.780350</latitude>
+        <longitude>37.673888</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Педагогические учебные организации</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Гаврикова, 7/9</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 265-71-38</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 267-68-42</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Московский Педагогический государственный университет (МПГУ) Музыкальный факультет</title>
+    <field_location type="field">
+        <latitude>55.733548</latitude>
+        <longitude>37.655562</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Педагогические учебные организации</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Новоспасский пер., 3, корп.3</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 912-45-71</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 912-45-84</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Производственный комбинат Московского Речного Пароходства</title>
+    <field_location type="field">
+        <latitude>55.685777</latitude>
+        <longitude>37.685880</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пароходства и порты</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Якорная, 7а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 617-32-21</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 617-66-71</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Московское речное параходство</title>
+    <field_location type="field">
+        <latitude>55.724966</latitude>
+        <longitude>37.586347</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пароходства и порты</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Фрунзенская 1-я, 3а, корп.6</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 242-86-95</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 981-46-00</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 644-02-03</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

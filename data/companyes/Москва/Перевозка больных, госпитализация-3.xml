@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Станция скорой и неотложной медицинской помощи им. Пучкова А.С. Отдел госпитализации и перевозки рожениц и гинекологических больных</title>
+    <field_location type="field">
+        <latitude>55.773682</latitude>
+        <longitude>37.637425</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Перевозка больных, госпитализация</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Коптельский 1-й пер., 3</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 621-65-00</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 680-22-44</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 681-00-60</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Алмарина</title>
+    <field_location type="field">
+        <latitude>55.546883</latitude>
+        <longitude>37.578702</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Перевозка больных, госпитализация</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Павлоградская 2-я, 23</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 798-96-32</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 227-89-77</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 792-97-24</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Экспресс Мед</title>
+    <field_location type="field">
+        <latitude>55.771327</latitude>
+        <longitude>37.595465</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Перевозка больных, госпитализация</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Тверская-Ямская 2-я, 10</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 789-29-05</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

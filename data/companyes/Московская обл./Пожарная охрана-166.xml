@@ -1,0 +1,4408 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Нафта-Сервис Ноф</title>
+    <field_location type="field">
+        <latitude>55.757506</latitude>
+        <longitude>37.852006</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Реутов г., ул. Новая, 3</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 528-34-36</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная часть № 109</title>
+    <field_location type="field">
+        <latitude>55.551497</latitude>
+        <longitude>37.076364</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Наро-Фоминский р-н, Апрелевка г., ул. Августовская, 24</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49634) 5-31-01</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пушкинское Территориальное управление Силами и Средствами Мособлпожспас ГУ М.О. Спасательная служба</title>
+    <field_location type="field">
+        <latitude>56.065374</latitude>
+        <longitude>37.866127</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Пушкинский р-н, Правдинский пос., Степаньковское ш., 3</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 531-11-01</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">№ 326 Пожарная Часть Территориальное управление Силами и Средствами Мособлпожспас ГУ М.О. пос. Ашукино</title>
+    <field_location type="field">
+        <latitude>56.167358</latitude>
+        <longitude>37.951189</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Пушкинский р-н, Ашукино пос., ул. Железнодорожная, 20а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 531-32-01</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная Часть № 216 пос. Шувое</title>
+    <field_location type="field">
+        <latitude>55.380851</latitude>
+        <longitude>39.041582</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Егорьевский р-н, Егорьевск г., Шувое пос., ул. Коммунистическая, 1а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49640) 5-63-01</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная Часть № 117 с. Рогачево Дмитровского района</title>
+    <field_location type="field">
+        <latitude>56.431356</latitude>
+        <longitude>37.167445</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Дмитровский р-н, Рогачево с., ул. Первомайская</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 222-24-01</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Коломенское Территориальное управление Силами и Средствами ГУ М.О. Мособлпожспас с. Дединово</title>
+    <field_location type="field">
+        <latitude>55.053459</latitude>
+        <longitude>39.122583</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Луховицкий р-н, Дединово с., ул. Мичурина, 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 635-35-10</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная Часть № 226 пос. Пески</title>
+    <field_location type="field">
+        <latitude>55.210582</latitude>
+        <longitude>38.776040</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Коломенский р-н, Пески пос., ул. Железнодорожная, 34</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 617-42-01</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">№ 322 Пожарная Часть Коломенское Территориальное управление Силами и Средствами ГУ М.О. Мособлпожспас с. Акатьево</title>
+    <field_location type="field">
+        <latitude>54.977785</latitude>
+        <longitude>38.755244</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Коломенский р-н, Акатьево с.</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 617-12-10</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная Часть № 113 г. Сергиев Посад</title>
+    <field_location type="field">
+        <latitude>56.498008</latitude>
+        <longitude>38.179855</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Сергиево-Посадский р-н, Богородское пос.</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 545-30-01</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">№ 323 Пожарная Часть Коломенское Территориальное управление Силами и Средствами ГУ М.О. Мособлпожспас пос. Радужный</title>
+    <field_location type="field">
+        <latitude>55.100731</latitude>
+        <longitude>38.859008</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Коломенский р-н, Радужный пос.</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 617-03-13</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная Часть № 67 пос. Оболенск</title>
+    <field_location type="field">
+        <latitude>54.976457</latitude>
+        <longitude>37.250646</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Серпуховский р-н, Оболенск пос.</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (4967) 36-00-71</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная Часть № 112</title>
+    <field_location type="field">
+        <latitude>55.905644</latitude>
+        <longitude>37.674714</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Мытищинский р-н, Челобитьево дер.</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 957-11-05</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">№ 110 Пожарная Часть 23 ОФПС по М.О.Г. Электрогорск</title>
+    <field_location type="field">
+        <latitude>55.886342</latitude>
+        <longitude>38.780244</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Павлово-Посадский р-н, Электрогорск г., ул. Святого Константина, 8</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49643) 3-00-01</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Противопожарная Служба МЧС России пос. Ситне-Щелканово</title>
+    <field_location type="field">
+        <latitude>54.974623</latitude>
+        <longitude>37.962498</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Ступинский р-н, Ситне-Щелканово пос.</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 649-61-01</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная Часть № 223 с. Новопетровское</title>
+    <field_location type="field">
+        <latitude>55.993137</latitude>
+        <longitude>36.472562</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Истринский р-н, Новопетровское с.</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49631) 6-26-47</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ОГПС ПЧ № 90 г. Люберцы</title>
+    <field_location type="field">
+        <latitude>55.583408</latitude>
+        <longitude>37.904045</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Лыткарино г., Тураево пос., корп.141</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 552-91-95</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ОГПС ПЧ № 232 г. Люберцы</title>
+    <field_location type="field">
+        <latitude>55.615268</latitude>
+        <longitude>37.964511</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Люберецкий р-н, Октябрьский пос., ул. Кооперативная, 14</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 558-01-07</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Центральный Пункт Противопожарной Службы г. Одинцово</title>
+    <field_location type="field">
+        <latitude>55.682640</latitude>
+        <longitude>37.274766</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Одинцовский р-н, Одинцово г., Подушкинское ш., 5а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 593-23-34</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Люберецкое Территориальное управление Силами и Средствами ГУ МО Мособлпожспас</title>
+    <field_location type="field">
+        <latitude>55.635091</latitude>
+        <longitude>38.010127</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Люберецкий р-н, Малаховка пос., ул. Шоссейная, 40</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 501-55-01</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ПЧ № 95 г. Звенигорода</title>
+    <field_location type="field">
+        <latitude>55.721295</latitude>
+        <longitude>36.897573</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Звенигород г., Поречье п/о, территория Гражданской обороны</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 597-12-51</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ПЧ № 121 Химкинского ОГПС г. Сходня</title>
+    <field_location type="field">
+        <latitude>55.942358</latitude>
+        <longitude>37.326671</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Химки г., ул. Некрасова, 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 574-11-33</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ОФПС ПЧ № 36 г. Егорьевска</title>
+    <field_location type="field">
+        <latitude>55.368615</latitude>
+        <longitude>39.020498</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Егорьевский р-н, Егорьевск, ул. Сосновая, 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49640) 3-14-03</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Территориальное управление Силами и Средствами ГУ МО Мособлпожспас ПЧ № 218 г. Егорьевска</title>
+    <field_location type="field">
+        <latitude>55.468561</latitude>
+        <longitude>39.084171</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Егорьевский р-н, Шувое пос., Коммунистическая ул, д. 1а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49640) 5-63-01</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ОФПС № 13 ГУ г. Клина</title>
+    <field_location type="field">
+        <latitude>56.321316</latitude>
+        <longitude>36.709780</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Клинский р-н, Клин г., ул. Московская, 33</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49624) 5-83-86</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ОФПС № 19 ГУ г. Наро-Фоминска</title>
+    <field_location type="field">
+        <latitude>55.379583</latitude>
+        <longitude>36.757130</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Наро-Фоминский р-н, Наро-Фоминск, ул. Московская, 16</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49634) 3-60-22</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Противопожарная Служба г. Климовска</title>
+    <field_location type="field">
+        <latitude>55.379859</latitude>
+        <longitude>37.540524</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Климовск, ул. Заводская, 15/1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 996-59-70</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Раменское ОФПС № 26</title>
+    <field_location type="field">
+        <latitude>55.559125</latitude>
+        <longitude>38.255026</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Раменское г., просп. Дорожный, 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49646) 3-29-75</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная Охрана</title>
+    <field_location type="field">
+        <latitude>55.549236</latitude>
+        <longitude>37.752445</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Ленинский р-н, Видное г., ш. Белокаменное, МОСКОКС ОАО</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 541-94-00</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Специализированная пожарная часть № 343</title>
+    <field_location type="field">
+        <latitude>55.349445</latitude>
+        <longitude>38.428203</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Раменский р-н, Ульянино с., 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (903) 139-70-93</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Специальный отдел № 4</title>
+    <field_location type="field">
+        <latitude>55.430421</latitude>
+        <longitude>37.578585</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Подольск г., ул. Бронницкая, 4</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 769-93-67</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (4967) 52-90-48</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная охрана</title>
+    <field_location type="field">
+        <latitude>56.552186</latitude>
+        <longitude>37.430381</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Талдомский р-н, Запрудня пгт, ул. Карла Маркса, 16</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49620) 3-52-01</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Специализированная Пожарная Часть Федеральной Противопожарной Службы по Московской области г. Реутов</title>
+    <field_location type="field">
+        <latitude>55.766866</latitude>
+        <longitude>37.847092</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Балашихинский р-н, Реутов г., ул. Победы, 33</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 528-02-91</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 528-22-11</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Г. Дмитров 5-й Отряд Федеральной Противопожарной Службы по Московской области</title>
+    <field_location type="field">
+        <latitude>56.344102</latitude>
+        <longitude>37.538844</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Дмитровский р-н, Дмитров г., ул. Большевистская, 15а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 993-75-31</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Г. Видное 2-ой Отряд Федеральной Противопожарной Службы по Московской области</title>
+    <field_location type="field">
+        <latitude>55.548502</latitude>
+        <longitude>37.715552</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Ленинский р-н, Видное г., просп. Ленинского Комсомола, 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 541-37-00</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 541-37-11</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Г. Балашиха 1-й Отряд Федеральной Противопожарной Службы по Московской области</title>
+    <field_location type="field">
+        <latitude>55.801050</latitude>
+        <longitude>37.981695</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Балашихинский р-н, Балашиха г., ул. Пригородная, 4</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 521-91-90</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 524-91-59</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Г. Химки 1-я Пожарная Часть Федеральной Противопожарной Службы по Московской области ГУ</title>
+    <field_location type="field">
+        <latitude>55.888982</latitude>
+        <longitude>37.440739</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Химки г., ул. Ленинградская, 13</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 575-86-22</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 575-86-31</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Г. Подольск 24-й Отряд Федеральной Противопожарной Службы по Московской области</title>
+    <field_location type="field">
+        <latitude>55.419912</latitude>
+        <longitude>37.531020</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Подольский р-н, Подольск г., ул. Готвальда, 6</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (4967) 69-96-50</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Г. Люберцы 16-й Отряд Федеральной Противопожарной Службы по Московской области</title>
+    <field_location type="field">
+        <latitude>55.683605</latitude>
+        <longitude>37.875371</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Люберецкий р-н, Люберцы г., ул. Кирова, 34</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 559-86-66</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 559-77-55</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Г. Королев 80-я Пожарная Часть 18-ГО Отряда Федеральной Противопожарной Службы по Московской области</title>
+    <field_location type="field">
+        <latitude>55.922878</latitude>
+        <longitude>37.791019</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Мытищинский р-н, Королев г., ул. Калининградская, 29/1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 516-88-32</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Г. Одинцово Пожарная Часть № 3 Федеральной Противопожарной Службы МЧС России по Московской области ГУ</title>
+    <field_location type="field">
+        <latitude>55.669320</latitude>
+        <longitude>37.263007</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Одинцовский р-н, Одинцово г., Можайское ш., 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 593-12-43</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 593-46-46</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 593-14-42</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Федеральная Противопожарная служба по Московской области Отряд № 15 г. Красногорск</title>
+    <field_location type="field">
+        <latitude>55.814922</latitude>
+        <longitude>37.315119</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Красногорск г., Райцентр мкр., 14а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 562-01-10</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Г. Мытищи 18-й Отряд Федеральной Противопожарной Службы по Московской области</title>
+    <field_location type="field">
+        <latitude>55.918197</latitude>
+        <longitude>37.743687</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Мытищинский р-н, Мытищи г., ул. Комарова, 7</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 583-17-31</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Г. Истра Отряд Государственной Противопожарной Службы Государственного Учреждения Противопожарной Службы Московской области</title>
+    <field_location type="field">
+        <latitude>55.919352</latitude>
+        <longitude>36.867398</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Истринский р-н, Истра г., ул. Советская, 37</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 994-56-08</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 994-50-31</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Г. Люберцы Отдел Государственного Пожарного Надзора по Люберецкому Району Московской области</title>
+    <field_location type="field">
+        <latitude>55.683605</latitude>
+        <longitude>37.875371</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Люберецкий р-н, Люберцы г., ул. Кирова, 34</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 559-77-55</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Производственно-Технический центр Федеральной Противопожарной Службы по Московской области</title>
+    <field_location type="field">
+        <latitude>55.939605</latitude>
+        <longitude>37.763845</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Мытищи г., 4530-й пр-д, 4</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 583-97-52</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 583-57-93</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Специализированная Пожарная Часть № 37 ГУ 13 ОФПС МЧС России по Московской области г. Клин</title>
+    <field_location type="field">
+        <latitude>56.321316</latitude>
+        <longitude>36.709780</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Клинский р-н, Клин г., ул. Московская, 33</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49624) 2-60-13</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">№ 19 Отряд Федеральной Противопожарной Службы Государственного Учреждения Противопожарной Службы по Московской области г. Наро-Фоминск</title>
+    <field_location type="field">
+        <latitude>55.379583</latitude>
+        <longitude>36.757130</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Наро-Фоминский р-н, Наро-Фоминск г., ул. Московская, 16</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 343-73-80</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (496) 343-62-10</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Г. Солнечногорск 13-й Отряд Федеральной Противопожарной Службы по Московской области ГУ</title>
+    <field_location type="field">
+        <latitude>56.197153</latitude>
+        <longitude>36.966330</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Солнечногорский р-н, Солнечногорск г., ул. Вертлинская, 5</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 994-10-50</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 994-15-49</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Г. Пушкино 25-й Отряд Федеральной Противопожарной Службы по Московской области</title>
+    <field_location type="field">
+        <latitude>55.996455</latitude>
+        <longitude>37.867744</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Пушкинский р-н, Пушкино г., Ярославское ш., 1а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 993-43-01</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 993-37-49</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Г. Дмитров Отдел Государственного Пожарного Надзора по Дмитровскому Району ГУ МЧС России по Московской области</title>
+    <field_location type="field">
+        <latitude>56.344102</latitude>
+        <longitude>37.538844</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Дмитровский р-н, Дмитров г., ул. Большевистская, 15а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 993-75-51</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Г. Истра Отдел Государственного Пожарного Надзора по Истринскому Району Московской области</title>
+    <field_location type="field">
+        <latitude>55.919352</latitude>
+        <longitude>36.867398</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Истринский р-н, Истра г., ул. Советская, 37</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 994-50-31</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Г. Мытищи Отдел Государственного Пожарного Надзора по Мытищинскиму Району Московской области</title>
+    <field_location type="field">
+        <latitude>55.918197</latitude>
+        <longitude>37.743687</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Мытищинский р-н, Мытищи г., ул. Комарова, 7</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 583-88-89</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Отдел Государственного Пожарного Надзора по Рузскому Району г. Руза</title>
+    <field_location type="field">
+        <latitude>55.701516</latitude>
+        <longitude>36.191694</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Рузский р-н, Руза г., ул. Революционная, 62</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49627) 2-33-94</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (49627) 2-17-03</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (49627) 2-06-54</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная Часть № 70 г. Воскресенск</title>
+    <field_location type="field">
+        <latitude>55.301643</latitude>
+        <longitude>38.705576</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Воскресенский р-н, Воскресенск г., ул. Заводская, 9</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 442-69-54</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная Часть № 127 г. Бронницы</title>
+    <field_location type="field">
+        <latitude>55.556080</latitude>
+        <longitude>38.229702</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Раменский р-н, Бронницы г., ул. Красная, 57</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 466-56-56</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Каширское Территориальное управление Силами и Средствами ГУ М.О. Мособлпожспас г. Кашира</title>
+    <field_location type="field">
+        <latitude>54.851873</latitude>
+        <longitude>38.240123</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Каширский р-н, Кашира г., ул. Клубная, 9а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 692-07-53</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (496) 692-20-88</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная Часть № 243 Орехово-Зуевского района Турриториального Управления Силами и Средствами ГУ М.О. Мособлпожспас г. Куровское</title>
+    <field_location type="field">
+        <latitude>55.577068</latitude>
+        <longitude>38.899369</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Орехово-Зуевский р-н, Куровское г., ул. Советская, 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 411-32-01</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Мособлпожспас ГУ М.О.Г. Клин</title>
+    <field_location type="field">
+        <latitude>56.321316</latitude>
+        <longitude>36.709780</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Клинский р-н, Клин г., ул. Московская, 33</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49624) 2-74-70</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Отдел Государственного Пожарного Надзора по Одинцовскому Району</title>
+    <field_location type="field">
+        <latitude>55.669320</latitude>
+        <longitude>37.263007</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Одинцовский р-н, Одинцово г., Можайское ш., 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 593-25-68</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 593-12-43</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Егорьевский Отряд Государственной Противопожарной Службы МЧС Московской области ГУ</title>
+    <field_location type="field">
+        <latitude>55.368615</latitude>
+        <longitude>39.020498</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Егорьевский р-н, Егорьевск г., ул. Сосновая, 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49640) 3-06-45</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Ступинское Территориальное управление Силами и Средствами Государственное Учреждение Московской области Мособлпожспас г. Ступино</title>
+    <field_location type="field">
+        <latitude>54.882499</latitude>
+        <longitude>38.060289</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Ступинский р-н, Ступино г., ул. Бахарева, 6</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 642-06-32</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (496) 642-65-65</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная Часть № 266 г. Хотьково</title>
+    <field_location type="field">
+        <latitude>56.259708</latitude>
+        <longitude>37.973413</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Сергиево-Посадский р-н, Хотьково г., ул. Заводская</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 543-26-70</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная Часть № 239 ГУ МЧС России г. Верея</title>
+    <field_location type="field">
+        <latitude>55.341602</latitude>
+        <longitude>36.185020</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Наро-Фоминский р-н, Верея г., ул. Первомайская, 4</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 346-80-75</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная Часть № 39 г. Наро-Фоминск</title>
+    <field_location type="field">
+        <latitude>55.379583</latitude>
+        <longitude>36.757130</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Наро-Фоминский р-н, Наро-Фоминск г., ул. Московская, 16</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 343-62-10</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная Часть № 12 20-й Отряд Федеральной Противопожарной Службы ГУ МЧС России по Московской области г. Старая Купавна</title>
+    <field_location type="field">
+        <latitude>55.799026</latitude>
+        <longitude>38.184095</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Ногинский р-н, Старая Купавна г., ул. Кирова, 29</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 512-54-09</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Отделение надзорной деятельности</title>
+    <field_location type="field">
+        <latitude>56.016114</latitude>
+        <longitude>37.474219</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Лобня г., ул. Промышленная, 4</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 577-36-55</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная часть № 7</title>
+    <field_location type="field">
+        <latitude>55.423904</latitude>
+        <longitude>37.52834</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Подольск г., ул. Клемента Готвальда, 6</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (4967) 54-56-10</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Г. Балашиха Отдел Государственного Пожарного Надзора по Балашихинскому Району ГУ МЧС России по Московской области</title>
+    <field_location type="field">
+        <latitude>55.801050</latitude>
+        <longitude>37.981695</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Балашихинский р-н, Балашиха г., ул. Пригородная, 4</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 521-98-41</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Г. Лыткарино Лыткаринский завод Оптического Стекла Пожарная часть № 21 Мовдпо</title>
+    <field_location type="field">
+        <latitude>55.695337</latitude>
+        <longitude>37.867457</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Люберецкий р-н, Люберцы, ул. Парковая, 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 552-99-58</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Г. Пушкино Отдел Государственного Пожарного Надзора по Пушкинскому Району Московской области</title>
+    <field_location type="field">
+        <latitude>55.996455</latitude>
+        <longitude>37.867744</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Пушкинский р-н, Пушкино г., Ярославское ш., 1а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 993-55-02</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">37-й Отряд Федеральной противопожарной службы по Московской области</title>
+    <field_location type="field">
+        <latitude>55.9134</latitude>
+        <longitude>38.00178</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Щелково г., ул. Советская, 21а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 566-98-04</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (496) 566-47-76</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Отдел Надзорной Деятельности Управления Надзорной Деятельности МЧС России по Московской области г. Ступино</title>
+    <field_location type="field">
+        <latitude>54.892820</latitude>
+        <longitude>38.062122</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Ступинский р-н, Ступино г., ул. Пристанционная, 27</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 644-50-03</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (496) 644-32-83</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Мособлпожспас ГУ Пожарная Часть № 312 г. Руза</title>
+    <field_location type="field">
+        <latitude>55.701516</latitude>
+        <longitude>36.191694</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Рузский р-н, Руза г., ул. Революционная, 62</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49627) 2-02-62</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (49627) 5-02-61</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (49627) 2-17-97</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Отдел Государственного Пожарного Надзора по Наро-Фоминскому Району г. Наро-Фоминск</title>
+    <field_location type="field">
+        <latitude>55.379583</latitude>
+        <longitude>36.757130</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Наро-Фоминский р-н, Наро-Фоминск г., ул. Московская, 16</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 343-98-01</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Отдел Государственного Пожарного Надзора по Раменскому Району г. Раменское</title>
+    <field_location type="field">
+        <latitude>55.564832</latitude>
+        <longitude>38.229226</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Раменский р-н, Раменское г., ул. Вокзальная, 13</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 463-43-61</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Отдел Государственного Пожарного Надзора по Городскому Округу Домодедово г. Домодедово</title>
+    <field_location type="field">
+        <latitude>55.326665</latitude>
+        <longitude>38.680423</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Домодедовский р-н, Домодедово г., микрорайон Центральный, ул. Советская, 17</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 793-03-07</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Г. Кашира Пожарная Часть № 104 Федеральной Противопожарной Службы МЧС России по Московской области</title>
+    <field_location type="field">
+        <latitude>54.837089</latitude>
+        <longitude>38.150417</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Каширский р-н, Кашира г., ул. Советская, 33а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49669) 3-10-63</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Отдел Пожарного Надзора по Воскресенскому Району ГУ МЧС России по Московской области г. Воскресенск</title>
+    <field_location type="field">
+        <latitude>55.306865</latitude>
+        <longitude>38.653806</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Воскресенский р-н, Воскресенск г., ул. Цесиса, 13</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 441-25-33</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Отдел Государственного Пожарного Надзора по Сергиево Посадскому Району г. Сергиев Посад</title>
+    <field_location type="field">
+        <latitude>56.294046</latitude>
+        <longitude>38.151522</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Сергиево-Посадский р-н, Сергиев Посад г., ул. Центральная, 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 541-43-80</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (496) 541-43-77</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (496) 541-43-90</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (496) 541-43-51</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Специализированная Пожарная Часть № 244 ОФПС ГУ МЧС России по Московской области г. Голицыно</title>
+    <field_location type="field">
+        <latitude>55.630085</latitude>
+        <longitude>36.968656</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Одинцовский р-н, Голицыно г., Можайское ш., 158</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (498) 694-35-57</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Дубненское Территориальное управление Силами и Средствами ГУ МО Мособлпожспас г. Талдом</title>
+    <field_location type="field">
+        <latitude>56.727645</latitude>
+        <longitude>37.522620</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Талдомский р-н, Талдом г., ул. Красина, 20</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49620) 6-06-07</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (49620) 6-05-72</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (49620) 6-06-09</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">20-ый Отряд Федеральной Противопожарной Службы по Московской области г. Ногинск</title>
+    <field_location type="field">
+        <latitude>55.860706</latitude>
+        <longitude>38.453374</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Ногинский р-н, Ногинск г., ул. Рабочая, 23</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 514-18-63</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Мособлпожспас Пожарная Часть № 340 пос. Ильинский</title>
+    <field_location type="field">
+        <latitude>55.630975</latitude>
+        <longitude>38.102169</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Раменский р-н, Ильинский пос., ул. Пролетарская, 49</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 462-14-01</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная Часть № 78 г. Фрязино</title>
+    <field_location type="field">
+        <latitude>55.944420</latitude>
+        <longitude>38.056561</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Щелковский р-н, Фрязино г., Котельный пр-д, 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 564-42-20</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (496) 564-25-62</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Волоколамское Территориальное управление Силами и Средствами Мособлпожспас ГУ М.О. пос. Шаховская</title>
+    <field_location type="field">
+        <latitude>56.026518</latitude>
+        <longitude>35.499282</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Шаховской р-н, Шаховская пос., Рижское ш., 5</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49637) 3-32-03</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Управление Государственной Противопожарной Службы № 3 МЧС России Московской области ГУ Отряд № 21 государственной противопожарной службы г. Красноармейск</title>
+    <field_location type="field">
+        <latitude>56.127517</latitude>
+        <longitude>38.139242</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Пушкинский р-н, Красноармейск г., ул. Дачная, 1а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 538-27-01</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная Часть № 298 с. Раменье</title>
+    <field_location type="field">
+        <latitude>56.152169</latitude>
+        <longitude>35.497351</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Шаховской р-н, Раменье с., ул. Колхозная, 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49637) 6-91-50</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная Часть № 206 Ступинское Территориальное управление Силами и Средствами Государственное Учреждение Московской области Мособлпожспас г. Озеры</title>
+    <field_location type="field">
+        <latitude>54.859222</latitude>
+        <longitude>38.541786</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Озерский р-н, Озеры г., Рабочий пер., 12</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49670) 2-11-23</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">№ 29 Отряд Федеральной Противопожарной Службы Государственного Учреждения Противопожарной Службы по Московской области г. Серпухов</title>
+    <field_location type="field">
+        <latitude>54.911549</latitude>
+        <longitude>37.419745</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Серпуховский р-н, Серпухов г., ул. Московская 2-я, 9</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (4967) 72-27-36</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (4967) 72-04-01</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">№ 269 Пожарная Часть Ступинское Территориальное управление Силами и Средствами Мособлпожспас пос. Михнево (Ступинский район)</title>
+    <field_location type="field">
+        <latitude>55.122143</latitude>
+        <longitude>37.955734</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Ступинский р-н, Михнево пос., ул. Московская, 19а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49664) 6-62-65</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная Часть № 271 пос. Малино (Ступинский район)</title>
+    <field_location type="field">
+        <latitude>55.108375</latitude>
+        <longitude>38.177762</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Ступинский р-н, Малино пос., ул. Горького, 37</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 645-54-29</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Ногинское Территориальное управление Силами и Средствами Государственное Учреждение Московской области Мособлпожспас г. Электросталь</title>
+    <field_location type="field">
+        <latitude>55.778623</latitude>
+        <longitude>38.438956</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Ногинский р-н, Электросталь г., ул. Чернышевского, 58</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 571-03-51</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (496) 571-15-71</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Управление Государственного Пожарного Надзора ГУ М.О. МЧС России Волоколамский отдел</title>
+    <field_location type="field">
+        <latitude>56.032227</latitude>
+        <longitude>35.959678</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Волоколамский р-н, Волоколамск г., ул. Панфилова, 13</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49636) 2-24-16</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Г. Фрязино Специальная Пожарная Часть № 48 Специального Отдела № 2 ГУ Федеральной Противопожарной Службы № 3 МЧС России</title>
+    <field_location type="field">
+        <latitude>55.911800</latitude>
+        <longitude>37.999859</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Щелковский р-н, Фрязино г., ул. Вокзальная, 6</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 465-88-98</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (496) 565-11-01</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (496) 565-13-98</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Протвинский Отряд Государственной Противопожарной Службы № 88 МЧС России Московской области</title>
+    <field_location type="field">
+        <latitude>54.874512</latitude>
+        <longitude>37.208003</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Серпуховский р-н, Протвино г., ул. Дружбы, 1а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (4967) 71-33-21</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">№ 229 Пожарная Часть Коломенское Территориальное управление Силами и Средствами ГУ М.О. Мособлпожспас г. Луховицы</title>
+    <field_location type="field">
+        <latitude>54.966644</latitude>
+        <longitude>39.025978</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Луховицкий р-н, Луховицы г., ул. Пушкина, 136</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 632-13-75</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (496) 636-14-56</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ГУ 8 ПЧ ФПС по МО</title>
+    <field_location type="field">
+        <latitude>55.659876</latitude>
+        <longitude>39.881947</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Рошаль г., ул. Коммунаров, 6</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49645) 5-09-11</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная Часть № 273 Мособлпожспас дер. Евлево</title>
+    <field_location type="field">
+        <latitude>55.244711</latitude>
+        <longitude>40.048548</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Шатурский р-н, Евлево дер.</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49645) 6-72-89</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная Часть № 87 г. Сергиев Посад</title>
+    <field_location type="field">
+        <latitude>56.294046</latitude>
+        <longitude>38.151522</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Сергиево-Посадский р-н, Сергиев Посад г., ул. Центральная, 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 540-24-00</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная Часть № 97 г. Сергиев Посад</title>
+    <field_location type="field">
+        <latitude>56.321531</latitude>
+        <longitude>38.146815</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Сергиево-Посадский р-н, Сергиев Посад г., просп. Красной Армии, 212в, корп.18</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 542-14-96</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Специальный Отряд № 18 СУ ФПС № 36 МЧС России ГУ г. Дубна</title>
+    <field_location type="field">
+        <latitude>56.756163</latitude>
+        <longitude>37.123562</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Талдомский р-н, Дубна г., ул. Жуковского, 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49621) 5-19-01</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (49621) 5-34-06</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Г. Люберцы Пожарная Часть № 68 Федеральной Противопожарной Службы МЧС России по Московской области</title>
+    <field_location type="field">
+        <latitude>55.697021</latitude>
+        <longitude>37.875829</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Люберецкий р-н, Люберцы г., ул. Восьмого Марта, 10</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 554-32-31</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Дубненское Территориальное управление Силами и Средствами ГУ МО Мособлпожспас г. Дубна</title>
+    <field_location type="field">
+        <latitude>56.732163</latitude>
+        <longitude>37.155335</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Талдомский р-н, Дубна г., ул. Попова, 4</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49621) 4-72-07</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">№ 74 Пожарная Часть Федеральной Противопожарной Службы по Московской области ГУ г. Дубна</title>
+    <field_location type="field">
+        <latitude>56.729442</latitude>
+        <longitude>37.158866</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Талдомский р-н, Дубна г., ул. Промышленная, 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 216-63-72</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (49621) 3-05-69</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная Часть № 58 г. Домодедово</title>
+    <field_location type="field">
+        <latitude>55.326665</latitude>
+        <longitude>38.680423</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Домодедовский р-н, Домодедово г., микрорайон Центральный, ул. Советская, 17</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49679) 3-02-47</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная Часть № 279 Мособлпожспас пос. Фряново</title>
+    <field_location type="field">
+        <latitude>56.130116</latitude>
+        <longitude>38.430754</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Щелковский р-н, Фряново пос., ул. Первомайская</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 563-53-02</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная Часть № 56 ГУ г. Щербинка</title>
+    <field_location type="field">
+        <latitude>55.490116</latitude>
+        <longitude>37.563736</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Подольский р-н, Щербинка г., ул. Южная, 4</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (4967) 67-03-41</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная Часть Федеральной Противопожарной Службы по Московской области г. Чехов</title>
+    <field_location type="field">
+        <latitude>55.155216</latitude>
+        <longitude>37.472036</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Чеховский р-н, Чехов г., ул. Полиграфистов, 8</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 726-54-16</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Противопожарная Служба МЧС России пос. Михнево</title>
+    <field_location type="field">
+        <latitude>55.122143</latitude>
+        <longitude>37.955734</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Ступинский р-н, Михнево пос.</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 646-64-01</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная Часть № 59 г. Зарайск</title>
+    <field_location type="field">
+        <latitude>54.779629</latitude>
+        <longitude>38.885482</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Зарайский р-н, Зарайск г., ул. Московская</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49666) 2-46-57</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">№ 42 Пожарная Часть 26 ОФПС по М.О.Г. Раменское</title>
+    <field_location type="field">
+        <latitude>55.563452</latitude>
+        <longitude>38.258071</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Раменский р-н, Раменское г., Дорожный пр-д, 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 463-33-49</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Волоколамское Территориальное управление Силами и Средствами Мособлпожспас ГУ МО г. Волоколамск</title>
+    <field_location type="field">
+        <latitude>56.032227</latitude>
+        <longitude>35.959678</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Волоколамский р-н, Волоколамск г., ул. Панфилова, 13</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49636) 2-87-10</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (49636) 2-13-00</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Специальная Пожарная Часть № 153 Специального Управления Федеральной Противопожарной Службы № 100 МЧС России ГУ</title>
+    <field_location type="field">
+        <latitude>55.670610</latitude>
+        <longitude>36.900816</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Одинцовский р-н, Дома отдыха Огарево пос.</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 635-97-90</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">25-ый Отдел Федеральной Противопожарной Службы ГУ МЧС России по Московской области г. Ивантеевка</title>
+    <field_location type="field">
+        <latitude>55.965632</latitude>
+        <longitude>37.928866</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Пушкинский р-н, Ивантеевка г., ул. Железнодорожная, 16</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 536-18-57</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">№ 216 Пожарная Часть Егорьевское Территориальное управление Силами и Средствами ГУ М.О. Мособлпожспас г. Егорьевск</title>
+    <field_location type="field">
+        <latitude>55.386267</latitude>
+        <longitude>39.042669</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Егорьевский р-н, Егорьевск г., ул. Софьи Перовской, 27</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49640) 4-35-81</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная Часть № 52 29 Отряд Федеральной Противопожарной Службы ГУ МЧС России по Московской области г. Пущино</title>
+    <field_location type="field">
+        <latitude>54.827604</latitude>
+        <longitude>37.620124</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Серпуховский р-н, Пущино г., ул. Грузовая, 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (4967) 73-26-58</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (4967) 73-08-94</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (4967) 73-19-50</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Отдел Государственного Пожарного Надзора г. Можайск</title>
+    <field_location type="field">
+        <latitude>55.504751</latitude>
+        <longitude>36.044479</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Можайский р-н, Можайск г., ул. Мира, 95</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49638) 2-38-70</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (49638) 2-12-64</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Отдел Государственного Пожарного Надзора по Серпуховскому Району г. Серпухов</title>
+    <field_location type="field">
+        <latitude>54.911549</latitude>
+        <longitude>37.419745</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Серпуховский р-н, Серпухов г., ул. Московская 2-я, 9</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (4967) 35-17-89</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (4967) 72-27-36</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (4967) 35-15-01</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Волоколамское Территориальное управление Силами и Средствами Мособлпожспас Пожарная часть № 208 г. Волоколамск</title>
+    <field_location type="field">
+        <latitude>56.032227</latitude>
+        <longitude>35.959678</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Волоколамский р-н, Волоколамск г., ул. Панфилова, 13</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49636) 2-44-10</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная Часть № 318 г. Звенигород</title>
+    <field_location type="field">
+        <latitude>55.723699</latitude>
+        <longitude>37.361049</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Одинцовский р-н, Звенигород г., ул. Московская, 11</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 597-12-51</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Лотошинский Отряд Государственной Противопожарной Службы МЧС России по Московской области ГУ</title>
+    <field_location type="field">
+        <latitude>56.230202</latitude>
+        <longitude>35.642159</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Лотошинский р-н, Лотошино пос., ул. Калинина, 11</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49628) 7-07-88</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (49628) 7-02-01</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная часть № 270</title>
+    <field_location type="field">
+        <latitude>56.389926</latitude>
+        <longitude>37.524875</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Дмитров г., ул. Промышленная, 27</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49622) 3-07-44</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная часть № 85</title>
+    <field_location type="field">
+        <latitude>55.882217</latitude>
+        <longitude>38.786236</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Электрогорск г., ул. Советская, 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49643) 3-20-67</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Специальное управление ФПС № 3 МЧС России, Специальный отдел № 7</title>
+    <field_location type="field">
+        <latitude>55.586619</latitude>
+        <longitude>38.132271</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Жуковский г., ул. Гарнаева, 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 556-55-59</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 484-24-21</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Всероссийское Добровольное Пожарное Общество центр. Совет (ВДПО), Моск. Обл. отделение, Балашихинское районное отделение</title>
+    <field_location type="field">
+        <latitude>55.757480</latitude>
+        <longitude>37.921634</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Балашиха город, Салтыковка м/р-н, ш. Ильича, 3</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 529-95-11</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Управления по Чрезвычайным Ситуациям и Пожарной Безопасности: г. Балашиха</title>
+    <field_location type="field">
+        <latitude>55.813131</latitude>
+        <longitude>37.957531</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Балашиха г., ул. Советская, 34</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 524-10-61</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 529-21-54</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 524-11-45</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 529-47-13</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 529-56-33</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Управления по Чрезвычайным Ситуациям и Пожарной Безопасности: г. Дзержинский</title>
+    <field_location type="field">
+        <latitude>55.632809</latitude>
+        <longitude>37.852697</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Дзержинский г., ул. Угрешская, 20</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 550-20-93</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 550-03-03</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Управления по Чрезвычайным Ситуациям и Пожарной Безопасности: г. Дмитров</title>
+    <field_location type="field">
+        <latitude>56.341997</latitude>
+        <longitude>37.517132</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Дмитров г., ул. Советская, 4</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 993-95-32</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Управления по Чрезвычайным Ситуациям и Пожарной Безопасности: г. Железнодорожный</title>
+    <field_location type="field">
+        <latitude>55.745336</latitude>
+        <longitude>37.966011</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Железнодорожный г., ул. Береговая, 8</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 522-30-47</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 522-01-12</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Всероссийское Добровольное Пожарное Общество центр. Совет (ВДПО), Моск. Обл. отделение г. Железнодорожный гор. отделение</title>
+    <field_location type="field">
+        <latitude>55.749030</latitude>
+        <longitude>37.973485</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Железнодорожный г., ул. Керамическая, 28</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 522-08-10</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Управления по Чрезвычайным Ситуациям и Пожарной Безопасности: г. Климовска</title>
+    <field_location type="field">
+        <latitude>55.379859</latitude>
+        <longitude>37.540524</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Климовск г., ул. Заводская, 15/1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (4967) 62-36-18</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (4967) 62-33-01</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Управления по Чрезвычайным Ситуациям и Пожарной Безопасности: г. Солнечногорск</title>
+    <field_location type="field">
+        <latitude>56.191378</latitude>
+        <longitude>36.973058</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Солнечногорск г., ул. Набережная, 11</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 994-12-34</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (49626) 4-19-13</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Управления по Чрезвычайным Ситуациям и Пожарной Безопасности: г. Долгопрудный</title>
+    <field_location type="field">
+        <latitude>55.952006</latitude>
+        <longitude>37.493263</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Долгопрудный г., Лихачевское ш., 24</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 408-72-22</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Иг. Долгопрудный ОГПС г. Долгопрудный</title>
+    <field_location type="field">
+        <latitude>55.942207</latitude>
+        <longitude>37.485700</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Долгопрудный г., ул. Молодежная, 14, корп.3</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 408-83-59</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 576-80-00</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 576-31-20</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">20-й Отряд ФПС ГУ МЧС России по Моск. области</title>
+    <field_location type="field">
+        <latitude>55.860706</latitude>
+        <longitude>38.453374</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Ногинск г., ул. Рабочая, 23</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 524-52-09</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Управления по Чрезвычайным Ситуациям и Пожарной Безопасности: г. Троицк</title>
+    <field_location type="field">
+        <latitude>55.472929</latitude>
+        <longitude>37.301159</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Троицк г., ул. Юбилейная, 3</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (4967) 51-00-32</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">24-й Отряд ПЧ-47</title>
+    <field_location type="field">
+        <latitude>55.466118</latitude>
+        <longitude>37.299248</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Троицк г., Калужское ш., 41-й км</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (4967) 51-00-01</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Управления по Чрезвычайным Ситуациям и Пожарной Безопасности: г. Красногорск</title>
+    <field_location type="field">
+        <latitude>55.820395</latitude>
+        <longitude>37.319206</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Красногорск г., ул. Ленина, 4</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 562-10-38</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 563-52-98</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Управления по Чрезвычайным Ситуациям и Пожарной Безопасности: г. Жуковский</title>
+    <field_location type="field">
+        <latitude>55.595155</latitude>
+        <longitude>38.114979</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Жуковский г., ул. Фрунзе, 23</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 556-90-62</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 556-62-21</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 556-22-38</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">6-й Отряд ФПС ГУ МЧС России по Московской области</title>
+    <field_location type="field">
+        <latitude>55.929712</latitude>
+        <longitude>37.499516</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Долгопрудный г., ул. Летная, 3</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 408-65-55</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">33-й Отряд ФПС ГУ МЧС России по Моск. области</title>
+    <field_location type="field">
+        <latitude>55.888982</latitude>
+        <longitude>37.440739</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Химки г., ул. Ленинградская, 13</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 575-86-31</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 575-86-86</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 575-86-22</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Управления по Чрезвычайным Ситуациям и Пожарной Безопасности: г. Раменское</title>
+    <field_location type="field">
+        <latitude>55.564832</latitude>
+        <longitude>38.229226</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Раменское г., ул. Вокзальная, 13</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 556-23-02</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Московская Областная Противопожарно-Спасательная Служба (Мособлпожспас) Одинцовское Террит. управление Силами и Средствами (ПЧ № 246)</title>
+    <field_location type="field">
+        <latitude>55.706832</latitude>
+        <longitude>37.366206</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Одинцовский р-н, Новоивановское пос., ул. Калинина, 15</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 591-82-61</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарный расчет УМНР</title>
+    <field_location type="field">
+        <latitude>55.760408</latitude>
+        <longitude>37.857180</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Реутов г., ул. Победы, 9</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 777-91-11</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Всероссийское Добровольное Пожарное Общество центр. Совет (ВДПО), Моск. Обл. отделение Подольский районный отдел</title>
+    <field_location type="field">
+        <latitude>55.432699</latitude>
+        <longitude>37.548869</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Подольск г., ул. Холодова, 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 773-22-26</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">18-й Отряд ФПС ГУ МЧС России по Моск. области ПЧ № 16</title>
+    <field_location type="field">
+        <latitude>55.908621</latitude>
+        <longitude>37.733599</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Мытищи г., Силикатный тупик, 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 582-42-84</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">16-й Отряд ФПС ГУ МЧС России по Моск. области ПЧ № 25</title>
+    <field_location type="field">
+        <latitude>55.669432</latitude>
+        <longitude>37.952518</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Люберецкий р-н, Томилино пос., ул. Гоголя, 39/1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 557-35-11</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 557-57-09</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 557-90-26</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">16-й Отряд ФПС ГУ МЧС России по Моск. области ПЧ № 72</title>
+    <field_location type="field">
+        <latitude>55.636417</latitude>
+        <longitude>37.816001</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Дзержинский г., ул. Энергетиков, 5</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 551-37-54</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 551-37-45</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 551-69-74</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">МЧС России по Московской области Пожарная часть № 75</title>
+    <field_location type="field">
+        <latitude>55.740436</latitude>
+        <longitude>37.966289</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Железнодорожный г., ул. Керамическая, 1а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 527-70-01</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 527-60-75</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 527-61-65</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 527-71-01</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Одинцовского района ОГПС ПЧ № 95</title>
+    <field_location type="field">
+        <latitude>55.695317</latitude>
+        <longitude>36.889030</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Одинцовский р-н, Введенское п/о, 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 597-12-51</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная часть № 82 Отряд № 6</title>
+    <field_location type="field">
+        <latitude>56.017685</latitude>
+        <longitude>37.477615</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Лобня г., ул. Промышленная, 4</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 577-14-48</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 579-05-81</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">16-й Отряд ФПС ГУ МЧС России по Моск. области ПЧ № 90</title>
+    <field_location type="field">
+        <latitude>55.583408</latitude>
+        <longitude>37.904045</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Лыткарино г., Тураево промзона, 141</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 552-91-95</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 555-21-90</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 552-34-05</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">16-й Отряд ФПС ГУ МЧС России по Моск. области ПЧ № 100, ПЧ № 303</title>
+    <field_location type="field">
+        <latitude>55.583408</latitude>
+        <longitude>37.904045</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Лыткарино г., 3а кварт., 22</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 552-44-22</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 552-42-88</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Специальное управление ФПС № 3 МЧС России Специальный отдел № 26 (СПЧ № 16)</title>
+    <field_location type="field">
+        <latitude>55.764526</latitude>
+        <longitude>37.865983</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Реутов г., ул. Гагарина, 29</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 528-00-10</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 528-00-01</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Специальное управление ФПС № 3 МЧС России Специальный отдел № 7</title>
+    <field_location type="field">
+        <latitude>55.601071</latitude>
+        <longitude>38.090580</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Жуковский г., Циолковского наб., 5</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 556-43-25</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Специальное управление ФПС № 3 МЧС России, Специальный отдел № 7 СПЧ № 11</title>
+    <field_location type="field">
+        <latitude>55.628256</latitude>
+        <longitude>37.836977</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Дзержинский г., ул. Жукова Академика, 28</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 551-04-11</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 551-77-75</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 551-72-87</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 551-04-44</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 551-72-09</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Специальное управление ФПС № 3 МЧС России, Специальный отдел № 2 СПЧ № 20</title>
+    <field_location type="field">
+        <latitude>55.919422</latitude>
+        <longitude>37.804853</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Королев г., Дзержинского пр-д, 4а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 516-57-30</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 513-84-13</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Специальное управление ФПС № 3 МЧС России, Специальный отдел № 2 СПЧ № 21</title>
+    <field_location type="field">
+        <latitude>55.926358</latitude>
+        <longitude>37.813827</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Королев г., ул. Грабина, 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 516-02-88</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 513-62-49</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 513-63-22</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Специальное управление ФПС № 3 МЧС России Специальный отдел № 6</title>
+    <field_location type="field">
+        <latitude>55.904014</latitude>
+        <longitude>37.451591</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Химки г., ул. Бурденко, 3</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 735-05-01</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 736-04-56</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 573-26-74</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 735-73-92</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 734-13-95</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 735-09-51</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 572-74-35</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ПО Делам Гражданской Обороны, Чрезвычайным Ситуациям и Ликвидации Последствий Стихийных Бедствий Министерство РФ (МЧС России), Гл. управление по Московской области Центральный пункт связи</title>
+    <field_location type="field">
+        <latitude>55.682640</latitude>
+        <longitude>37.274766</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Одинцово г., Подушкинское ш., 5а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 593-23-34</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Отряд 5 федеральной противопожарной службы по ХМАО-Югре государственное учреждение</title>
+    <field_location type="field">
+        <latitude>55.138217</latitude>
+        <longitude>38.726677</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Радужный г., ул. Новая, 24</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (34668) 3-87-15</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">5 Отряд Федеральной противопожарной службы 73 Пожарная часть по ХМАО-Югре ГУ</title>
+    <field_location type="field">
+        <latitude>55.138217</latitude>
+        <longitude>38.726677</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Радужный г., ул. Новая, 4</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (34668) 3-96-91</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (34668) 3-77-38</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (34668) 3-77-54</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ОФПС № 3 Отдел № 21 ГУ г. Красноармейск</title>
+    <field_location type="field">
+        <latitude>56.127517</latitude>
+        <longitude>38.139242</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Красноармейск г., ул. Дачная, 1а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49653) 8-27-01</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная Часть № 297</title>
+    <field_location type="field">
+        <latitude>56.026518</latitude>
+        <longitude>35.499282</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Шаховской р-н, Шаховская пос., Рижское ш., 5</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49637) 3-32-03</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пожарная Часть № 226</title>
+    <field_location type="field">
+        <latitude>55.210582</latitude>
+        <longitude>38.776040</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пожарная охрана</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Коломенский р-н, Пески р.п., Заводская 1-я ул., д. 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49661) 7-42-01</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

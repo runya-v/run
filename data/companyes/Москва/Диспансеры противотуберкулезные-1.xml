@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Московский Областной Противотуберкулезный Диспансер</title>
+    <field_location type="field">
+        <latitude>55.780375</latitude>
+        <longitude>37.606604</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Диспансеры противотуберкулезные</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Селезневская, 20</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 978-02-43</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 978-15-19</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 978-24-54</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 978-38-85</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

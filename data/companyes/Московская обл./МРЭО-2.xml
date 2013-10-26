@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Отдел технического осмотра транспорта регистрационной и экзаменационной работы Отделение № 3</title>
+    <field_location type="field">
+        <latitude>55.902363</latitude>
+        <longitude>37.451240</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">МРЭО</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Химки, ул. Академика Глушко, 13</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 713-07-18</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 713-08-72</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 713-05-45</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 713-08-90</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 744-07-27</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Регистрационно-экзаменационное подразделение ОГИБДД УВД по Солнечногорскому муниципальному району МО</title>
+    <field_location type="field">
+        <latitude>56.168170</latitude>
+        <longitude>36.954580</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">МРЭО</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Солнечногорск г., ул. Центральная, 14</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 994-15-53</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

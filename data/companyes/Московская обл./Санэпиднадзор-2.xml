@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Центр Государственного Санитарно-Эпидемиологического Надзора Ракетных Войск Стратегического Назначения Министерства Обороны РФ</title>
+    <field_location type="field">
+        <latitude>55.670610</latitude>
+        <longitude>36.900816</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Санэпиднадзор</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Одинцовский р-н, Одинцово-10 г.</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 598-74-25</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 598-73-69</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 598-54-01</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 598-74-72</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Центр гигиены и эпидемиологии № 21</title>
+    <field_location type="field">
+        <latitude>55.801809</latitude>
+        <longitude>38.469121</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Санэпиднадзор</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Электросталь г., ул. Загонова, 21</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49657) 5-38-68</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

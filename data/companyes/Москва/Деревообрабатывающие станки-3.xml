@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">БСМ Консалтинг</title>
+    <field_location type="field">
+        <latitude>55.800737</latitude>
+        <longitude>37.567330</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Деревообрабатывающие станки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Петровско-Разумовский пр-д, 22, корп.11</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 656-43-44</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 656-43-40</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Московский Экспериментальный завод Вниидмаш - Станкомэз</title>
+    <field_location type="field">
+        <latitude>55.776694</latitude>
+        <longitude>37.699867</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Деревообрабатывающие станки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Рубцовская наб., 3, стр. 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 265-60-23</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 261-27-94</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 261-93-72</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Гранд ВИН</title>
+    <field_location type="field">
+        <latitude>55.654523</latitude>
+        <longitude>37.602445</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Деревообрабатывающие станки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, просп. Внутренний, 8, стр. 4</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 788-71-03</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 619-50-06</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

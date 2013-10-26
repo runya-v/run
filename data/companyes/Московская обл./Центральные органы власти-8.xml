@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Центральное управление Госавианадзора Министерства Транспорта РФ</title>
+    <field_location type="field">
+        <latitude>55.694845</latitude>
+        <longitude>37.864501</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Центральные органы власти</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Люберецкий р-н, Люберцы г., Октябрьский просп., 15</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 503-51-72</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Федеральная Служба по Экологическому, Технологическому и Атомному Надзору РФ (Ростехнадзор) по ЦФО Межрегиональное Территориальное управление Технологического и Экологического Надзора Главный Государственный Инспектор</title>
+    <field_location type="field">
+        <latitude>55.794715</latitude>
+        <longitude>37.928021</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Центральные органы власти</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Балашиха г., ш. Энтузиастов, 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 524-10-91</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Природных Ресурсов и Экологии Министерство РФ (Минприроды России) Главное управление природных ресурсов и охраны окружающей среды по Моск. области</title>
+    <field_location type="field">
+        <latitude>55.655646</latitude>
+        <longitude>37.276383</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Центральные органы власти</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Одинцово г., ул. Неделина Маршала, 11</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 593-28-32</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Федеральная Служба по Контролю За Оборотом Наркотиков, управление по Моск. области, Районные отделы: Красногорский Межрайонный Отдел</title>
+    <field_location type="field">
+        <latitude>55.815236</latitude>
+        <longitude>37.329276</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Центральные органы власти</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Красногорск г., Железнодорожный пр-д, 9</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 562-91-78</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 562-87-18</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Федеральная Служба Исполнения Наказаний (Фсин России) Межрайонная уголовно-исполнительная инспекция</title>
+    <field_location type="field">
+        <latitude>55.570192</latitude>
+        <longitude>36.510093</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Центральные органы власти</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Одинцовский р-н, Дубки пос., ул. Северная, 29</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 599-48-10</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Федеральная Служба по Надзору в Сфере Природопользования (Росприроднадзор) управление по Моск. области</title>
+    <field_location type="field">
+        <latitude>55.827434</latitude>
+        <longitude>37.251644</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Центральные органы власти</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Красногорск г., Опалиха мкр.</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 563-25-02</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 563-88-91</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 563-88-06</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Министерства Транспорта РФ Отраслевой Научно-Методический центр</title>
+    <field_location type="field">
+        <latitude>55.149270</latitude>
+        <longitude>37.489221</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Центральные органы власти</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Чехов г., пл. Вокзальная, стр. 8</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (49672) 6-32-82</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Федеральная Служба по Экологическому, Технологическому и Атомному Надзору РФ (Ростехнадзор) по ЦФО Федеральная Инспекция Госинспектор МТУ Мытищинского Р-Он, г. Королева. г. Королева</title>
+    <field_location type="field">
+        <latitude>55.938486</latitude>
+        <longitude>37.877437</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Центральные органы власти</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Королев г., ул. Ленина, 3а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 516-86-28</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

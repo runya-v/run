@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Услуги Грузчиков г. Жуковский</title>
+    <field_location type="field">
+        <latitude>55.475444</latitude>
+        <longitude>38.275849</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Такелажные работы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Раменский р-н, Жуковский г.</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (903) 216-64-41</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (49848) 2-06-30</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Ростер дер. Наугольное</title>
+    <field_location type="field">
+        <latitude>56.310722</latitude>
+        <longitude>38.133286</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Такелажные работы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Сергиево-Посадский р-н, Сергиев Посад г., Наугольное дер.</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 540-91-84</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Предприятие Производственно-Технологической Комплектации № 4</title>
+    <field_location type="field">
+        <latitude>56.179415</latitude>
+        <longitude>36.998642</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Такелажные работы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Солнечногорск г., Рекинцо мкр.</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 994-05-01</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 994-07-28</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 994-06-26</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 994-12-70</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 994-17-36</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

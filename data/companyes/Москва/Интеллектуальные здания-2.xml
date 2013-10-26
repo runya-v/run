@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Электроник Имоушнс</title>
+    <field_location type="field">
+        <latitude>55.824299</latitude>
+        <longitude>37.566252</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Интеллектуальные здания</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Красностуденческий просп., 7</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 977-86-00</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 977-88-11</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Омега-Сервис</title>
+    <field_location type="field">
+        <latitude>55.681184</latitude>
+        <longitude>37.679242</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Интеллектуальные здания</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Судостроительная, 18, корп.5</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 786-73-83</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 614-00-91</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 614-58-87</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Виптел</title>
+    <field_location type="field">
+        <latitude>55.803226</latitude>
+        <longitude>37.553379</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Пейджинговая связь</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. 8 Марта, 10, стр. 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 225-99-52</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 232-19-65</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 225-76-53</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

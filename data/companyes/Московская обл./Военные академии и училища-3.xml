@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Военный Учебно-Научный центр Сухопутных Войск Учебный центр Выстрел</title>
+    <field_location type="field">
+        <latitude>56.189615</latitude>
+        <longitude>36.986533</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Военные академии и училища</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Солнечногорский р-н, Солнечногорск г.</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 994-28-72</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 994-02-06</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Общевойсковая академия Вооруженных Сил РФ Учебный центр г. Наро-Фоминск</title>
+    <field_location type="field">
+        <latitude>55.383009</latitude>
+        <longitude>36.730675</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Военные академии и училища</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Наро-Фоминский р-н, Наро-Фоминск г.</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 344-32-87</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (496) 344-32-84</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">КОЛОМЕНСКОЕ ВЫСШЕЕ АРТИЛЛЕРИЙСКОЕ КОМАНДНОЕ УЧИЛИЩЕ ВОЕННЫЙ ИНСТИТУТ</title>
+    <field_location type="field">
+        <latitude>55.102678</latitude>
+        <longitude>38.772536</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Военные академии и училища</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Коломна г., Артиллеристов пр-д, 5</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (4966) 12-40-46</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

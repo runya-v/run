@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Технотранс-Сервис</title>
+    <field_location type="field">
+        <latitude>55.849524</latitude>
+        <longitude>37.452354</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Автомобильные спецстоянки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Свободы, Нет здания</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 494-81-31</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ГОРОДСКАЯ СЛУЖБА ПЕРЕМЕЩЕНИЯ ТРАНСПОРТНЫХ СРЕДСТВ ГУ Спецстоянка</title>
+    <field_location type="field">
+        <latitude>55.601691</latitude>
+        <longitude>37.511742</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Автомобильные спецстоянки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Одоевского просп., вл. 3а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 504-17-24</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Автопрофиль</title>
+    <field_location type="field">
+        <latitude>55.900799</latitude>
+        <longitude>37.524175</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Автомобильные спецстоянки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Вагоноремонтная, 14</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 485-36-83</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Технотранс-Сервис Офис</title>
+    <field_location type="field">
+        <latitude>55.833000</latitude>
+        <longitude>37.448258</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Автомобильные спецстоянки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Мещерякова, 8</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 491-39-20</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Детройт Трак</title>
+    <field_location type="field">
+        <latitude>55.704027</latitude>
+        <longitude>37.710009</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Автомобильные спецстоянки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Южнопортовая, вл. 37а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 354-02-69</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ГОРОДСКАЯ СЛУЖБА ПЕРЕМЕЩЕНИЯ ТРАНСПОРТНЫХ СРЕДСТВ ГУ Спецстоянка</title>
+    <field_location type="field">
+        <latitude>55.731176</latitude>
+        <longitude>37.669279</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Автомобильные спецстоянки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Волгоградский просп., 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 504-17-24</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ГОРОДСКАЯ СЛУЖБА ПЕРЕМЕЩЕНИЯ ТРАНСПОРТНЫХ СРЕДСТВ ГУ Спецстоянка</title>
+    <field_location type="field">
+        <latitude>55.719982</latitude>
+        <longitude>37.732215</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Автомобильные спецстоянки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Грайвороновская, 40а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 504-17-24</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ГОРОДСКАЯ СЛУЖБА ПЕРЕМЕЩЕНИЯ ТРАНСПОРТНЫХ СРЕДСТВ ГУ Спецстоянка</title>
+    <field_location type="field">
+        <latitude>55.676682</latitude>
+        <longitude>37.436014</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Автомобильные спецстоянки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Рябиновая, вл. 71</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 504-17-24</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ГОРОДСКАЯ СЛУЖБА ПЕРЕМЕЩЕНИЯ ТРАНСПОРТНЫХ СРЕДСТВ ГУ Спецстоянка</title>
+    <field_location type="field">
+        <latitude>55.663060</latitude>
+        <longitude>37.801745</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Автомобильные спецстоянки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Верхние Поля, 59</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 504-17-24</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ГОРОДСКАЯ СЛУЖБА ПЕРЕМЕЩЕНИЯ ТРАНСПОРТНЫХ СРЕДСТВ ГУ Спецстоянка</title>
+    <field_location type="field">
+        <latitude>55.608363</latitude>
+        <longitude>37.621974</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Автомобильные спецстоянки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Подольских Курсантов, вл. 7а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 504-17-24</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ГОРОДСКАЯ СЛУЖБА ПЕРЕМЕЩЕНИЯ ТРАНСПОРТНЫХ СРЕДСТВ ГУ Спецстоянка</title>
+    <field_location type="field">
+        <latitude>55.770097</latitude>
+        <longitude>37.679862</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Автомобильные спецстоянки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Бауманская, 47/1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 504-17-24</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ГОРОДСКАЯ СЛУЖБА ПЕРЕМЕЩЕНИЯ ТРАНСПОРТНЫХ СРЕДСТВ ГУ Спецстоянка</title>
+    <field_location type="field">
+        <latitude>55.700583</latitude>
+        <longitude>37.701745</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Автомобильные спецстоянки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Южнопортовая, вл. 40</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 504-17-24</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ГОРОДСКАЯ СЛУЖБА ПЕРЕМЕЩЕНИЯ ТРАНСПОРТНЫХ СРЕДСТВ ГУ Спецстоянка</title>
+    <field_location type="field">
+        <latitude>55.836969</latitude>
+        <longitude>37.388987</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Автомобильные спецстоянки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Пятницкое ш., вл. 6</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 504-17-24</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ГОРОДСКАЯ СЛУЖБА ПЕРЕМЕЩЕНИЯ ТРАНСПОРТНЫХ СРЕДСТВ ГУ Спецстоянка</title>
+    <field_location type="field">
+        <latitude>55.764572</latitude>
+        <longitude>37.511014</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Автомобильные спецстоянки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Шеногина, вл. 3</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 504-17-24</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ГОРОДСКАЯ СЛУЖБА ПЕРЕМЕЩЕНИЯ ТРАНСПОРТНЫХ СРЕДСТВ ГУ Спецстоянка</title>
+    <field_location type="field">
+        <latitude>55.838885</latitude>
+        <longitude>37.580364</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Автомобильные спецстоянки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Комдива Орлова</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 504-17-24</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ГОРОДСКАЯ СЛУЖБА ПЕРЕМЕЩЕНИЯ ТРАНСПОРТНЫХ СРЕДСТВ ГУ Спецстоянка</title>
+    <field_location type="field">
+        <latitude>55.906108</latitude>
+        <longitude>37.536203</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Автомобильные спецстоянки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Вагоноремонтная, 4а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 504-17-24</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ГОРОДСКАЯ СЛУЖБА ПЕРЕМЕЩЕНИЯ ТРАНСПОРТНЫХ СРЕДСТВ ГУ Спецстоянка</title>
+    <field_location type="field">
+        <latitude>55.535213</latitude>
+        <longitude>37.539302</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Автомобильные спецстоянки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Чечерский просп., мр-н 5</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 504-17-24</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ГОРОДСКАЯ СЛУЖБА ПЕРЕМЕЩЕНИЯ ТРАНСПОРТНЫХ СРЕДСТВ ГУ Спецстоянка</title>
+    <field_location type="field">
+        <latitude>55.764151</latitude>
+        <longitude>37.514814</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Автомобильные спецстоянки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, просп. Силикатный 1-й, 9</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 504-17-24</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ГОРОДСКАЯ СЛУЖБА ПЕРЕМЕЩЕНИЯ ТРАНСПОРТНЫХ СРЕДСТВ ГУ Спецстоянка</title>
+    <field_location type="field">
+        <latitude>55.574971</latitude>
+        <longitude>37.653792</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Автомобильные спецстоянки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Востряковский просп., вл. 20</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 504-17-24</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ГОРОДСКАЯ СЛУЖБА ПЕРЕМЕЩЕНИЯ ТРАНСПОРТНЫХ СРЕДСТВ ГУ Спецстоянка</title>
+    <field_location type="field">
+        <latitude>55.819489</latitude>
+        <longitude>37.603307</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Автомобильные спецстоянки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Дубовой Рощи, вл. 7</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 504-17-24</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ФБМ-Мобили</title>
+    <field_location type="field">
+        <latitude>55.585240</latitude>
+        <longitude>37.599453</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Автомобильные спецстоянки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Варшавское ш., вл. 141в</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Лизард</title>
+    <field_location type="field">
+        <latitude>55.585240</latitude>
+        <longitude>37.599453</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Автомобильные спецстоянки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Варшавское ш., вл. 141в</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 382-94-41</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Технотранс-Сервис СЗАО</title>
+    <field_location type="field">
+        <latitude>55.877041</latitude>
+        <longitude>37.429429</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Автомобильные спецстоянки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Московская кольцевая автодорога, 74-й км</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 491-39-20</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 494-81-31</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Эфа-Сервис</title>
+    <field_location type="field">
+        <latitude>55.812570</latitude>
+        <longitude>37.617653</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Автомобильные спецстоянки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Новомосковская, вл. 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 615-38-15</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

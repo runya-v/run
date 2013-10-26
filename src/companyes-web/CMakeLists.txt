@@ -9,9 +9,9 @@ add_executable(${APP_NAME}
     )
 
 target_link_libraries(${APP_NAME}
-    ${WTHTTP_LIBRARY}
-    ${WTEXT_LIBRARY}
-    ${WT_LIBRARY}
+    ${WTHTTP_LIBRARIES}
+    ${WTEXT_LIBRARIES}
+    ${WT_LIBRARIES}
     z
     crypto
     ssl

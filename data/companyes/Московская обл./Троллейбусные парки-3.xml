@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Химкиэлектротранс МП</title>
+    <field_location type="field">
+        <latitude>55.897821</latitude>
+        <longitude>37.406962</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Троллейбусные парки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Химки г., просп. Юбилейный, 69</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 575-05-27</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 575-22-55</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 571-05-07</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Подольский троллейбус</title>
+    <field_location type="field">
+        <latitude>55.426692</latitude>
+        <longitude>37.547567</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Троллейбусные парки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Подольск г., ул. Большая Серпуховская, 25а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (4967) 68-13-04</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (4967) 68-13-03</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Видновский Троллейбусный Парк МУП</title>
+    <field_location type="field">
+        <latitude>55.548502</latitude>
+        <longitude>37.715552</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Троллейбусные парки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Ленинский р-н, Видное г., просп. Ленинского Комсомола, 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 541-03-01</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 549-77-22</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

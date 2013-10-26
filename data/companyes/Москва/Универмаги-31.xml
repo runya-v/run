@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Западный и К</title>
+    <field_location type="field">
+        <latitude>55.635284</latitude>
+        <longitude>37.384891</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Универмаги</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Родниковая, 16</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 435-82-51</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 435-83-83</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 435-24-87</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Хамовники универмаг</title>
+    <field_location type="field">
+        <latitude>55.730112</latitude>
+        <longitude>37.590156</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Универмаги</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Комсомольский просп., 11</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 246-37-19</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 245-25-65</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 766-41-58</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Универмаг</title>
+    <field_location type="field">
+        <latitude>55.749587</latitude>
+        <longitude>37.717276</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Универмаги</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Авиамоторная, 18/22</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 362-69-59</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Универмаг Вешняки</title>
+    <field_location type="field">
+        <latitude>55.724124</latitude>
+        <longitude>37.825155</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Универмаги</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Вешняковская, 18</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 374-98-00</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Универмаг Добрынинский</title>
+    <field_location type="field">
+        <latitude>55.729331</latitude>
+        <longitude>37.622612</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Универмаги</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Коровий Вал, 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 237-64-90</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Руса</title>
+    <field_location type="field">
+        <latitude>55.681828</latitude>
+        <longitude>37.453693</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Универмаги</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Пржевальского, 5</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 437-40-10</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 437-74-55</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">СитиМаг</title>
+    <field_location type="field">
+        <latitude>55.685207</latitude>
+        <longitude>37.921066</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Универмаги</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. 2-я Вольская, 6</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (926) 012-42-80</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Мис'с' Мен</title>
+    <field_location type="field">
+        <latitude>55.544229</latitude>
+        <longitude>37.523348</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Универмаги</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Лазарева Адмирала, 40</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 714-51-36</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Алькор</title>
+    <field_location type="field">
+        <latitude>55.618623</latitude>
+        <longitude>37.591611</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Универмаги</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Чертановская, 32, стр. 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 314-50-14</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Альфа-Д</title>
+    <field_location type="field">
+        <latitude>55.630609</latitude>
+        <longitude>37.514715</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Универмаги</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Профсоюзная, 128, корп.3</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 338-45-00</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ИП Апаллах Д</title>
+    <field_location type="field">
+        <latitude>55.821730</latitude>
+        <longitude>37.660269</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Универмаги</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Космонавтов, 15</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 683-76-04</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Венера Ян</title>
+    <field_location type="field">
+        <latitude>55.734780</latitude>
+        <longitude>37.824607</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Универмаги</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Вешняковская, 12г</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 375-02-06</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Дизайн-Синтез универмаг</title>
+    <field_location type="field">
+        <latitude>55.897988</latitude>
+        <longitude>37.565793</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Универмаги</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Череповецкая, 4а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 209-57-55</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 209-57-77</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 209-57-66</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 209-57-56</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Крокус-Сток ТД</title>
+    <field_location type="field">
+        <latitude>55.753889</latitude>
+        <longitude>37.657305</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Универмаги</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Земляной Вал, 41, стр. 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 916-21-44</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 916-45-54</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 916-04-50</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 916-40-97</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 917-37-69</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Майский ТКФ</title>
+    <field_location type="field">
+        <latitude>55.849423</latitude>
+        <longitude>37.438987</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Универмаги</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Сходненская, 37</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 492-34-25</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 492-70-00</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 493-60-14</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 492-70-08</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 493-93-85</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 497-75-54</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Универмаг Мечта</title>
+    <field_location type="field">
+        <latitude>55.732702</latitude>
+        <longitude>37.417553</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Универмаги</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Молодогвардейская, 29, корп.1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 440-02-85</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Московские Товары</title>
+    <field_location type="field">
+        <latitude>55.778375</latitude>
+        <longitude>37.727823</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Универмаги</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Измайловское ш., 28</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 166-78-53</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Московско-Орловский Универсам</title>
+    <field_location type="field">
+        <latitude>55.668975</latitude>
+        <longitude>37.453531</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Универмаги</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Никулинская, 21</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 232-89-38</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 437-81-53</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 232-89-41</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 232-89-37</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 231-51-44</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Мувен</title>
+    <field_location type="field">
+        <latitude>55.851965</latitude>
+        <longitude>37.443030</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Универмаги</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Химкинский бул., 16, корп.1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 492-84-96</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 492-84-95</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Нилан</title>
+    <field_location type="field">
+        <latitude>55.771373</latitude>
+        <longitude>37.731012</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Универмаги</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Соколиной Горы 9-я, 3</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 365-01-00</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 365-39-03</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 366-70-45</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Норд-34</title>
+    <field_location type="field">
+        <latitude>55.867460</latitude>
+        <longitude>37.489176</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Универмаги</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Петрозаводская, 34</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 451-23-67</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Одежда и Обувь</title>
+    <field_location type="field">
+        <latitude>55.717325</latitude>
+        <longitude>37.788648</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Универмаги</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Рязанский просп., 38</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 379-74-18</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Ольга На Панфиловском</title>
+    <field_location type="field">
+        <latitude>55.996525</latitude>
+        <longitude>37.181297</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Универмаги</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Зеленоград г., 11 мкр., корп.1104</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 732-00-12</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 732-53-04</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 732-13-69</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 732-26-77</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 732-25-67</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Ора</title>
+    <field_location type="field">
+        <latitude>55.773555</latitude>
+        <longitude>37.656442</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Универмаги</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Комсомольская пл., 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 266-31-84</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Орехово универмаг</title>
+    <field_location type="field">
+        <latitude>55.607351</latitude>
+        <longitude>37.724876</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Универмаги</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Белова Генерала, 43, корп.2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 398-91-33</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 398-91-36</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 399-40-93</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 398-40-91</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 398-91-44</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 399-40-87</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 399-40-91</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 399-68-30</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 398-91-27</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ЦУМ ТД Склад</title>
+    <field_location type="field">
+        <latitude>55.833607</latitude>
+        <longitude>37.515614</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Универмаги</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Коптевская, 73б, корп.1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 450-11-33</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 450-23-55</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 450-23-01</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Снежана универмаг</title>
+    <field_location type="field">
+        <latitude>55.637073</latitude>
+        <longitude>37.758383</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Универмаги</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Ключевая, 8, корп.1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 342-94-63</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 342-00-35</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 342-96-98</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 342-50-20</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Универмаг</title>
+    <field_location type="field">
+        <latitude>55.801172</latitude>
+        <longitude>37.555822</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Универмаги</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. 8 Марта, 6</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 614-81-90</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Уют</title>
+    <field_location type="field">
+        <latitude>55.746720</latitude>
+        <longitude>37.409756</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Универмаги</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Павлова Академика, 50, стр. 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 140-82-02</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Электрон-Солнцево</title>
+    <field_location type="field">
+        <latitude>55.640645</latitude>
+        <longitude>37.343020</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Универмаги</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Скульптора Мухиной, 10</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 732-99-96</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 733-52-08</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 733-52-05</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Южное Измайлово ТД</title>
+    <field_location type="field">
+        <latitude>55.778785</latitude>
+        <longitude>37.827581</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Универмаги</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Челябинская, 15, этаж 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 308-73-31</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 308-11-77</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 308-73-40</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Аэрофлот-Российские Авиалинии</title>
+    <field_location type="field">
+        <latitude>55.957348</latitude>
+        <longitude>37.414400</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Чартерные перевозки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Химки г., ш. Международное, вл. 3, Новотель</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 231-81-11</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 231-81-09</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 231-81-05</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Крылья России</title>
+    <field_location type="field">
+        <latitude>55.599850</latitude>
+        <longitude>38.122129</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Чартерные перевозки</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Жуковский г.</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 556-51-30</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 556-55-53</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

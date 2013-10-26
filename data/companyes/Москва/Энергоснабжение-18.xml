@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Национальная Корпорация ЭнергоСтройИнжиниринг</title>
+    <field_location type="field">
+        <latitude>55.723242</latitude>
+        <longitude>37.650370</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Энергоснабжение</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Дербеневская, 7, стр. 22</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 981-33-30</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Единая Энергоснабжающая Компания</title>
+    <field_location type="field">
+        <latitude>55.751467</latitude>
+        <longitude>37.598079</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Энергоснабжение</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Арбат, 9</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 926-18-03</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 926-18-04</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Со Еэс филиал</title>
+    <field_location type="field">
+        <latitude>55.747971</latitude>
+        <longitude>37.632341</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Энергоснабжение</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Раушская наб., 14</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 957-31-27</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 957-35-26</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 627-94-61</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Центр Финансовых Расчетов (ЦФР)</title>
+    <field_location type="field">
+        <latitude>55.754203</latitude>
+        <longitude>37.556388</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Энергоснабжение</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Краснопресненская наб., 12</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 710-59-08</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 710-62-99</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 710-45-66</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 710-60-48</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Государственный Межрегиональный центр Энергосбережения Минэнерго России ФГУП</title>
+    <field_location type="field">
+        <latitude>55.778775</latitude>
+        <longitude>37.629960</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Энергоснабжение</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Гиляровского, 31</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 684-83-61</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 684-83-64</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Нафтасиб Энергия Гтэс Коломенское</title>
+    <field_location type="field">
+        <latitude>55.648534</latitude>
+        <longitude>37.641369</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Энергоснабжение</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Котляковский 1-й пер., 5а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 668-18-00</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 668-18-01</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Северная Плэс</title>
+    <field_location type="field">
+        <latitude>55.703834</latitude>
+        <longitude>37.648043</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Энергоснабжение</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Автозаводская, 14</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 679-49-35</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Государственное Бюджетное Учреждение г. Москвы Энергетика</title>
+    <field_location type="field">
+        <latitude>55.772821</latitude>
+        <longitude>37.618776</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Энергоснабжение</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, бул. Цветной, 25, стр. 4</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 694-08-23</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 694-61-50</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Российские Железные Дороги ф-л Трансэнерго Московская дирекция по энергообеспечению</title>
+    <field_location type="field">
+        <latitude>55.783483</latitude>
+        <longitude>37.643749</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Энергоснабжение</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Пантелеевская, 26</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 266-69-58</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Объединенная Электросетевая компания ф-л Юго-Западные электрические сети</title>
+    <field_location type="field">
+        <latitude>55.658383</latitude>
+        <longitude>37.531424</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Энергоснабжение</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Обручева, 23, стр. 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 787-99-51</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Представительство Барки Точик Оахк</title>
+    <field_location type="field">
+        <latitude>55.747059</latitude>
+        <longitude>37.579538</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Энергоснабжение</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Смоленский 1-й пер., 7</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 248-49-70</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 248-03-85</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Главсетьсервис (ЕНЭС)</title>
+    <field_location type="field">
+        <latitude>55.786516</latitude>
+        <longitude>37.718857</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Энергоснабжение</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Ткацкая, 1, этаж 10</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 627-50-05</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 962-87-71</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 627-50-59</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 627-50-30</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Марэм +</title>
+    <field_location type="field">
+        <latitude>55.771854</latitude>
+        <longitude>37.595070</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Энергоснабжение</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Тверская-Ямская 2-я, 16</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 775-20-43</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 775-20-42</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Теплосбыт</title>
+    <field_location type="field">
+        <latitude>55.779980</latitude>
+        <longitude>37.573169</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Энергоснабжение</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Верхняя, 34, стр. 11</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 250-76-42</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 257-19-36</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Теплоэлектро</title>
+    <field_location type="field">
+        <latitude>55.654396</latitude>
+        <longitude>37.533409</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Энергоснабжение</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Профсоюзная, 84/32</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 334-15-44</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 333-50-22</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Транссервисэнерго</title>
+    <field_location type="field">
+        <latitude>55.771034</latitude>
+        <longitude>37.629843</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Энергоснабжение</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Сухаревский Б. пер., 19, стр. 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 608-42-66</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 607-16-53</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 607-17-42</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 608-73-96</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ТЭПэнерго</title>
+    <field_location type="field">
+        <latitude>55.801642</latitude>
+        <longitude>37.725191</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Энергоснабжение</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Халтуринская, 11</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 965-60-92</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Электротехническая Промышленная Компания</title>
+    <field_location type="field">
+        <latitude>55.802432</latitude>
+        <longitude>37.636994</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Энергоснабжение</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, просп. Мира, 106, офис 309</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 682-56-41</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 785-37-48</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

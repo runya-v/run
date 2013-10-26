@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Центр Общественной Информации</title>
+    <field_location type="field">
+        <latitude>55.769297</latitude>
+        <longitude>37.630104</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Прямая почтовая рассылка</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Головин Б. пер., 22, стр. 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 607-60-58</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 608-04-49</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 607-74-04</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Связист-1</title>
+    <field_location type="field">
+        <latitude>55.750890</latitude>
+        <longitude>37.717160</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Прямая почтовая рассылка</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ш. Энтузиастов, 22/18</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 361-77-11</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 361-15-63</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

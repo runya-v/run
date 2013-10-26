@@ -1,0 +1,830 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Управление федеральной миграционной службы</title>
+    <field_location type="field">
+        <latitude>55.544143</latitude>
+        <longitude>37.543982</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Паспортные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Южнобутовская, 3</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 717-73-36</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Инженерная служба района Кунцево</title>
+    <field_location type="field">
+        <latitude>55.738272</latitude>
+        <longitude>37.413493</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Паспортные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Ярцевская, 22, стр. 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 141-63-48</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 149-45-02</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Паспортный стол района Щукино</title>
+    <field_location type="field">
+        <latitude>55.802285</latitude>
+        <longitude>37.472800</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Паспортные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Маршала Василевского, 1, корп.2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 720-42-14</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 720-42-16</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 720-42-17</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Инженерная служба района Черемушки</title>
+    <field_location type="field">
+        <latitude>55.667965</latitude>
+        <longitude>37.566449</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Паспортные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Новочеремушкинская, 61а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 128-29-51</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 120-00-11</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 120-73-11</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 128-26-60</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 120-70-70</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 128-09-03</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 128-76-91</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 120-92-88</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Инженерная Служба Головинского района</title>
+    <field_location type="field">
+        <latitude>55.848139</latitude>
+        <longitude>37.505328</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Паспортные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Кронштадтский бул., 37в</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 747-09-52</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 454-73-00</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Отделение управления федеральной миграционной службы России по г. Москве Академического района</title>
+    <field_location type="field">
+        <latitude>55.680438</latitude>
+        <longitude>37.586751</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Паспортные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Большая Черемушкинская, 26</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 125-23-84</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 125-96-55</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 125-80-55</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 124-84-66</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 238-64-00</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Управление Федеральной миграционной службы Отделение по Тимирязевскому району</title>
+    <field_location type="field">
+        <latitude>55.823666</latitude>
+        <longitude>37.570004</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Паспортные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Ивановская, 30</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 977-18-51</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 977-18-33</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 977-18-56</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 977-27-91</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Департамент по Делам Миграции и Визовой Поддержке Иностранных Граждан</title>
+    <field_location type="field">
+        <latitude>55.751999</latitude>
+        <longitude>37.592626</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Паспортные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Арбат Нов., 15</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 772-91-29</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 620-26-55</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Отдел по вопросам трудовой миграции УФМС России по Московской области</title>
+    <field_location type="field">
+        <latitude>55.84139</latitude>
+        <longitude>37.65222</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Паспортные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Докукина, 14а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 187-18-11</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Центр Оформления Приглашений Иностранным Гражданам Федеральной Миграционной Службы РФ</title>
+    <field_location type="field">
+        <latitude>55.745139</latitude>
+        <longitude>37.648304</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Паспортные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Радищевская Верхн., 4, стр. 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Отделение Управления Федеральной Миграционной Службы России по г. Москве по Району Аэропорт</title>
+    <field_location type="field">
+        <latitude>55.805128</latitude>
+        <longitude>37.537775</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Паспортные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Черняховского, 10</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 155-99-22</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 155-92-01</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 155-92-02</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Отделение УФМС Бирюлево Восточного района</title>
+    <field_location type="field">
+        <latitude>55.582467</latitude>
+        <longitude>37.690363</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Паспортные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Загорьевская, 21, корп.2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 328-81-97</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Отделение УФМС в районе Восточный</title>
+    <field_location type="field">
+        <latitude>55.816242</latitude>
+        <longitude>37.866181</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Паспортные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. 9 Мая, 12а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 780-94-89</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 780-95-04</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 780-56-09</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 780-55-97</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Отделение УФМС в районе Дегунино Восточное</title>
+    <field_location type="field">
+        <latitude>55.870238</latitude>
+        <longitude>37.561904</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Паспортные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Дубнинская, 18</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 480-34-05</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 480-37-68</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Отдел УФМС России Зеленоградского АО Крюково</title>
+    <field_location type="field">
+        <latitude>55.980639</latitude>
+        <longitude>37.154257</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Паспортные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Зеленоград г., 15 мкр., корп.1561</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 738-08-60</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 738-08-50</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 717-45-91</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Отделение УФМС</title>
+    <field_location type="field">
+        <latitude>55.702526</latitude>
+        <longitude>37.532066</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Паспортные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Ленинские Горы, 1, корп.Б</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 939-17-21</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 939-28-65</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Отделение УФМС по району Ново-Переделкино</title>
+    <field_location type="field">
+        <latitude>55.639766</latitude>
+        <longitude>37.334459</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Паспортные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Федосьино, 18</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 731-88-42</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 731-89-05</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 731-43-00</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Федеральная Миграционная Служба России, управление по г. Москве Отдел иммиграционного контроля</title>
+    <field_location type="field">
+        <latitude>55.893713</latitude>
+        <longitude>37.629421</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Паспортные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Корнейчука, 47</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 405-04-82</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 405-21-29</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 405-07-46</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 406-59-97</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 405-20-09</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Паспортный стол</title>
+    <field_location type="field">
+        <latitude>55.684980</latitude>
+        <longitude>37.682314</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Паспортные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Якорная, 8, корп.2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 618-60-22</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 616-02-13</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 617-50-51</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Отделение УФМС в районе Вешняки</title>
+    <field_location type="field">
+        <latitude>55.723354</latitude>
+        <longitude>37.828506</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Паспортные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Вешняковская, 31а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 786-32-98</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Инженерная Служба Паспортный стол Южный административный округ Донской</title>
+    <field_location type="field">
+        <latitude>55.694515</latitude>
+        <longitude>37.601376</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Паспортные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ш. Загородное, 8, корп.8</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 952-36-07</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 958-21-83</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Отделение УФМС СВАО</title>
+    <field_location type="field">
+        <latitude>55.861934</latitude>
+        <longitude>37.700586</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Паспортные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Вешних Вод, 10, стр. 3</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 616-02-51</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 616-05-21</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 616-05-23</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 616-02-52</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 616-05-25</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Отделение УФМС в районе Солнцево</title>
+    <field_location type="field">
+        <latitude>55.655356</latitude>
+        <longitude>37.415478</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Паспортные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. 50 лет Октября, 6, корп.1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 439-10-11</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 435-29-28</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 439-36-92</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 439-04-56</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 439-17-00</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Федеральная Миграционная Служба России управление внешней трудовой миграции</title>
+    <field_location type="field">
+        <latitude>55.815807</latitude>
+        <longitude>37.704529</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Паспортные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Мясниковская 2-я, 10а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 169-31-20</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 987-23-62</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 987-23-74</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Отделение УФМС в районе Якиманка</title>
+    <field_location type="field">
+        <latitude>55.736204</latitude>
+        <longitude>37.619656</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Паспортные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Полянка Б., 33/41</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 959-25-25</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 951-52-34</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 951-47-83</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 951-47-09</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 959-00-83</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 959-00-84</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 951-51-85</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 951-47-64</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Отделение УФМС в районе Ясенево</title>
+    <field_location type="field">
+        <latitude>55.605180</latitude>
+        <longitude>37.546534</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Паспортные службы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Новоясеневский просп., 19, корп.2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 426-84-39</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 426-96-96</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 427-02-05</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 427-58-06</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 427-00-09</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 427-00-00</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 426-50-74</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

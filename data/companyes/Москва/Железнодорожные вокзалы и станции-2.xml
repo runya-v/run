@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Савеловский вокзал</title>
+    <field_location type="field">
+        <latitude>55.794325</latitude>
+        <longitude>37.588099</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Железнодорожные вокзалы и станции</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, пл. Савеловского вокзала, 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (800) 775-00-00</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Белорусский вокзал</title>
+    <field_location type="field">
+        <latitude>55.776375</latitude>
+        <longitude>37.581757</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Железнодорожные вокзалы и станции</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, пл. Тверская Застава, 7</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 623-89-36</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 623-89-26</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 623-84-09</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (800) 775-00-00</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Завод по ремонту электроподвижного состава метро</title>
+    <field_location type="field">
+        <latitude>55.812155</latitude>
+        <longitude>37.514033</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Вагоностроительные и вагоноремонтные заводы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Ленинградское ш., 2, стр. А</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 158-76-86</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Желдоркомплектация</title>
+    <field_location type="field">
+        <latitude>55.824627</latitude>
+        <longitude>37.655140</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Вагоностроительные и вагоноремонтные заводы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Бориса Галушкина, 9, корп.2, этаж 5</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 682-54-38</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 683-81-50</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Циркон-Сервис НПП</title>
+    <field_location type="field">
+        <latitude>55.802659</latitude>
+        <longitude>37.647055</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Вагоностроительные и вагоноремонтные заводы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Мытищинская 3-я, 10</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 189-62-66</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 189-84-29</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 189-24-12</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 504-28-10</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 189-01-80</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пассажирское Вагонное Депо Москва-Смоленская</title>
+    <field_location type="field">
+        <latitude>55.775160</latitude>
+        <longitude>37.574462</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Вагоностроительные и вагоноремонтные заводы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Нижняя, 17, корп.1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 623-88-34</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Рефрижераторное Вагонное Депо Подмосковная</title>
+    <field_location type="field">
+        <latitude>55.814123</latitude>
+        <longitude>37.531828</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Вагоностроительные и вагоноремонтные заводы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, просп. Амбулаторный 2-й, 8а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 266-86-10</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 266-87-42</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Компания Транс-Сервис</title>
+    <field_location type="field">
+        <latitude>55.799148</latitude>
+        <longitude>37.718597</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Вагоностроительные и вагоноремонтные заводы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Черкизовская Б., 5, корп.8</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 739-62-52</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пассажирское Вагонное Депо Николаевка</title>
+    <field_location type="field">
+        <latitude>55.810425</latitude>
+        <longitude>37.620707</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Вагоностроительные и вагоноремонтные заводы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Калибровская, 1д</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 266-36-91</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 266-13-63</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 266-22-01</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Вагонремсервис</title>
+    <field_location type="field">
+        <latitude>55.784126</latitude>
+        <longitude>37.642051</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Вагоностроительные и вагоноремонтные заводы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Переяславская Б., 14, стр. 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 223-72-65</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Пассажирское Вагонное Депо Москва-3</title>
+    <field_location type="field">
+        <latitude>55.798368</latitude>
+        <longitude>37.644908</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Вагоностроительные и вагоноремонтные заводы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Мытищинская 1-я, 16</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 266-69-33</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Стилкомтрейд</title>
+    <field_location type="field">
+        <latitude>55.783347</latitude>
+        <longitude>37.572549</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Вагоностроительные и вагоноремонтные заводы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Ленинградский просп., 26</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 612-80-48</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 614-54-33</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 612-04-68</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Трансинжиниринг</title>
+    <field_location type="field">
+        <latitude>55.746993</latitude>
+        <longitude>37.691162</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Вагоностроительные и вагоноремонтные заводы</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ш. Энтузиастов, 4</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 362-95-67</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 673-08-23</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 673-05-18</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 266-42-29</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

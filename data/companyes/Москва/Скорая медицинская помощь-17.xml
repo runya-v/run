@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Городская клиническая больница № 1 им. Пирогова Н.И. Глазная неотложная помощь</title>
+    <field_location type="field">
+        <latitude>55.721387</latitude>
+        <longitude>37.594944</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Скорая медицинская помощь</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Ленинский просп., 10, корп.7</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 764-50-02</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Офтальмологическая клинической больница Глазная неотложная помощь</title>
+    <field_location type="field">
+        <latitude>55.766800</latitude>
+        <longitude>37.599265</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Скорая медицинская помощь</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Мамоновский пер., 7</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 699-61-28</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Глазная Неотложная Помощь Московского Научно-Исследовательского Института Глазных Болезней им. Гельмгольца</title>
+    <field_location type="field">
+        <latitude>55.765493</latitude>
+        <longitude>37.652849</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Скорая медицинская помощь</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Садовая-Черногрязская, 14/19</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 624-34-24</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Морозовская детская городская клиническая больница Глазная неотложная помощь</title>
+    <field_location type="field">
+        <latitude>55.724241</latitude>
+        <longitude>37.617141</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Скорая медицинская помощь</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Добрынинский 4-й пер., 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 237-19-71</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 236-34-00</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Психиатрическая помощь Московской областной центральной клинической психиатрической больницы</title>
+    <field_location type="field">
+        <latitude>55.801045</latitude>
+        <longitude>37.553082</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Скорая медицинская помощь</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. 8 Марта, 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 612-82-82</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Фаромед</title>
+    <field_location type="field">
+        <latitude>55.736579</latitude>
+        <longitude>37.718399</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Скорая медицинская помощь</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Авиамоторная, 50, стр. 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 673-76-97</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Подстанция № 30 Скорой медицинской помощи Северо-западного административного округа г. Москвы</title>
+    <field_location type="field">
+        <latitude>55.795793</latitude>
+        <longitude>37.392284</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Скорая медицинская помощь</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Твардовского, 6</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 757-54-00</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Подстанция № 44 Скорой медицинской помощи Западного округа г. Москвы</title>
+    <field_location type="field">
+        <latitude>55.640645</latitude>
+        <longitude>37.413511</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Скорая медицинская помощь</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Авиаторов, 36</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 439-05-38</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 435-86-13</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 439-77-67</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Поликлиника № 191 Отделение круглосуточной неотложной медицинской помощи</title>
+    <field_location type="field">
+        <latitude>55.820663</latitude>
+        <longitude>37.818247</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Скорая медицинская помощь</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Алтайская, 13</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 460-02-00</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Поликлиника № 66 Отделение круглосуточной неотложной медицинской помощи</title>
+    <field_location type="field">
+        <latitude>55.734643</latitude>
+        <longitude>37.862345</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Скорая медицинская помощь</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Салтыковская, 11б</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 703-23-87</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 703-23-35</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Поликлиника № 147 Отделение круглосуточной неотложной медицинской помощи Западного Административного округа</title>
+    <field_location type="field">
+        <latitude>55.734562</latitude>
+        <longitude>37.414544</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Скорая медицинская помощь</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Молодогвардейская, 40, корп.1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 140-03-95</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ГК Медицина</title>
+    <field_location type="field">
+        <latitude>55.645116</latitude>
+        <longitude>37.525154</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Скорая медицинская помощь</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Профсоюзная, 100, корп.1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 221-91-66</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Ambulance</title>
+    <field_location type="field">
+        <latitude>55.713263</latitude>
+        <longitude>37.486257</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Скорая медицинская помощь</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Веерная, 44, корп.1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 505-30-29</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Подстанция скорой помощи № 13 г. Москвы им. А.С. Пучкова</title>
+    <field_location type="field">
+        <latitude>55.671158</latitude>
+        <longitude>37.580140</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Скорая медицинская помощь</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Нахимовский просп., 31, корп.4</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 120-60-00</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 129-74-88</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 129-27-90</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Подстанция скорой помощи № 15 г. Москвы им. А.С. Пучкова</title>
+    <field_location type="field">
+        <latitude>55.714419</latitude>
+        <longitude>37.419907</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Скорая медицинская помощь</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Дорогобужская, 19</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 440-78-16</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 440-78-18</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 440-78-15</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 440-78-14</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Подстанция скорой помощи № 36 г. Москвы им. А.С. Пучкова</title>
+    <field_location type="field">
+        <latitude>55.683595</latitude>
+        <longitude>37.841163</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Скорая медицинская помощь</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Привольная, 58</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 704-67-20</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 704-01-60</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Подстанция № 15 Скорой Медицинской Помощи Западного Административного Округа г. Москвы</title>
+    <field_location type="field">
+        <latitude>55.714419</latitude>
+        <longitude>37.419907</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Скорая медицинская помощь</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Дорогобужская, 19</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 440-78-16</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 440-78-14</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 440-78-18</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

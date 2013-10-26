@@ -1,0 +1,1508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Регион</title>
+    <field_location type="field">
+        <latitude>55.665939</latitude>
+        <longitude>37.637201</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Каширское ш., 13а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 741-42-76</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентства по Обеспечению Мероприятий Гражданской Защиты: ЮЗАО Котловка</title>
+    <field_location type="field">
+        <latitude>55.681793</latitude>
+        <longitude>37.599714</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Севастопольский просп., 15, корп.4</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 123-62-15</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 127-32-65</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентства по Обеспечению Мероприятий Гражданской Защиты: ЮАО Зябликово</title>
+    <field_location type="field">
+        <latitude>55.619579</latitude>
+        <longitude>37.755051</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Кустанайская, 3, корп.2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 725-43-94</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ПО Делам Гражданской Обороны, Чрезвычайным Ситуациям и Ликвидации Последствий Стихийных Бедствий Министерство РФ (МЧС России), Гл. управление по г. Москве, по ВАО управление Ивановское</title>
+    <field_location type="field">
+        <latitude>55.766861</latitude>
+        <longitude>37.834237</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Саянская, 18</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 918-98-40</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 918-98-57</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 918-98-56</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентства по Обеспечению Мероприятий Гражданской Защиты: Фили-Давыдково</title>
+    <field_location type="field">
+        <latitude>55.734511</latitude>
+        <longitude>37.481001</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Кастанаевская, 29, корп.2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 144-00-85</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 146-48-80</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентства по Обеспечению Мероприятий Гражданской Защиты: ЦАО Хамовники</title>
+    <field_location type="field">
+        <latitude>55.743689</latitude>
+        <longitude>37.596803</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Пречистенка, 14, стр. 3</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 637-26-97</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 637-22-12</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ПО Делам Гражданской Обороны, Чрезвычайным Ситуациям и Ликвидации Последствий Стихийных Бедствий Министерство РФ (МЧС России), Гл. управление по г. Москве центр управления в кризисных ситуациях</title>
+    <field_location type="field">
+        <latitude>55.741997</latitude>
+        <longitude>37.594216</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Пречистенка, 22/2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 995-99-99</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 244-82-19</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Всероссийский центр Мониторинга и Прогнозирования Чрезвычайных Ситуаций Природного и Техногенного Характера Министерства РФ по Делам Гражданской Обороны, Чрезвычайным Ситуациям и Ликвидации Последствий Стихийных Бедствий</title>
+    <field_location type="field">
+        <latitude>55.624195</latitude>
+        <longitude>37.659057</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Веселая, 33, корп.3</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 327-93-10</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 321-98-11</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 321-60-95</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 325-44-42</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 327-90-64</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентство по Обеспечению Мероприятий Гражданской Защиты Северо-Восточного Административного Округа г. Москвы</title>
+    <field_location type="field">
+        <latitude>55.874173</latitude>
+        <longitude>37.576322</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, просп. Путевой, 20, стр. 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 707-06-04</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 707-09-05</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентство по Обеспечению Мероприятий Гражданской Защиты Восточного Административного Округа г. Москвы</title>
+    <field_location type="field">
+        <latitude>55.789006</latitude>
+        <longitude>37.682035</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Русаковская, 26, корп.1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 268-54-80</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 268-51-81</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 603-32-94</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентство по Обеспечению Мероприятий Гражданской Защиты Юго-Западного Административного Округа г. Москвы</title>
+    <field_location type="field">
+        <latitude>55.693551</latitude>
+        <longitude>37.548411</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Молодежная, 4</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 930-51-11</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 132-36-33</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентство по Обеспечению Мероприятий Гражданской Защиты Южного Административного Округа г. Москвы</title>
+    <field_location type="field">
+        <latitude>55.652928</latitude>
+        <longitude>37.648582</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Каширское ш., 28, корп.2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 324-82-11</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 323-34-43</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентство по Обеспечению Мероприятий Гражданской Защиты Центрального Административного Округа г. Москвы</title>
+    <field_location type="field">
+        <latitude>55.724702</latitude>
+        <longitude>37.607880</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Донская, 6</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 959-94-14</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 237-89-15</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 912-58-07</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентство по Обеспечению Мероприятий Гражданской Защиты Северо-Западного Административного Округа г. Москвы</title>
+    <field_location type="field">
+        <latitude>55.785954</latitude>
+        <longitude>37.480894</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Народного Ополчения, 33, корп.3</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 192-81-12</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 192-94-97</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 192-80-95</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентство по Обеспечению Мероприятий Гражданской Защиты Западного Административного Округа г. Москвы</title>
+    <field_location type="field">
+        <latitude>55.648087</latitude>
+        <longitude>37.391664</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Богданова, 58</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 149-92-66</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 439-32-31</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 149-24-31</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 435-91-01</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Учебно-Консультационный Пункт по Чрезвычайным Ситуациям и Гражданской Обороне района Черемушки г. Москвы</title>
+    <field_location type="field">
+        <latitude>55.670057</latitude>
+        <longitude>37.565668</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Новочеремушкинская, 50</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 128-88-07</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентство по Обеспечению Мероприятий Гражданской Защиты Восточного Административного Округа г. Москвы</title>
+    <field_location type="field">
+        <latitude>55.749354</latitude>
+        <longitude>37.786213</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Владимирская 2-я, 45</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 622-90-37</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 785-16-70</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентства по Обеспечению Мероприятий Гражданской Защиты:</title>
+    <field_location type="field">
+        <latitude>55.727972</latitude>
+        <longitude>37.442491</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Ивана Франко, 12</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 149-24-31</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 149-92-66</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ПО Делам Гражданской Обороны, Чрезвычайным Ситуациям и Ликвидации Последствий Стихийных Бедствий Министерство РФ (МЧС России), Гл. управление по г. Москве, по СВАО управление Алексеевский</title>
+    <field_location type="field">
+        <latitude>55.775915</latitude>
+        <longitude>37.633499</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, просп. Мира, 18</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 681-95-20</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентства по Обеспечению Мероприятий Гражданской Защиты: ЦАО Басманный</title>
+    <field_location type="field">
+        <latitude>55.769985</latitude>
+        <longitude>37.669172</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Басманная Нов., 37</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 261-06-40</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 267-45-92</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ПО Делам Гражданской Обороны, Чрезвычайным Ситуациям и Ликвидации Последствий Стихийных Бедствий Министерство РФ (МЧС России), Гл. управление по г. Москве, по СВАО управление Бибирево</title>
+    <field_location type="field">
+        <latitude>55.887700</latitude>
+        <longitude>37.597199</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Пришвина, 12, корп.2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 407-35-24</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 405-32-02</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентства по Обеспечению Мероприятий Гражданской Защиты: ЮАО Бирюлево Западное</title>
+    <field_location type="field">
+        <latitude>55.582279</latitude>
+        <longitude>37.645797</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Медынская, 14б</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 385-15-11</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 385-09-22</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентства по Обеспечению Мероприятий Гражданской Защиты: ЮВАО Выхино-Жулебино</title>
+    <field_location type="field">
+        <latitude>55.713785</latitude>
+        <longitude>37.803649</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Рязанский просп., 64, корп.2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 376-17-49</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 919-42-35</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 377-29-74</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентства по Обеспечению Мероприятий Гражданской Защиты: Дорогомилово</title>
+    <field_location type="field">
+        <latitude>55.737811</latitude>
+        <longitude>37.533508</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Кутузовский просп., 39</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 249-10-80</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 249-98-60</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентства по Обеспечению Мероприятий Гражданской Защиты: ЦАО Красносельский</title>
+    <field_location type="field">
+        <latitude>55.779327</latitude>
+        <longitude>37.668345</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Красносельская Нижн., 5, стр. 7</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 264-68-89</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 262-18-85</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентства по Обеспечению Мероприятий Гражданской Защиты: Крылатское</title>
+    <field_location type="field">
+        <latitude>55.756427</latitude>
+        <longitude>37.416341</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Крылатские Холмы, 27, корп.1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 413-12-13</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 415-28-94</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентства по Обеспечению Мероприятий Гражданской Защиты: Кунцево</title>
+    <field_location type="field">
+        <latitude>55.743760</latitude>
+        <longitude>37.409720</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Павлова Академика, 42, корп.2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 149-47-75</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ПО Делам Гражданской Обороны, Чрезвычайным Ситуациям и Ликвидации Последствий Стихийных Бедствий Министерство РФ (МЧС России), Гл. управление по г. Москве, по СВАО управление Лосиноостровский</title>
+    <field_location type="field">
+        <latitude>55.856316</latitude>
+        <longitude>37.669980</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Летчика Бабушкина, 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 471-11-91</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 471-56-33</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентства по Обеспечению Мероприятий Гражданской Защиты: ЮВАО Марьино</title>
+    <field_location type="field">
+        <latitude>55.655783</latitude>
+        <longitude>37.744576</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Перерва, 52</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 345-79-50</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 349-35-10</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентства по Обеспечению Мероприятий Гражданской Защиты: Можайский</title>
+    <field_location type="field">
+        <latitude>55.719434</latitude>
+        <longitude>37.405929</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Кубинка, 3, стр. 5</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 446-29-01</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 446-40-94</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентства по Обеспечению Мероприятий Гражданской Защиты: ЮАО Москворечье-Сабурово</title>
+    <field_location type="field">
+        <latitude>55.645314</latitude>
+        <longitude>37.657485</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Пролетарский просп., 7</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 323-62-13</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 323-62-26</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентства по Обеспечению Мероприятий Гражданской Защиты: ЮАО Нагатино-Садовники</title>
+    <field_location type="field">
+        <latitude>55.662171</latitude>
+        <longitude>37.644621</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Миллионщикова Академика, 37</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 612-05-62</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 612-35-33</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентства по Обеспечению Мероприятий Гражданской Защиты: ЮВАО Нижегородский</title>
+    <field_location type="field">
+        <latitude>55.734060</latitude>
+        <longitude>37.705401</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Нижегородская, 58, корп.1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 671-65-96</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 678-80-79</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 911-83-35</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентства по Обеспечению Мероприятий Гражданской Защиты: Ново-Переделкино</title>
+    <field_location type="field">
+        <latitude>55.640609</latitude>
+        <longitude>37.360969</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Боровское ш., 35, корп.1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 732-35-14</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 733-89-99</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ПО Делам Гражданской Обороны, Чрезвычайным Ситуациям и Ликвидации Последствий Стихийных Бедствий Министерство РФ (МЧС России), Гл. управление по г. Москве, по СВАО управление Останкинский</title>
+    <field_location type="field">
+        <latitude>55.800853</latitude>
+        <longitude>37.633886</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, просп. Мира, 81</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 682-25-05</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентства по Обеспечению Мероприятий Гражданской Защиты: Очаково-Матвеевское</title>
+    <field_location type="field">
+        <latitude>55.688172</latitude>
+        <longitude>37.463439</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Очаковская Б., 10</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 437-92-58</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 437-12-50</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентства по Обеспечению Мероприятий Гражданской Защиты: ЮВАО Печатники</title>
+    <field_location type="field">
+        <latitude>55.667660</latitude>
+        <longitude>37.719558</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Шоссейная, 86</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 354-28-08</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 353-50-11</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентства по Обеспечению Мероприятий Гражданской Защиты: ЦАО Пресненский</title>
+    <field_location type="field">
+        <latitude>55.760201</latitude>
+        <longitude>37.556613</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Шмитовский пр-д, 2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 256-40-70</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 256-01-41</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 256-01-84</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентства по Обеспечению Мероприятий Гражданской Защиты: ЮАО Пункт управления</title>
+    <field_location type="field">
+        <latitude>55.633795</latitude>
+        <longitude>37.617132</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Варшавское ш., 116</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 319-77-18</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 318-13-02</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 319-73-67</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 319-73-09</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ПО Делам Гражданской Обороны Чрезвычайным Ситуациям и Ликвидации Последствий Стихийных Бедствий Министерство РФ (МЧС России) Гл. управление по г. Москве по ЮЗАО управление Пункт управления</title>
+    <field_location type="field">
+        <latitude>55.662669</latitude>
+        <longitude>37.575585</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Севастопольский просп., 28, корп.4</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 121-92-00</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 124-96-75</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентства по Обеспечению Мероприятий Гражданской Защиты: ЦАО Пункт управления</title>
+    <field_location type="field">
+        <latitude>55.736600</latitude>
+        <longitude>37.661536</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Марксистская, 24</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 911-12-46</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 912-58-07</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентства по Обеспечению Мероприятий Гражданской Защиты: Раменки</title>
+    <field_location type="field">
+        <latitude>55.694535</latitude>
+        <longitude>37.498025</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Мичуринский просп., 31, корп.5</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 739-19-41</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 932-94-80</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентство по обеспечению мероприятий гражданской защиты СЗАО</title>
+    <field_location type="field">
+        <latitude>55.785954</latitude>
+        <longitude>37.480894</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Народного Ополчения, 33, корп.3</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 192-94-93</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ПО Делам Гражданской Обороны, Чрезвычайным Ситуациям и Ликвидации Последствий Стихийных Бедствий Министерство РФ (МЧС России), Гл. управление по г. Москве, по ВАО управление Сокольники</title>
+    <field_location type="field">
+        <latitude>55.790752</latitude>
+        <longitude>37.683374</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Стромынка, 3</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 268-29-28</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 268-61-01</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентства по Обеспечению Мероприятий Гражданской Защиты: Солнцево</title>
+    <field_location type="field">
+        <latitude>55.648087</latitude>
+        <longitude>37.391664</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Богданова, 58</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 439-68-56</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ПО Делам Гражданской Обороны, Чрезвычайным Ситуациям и Ликвидации Последствий Стихийных Бедствий Министерство РФ (МЧС России), Гл. управление по г. Москве, по ВАО управление Соколиная Гора</title>
+    <field_location type="field">
+        <latitude>55.782977</latitude>
+        <longitude>37.725415</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Щербаковская, 5а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 365-41-29</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 369-47-88</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентства по Обеспечению Мероприятий Гражданской Защиты: ЦАО Таганский</title>
+    <field_location type="field">
+        <latitude>55.736681</latitude>
+        <longitude>37.659838</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Воронцовская, 21, подъезд 1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 912-43-84</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 912-97-88</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 911-34-19</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентства по Обеспечению Мероприятий Гражданской Защиты: ЮВАО Текстильщики</title>
+    <field_location type="field">
+        <latitude>55.701425</latitude>
+        <longitude>37.746561</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Текстильщиков 8-я, 16, корп.5</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 179-79-71</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 176-89-07</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентства по Обеспечению Мероприятий Гражданской Защиты: Тропарево-Никулино</title>
+    <field_location type="field">
+        <latitude>55.654523</latitude>
+        <longitude>37.491296</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Ленинский просп., 150</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 438-01-01</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 434-52-10</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентства по Обеспечению Мероприятий Гражданской Защиты: ЮАО Учебно-методический центр</title>
+    <field_location type="field">
+        <latitude>55.679676</latitude>
+        <longitude>37.631550</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Нагатинская, 4, корп.2</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 611-76-61</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 611-74-54</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ПО Делам Гражданской Обороны, Чрезвычайным Ситуациям и Ликвидации Последствий Стихийных Бедствий Министерство РФ (МЧС России), Гл. управление по г. Москве, по ВАО управление Учебный пункт Гранит</title>
+    <field_location type="field">
+        <latitude>55.769985</latitude>
+        <longitude>37.669172</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Басманная Нов., 37</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 261-15-32</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 267-48-43</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Агентства по Обеспечению Мероприятий Гражданской Защиты: СЗАО Щукино</title>
+    <field_location type="field">
+        <latitude>55.794021</latitude>
+        <longitude>37.482636</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Расплетина, 9</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 943-77-03</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 194-36-51</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">ПО Делам Гражданской Обороны Чрезвычайным Ситуациям и Ликвидации Последствий Стихийных Бедствий Министерство РФ (МЧС России) Гл. управление по г. Москве по ЮЗАО управление Ясенево</title>
+    <field_location type="field">
+        <latitude>55.599036</latitude>
+        <longitude>37.538260</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Гражданская оборона</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Паустовского, 8, корп.1</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 422-26-44</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 421-87-11</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

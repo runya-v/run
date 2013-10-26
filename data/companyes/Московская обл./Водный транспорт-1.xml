@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Канал им. Москвы ФГУП Серпуховский район водных путей г. Серпухов</title>
+    <field_location type="field">
+        <latitude>54.909975</latitude>
+        <longitude>37.401743</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Водный транспорт</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Серпуховский р-н, Серпухов г., ул. Пролетарская, 19</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (496) 735-44-96</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (496) 735-19-06</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (496) 735-33-43</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (496) 735-14-17</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

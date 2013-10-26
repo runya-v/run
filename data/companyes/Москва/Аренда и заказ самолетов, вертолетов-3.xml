@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Феликнет</title>
+    <field_location type="field">
+        <latitude>55.676768</latitude>
+        <longitude>37.527507</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Аренда и заказ самолетов, вертолетов</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Ленинский просп., 86</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 138-38-90</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Авиационно-Нефтяная компания</title>
+    <field_location type="field">
+        <latitude>55.611328</latitude>
+        <longitude>37.298113</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Аренда и заказ самолетов, вертолетов</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Рейсовая 1-я, 5а</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 775-20-10</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Авиационные Услуги</title>
+    <field_location type="field">
+        <latitude>55.793627</latitude>
+        <longitude>37.545087</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Аренда и заказ самолетов, вертолетов</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Ленинградский просп., 37, корп.3</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 155-63-91</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 155-63-18</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 155-63-19</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 155-52-16</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 155-68-45</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 155-58-55</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

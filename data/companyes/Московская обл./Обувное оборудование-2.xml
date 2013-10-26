@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Галант-М 2000</title>
+    <field_location type="field">
+        <latitude>55.481934</latitude>
+        <longitude>37.564446</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Обувное оборудование</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Подольск г., просп. Юных Ленинцев, 59</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 221-24-67</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 755-49-19</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 508-37-55</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">МСУ</title>
+    <field_location type="field">
+        <latitude>55.550947</latitude>
+        <longitude>37.710728</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Обувное оборудование</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Московская обл., Видное г., Промзона, з-д ГИАП, 610</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 541-13-78</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 541-18-56</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>

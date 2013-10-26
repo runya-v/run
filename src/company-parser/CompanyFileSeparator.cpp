@@ -36,17 +36,17 @@ namespace NParser {
         if (_ofs.is_open()) {
             _ofs << "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n";
             _ofs << "<Companies>\n";
-                //"<Companies " \
-                //    "xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" " \
-                //    "xmlns=\"http://maps.yandex.ru/backa/1.x\" " \
-                //    "xmlns:atom=\"http://www.w3.org/2005/Atom\" " \
-                //    "xmlns:xal=\"urn:oasis:names:tc:ciq:xsdschema:xAL:2.0\" " \
-                //    "xmlns:gml=\"http://www.opengis.net/gml\" " \
-                //    "xsi:schemaLocation=\"http://maps.yandex.ru/backa/1.x ../backa.xsd " \
-                //    "http://www.opengis.net/gml ../../../ymaps/ymaps/1.x/gml.xsd " \
-                //    "urn:oasis:names:tc:ciq:xsdschema:xAL:2.0 " \
-                //    "http://docs.oasis-open.org/election/external/xAL.xsd\"" \
-                //    ">\n";
+                /*"<Companies " \
+                    "xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" " \
+                    "xmlns=\"http://maps.yandex.ru/backa/1.x\" " \
+                    "xmlns:atom=\"http://www.w3.org/2005/Atom\" " \
+                    "xmlns:xal=\"urn:oasis:names:tc:ciq:xsdschema:xAL:2.0\" " \
+                    "xmlns:gml=\"http://www.opengis.net/gml\" " \
+                    "xsi:schemaLocation=\"http://maps.yandex.ru/backa/1.x ../backa.xsd " \
+                    "http://www.opengis.net/gml ../../../ymaps/ymaps/1.x/gml.xsd " \
+                    "urn:oasis:names:tc:ciq:xsdschema:xAL:2.0 " \
+                    "http://docs.oasis-open.org/election/external/xAL.xsd\"" \
+                    ">\n";*/
             std::clog << "New file`"<< file_name.str().c_str() << "`\n" << std::flush;
         }
         return _ofs.is_open();

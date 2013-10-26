@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+<profile type="contenttype">
+    <title type="field">Московская городская организация всероссийского добровольного пожарного общества Участок № 2</title>
+    <field_location type="field">
+        <latitude>55.710443</latitude>
+        <longitude>37.446048</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Огнетушители</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, ул. Верейская, 7</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (495) 443-70-18</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (495) 443-18-94</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Московская Городская Организация Всероссийского Добровольного Пожарного Общества Производственный УЧ-к № 5</title>
+    <field_location type="field">
+        <latitude>55.849221</latitude>
+        <longitude>37.672729</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Огнетушители</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Ярославское ш., стр. 1, вл. 38</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (499) 188-41-85</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 188-41-84</value>
+    </field_phone>
+    <field_phone type="field">
+        <value>+7 (499) 188-38-24</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+<profile type="contenttype">
+    <title type="field">Противопожарная фирма Хорс-Би</title>
+    <field_location type="field">
+        <latitude>55.824339</latitude>
+        <longitude>37.514239</longitude>
+    </field_location>
+    <taxonomy type="taxonomy">
+        <term take_parents="0" vid="6">Огнетушители</term>
+    </taxonomy>
+    <field_goods type="field">
+        <value></value>
+    </field_goods>
+    <field_address type="field">
+        <value>Москва, Новоподмосковный 6-й пер., 8</value>
+    </field_address>
+    <field_hours type="field">
+         <value></value>
+    </field_hours>
+    <field_phone type="field">
+        <value>+7 (915) 350-66-39</value>
+    </field_phone>
+    <field_email type="field">
+        <value></value>
+    </field_email>
+</profile>
+</items>
