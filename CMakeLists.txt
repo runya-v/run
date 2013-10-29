@@ -65,12 +65,12 @@ include_directories(${SRC_DIR})
 
 
 # Настройка опций сборки компонент
-OPTION(ENADLE_MYSQL   "Enable MYSQL support [default: ON]"   OFF)
-OPTION(ENADLE_CPPCMS  "Enable CPPCMS support [default: ON]"  OFF)
-OPTION(ENADLE_HTMLCXX "Enable HTMLCXX support [default: ON]" OFF)
-OPTION(ENADLE_CTPP2   "Enable CTPP2 support [default: ON]"   ON)
-OPTION(ENADLE_WTCPP   "Enable WTCPP support [default: ON]"   OFF)
-OPTION(ENADLE_TESTS   "Enable TESTS support [default: ON]"   ON)
+OPTION(ENABLE_MYSQL   "Enable MYSQL support [default: ON]"   OFF)
+OPTION(ENABLE_CPPCMS  "Enable CPPCMS support [default: ON]"  OFF)
+OPTION(ENABLE_HTMLCXX "Enable HTMLCXX support [default: ON]" OFF)
+OPTION(ENABLE_CTPP2   "Enable CTPP2 support [default: ON]"   ON)
+OPTION(ENABLE_WTCPP   "Enable WTCPP support [default: ON]"   OFF)
+OPTION(ENABLE_TESTS   "Enable TESTS support [default: ON]"   ON)
 
 
 # Поиск библиотек Boost версии старше 1.48
@@ -119,35 +119,35 @@ include(TakeComponent)
 add_subdirectory("${SRC_DIR}")
 add_subdirectory("${SRC_DIR}/company-parser")
 
-if(ENADLE_CTPP2)
+if(ENABLE_CTPP2)
     take_component(CTPP2)
     add_subdirectory("${SRC_DIR}/http-server")
-endif(ENADLE_CTPP2)
+endif(ENABLE_CTPP2)
 
-if(ENADLE_WTCPP)
+if(ENABLE_WTCPP)
     take_component(WTCPP)
     add_subdirectory("${SRC_DIR}/companyes-web")
-endif(ENADLE_WTCPP)
+endif(ENABLE_WTCPP)
 
-if(ENADLE_CPPCMS)
+if(ENABLE_CPPCMS)
     take_component(CPPCMS)
-endif(ENADLE_CPPCMS)
+endif(ENABLE_CPPCMS)
 
-if(ENADLE_HTMLCXX)
+if(ENABLE_HTMLCXX)
     take_component(HTMLCXX)
-endif(ENADLE_HTMLCXX)
+endif(ENABLE_HTMLCXX)
 
-if(ENADLE_CPPCMS AND ENADLE_HTMLCXX)
+if(ENABLE_CPPCMS AND ENADLE_HTMLCXX)
     add_subdirectory("${SRC_DIR}/layout-parser")
     add_subdirectory("${SRC_DIR}/layout-server")
-endif(ENADLE_CPPCMS AND ENADLE_HTMLCXX)
+endif(ENABLE_CPPCMS AND ENADLE_HTMLCXX)
 
-if(ENADLE_MYSQL)
+if(ENABLE_MYSQL)
     take_component(MYSQL)
-endif(ENADLE_MYSQL)
+endif(ENABLE_MYSQL)
 
 # Директорию test включается только, если определен макро ENABLE_TESTS=ON
-if(ENADLE_TESTS)
+if(ENABLE_TESTS)
     message("Include tests directory to build process")
 
     set(TESTS_DIR ${SRC_DIR}/tests)
@@ -159,6 +159,6 @@ if(ENADLE_TESTS)
     include(UTest)
 
     add_subdirectory("${TESTS_DIR}")
-else(ENADLE_TESTS)
+else(ENABLE_TESTS)
     message("Directory tests is not included to build. Run cmake -DENABLE_TESTS=ON to include.")
-endif(ENADLE_TESTS)
+endif(ENABLE_TESTS)

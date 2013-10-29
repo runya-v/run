@@ -2,7 +2,7 @@
 #   define BOOST_TEST_DYN_LINK
 #endif // BOOST_STATIC_LINK
 
-#define BOOST_TEST_MODULE ForexPrj
+#define BOOST_TEST_MODULE Threads
 #define BOOST_AUTO_TEST_MAIN
 
 #define THREAD_POOL_STATISTICS

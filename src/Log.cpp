@@ -99,10 +99,10 @@ void Log::execute() {
             task = _queue.front();
             _queue.pop();
         }
-        auto module  = task.get<0>();
-        auto level   = task.get<1>();
-        auto message = task.get<2>();
-        auto time    = task.get<3>();
+        auto module  = std::get<0>(task);
+        auto level   = std::get<1>(task);
+        auto message = std::get<2>(task);
+        auto time    = std::get<3>(task);
 
         boost::format f = boost::format("%5u. [%s] [%s] [%s] %s\n")
             % boost::lexical_cast<std::string>(_file_line_number++)
@@ -192,13 +192,13 @@ void Log::print(const std::string& module, const Log::Level& level, const std::s
         auto now = boost::posix_time::microsec_clock::universal_time();
 
         if (_queue.size() < LOG_MAX_QUEUE_SIZE) {
-            _queue.push(boost::make_tuple(module, level, message, now));
+            _queue.push(std::make_tuple(module, level, message, now));
         }
         else {
             boost::format f = boost::format("Log max queue size exceeded! %d messages were dropped.") % _queue.size();
             Queue q;
             _queue.swap(q);
-            _queue.push(boost::make_tuple("NONE", Log::Level::ERROR, f.str(), now));
+            _queue.push(std::make_tuple("NONE", Log::Level::ERROR, f.str(), now));
         }
         _cond.notify_one();
     }

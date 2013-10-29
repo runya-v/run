@@ -2,17 +2,27 @@
 #   define BOOST_TEST_DYN_LINK
 #endif // BOOST_STATIC_LINK
 
-#define BOOST_TEST_MODULE ForexPrj
+#define BOOST_TEST_MODULE CtppHtml
 #define BOOST_AUTO_TEST_MAIN
-
-#define THREAD_POOL_STATISTICS
 
 #include <string> 
 
+#include <boost/test/unit_test.hpp>
 #include <boost/test/output_test_stream.hpp>
 #include <boost/format.hpp>
 
-#include <CTPP2.hpp>
+#include <ctpp2/CTPP2Parser.hpp>
+#include <ctpp2/CTPP2FileSourceLoader.hpp>
+#include <ctpp2/CTPP2FileOutputCollector.hpp>
+#include <ctpp2/CTPP2ParserException.hpp>
+#include <ctpp2/CTPP2HashTable.hpp>
+#include <ctpp2/CTPP2VMDumper.hpp>
+#include <ctpp2/CTPP2VMOpcodes.h>
+#include <ctpp2/CTPP2SyscallFactory.hpp>
+#include <ctpp2/CTPP2VMFileLoader.hpp>
+#include <ctpp2/CTPP2JSONFileParser.hpp>
+#include <ctpp2/CTPP2VM.hpp>
+#include <ctpp2/CTPP2VMSTDLib.hpp>
 
 #include "Log.hpp"
 
@@ -88,26 +98,26 @@ class CompileTemplate {
     
 public:
     CompileTemplate(const std::string &source) {
-        VMOpcodeCollector vm_opcode_collector;
-        StaticText sys_calls;
-        StaticData static_data;
-        StaticText static_text;
-        HashTable hash_table;
-        CTPP2Compiler compiler(vm_opcode_collector, sys_calls, static_data, static_text, hash_table);
+        CTPP::VMOpcodeCollector vm_opcode_collector;
+        CTPP::StaticText sys_calls;
+        CTPP::StaticData static_data;
+        CTPP::StaticText static_text;
+        CTPP::HashTable hash_table;
+        CTPP::CTPP2Compiler compiler(vm_opcode_collector, sys_calls, static_data, static_text, hash_table);
 
         try {
-            CTPP2FileSourceLoader source_loader;
-            source_loader.LoadTemplate(source);
-            CTPP2Parser parser(&source_loader, &compiler, source);
+            CTPP::CTPP2FileSourceLoader source_loader;
+            source_loader.LoadTemplate(source.c_str());
+            CTPP::CTPP2Parser parser(&source_loader, &compiler, source);
             parser.Compile();
         }
-        catch(CTPPLogicError &e) {
+        catch(CTPP::CTPPLogicError &e) {
             LOG(METHOD, base::Log::Level::ERROR, e.what());
         }
-        catch(CTPPUnixException &e) {
+        catch(CTPP::CTPPUnixException &e) {
             LOG(METHOD, base::Log::Level::ERROR, std::string(e.what()) + strerror(e.ErrNo()));
         }
-        catch(CTPPParserSyntaxError &e) {
+        catch(CTPP::CTPPParserSyntaxError &e) {
             boost::format f = boost::format("At line %d, pos. %d: %s")
                 % e.GetLine()
                 % e.GetLinePos()
@@ -115,7 +125,7 @@ public:
                 ;
             LOG(METHOD, base::Log::Level::ERROR, f.str());
         }
-        catch (CTPPParserOperatorsMismatch &e) {
+        catch (CTPP::CTPPParserOperatorsMismatch &e) {
             boost::format f = boost::format("At line %d, pos. %d: expected %s, but found </%s>")
                 % e.GetLine() 
                 % e.GetLinePos()
@@ -127,13 +137,14 @@ public:
         catch(...) {
             LOG(METHOD, base::Log::Level::ERROR, "Bad thing happened.");
         }
-
-        UINT_32 code_size = 0;
-        const VMInstruction *vm_instruction = vm_opcode_collector.GetCode(code_size);
-        VMDumper dumper(code_size, vm_instruction, sys_calls, static_data, static_text, hash_table);
-        UINT_32 size = 0;
-        const VMExecutable *program_core = dumper.GetExecutable(size);
-        _result.assign(program_core, program_core + size);
+        
+        uint32_t code_size = 0;
+        const CTPP::VMInstruction *vm_instruction = vm_opcode_collector.GetCode(code_size);
+        CTPP::VMDumper dumper(code_size, vm_instruction, sys_calls, static_data, static_text, hash_table);
+        uint32_t size = 0;
+        const CTPP::VMExecutable *program_core = dumper.GetExecutable(size);
+        const uint8_t *write_ptr = reinterpret_cast<const uint8_t*>(program_core);
+        _result.assign(write_ptr, write_ptr + size);
     }
 };
 
@@ -143,39 +154,39 @@ class Generate {
     
 public:
     Generate() {
-        // 1. Создаем коллектор результатов. Вывод направляем в STDOUT
-        FileOutputCollector oOutputCollector(stdout);
-        // 2. Создаем фабрику объектов
-        SyscallFactory oSyscallFactory(100);
-        // .... и загружаем стандартную библиотеку
-        STDLibInitializer::InitLibrary(oSyscallFactory);
-        // 3. Загружаем файл с диска
-        VMFileLoader oLoader(argv[1]);
-        // Получаем образ программы 
-        const VMMemoryCore *pVMMemoryCore = oLoader.GetCore();
-
-        /*
-        * 4. Заполняем данные, которые хотим вывести.
-        *    И если в прошлый раз мы добавляли их вручную,
-        *    то сейчас используем для этого JSON
-        */
-        CDT oHash;
-        CTPP2JSONFileParser oJSONFileParser(oHash);
-        oJSONFileParser.Parse(argv[2]);
-
-        // 5. Создаем виртуальную машину
-        VM oVM(oSyscallFactory);
-
-        // 6. Инициализируем машину для запуска программы
-        oVM.Init(oOutputCollector, *pVMMemoryCore);
-
-        // 7. Запускаем программу
-        UINT_32 iIP = 0;
-        oVM.Run(*pVMMemoryCore, iIP, oHash);   
+        //// 1. Создаем коллектор результатов. Вывод направляем в STDOUT
+        //CTPP::FileOutputCollector oOutputCollector(stdout);
+        //// 2. Создаем фабрику объектов
+        //CTPP::SyscallFactory oSyscallFactory(100);
+        //// .... и загружаем стандартную библиотеку
+        //CTPP::STDLibInitializer::InitLibrary(oSyscallFactory);
+        //// 3. Загружаем файл с диска
+        //CTPP::VMFileLoader oLoader(argv[1]);
+        //// Получаем образ программы 
+        //const CTPP::VMMemoryCore *pVMMemoryCore = oLoader.GetCore();
+        //
+        ///*
+        //* 4. Заполняем данные, которые хотим вывести.
+        //*    И если в прошлый раз мы добавляли их вручную,
+        //*    то сейчас используем для этого JSON
+        //*/
+        //CTPP::CDT oHash;
+        //CTPP::CTPP2JSONFileParser oJSONFileParser(oHash);
+        //oJSONFileParser.Parse(argv[2]);
+        //
+        //// 5. Создаем виртуальную машину
+        //CTPP::VM oVM(*oSyscallFactory);
+        //
+        //// 6. Инициализируем машину для запуска программы
+        //oVM.Init(oOutputCollector, *pVMMemoryCore);
+        //
+        //// 7. Запускаем программу
+        //UINT_32 iIP = 0;
+        //oVM.Run(*pVMMemoryCore, iIP, oHash);   
 
     }
 };
 
 
-BOOST_AUTO_TEST_CASE(TestPerformance) {
+BOOST_AUTO_TEST_CASE(TestCtppHttpGenerate) {
 }

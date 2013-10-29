@@ -8,8 +8,8 @@
 #include <sstream>
 #include <string>
 #include <typeinfo>
+#include <tuple>
 
-#include <boost/fusion/include/boost_tuple.hpp>
 #include <boost/date_time/posix_time/posix_time.hpp>
 
 #include "base.hpp"
@@ -32,7 +32,7 @@ namespace base {
         };
 
     private:
-        typedef boost::tuple<std::string, Level, std::string, boost::posix_time::ptime> QueueTask;
+        typedef std::tuple<std::string, Level, std::string, boost::posix_time::ptime> QueueTask;
         typedef std::queue<QueueTask> Queue;
 
         virtual void execute();
@@ -72,9 +72,9 @@ namespace base {
         void start();
         void stop();
     };
-
-
-    #define LOG(module, level, msg) base::Singleton<base::Log>::getInstance()->print((module), (level), (msg))
-    #define MODULE typeid(*this).name()
-    #define METHOD (std::string(MODULE) + "::" + __FUNCTION__)
 } // namespace base
+
+
+#define LOG(module, level, msg) base::Singleton<base::Log>::getInstance()->print((module), (level), (msg))
+#define MODULE typeid(*this).name()
+#define METHOD (std::string(MODULE) + "::" + __FUNCTION__)
