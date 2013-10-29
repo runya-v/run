@@ -11,6 +11,7 @@ if(NOT CMAKE_BUILD_TYPE)
         )
 endif(NOT CMAKE_BUILD_TYPE)
 
+
 # Общие флаги для всех сборок.
 add_definitions(
     -std=gnu++11
@@ -52,6 +53,7 @@ set(BINARY_DIR       ${CMAKE_CURRENT_BINARY_DIR})
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${BINARY_DIR}/${CMAKE_BUILD_TYPE}/bin)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${BINARY_DIR}/${CMAKE_BUILD_TYPE}/lib)
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${BINARY_DIR}/${CMAKE_BUILD_TYPE}/lib)
+
 
 # Указание общих настроек
 link_directories("/usr/lib")
