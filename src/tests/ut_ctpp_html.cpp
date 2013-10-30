@@ -6,6 +6,8 @@
 #define BOOST_AUTO_TEST_MAIN
 
 #include <string> 
+#include <fstream>
+#include <stdexcept>
 
 #include <boost/test/unit_test.hpp>
 #include <boost/test/output_test_stream.hpp>
@@ -27,7 +29,7 @@
 #include "Log.hpp"
 
 
-const std::string NEW_LIST_HTML = 
+const std::string NEW_LIST_TMPL = 
     "<html>" \
     "    <head>" \
     "        <title>News List</title>" \
@@ -93,12 +95,44 @@ const std::string NEW_LIST_JSON =
         "\"reporter_url\" : \"http:// .......\" } ] }";
 
 
+class TestSaveFile {
+    base::bfs::path _path;
+    
+public:
+    TestSaveFile(const std::string &source, const std::string &file_name)
+            : _path(base::bfs::absolute(base::bfs::current_path()) / file_name)
+    {
+        LOG(METHOD, base::Log::Level::INFO, "Create: `" + _path.string() + "`");
+        std::ofstream ofs(_path.string());
+
+        if (ofs.is_open()) {
+            ofs << source;
+        }
+        else {
+            throw std::runtime_error("Can`t create file: `" + file_name + "`");
+        }
+    }
+
+
+    ~TestSaveFile() {
+        if (base::bfs::exists(_path)) {
+            base::bfs::remove(_path);
+            LOG(METHOD, base::Log::Level::INFO, "Delete: `" + _path.string() + "`");
+        }
+    }
+    
+    operator std::string () {
+        return _path.string();
+    }
+};
+
+
 class CompileTemplate {
     std::vector<uint8_t> _result;
     
 public:
-    CompileTemplate(const std::string &source) {
-        LOG(METHOD, base::Log::Level::DEBUG, "Compile: {\n" + source + "\n}");
+    CompileTemplate(const std::string &file_source) {
+        LOG(METHOD, base::Log::Level::DEBUG, "Compile: `" + file_source + "`");
         
         CTPP::VMOpcodeCollector vm_opcode_collector;
         CTPP::StaticText sys_calls;
@@ -109,8 +143,8 @@ public:
 
         try {
             CTPP::CTPP2FileSourceLoader source_loader;
-            source_loader.LoadTemplate(source.c_str());
-            CTPP::CTPP2Parser parser(&source_loader, &compiler, source);
+            source_loader.LoadTemplate(file_source.c_str());
+            CTPP::CTPP2Parser parser(&source_loader, &compiler, file_source);
             parser.Compile();
         }
         catch(CTPP::CTPPLogicError &e) {
@@ -191,5 +225,5 @@ public:
 
 
 BOOST_AUTO_TEST_CASE(TestCtppHttpGenerate) {
-    CompileTemplate compile(NEW_LIST_HTML);
+    CompileTemplate compile(TestSaveFile(NEW_LIST_TMPL, "new_list.tmpl"));
 }

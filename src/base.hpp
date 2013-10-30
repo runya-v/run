@@ -35,6 +35,7 @@ extern "C" {
 #include <boost/uuid/uuid.hpp>
 #include <boost/regex.hpp>
 #include <boost/lexical_cast.hpp>
+#include <boost/filesystem.hpp>
 
 
 namespace base {
@@ -42,6 +43,7 @@ namespace base {
     namespace chr  = std::chrono;
     namespace asio = boost::asio;
     namespace bs   = boost::system;
+    namespace bfs  = boost::filesystem;
 
     class Task;
     class Timer;
