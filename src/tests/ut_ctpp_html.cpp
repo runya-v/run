@@ -27,27 +27,6 @@
 #include "Log.hpp"
 
 
-const std::string NEW_LIST_JSON = 
-    "{\"newslist\" : [" \
-    "{   \"date\"  : 1169090455," \
-        "\"title\" : \"FreeBSD 6.3-RELEASE is now available\"," \
-        "\"body\"  : \"Please .......\" }," \
-    "{   \"date\"  : 1169019722," \
-        "\"title\" : \"New RSS Feeds\"," \
-        "\"body\"  : \"Six new .......\" }," \
-    "{   \"date\"  : 1169010455," \
-        "\"title\" : \"$199 Linux PC Now Available at Sears.com\"," \
-        "\"body\"  : \"Linspire, Inc ........\"," \
-        "\"publication\"  : \"http:// .......\"," \
-        "\"reporter\"     : \"SOURCE Linspire, Inc.\" }," \
-    "{   \"date\"  : 1168840430," \
-        "\"title\" : \"Samba's Tridge clusters code and crowds\"," \
-        "\"body\"  : \"Andrew .......\"," \
-        "\"publication\"  : \"http:// .......\"," \
-        "\"reporter\"     : \"Dahna McConnachie\"," \
-        "\"reporter_url\" : \"http:// .......\" } ] }";
-
-
 const std::string NEW_LIST_HTML = 
     "<html>" \
     "    <head>" \
@@ -93,11 +72,34 @@ const std::string NEW_LIST_HTML =
     "</html>";
 
 
+const std::string NEW_LIST_JSON = 
+    "{\"newslist\" : [" \
+    "{   \"date\"  : 1169090455," \
+        "\"title\" : \"FreeBSD 6.3-RELEASE is now available\"," \
+        "\"body\"  : \"Please .......\" }," \
+    "{   \"date\"  : 1169019722," \
+        "\"title\" : \"New RSS Feeds\"," \
+        "\"body\"  : \"Six new .......\" }," \
+    "{   \"date\"  : 1169010455," \
+        "\"title\" : \"$199 Linux PC Now Available at Sears.com\"," \
+        "\"body\"  : \"Linspire, Inc ........\"," \
+        "\"publication\"  : \"http:// .......\"," \
+        "\"reporter\"     : \"SOURCE Linspire, Inc.\" }," \
+    "{   \"date\"  : 1168840430," \
+        "\"title\" : \"Samba's Tridge clusters code and crowds\"," \
+        "\"body\"  : \"Andrew .......\"," \
+        "\"publication\"  : \"http:// .......\"," \
+        "\"reporter\"     : \"Dahna McConnachie\"," \
+        "\"reporter_url\" : \"http:// .......\" } ] }";
+
+
 class CompileTemplate {
     std::vector<uint8_t> _result;
     
 public:
     CompileTemplate(const std::string &source) {
+        LOG(METHOD, base::Log::Level::DEBUG, "Compile: {\n" + source + "\n}");
+        
         CTPP::VMOpcodeCollector vm_opcode_collector;
         CTPP::StaticText sys_calls;
         CTPP::StaticData static_data;
@@ -112,10 +114,10 @@ public:
             parser.Compile();
         }
         catch(CTPP::CTPPLogicError &e) {
-            LOG(METHOD, base::Log::Level::ERROR, e.what());
+            LOG(METHOD, base::Log::Level::ERROR, std::string("CTPPLogicError: ") + e.what());
         }
         catch(CTPP::CTPPUnixException &e) {
-            LOG(METHOD, base::Log::Level::ERROR, std::string(e.what()) + strerror(e.ErrNo()));
+            LOG(METHOD, base::Log::Level::ERROR, std::string("CTPPUnixException: ") + std::string(e.what()) + strerror(e.ErrNo()));
         }
         catch(CTPP::CTPPParserSyntaxError &e) {
             boost::format f = boost::format("At line %d, pos. %d: %s")
@@ -123,7 +125,7 @@ public:
                 % e.GetLinePos()
                 % e.what()
                 ;
-            LOG(METHOD, base::Log::Level::ERROR, f.str());
+            LOG(METHOD, base::Log::Level::ERROR, std::string("CTPPParserSyntaxError: ") + f.str());
         }
         catch (CTPP::CTPPParserOperatorsMismatch &e) {
             boost::format f = boost::format("At line %d, pos. %d: expected %s, but found </%s>")
@@ -132,10 +134,10 @@ public:
                 % e.Expected()
                 % e.Found()
                 ;
-            LOG(METHOD, base::Log::Level::ERROR, f.str());
+            LOG(METHOD, base::Log::Level::ERROR, std::string("CTPPParserOperatorsMismatch: ") + f.str());
         }
         catch(...) {
-            LOG(METHOD, base::Log::Level::ERROR, "Bad thing happened.");
+            LOG(METHOD, base::Log::Level::ERROR, std::string("undefined: ") + "Bad thing happened.");
         }
         
         uint32_t code_size = 0;
@@ -189,4 +191,5 @@ public:
 
 
 BOOST_AUTO_TEST_CASE(TestCtppHttpGenerate) {
+    CompileTemplate compile(NEW_LIST_HTML);
 }
