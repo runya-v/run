@@ -83,6 +83,14 @@ Log::~Log() {
 }
 
 
+void Log::init(bool log_out, bool log_out_file, bool log_file_compress, uint32_t log_file_depth) {
+    _log_out           = log_out;
+    _log_out_file      = log_out_file;
+    _log_file_compress = log_file_compress;
+    _log_file_depth    = LOG_FILE_DEPTH;
+}
+
+
 void Log::execute() {
     while (true) {
         QueueTask task; 

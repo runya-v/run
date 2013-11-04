@@ -67,6 +67,11 @@ namespace base {
         Log();
         ~Log();
 
+        void init(
+            bool log_out,
+            bool log_out_file,
+            bool log_file_compress = false,
+            uint32_t log_file_depth = LOG_FILE_DEPTH);
         void print(const std::string& module, const Level& level, const std::string& message);
 
         void start();

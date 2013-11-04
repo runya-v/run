@@ -12,6 +12,7 @@
 #include <boost/test/unit_test.hpp>
 #include <boost/test/output_test_stream.hpp>
 #include <boost/format.hpp>
+#include <boost/utility.hpp> 
 
 #include <ctpp2/CTPP2Parser.hpp>
 #include <ctpp2/CTPP2FileSourceLoader.hpp>
@@ -25,91 +26,178 @@
 #include <ctpp2/CTPP2JSONFileParser.hpp>
 #include <ctpp2/CTPP2VM.hpp>
 #include <ctpp2/CTPP2VMSTDLib.hpp>
+#include <ctpp2/CTPP2VMException.hpp>
+#include <ctpp2/CTPP2VMStackException.hpp>
 
 #include "Log.hpp"
 
 
-const std::string NEW_LIST_TMPL = 
-    "<html>" \
-    "    <head>" \
-    "        <title>News List</title>" \
-    "        <style type=\"text/css\">" \
-    "            a {" \
-    "              font-family: Verdana, Arial, Helvetica, sans-serif;" \
-    "              color: black; font-size: 8pt; font-weight: bold;" \
-    "            }" \
-    "            span {" \
-    "              font-family: Verdana, Arial, Helvetica, sans-serif;" \
-    "              color: black; font-size: 10pt; font-weight: normal;" \
-    "            }" \
-    "            span.date {" \
-    "              font-family: Verdana, Arial, Helvetica, sans-serif;" \
-    "              color: #D00000; font-size: 10pt; font-weight: normal;" \
-    "            }" \
-    "        </style>" \
-    "    </head>" \
-    "    <body>" \
-    "        <TMPL_if newslist>" \
-    "        <div align=\"center\" style=\"width=100%\">" \
-    "        <table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" width=\"96%\">" \
-    "        <TMPL_loop newslist>" \
-    "            <tr><td>" \
-    "                <span class=\"date\"><b><i><TMPL_var DATE_FORMAT(date, \"%d %b %Y %H:%M\")>" \
-    "                </i></b></span>" \
-    "                <span><b><TMPL_var title></b><br><TMPL_var body><br>" \
-    "                <TMPL_if publication>" \
-    "                    <a href=\"<TMPL_var publication>\">Main URL</a><br>" \
-    "                </TMPL_if>" \
-    "                <TMPL_if reporter>" \
-    "                    <a href=\"<TMPL_var reporter_url>\"><TMPL_var reporter></a><br>" \
-    "                </TMPL_if>" \
-    "                <br>" \
-    "                </span>" \
-    "            </td></tr>" \
-    "        </TMPL_loop>" \
-    "        </table>" \
-    "        </div>" \
-    "        </TMPL_if>" \
-    "    </body>" \
+const char NEW_LIST_TMPL[] = 
+    "<html>" 
+    "    <head>" 
+    "        <title>News List</title>" 
+    "        <style type=\"text/css\">" 
+    "            a {" 
+    "              font-family: Verdana, Arial, Helvetica, sans-serif;" 
+    "              color: black; font-size: 8pt; font-weight: bold;" 
+    "            }" 
+    "            span {" 
+    "              font-family: Verdana, Arial, Helvetica, sans-serif;" 
+    "              color: black; font-size: 10pt; font-weight: normal;" 
+    "            }" 
+    "            span.date {" 
+    "              font-family: Verdana, Arial, Helvetica, sans-serif;" 
+    "              color: #D00000; font-size: 10pt; font-weight: normal;" 
+    "            }" 
+    "        </style>" 
+    "    </head>" 
+    "    <body>" 
+    "        <TMPL_if newslist>" 
+    "        <div align=\"center\" style=\"width=100%\">" 
+    "        <table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" width=\"96%\">" 
+    "        <TMPL_loop newslist>" 
+    "            <tr><td>" 
+    "                <span class=\"date\"><b><i><TMPL_var DATE_FORMAT(date, \"%d %b %Y %H:%M\")>" 
+    "                </i></b></span>" 
+    "                <span><b><TMPL_var title></b><br><TMPL_var body><br>" 
+    "                <TMPL_if publication>" 
+    "                    <a href=\"<TMPL_var publication>\">Main URL</a><br>" 
+    "                </TMPL_if>" 
+    "                <TMPL_if reporter>" 
+    "                    <a href=\"<TMPL_var reporter_url>\"><TMPL_var reporter></a><br>" 
+    "                </TMPL_if>" 
+    "                <br>" 
+    "                </span>" 
+    "            </td></tr>" 
+    "        </TMPL_loop>" 
+    "        </table>" 
+    "        </div>" 
+    "        </TMPL_if>" 
+    "    </body>" 
     "</html>";
 
 
-const std::string NEW_LIST_JSON = 
-    "{\"newslist\" : [" \
-    "{   \"date\"  : 1169090455," \
-        "\"title\" : \"FreeBSD 6.3-RELEASE is now available\"," \
-        "\"body\"  : \"Please .......\" }," \
-    "{   \"date\"  : 1169019722," \
-        "\"title\" : \"New RSS Feeds\"," \
-        "\"body\"  : \"Six new .......\" }," \
-    "{   \"date\"  : 1169010455," \
-        "\"title\" : \"$199 Linux PC Now Available at Sears.com\"," \
-        "\"body\"  : \"Linspire, Inc ........\"," \
-        "\"publication\"  : \"http:// .......\"," \
-        "\"reporter\"     : \"SOURCE Linspire, Inc.\" }," \
-    "{   \"date\"  : 1168840430," \
-        "\"title\" : \"Samba's Tridge clusters code and crowds\"," \
-        "\"body\"  : \"Andrew .......\"," \
-        "\"publication\"  : \"http:// .......\"," \
-        "\"reporter\"     : \"Dahna McConnachie\"," \
-        "\"reporter_url\" : \"http:// .......\" } ] }";
+const char NEW_LIST_JSON[] = 
+    "{\n"
+    "   \"newslist\" : [\n"
+    "       {\n"   
+    "           \"date\"  : 1169090455,\n" 
+    "           \"title\" : \"FreeBSD 6.3-RELEASE is now available\",\n" 
+    "           \"body\"  : \"TEST Text 1\"\n"
+    "       },\n" 
+    "       {\n"
+    "           \"date\"  : 1169019722,\n" 
+    "           \"title\" : \"New RSS Feeds\",\n" 
+    "           \"body\"  : \"TEST Text 2\"\n"
+    "       },\n" 
+    "       {\n"
+    "           \"date\"         : 1169010455,\n" 
+    "           \"title\"        : \"$199 Linux PC Now Available at Sears.com\",\n" 
+    "           \"body\"         : \"TEST Text 3\",\n" 
+    "           \"publication\"  : \"http://test_href_1.html\",\n" 
+    "           \"reporter\"     : \"SOURCE Linspire, Inc.\"\n"
+    "       },\n" 
+    "       {\n"
+    "           \"date\"         : 1168840430,\n" 
+    "           \"title\"        : \"Samba's Tridge clusters code and crowds\",\n" 
+    "           \"body\"         : \"TEST Text 4\",\n" 
+    "           \"publication\"  : \"http://test_href_2.html\",\n" 
+    "           \"reporter\"     : \"Dahna McConnachie\",\n" 
+    "           \"reporter_url\" : \"http://test_href_3.html\"\n"
+    "       }\n"
+    "   ]\n"
+    "}\n";
+
+const char RESULT_JSON[] = 
+    "<html>"    
+        "<head>"        
+            "<title>News List</title>"        
+            "<style type=\"text/css\">"            
+            "a {"              
+            "font-family: Verdana, Arial, Helvetica, sans-serif;"              
+            "color: black; font-size: 8pt; font-weight: bold;"            
+            "}"            
+            "span {"              
+            "font-family: Verdana, Arial, Helvetica, sans-serif;"              
+            "color: black; font-size: 10pt; font-weight: normal;"            
+            "}"            
+            "span.date {"              
+            "font-family: Verdana, Arial, Helvetica, sans-serif;"              
+            "color: #D00000; font-size: 10pt; font-weight: normal;"            
+            "}"        
+            "</style>"    
+        "</head>"    
+        "<body>"                
+            "<div align=\"center\" style=\"width=100%\">"        
+            "<table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" width=\"96%\">"   
+                "<tr>"
+                    "<td>"                
+                        "<span class=\"date\"><b><i>18 Jan 2007 06:20                </i></b>"
+                        "</span>"                
+                        "<span><b>FreeBSD 6.3-RELEASE is now available</b><br>TEST Text 1<br>"               
+                        "<br>"                
+                        "</span>"            
+                    "</td>"
+                "</tr>"                    
+                "<tr>"
+                    "<td>"                
+                        "<span class=\"date\"><b><i>17 Jan 2007 10:42                </i></b>"
+                        "</span>"                
+                        "<span><b>New RSS Feeds</b><br>TEST Text 2<br>"                                                
+                        "<br>"                
+                        "</span>"            
+                    "</td>"
+                "</tr>"                    
+                "<tr>"
+                    "<td>"                
+                        "<span class=\"date\"><b><i>17 Jan 2007 08:07                </i></b>"
+                        "</span>"                
+                        "<span><b>$199 Linux PC Now Available at Sears.com</b><br>TEST Text 3<br>"                                    
+                        "<a href=\"http://test_href_1.html\">Main URL</a><br>"                                                    
+                        "<a href="">SOURCE Linspire, Inc.</a><br>"                                
+                        "<br>"                
+                        "</span>"            
+                    "</td>"
+                "</tr>"                    
+                "<tr>"
+                    "<td>"                
+                        "<span class=\"date\"><b><i>15 Jan 2007 08:53                </i></b>"
+                        "</span>"                
+                        "<span><b>Samba\'s Tridge clusters code and crowds</b><br>TEST Text 4<br>"                                    
+                        "<a href=\"http://test_href_2.html\">Main URL</a><br>"                                                    
+                        "<a href=\"http://test_href_3.html\">Dahna McConnachie</a><br>"                                
+                        "<br>"                
+                        "</span>"            
+                    "</td>"
+                "</tr>"                
+            "</table>"        
+            "</div>"            
+        "</body>"
+    "</html>";
 
 
 class TestSaveFile {
     base::bfs::path _path;
     
 public:
-    TestSaveFile(const std::string &source, const std::string &file_name)
-            : _path(base::bfs::absolute(base::bfs::current_path()) / file_name)
+    TestSaveFile(const char *source, const uint32_t size, const std::string &file_name, bool binary = false)
+        : _path(base::bfs::absolute(base::bfs::current_path()) / file_name)
     {
-        LOG(METHOD, base::Log::Level::INFO, "Create: `" + _path.string() + "`");
-        std::ofstream ofs(_path.string());
-
-        if (ofs.is_open()) {
-            ofs << source;
+        LOG(METHOD, base::Log::Level::INFO, "Create: `" + _path.string() + "`.");
+        std::ofstream ofs;
+        
+        if (binary) {
+            ofs.open(_path.string(), std::ios::binary);
         }
         else {
-            throw std::runtime_error("Can`t create file: `" + file_name + "`");
+            ofs.open(_path.string());
+        }
+
+        if (ofs.is_open()) {
+            ofs.write(source, size);
+        }
+        else {
+            throw std::runtime_error("Can`t create file: `" + file_name + "`.");
         }
     }
 
@@ -117,7 +205,7 @@ public:
     ~TestSaveFile() {
         if (base::bfs::exists(_path)) {
             base::bfs::remove(_path);
-            LOG(METHOD, base::Log::Level::INFO, "Delete: `" + _path.string() + "`");
+            LOG(METHOD, base::Log::Level::INFO, "Delete: `" + _path.string() + "`.");
         }
     }
     
@@ -127,10 +215,14 @@ public:
 };
 
 
+typedef std::vector<char> DataBuf;
+
+
 class CompileTemplate {
-    std::vector<uint8_t> _result;
+    DataBuf _result;
     
 public:
+
     CompileTemplate(const std::string &file_source) {
         LOG(METHOD, base::Log::Level::DEBUG, "Compile: `" + file_source + "`");
         
@@ -182,48 +274,161 @@ public:
         const uint8_t *write_ptr = reinterpret_cast<const uint8_t*>(program_core);
         _result.assign(write_ptr, write_ptr + size);
     }
+    
+    operator const DataBuf&() {
+        return _result;
+    }
+};
+
+
+class StdoutToFile 
+    : boost::noncopyable
+{
+    int _saved_stdout;
+    FILE *_file;
+    
+public:
+    StdoutToFile(const std::string &file_name) 
+        : _saved_stdout(dup(STDOUT_FILENO))
+        , _file(fopen(file_name.c_str(), "w"))
+    {
+        if (-1 == _saved_stdout) {
+            throw std::runtime_error("Can`t dup stdout.");
+        }
+        
+        if (nullptr == _file) {
+            throw std::runtime_error("Can`t open redirect file `" + file_name + "`.");
+        }
+        
+        if (-1 == dup2(fileno(_file), STDOUT_FILENO)) {
+            throw std::runtime_error("Can`t redirect to file `" + file_name + "`.");
+        }
+    }
+    
+    ~StdoutToFile() {
+        fflush(stdout);
+        fclose(_file);
+        dup2(_saved_stdout, STDOUT_FILENO);
+    }    
+};
+
+class CFileHeader 
+    : boost::noncopyable
+{
+    FILE *_file;
+    
+public:
+    CFileHeader(const std::string &file_name) 
+        : _file(fopen(file_name.c_str(), "w"))
+    {
+        if (nullptr == _file) {
+            throw std::runtime_error("Can`t open redirect file `" + file_name + "`.");
+        }
+    }
+    
+    ~CFileHeader() {
+        fclose(_file);
+    }
+    
+    operator FILE* () {
+        return _file;   
+    }
 };
 
 
 class Generate {
-    
-    
 public:
-    Generate() {
-        //// 1. Создаем коллектор результатов. Вывод направляем в STDOUT
-        //CTPP::FileOutputCollector oOutputCollector(stdout);
-        //// 2. Создаем фабрику объектов
-        //CTPP::SyscallFactory oSyscallFactory(100);
-        //// .... и загружаем стандартную библиотеку
-        //CTPP::STDLibInitializer::InitLibrary(oSyscallFactory);
-        //// 3. Загружаем файл с диска
-        //CTPP::VMFileLoader oLoader(argv[1]);
-        //// Получаем образ программы 
-        //const CTPP::VMMemoryCore *pVMMemoryCore = oLoader.GetCore();
-        //
-        ///*
-        //* 4. Заполняем данные, которые хотим вывести.
-        //*    И если в прошлый раз мы добавляли их вручную,
-        //*    то сейчас используем для этого JSON
-        //*/
-        //CTPP::CDT oHash;
-        //CTPP::CTPP2JSONFileParser oJSONFileParser(oHash);
-        //oJSONFileParser.Parse(argv[2]);
-        //
-        //// 5. Создаем виртуальную машину
-        //CTPP::VM oVM(*oSyscallFactory);
-        //
-        //// 6. Инициализируем машину для запуска программы
-        //oVM.Init(oOutputCollector, *pVMMemoryCore);
-        //
-        //// 7. Запускаем программу
-        //UINT_32 iIP = 0;
-        //oVM.Run(*pVMMemoryCore, iIP, oHash);   
+    Generate(const std::string &file_ct2, const std::string &file_json, const std::string &file_html) {
+        CFileHeader cfile(file_html);
+        CTPP::FileOutputCollector output_collector(cfile);
+        CTPP::SyscallFactory syscall_factory(100);
+        CTPP::STDLibInitializer::InitLibrary(syscall_factory);
+        CTPP::VMFileLoader loader(file_ct2.c_str());
+        const CTPP::VMMemoryCore *vm_memory_core = loader.GetCore();
+        CTPP::CDT hash;
+        CTPP::CTPP2JSONFileParser json_file_parser(hash);
 
+        try {
+            json_file_parser.Parse(file_json.c_str());
+            CTPP::VM vm(&syscall_factory);
+            vm.Init(vm_memory_core, &output_collector, nullptr);
+            std::uint32_t ip = 0;
+            //StdoutToFile stdout_to(file_html);
+            vm.Run(vm_memory_core, &output_collector, ip, hash, nullptr);   
+            LOG(METHOD, base::Log::Level::INFO, "Generate html `" + file_html + "`.");                                    
+        }
+        catch(CTPP::CDTTypeCastException &e) { 
+            LOG(METHOD, base::Log::Level::ERROR, std::string("Type Cast ") + e.what());                                    
+        }
+        catch(CTPP::CDTAccessException &e) { 
+            LOG(METHOD, base::Log::Level::ERROR, std::string("Array index out of bounds: %s\n") + e.what());                   
+        }
+        catch(CTPP::IllegalOpcode &e) { 
+            boost::format f = boost::format("Illegal opcode 0x%08X at 0x%08X") % e.GetOpcode() % e.GetIP();
+            LOG(METHOD, base::Log::Level::ERROR, f.str()); 
+        }
+        catch(CTPP::InvalidSyscall &e) {
+            if (e.GetIP() not_eq 0) {
+                CTPP::VMDebugInfo debug_info(e.GetDebugInfo());
+                boost::format f = boost::format("%s at 0x%08X (Template file \"%s\", Line %d, Pos %d)")
+                    % e.what() % e.GetIP() % e.GetSourceName() % debug_info.GetLine() % debug_info.GetLinePos();
+                LOG(METHOD, base::Log::Level::ERROR, f.str());
+            }
+            else {
+                LOG(METHOD, base::Log::Level::ERROR, std::string("Unsupported syscall: ") + e.what());
+            }
+        }
+        catch(CTPP::InvalidCall &e) {
+            CTPP::VMDebugInfo debug_info(e.GetDebugInfo());
+            boost::format f = boost::format("at 0x%08X: Invalid block name \"%s\" in file \"%s\", Line %d, Pos %d")
+                % e.GetIP() % e.what() % e.GetSourceName() % debug_info.GetLine() % debug_info.GetLinePos();
+            LOG(METHOD, base::Log::Level::ERROR, f.str());
+        }
+        catch(CTPP::CodeSegmentOverrun &e) { 
+            boost::format f = boost::format("%s at 0x%08X") % e.what() % e.GetIP();
+            LOG(METHOD, base::Log::Level::ERROR, f.str());
+        }
+        catch(CTPP::StackOverflow &e) { 
+            boost::format f = boost::format("Stack overflow at 0x%08X") % e.GetIP();
+            LOG(METHOD, base::Log::Level::ERROR, f.str());
+        }
+        catch(CTPP::StackUnderflow &e) { 
+            boost::format f = boost::format("Stack underflow at 0x%08X") % e.GetIP();
+            LOG(METHOD, base::Log::Level::ERROR, f.str());
+        }
+        catch(CTPP::ExecutionLimitReached &e) { 
+            boost::format f = boost::format("Execution limit reached at 0x%08X") % e.GetIP();
+            LOG(METHOD, base::Log::Level::ERROR, f.str());
+        }
+        catch(CTPP::VMException &e) { 
+            boost::format f = boost::format("VM generic exception: %s at 0x%08X") % e.what() % e.GetIP();
+            LOG(METHOD, base::Log::Level::ERROR, f.str());
+        }
+        catch(CTPP::CTPPLogicError &e) { 
+            LOG(METHOD, base::Log::Level::ERROR, e.what());                                              
+        }
+        catch(CTPP::CTPPUnixException &e) { 
+            boost::format f = boost::format("I/O in %s: %s") % e.what() % strerror(e.ErrNo());
+            LOG(METHOD, base::Log::Level::ERROR, f.str());
+        }
+        catch(CTPP::CTPPException &e) { 
+            LOG(METHOD, base::Log::Level::ERROR, std::string("CTPP Generic exception: ") + e.what());                      
+        }
+        catch(...) {
+            LOG(METHOD, base::Log::Level::ERROR, "Undefined.");
+        }
+        
+        CTPP::STDLibInitializer::DestroyLibrary(syscall_factory);
     }
 };
 
 
 BOOST_AUTO_TEST_CASE(TestCtppHttpGenerate) {
-    CompileTemplate compile(TestSaveFile(NEW_LIST_TMPL, "new_list.tmpl"));
+    base::Singleton<base::Log>::getInstance()->init(true, false);
+    
+    TestSaveFile file_tmpl(NEW_LIST_TMPL, sizeof(NEW_LIST_TMPL) - 1, "new_list.tmpl");
+    CompileTemplate compile(file_tmpl);
+    TestSaveFile file_ct2(&((DataBuf)compile)[0], ((DataBuf)compile).size(), "new_list.ct2", true);
+    TestSaveFile file_json(NEW_LIST_JSON, sizeof(NEW_LIST_JSON) - 1, "new_list.json");
+    Generate gen(file_ct2, file_json, "new_list.html");
 }
