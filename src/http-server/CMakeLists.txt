@@ -16,12 +16,17 @@ add_library(${APP_LIB}
     Connection.cpp
     )
 
+
+add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/templating")
+
+
 set(APP_BIN http-server)
 add_executable(${APP_BIN}
     main.cpp
     )
 target_link_libraries(${APP_BIN}
     ${APP_LIB}
+    templating
     base
     pthread
     ${Boost_THREAD_LIBRARY}

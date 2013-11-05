@@ -21,7 +21,7 @@ namespace http_server {
         };
 
 
-        std::string extensionToType(const std::string& extension) {
+        std::string ExtensionToType(const std::string& extension) {
             for (Mapping *m = mappings; m->extension; ++m) {
                 if (m->extension == extension) {
                     return m->mime_type;
