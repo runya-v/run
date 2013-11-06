@@ -19,8 +19,10 @@
 using namespace tmplt;
 
 
-Compiler::Compiler(const std::string &file_source) {
-    LOG(METHOD, base::Log::Level::DEBUG, "Compile: `" + file_source + "`");
+Compiler::Compiler(const FileSaver &&fswr) 
+    : _file_source(((FileSaver&)fswr))
+{
+    LOG(METHOD, base::Log::Level::DEBUG, "Compile: `" + _file_source + "`");
     
     CTPP::VMOpcodeCollector vm_opcode_collector;
     CTPP::StaticText sys_calls;
@@ -31,8 +33,8 @@ Compiler::Compiler(const std::string &file_source) {
 
     try {
         CTPP::CTPP2FileSourceLoader source_loader;
-        source_loader.LoadTemplate(file_source.c_str());
-        CTPP::CTPP2Parser parser(&source_loader, &compiler, file_source);
+        source_loader.LoadTemplate(_file_source.c_str());
+        CTPP::CTPP2Parser parser(&source_loader, &compiler, _file_source);
         parser.Compile();
     }
     catch(CTPP::CTPPLogicError &e) {
@@ -74,4 +76,9 @@ Compiler::Compiler(const std::string &file_source) {
 
 Compiler::operator const DataBuf&() {
     return _result;
+}
+
+
+Compiler::operator const std::string&() {
+    return _file_source;
 }

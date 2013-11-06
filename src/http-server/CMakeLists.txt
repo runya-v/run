@@ -14,6 +14,7 @@ add_library(${APP_LIB}
     Reply.cpp
     MimeTypes.cpp
     Connection.cpp
+    HtmlMaker.cpp
     )
 
 
