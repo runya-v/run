@@ -4,15 +4,30 @@
  * \date   05.11.2013
  */
 
+#include <ctpp2/CTPP2Parser.hpp>
+#include <ctpp2/CTPP2FileSourceLoader.hpp>
+#include <ctpp2/CTPP2FileOutputCollector.hpp>
+#include <ctpp2/CTPP2ParserException.hpp>
+#include <ctpp2/CTPP2HashTable.hpp>
+#include <ctpp2/CTPP2VMDumper.hpp>
+#include <ctpp2/CTPP2VMOpcodes.h>
+#include <ctpp2/CTPP2SyscallFactory.hpp>
+#include <ctpp2/CTPP2VMFileLoader.hpp>
+#include <ctpp2/CTPP2JSONFileParser.hpp>
+#include <ctpp2/CTPP2VM.hpp>
+#include <ctpp2/CTPP2VMSTDLib.hpp>
+#include <ctpp2/CTPP2VMException.hpp>
+#include <ctpp2/CTPP2VMStackException.hpp>
 
 #include "Log.hpp"
+#include "utility.hpp"
 #include "Generator.hpp"
 
 using namespace tmplt;
 
 
 Generator::Generator(const Compiler &cmplr, const std::string &file_json, const std::string &file_html) {
-    //CFileHeader cfile(file_html);
+    CFile cfile(file_html);
     //CTPP::FileOutputCollector output_collector(cfile);
     //CTPP::SyscallFactory syscall_factory(100);
     //CTPP::STDLibInitializer::InitLibrary(syscall_factory);
