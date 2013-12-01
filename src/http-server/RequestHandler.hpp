@@ -20,7 +20,7 @@ namespace http_server {
         : private boost::noncopyable
     {
         /// The directory containing the files to be served.
-        std::string doc_root_;
+        std::string _doc_root;
 
         /// Perform URL-decoding on a string. Returns false if the encoding was
         /// invalid.

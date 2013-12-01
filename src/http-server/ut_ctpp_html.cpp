@@ -9,6 +9,7 @@
 #include <fstream>
 #include <stdexcept>
 
+#include <boost/filesystem.hpp>
 #include <boost/test/unit_test.hpp>
 #include <boost/test/output_test_stream.hpp>
 #include <boost/format.hpp>
@@ -159,7 +160,7 @@ class FileContent {
     
 public:
     FileContent(const std::string &file) {
-        if (base::bfs::exists(file)) {
+        if (base::bfs::exists(base::bfs::path(file))) {
             std::ifstream ifs(file.c_str());
             _content = std::string((std::istreambuf_iterator<char>(ifs)), std::istreambuf_iterator<char>());
         }
@@ -171,11 +172,35 @@ public:
 };
 
 
+struct TestGenerate {
+    TestGenerate(const base::bfs::path &cur_path) {
+        base::Singleton<base::Log>::getInstance()->init(true, false);
+        tmplt::FileSaver file_tmpl(TEST_TMPL, sizeof(TEST_TMPL) - 1, (cur_path / "test.tmpl").string());
+        tmplt::FileSaver file_json(TEST_JSON, sizeof(TEST_JSON) - 1, (cur_path / "test.json").string());
+        http_server::HtmlMaker make((cur_path / "test.html").string());
+        std::string file_make = make;
+        FileContent fcont(file_make);
+        BOOST_CHECK_EQUAL(std::string(fcont), std::string(RESULT));
+    }
+};
+
+
 BOOST_AUTO_TEST_CASE(TestCtppHttpGenerate) {
-    base::Singleton<base::Log>::getInstance()->init(true, false);
     base::bfs::path cur_path = base::bfs::absolute(base::bfs::current_path());
-    tmplt::FileSaver file_tmpl(TEST_TMPL, sizeof(TEST_TMPL) - 1, (cur_path / "test.tmpl").string());
-    tmplt::FileSaver file_json(TEST_JSON, sizeof(TEST_JSON) - 1, (cur_path / "test.json").string());
-    http_server::HtmlMaker make((cur_path / "test.html").string());
-    BOOST_CHECK_EQUAL(std::string(FileContent(make)), std::string(RESULT));
+   
+    if (base::bfs::exists(cur_path / "test.html")) {
+        LOG(DEBUG) << "Remove `" << cur_path << "`";
+        base::bfs::remove(cur_path);
+    }
+    TestGenerate tgen(cur_path);
+}
+
+BOOST_AUTO_TEST_CASE(TestCtppHttpUpdate) {
+    base::bfs::path cur_path = base::bfs::absolute(base::bfs::current_path());
+
+    if (not base::bfs::exists(cur_path / "test.html")) {
+        BOOST_ERROR( "Old version file is not exists." );        
+    }
+    std::this_thread::sleep_for(std::chrono::milliseconds(1000));
+    TestGenerate tgen(cur_path);
 }

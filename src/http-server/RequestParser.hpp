@@ -54,7 +54,7 @@ namespace http_server {
             header_value,
             expecting_newline_2,
             expecting_newline_3
-        } state_;
+        } _state;
 
     public:
         /// Construct ready to parse the request method.

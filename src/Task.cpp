@@ -38,7 +38,7 @@ void Task::execute(const TaskPtr &task) {
         _handle_next();
     }
     catch (const std::exception &e) {
-        LOG(METHOD, base::Log::Level::ERROR, e.what());
+        LOG(ERROR) << e.what();
     }
 }
 

@@ -1,3 +1,9 @@
+/*!
+ * \brief  Диспетчер сигналов для управления подписавшимися объектами
+ * \author Rostislav Velichko. rostislav.vel@gmail.com
+ * \date   18.10.2013
+ */
+
 #pragma once
 
 #include <string>
@@ -35,7 +41,7 @@ namespace base {
                 for (std::uint32_t i = 0; i < size; ++i) {
                     res[i]();
                 }
-                LOG(__FUNCTION__, base::Log::Level::INFO, "Stop modules.");
+                LOG(INFO) << "Stop modules.";
             };
             _signal_set.async_wait(std::bind(stop_func));
             _thread->join();

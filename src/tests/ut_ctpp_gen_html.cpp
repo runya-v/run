@@ -181,9 +181,9 @@ class TestSaveFile {
     
 public:
     TestSaveFile(const char *source, const uint32_t size, const std::string &file_name, bool binary = false)
-        : _path(base::bfs::absolute(base::bfs::current_path()) / file_name)
+        : _path(file_name)
     {
-        LOG(METHOD, base::Log::Level::INFO, "Create: `" + _path.string() + "`.");
+        LOG(INFO) << "Create: `" << _path << "`.";
         std::ofstream ofs;
         
         if (binary) {
@@ -205,7 +205,7 @@ public:
     ~TestSaveFile() {
         if (base::bfs::exists(_path)) {
             base::bfs::remove(_path);
-            LOG(METHOD, base::Log::Level::INFO, "Delete: `" + _path.string() + "`.");
+            LOG(INFO) << "Delete: `" << _path << "`.";
         }
     }
     
@@ -223,8 +223,6 @@ class CompileTemplate {
     
 public:
     CompileTemplate(const std::string &file_source) {
-        LOG(METHOD, base::Log::Level::DEBUG, "Compile: `" + file_source + "`");
-        
         CTPP::VMOpcodeCollector vm_opcode_collector;
         CTPP::StaticText sys_calls;
         CTPP::StaticData static_data;
@@ -239,10 +237,10 @@ public:
             parser.Compile();
         }
         catch(CTPP::CTPPLogicError &e) {
-            LOG(METHOD, base::Log::Level::ERROR, std::string("CTPPLogicError: ") + e.what());
+            //LOG(METHOD, base::Log::Level::ERROR, std::string("CTPPLogicError: ") + e.what());
         }
         catch(CTPP::CTPPUnixException &e) {
-            LOG(METHOD, base::Log::Level::ERROR, std::string("CTPPUnixException: ") + std::string(e.what()) + strerror(e.ErrNo()));
+            //LOG(METHOD, base::Log::Level::ERROR, std::string("CTPPUnixException: ") + std::string(e.what()) + strerror(e.ErrNo()));
         }
         catch(CTPP::CTPPParserSyntaxError &e) {
             boost::format f = boost::format("At line %d, pos. %d: %s")
@@ -250,7 +248,7 @@ public:
                 % e.GetLinePos()
                 % e.what()
                 ;
-            LOG(METHOD, base::Log::Level::ERROR, std::string("CTPPParserSyntaxError: ") + f.str());
+            //LOG(METHOD, base::Log::Level::ERROR, std::string("CTPPParserSyntaxError: ") + f.str());
         }
         catch (CTPP::CTPPParserOperatorsMismatch &e) {
             boost::format f = boost::format("At line %d, pos. %d: expected %s, but found </%s>")
@@ -259,10 +257,10 @@ public:
                 % e.Expected()
                 % e.Found()
                 ;
-            LOG(METHOD, base::Log::Level::ERROR, std::string("CTPPParserOperatorsMismatch: ") + f.str());
+            //LOG(METHOD, base::Log::Level::ERROR, std::string("CTPPParserOperatorsMismatch: ") + f.str());
         }
         catch(...) {
-            LOG(METHOD, base::Log::Level::ERROR, std::string("undefined: ") + "Bad thing happened.");
+            //LOG(METHOD, base::Log::Level::ERROR, std::string("undefined: ") + "Bad thing happened.");
         }
         
         uint32_t code_size = 0;
@@ -279,37 +277,6 @@ public:
     }
 };
 
-
-class StdoutToFile 
-    : boost::noncopyable
-{
-    int _saved_stdout;
-    FILE *_file;
-    
-public:
-    StdoutToFile(const std::string &file_name) 
-        : _saved_stdout(dup(STDOUT_FILENO))
-        , _file(fopen(file_name.c_str(), "w"))
-    {
-        if (-1 == _saved_stdout) {
-            throw std::runtime_error("Can`t dup stdout.");
-        }
-        
-        if (nullptr == _file) {
-            throw std::runtime_error("Can`t open redirect file `" + file_name + "`.");
-        }
-        
-        if (-1 == dup2(fileno(_file), STDOUT_FILENO)) {
-            throw std::runtime_error("Can`t redirect to file `" + file_name + "`.");
-        }
-    }
-    
-    ~StdoutToFile() {
-        fflush(stdout);
-        fclose(_file);
-        dup2(_saved_stdout, STDOUT_FILENO);
-    }    
-};
 
 class CFileHeader 
     : boost::noncopyable
@@ -338,6 +305,7 @@ public:
 class Generate {
 public:
     Generate(const std::string &file_ct2, const std::string &file_json, const std::string &file_html) {
+        LOG(DEBUG) << "file_ct2: " << file_ct2 << " file_json: " << file_json << " file_html: " << file_html;
         CFileHeader cfile(file_html);
         CTPP::FileOutputCollector output_collector(cfile);
         CTPP::SyscallFactory syscall_factory(100);
@@ -352,69 +320,68 @@ public:
             CTPP::VM vm(&syscall_factory);
             vm.Init(vm_memory_core, &output_collector, nullptr);
             std::uint32_t ip = 0;
-            //StdoutToFile stdout_to(file_html);
             vm.Run(vm_memory_core, &output_collector, ip, hash, nullptr);   
-            LOG(METHOD, base::Log::Level::INFO, "Generate html `" + file_html + "`.");                                    
+            LOG(INFO) << "Generate: `" << file_html << "`.";
         }
         catch(CTPP::CDTTypeCastException &e) { 
-            LOG(METHOD, base::Log::Level::ERROR, std::string("Type Cast ") + e.what());                                    
+            //LOG(METHOD, base::Log::Level::ERROR, std::string("Type Cast ") + e.what());                                    
         }
         catch(CTPP::CDTAccessException &e) { 
-            LOG(METHOD, base::Log::Level::ERROR, std::string("Array index out of bounds: %s\n") + e.what());                   
+            //LOG(METHOD, base::Log::Level::ERROR, std::string("Array index out of bounds: %s\n") + e.what());                   
         }
         catch(CTPP::IllegalOpcode &e) { 
             boost::format f = boost::format("Illegal opcode 0x%08X at 0x%08X") % e.GetOpcode() % e.GetIP();
-            LOG(METHOD, base::Log::Level::ERROR, f.str()); 
+            //LOG(METHOD, base::Log::Level::ERROR, f.str()); 
         }
         catch(CTPP::InvalidSyscall &e) {
             if (e.GetIP() not_eq 0) {
                 CTPP::VMDebugInfo debug_info(e.GetDebugInfo());
                 boost::format f = boost::format("%s at 0x%08X (Template file \"%s\", Line %d, Pos %d)")
                     % e.what() % e.GetIP() % e.GetSourceName() % debug_info.GetLine() % debug_info.GetLinePos();
-                LOG(METHOD, base::Log::Level::ERROR, f.str());
+                //LOG(METHOD, base::Log::Level::ERROR, f.str());
             }
             else {
-                LOG(METHOD, base::Log::Level::ERROR, std::string("Unsupported syscall: ") + e.what());
+                //LOG(METHOD, base::Log::Level::ERROR, std::string("Unsupported syscall: ") + e.what());
             }
         }
         catch(CTPP::InvalidCall &e) {
             CTPP::VMDebugInfo debug_info(e.GetDebugInfo());
             boost::format f = boost::format("at 0x%08X: Invalid block name \"%s\" in file \"%s\", Line %d, Pos %d")
                 % e.GetIP() % e.what() % e.GetSourceName() % debug_info.GetLine() % debug_info.GetLinePos();
-            LOG(METHOD, base::Log::Level::ERROR, f.str());
+            //LOG(METHOD, base::Log::Level::ERROR, f.str());
         }
         catch(CTPP::CodeSegmentOverrun &e) { 
             boost::format f = boost::format("%s at 0x%08X") % e.what() % e.GetIP();
-            LOG(METHOD, base::Log::Level::ERROR, f.str());
+            //LOG(METHOD, base::Log::Level::ERROR, f.str());
         }
         catch(CTPP::StackOverflow &e) { 
             boost::format f = boost::format("Stack overflow at 0x%08X") % e.GetIP();
-            LOG(METHOD, base::Log::Level::ERROR, f.str());
+            //LOG(METHOD, base::Log::Level::ERROR, f.str());
         }
         catch(CTPP::StackUnderflow &e) { 
             boost::format f = boost::format("Stack underflow at 0x%08X") % e.GetIP();
-            LOG(METHOD, base::Log::Level::ERROR, f.str());
+            //LOG(METHOD, base::Log::Level::ERROR, f.str());
         }
         catch(CTPP::ExecutionLimitReached &e) { 
             boost::format f = boost::format("Execution limit reached at 0x%08X") % e.GetIP();
-            LOG(METHOD, base::Log::Level::ERROR, f.str());
+            //LOG(METHOD, base::Log::Level::ERROR, f.str());
         }
         catch(CTPP::VMException &e) { 
             boost::format f = boost::format("VM generic exception: %s at 0x%08X") % e.what() % e.GetIP();
-            LOG(METHOD, base::Log::Level::ERROR, f.str());
+            //LOG(METHOD, base::Log::Level::ERROR, f.str());
         }
         catch(CTPP::CTPPLogicError &e) { 
-            LOG(METHOD, base::Log::Level::ERROR, e.what());                                              
+            //LOG(METHOD, base::Log::Level::ERROR, e.what());                                              
         }
         catch(CTPP::CTPPUnixException &e) { 
             boost::format f = boost::format("I/O in %s: %s") % e.what() % strerror(e.ErrNo());
-            LOG(METHOD, base::Log::Level::ERROR, f.str());
+            //LOG(METHOD, base::Log::Level::ERROR, f.str());
         }
         catch(CTPP::CTPPException &e) { 
-            LOG(METHOD, base::Log::Level::ERROR, std::string("CTPP Generic exception: ") + e.what());                      
+            //LOG(METHOD, base::Log::Level::ERROR, std::string("CTPP Generic exception: ") + e.what());                      
         }
         catch(...) {
-            LOG(METHOD, base::Log::Level::ERROR, "Undefined.");
+            //LOG(METHOD, base::Log::Level::ERROR, "Undefined.");
         }
         
         CTPP::STDLibInitializer::DestroyLibrary(syscall_factory);
@@ -424,10 +391,10 @@ public:
 
 BOOST_AUTO_TEST_CASE(TestCtppHttpGenerate) {
     base::Singleton<base::Log>::getInstance()->init(true, false);
-    
-    TestSaveFile file_tmpl(NEW_LIST_TMPL, sizeof(NEW_LIST_TMPL) - 1, "new_list.tmpl");
+    base::bfs::path cur_path = base::bfs::absolute(base::bfs::current_path());
+    TestSaveFile file_json(NEW_LIST_JSON, sizeof(NEW_LIST_JSON) - 1, (cur_path / "new_list.json").string());
+    TestSaveFile file_tmpl(NEW_LIST_TMPL, sizeof(NEW_LIST_TMPL) - 1, (cur_path / "new_list.tmpl").string());
     CompileTemplate compile(file_tmpl);
-    TestSaveFile file_ct2(&((DataBuf)compile)[0], ((DataBuf)compile).size(), "new_list.ct2", true);
-    TestSaveFile file_json(NEW_LIST_JSON, sizeof(NEW_LIST_JSON) - 1, "new_list.json");
-    Generate gen(file_ct2, file_json, "new_list.html");
+    TestSaveFile file_ct2(&((DataBuf)compile)[0], ((DataBuf)compile).size(), (cur_path / "new_list.ct2").string(), true);
+    Generate gen(file_ct2, file_json, (cur_path / "new_list.html").string());
 }

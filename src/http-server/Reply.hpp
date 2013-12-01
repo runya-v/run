@@ -22,7 +22,7 @@ namespace http_server {
     /// A reply to be sent to a client.
     struct Reply {
         typedef asio::const_buffer Buffer;
-        typedef std::vector< Buffer > Buffers;
+        typedef std::vector<Buffer> Buffers;
 
         /// The status of the reply.
         enum StatusType {
@@ -42,13 +42,13 @@ namespace http_server {
             not_implemented       = 501,
             bad_gateway           = 502,
             service_unavailable   = 503
-        } status;
+        } _status;
 
       /// The headers to be included in the reply.
-      Headers headers;
+      Headers _headers;
 
       /// The content to be sent in the reply.
-      std::string content;
+      std::string _content;
 
       /// Convert the reply into a vector of buffers. The buffers do not own the
       /// underlying memory blocks, therefore the reply object must remain valid and

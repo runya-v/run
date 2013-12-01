@@ -28,17 +28,15 @@ namespace boost {
     template <>
     inline std::string lexical_cast<std::string, Log::Level>(const Log::Level& value) {
         switch (value) {
-            case Log::Level::NONE:
-                return "NONE";
-            case Log::Level::INFO:
+            case INFO:
                return "INFO";
-            case Log::Level::DEBUG:
+            case DEBUG:
                return "DEBUG";
-            case Log::Level::WARNING:
+            case WARNING:
                return "WARNING";
-            case Log::Level::ERROR:
+            case ERROR:
                 return "ERROR";
-            case Log::Level::FATAL:
+            case FATAL:
                 return "FATAL";
             default:
                 BOOST_THROW_EXCEPTION(boost::bad_lexical_cast());
@@ -158,7 +156,11 @@ void Log::close() {
 
     auto now = std::chrono::system_clock::now();
 
-    for (auto it = boost::filesystem::directory_iterator(boost::filesystem::path(".")); it not_eq boost::filesystem::directory_iterator(); ++it) {
+    for (
+        auto it = boost::filesystem::directory_iterator(boost::filesystem::path(".")); 
+        it not_eq boost::filesystem::directory_iterator(); 
+        ++it) 
+    {
         if (not boost::filesystem::is_regular_file(it->status())) {
             continue;
         }
@@ -193,20 +195,20 @@ void Log::close() {
 }
 
 
-void Log::print(const std::string& module, const Log::Level& level, const std::string& message) {
+void Log::print(const Log::Level& level, const std::string& module, const std::string& message) {
     std::unique_lock<std::mutex> lock(_mutex);
 
     if (_is_run) {
         auto now = boost::posix_time::microsec_clock::universal_time();
 
         if (_queue.size() < LOG_MAX_QUEUE_SIZE) {
-            _queue.push(std::make_tuple(module, level, message, now));
+            _queue.push(std::make_tuple(level, module, message, now));
         }
         else {
             boost::format f = boost::format("Log max queue size exceeded! %d messages were dropped.") % _queue.size();
             Queue q;
             _queue.swap(q);
-            _queue.push(std::make_tuple("NONE", Log::Level::ERROR, f.str(), now));
+            _queue.push(std::make_tuple(ERROR, "NONE", f.str(), now));
         }
         _cond.notify_one();
     }

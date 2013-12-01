@@ -4,10 +4,12 @@
 
 #include <boost/lexical_cast.hpp>
 
+#include "Log.hpp"
+
 #include "MimeTypes.hpp"
 #include "Reply.hpp"
 #include "Request.hpp"
-
+#include "HtmlMaker.hpp"
 #include "RequestHandler.hpp"
 
 
@@ -47,7 +49,7 @@ namespace http_server {
 
 
     RequestHandler::RequestHandler(const std::string& doc_root)
-        : doc_root_(doc_root)
+        : _doc_root(doc_root)
     {}
 
 
@@ -55,7 +57,7 @@ namespace http_server {
         // Decode url to path.
         std::string request_path;
 
-        if (not urlDecode(req.uri, request_path)) {
+        if (not urlDecode(req._uri, request_path)) {
             rep = Reply::stockReply(Reply::bad_request);
             return;
         }
@@ -73,33 +75,38 @@ namespace http_server {
 
         // Determine the file extension.
         std::size_t last_slash_pos = request_path.find_last_of("/");
-        std::size_t last_dot_pos = request_path.find_last_of(".");
+        std::size_t last_dot_pos   = request_path.find_last_of(".");
         std::string extension;
 
-        if (last_dot_pos != std::string::npos && last_dot_pos > last_slash_pos) {
+        if (last_dot_pos not_eq std::string::npos and (last_dot_pos > last_slash_pos)) {
             extension = request_path.substr(last_dot_pos + 1);
         }
 
+        // Make new html version by template
+        if (extension == "html") {
+            HtmlMaker html_maker(_doc_root + request_path); 
+        }
+
         // Open the file to send back.
-        std::string full_path = doc_root_ + request_path;
+        std::string full_path = _doc_root + request_path;
         std::ifstream is(full_path.c_str(), std::ios::in | std::ios::binary);
 
         if (not is) {
             rep = Reply::stockReply(Reply::not_found);
-            return;
+            LOG(WARNING) << "Can`t open requested file `" << _doc_root + request_path << "`.";
         }
+        else {
+            // Fill out the Reply to be sent to the client.
+            rep._status = Reply::ok;
+            char buf[512];
 
-        // Fill out the Reply to be sent to the client.
-        rep.status = Reply::ok;
-        char buf[512];
-
-        while (is.read(buf, sizeof(buf)).gcount() > 0) {
-            rep.content.append(buf, is.gcount());
+            while (is.read(buf, sizeof(buf)).gcount() > 0) {
+                rep._content.append(buf, is.gcount());
+            }
+            rep._headers.resize(2);
+            rep._headers[0] = { "Content-Length", rep._headers[0]._value = boost::lexical_cast<std::string>(rep._content.size()) };
+            rep._headers[1]._name  = "Content-Type";
+            rep._headers[1]._value = mime_types::ExtensionToType(extension);
         }
-        rep.headers.resize(2);
-        rep.headers[0].name  = "Content-Length";
-        rep.headers[0].value = boost::lexical_cast<std::string>(rep.content.size());
-        rep.headers[1].name  = "Content-Type";
-        rep.headers[1].value = mime_types::ExtensionToType(extension);
     }
 }

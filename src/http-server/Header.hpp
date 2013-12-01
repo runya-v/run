@@ -12,7 +12,7 @@
 namespace http_server {
 
     struct Header {
-        std::string name;
-        std::string value;
+        std::string _name;
+        std::string _value;
     };
 } // namespace http_server

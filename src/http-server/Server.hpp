@@ -23,22 +23,22 @@ namespace http_server {
       : private boost::noncopyable
     {
         //! \brief Количество потоков в пуле потоков вызываемых io_service::run().
-        std::size_t thread_pool_size_;
+        std::size_t _thread_pool_size;
 
         //! \brief Объект выполняющий асинхронные операции.
-        boost::asio::io_service io_service_;
+        boost::asio::io_service _io_service;
 
         //! \brief Сигнал используемый в процессе уведомления о закрытии.
-        boost::asio::signal_set signals_;
+        boost::asio::signal_set _signals;
 
         //! \brief Объект обслуживающий новые подключения.
-        boost::asio::ip::tcp::acceptor acceptor_;
+        boost::asio::ip::tcp::acceptor _acceptor;
 
         //! \brief Объект нового соединения для обработки.
-        PConnection new_connection_;
+        PConnection _new_connection;
 
         //! \brief Объект обработчик всех входящих запросов.
-        RequestHandler request_handler_;
+        RequestHandler _request_handler;
 
         /*!
          * \brief Метод инициализации асинхронной операции приёма соединений.

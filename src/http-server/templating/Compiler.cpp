@@ -19,11 +19,7 @@
 using namespace tmplt;
 
 
-Compiler::Compiler(const FileSaver &&fswr) 
-    : _file_source(((FileSaver&)fswr))
-{
-    LOG(METHOD, base::Log::Level::DEBUG, "Compile: `" + _file_source + "`");
-    
+Compiler::Compiler(const base::bfs::path &&fswr) {
     CTPP::VMOpcodeCollector vm_opcode_collector;
     CTPP::StaticText sys_calls;
     CTPP::StaticData static_data;
@@ -33,35 +29,31 @@ Compiler::Compiler(const FileSaver &&fswr)
 
     try {
         CTPP::CTPP2FileSourceLoader source_loader;
-        source_loader.LoadTemplate(_file_source.c_str());
-        CTPP::CTPP2Parser parser(&source_loader, &compiler, _file_source);
+        source_loader.LoadTemplate(fswr.string().c_str());
+        CTPP::CTPP2Parser parser(&source_loader, &compiler, fswr.string());
         parser.Compile();
     }
     catch(CTPP::CTPPLogicError &e) {
-        LOG(METHOD, base::Log::Level::ERROR, std::string("CTPPLogicError: ") + e.what());
+        LOG(ERROR) << "CTPPLogicError: " << e.what();
     }
     catch(CTPP::CTPPUnixException &e) {
-        LOG(METHOD, base::Log::Level::ERROR, std::string("CTPPUnixException: ") + std::string(e.what()) + strerror(e.ErrNo()));
+        LOG(ERROR) << "CTPPUnixException: " << e.what() << strerror(e.ErrNo());
     }
     catch(CTPP::CTPPParserSyntaxError &e) {
-        boost::format f = boost::format("At line %d, pos. %d: %s")
-            % e.GetLine()
-            % e.GetLinePos()
-            % e.what()
-            ;
-        LOG(METHOD, base::Log::Level::ERROR, std::string("CTPPParserSyntaxError: ") + f.str());
+        LOG(ERROR) 
+            <<  "CTPPParserSyntaxError: At line " << e.GetLine() 
+            << ", pos. " << e.GetLinePos()
+            << ": " << e.what();
     }
     catch (CTPP::CTPPParserOperatorsMismatch &e) {
-        boost::format f = boost::format("At line %d, pos. %d: expected %s, but found </%s>")
-            % e.GetLine() 
-            % e.GetLinePos()
-            % e.Expected()
-            % e.Found()
-            ;
-        LOG(METHOD, base::Log::Level::ERROR, std::string("CTPPParserOperatorsMismatch: ") + f.str());
+        LOG(ERROR) 
+            << "CTPPParserOperatorsMismatch: At line " << e.GetLine()
+            << ", pos. " << e.GetLinePos()
+            << ": expected " << e.Expected()
+            << ", but found </" << e.Found() << ">";
     }
     catch(...) {
-        LOG(METHOD, base::Log::Level::ERROR, std::string("undefined: ") + "Bad thing happened.");
+        LOG(ERROR) << "undefined: Bad thing happened.";
     }
     
     uint32_t code_size = 0;
@@ -69,16 +61,17 @@ Compiler::Compiler(const FileSaver &&fswr)
     CTPP::VMDumper dumper(code_size, vm_instruction, sys_calls, static_data, static_text, hash_table);
     uint32_t size = 0;
     const CTPP::VMExecutable *program_core = dumper.GetExecutable(size);
-    const uint8_t *write_ptr = reinterpret_cast<const uint8_t*>(program_core);
-    _result.assign(write_ptr, write_ptr + size);
+    const char *write_ptr = reinterpret_cast<const char*>(program_core);
+    std::string file_ct2 = (fswr.parent_path() / fswr.stem()).string() + ".ct2";
+    _result.reset(new FileSaver(write_ptr, size, file_ct2, true));
 }
 
 
-Compiler::operator const DataBuf&() {
-    return _result;
+Compiler::operator const std::string&() const {
+    return (*_result);
 }
 
 
 Compiler::operator const std::string&() {
-    return _file_source;
+    return (*_result);
 }

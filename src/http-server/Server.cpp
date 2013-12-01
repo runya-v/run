@@ -17,49 +17,49 @@ namespace http_server {
 
 
     void Server::startAccept() {
-        new_connection_.reset(new Connection(io_service_, request_handler_));
-        acceptor_.async_accept(new_connection_->socket(), boost::bind(&Server::handleAccept, this, asio::placeholders::error));
+        _new_connection.reset(new Connection(_io_service, _request_handler));
+        _acceptor.async_accept(_new_connection->socket(), boost::bind(&Server::handleAccept, this, asio::placeholders::error));
     }
 
 
     void Server::handleAccept(const boost::system::error_code& e) {
         if (not e) {
-            new_connection_->start();
+            _new_connection->start();
         }
         startAccept();
     }
 
 
     void Server::handleStop() {
-        io_service_.stop();
+        _io_service.stop();
     }
 
 
     Server::Server(const std::string& address, const std::string& port, const std::string& doc_root, std::size_t thread_pool_size)
-        : thread_pool_size_(thread_pool_size)
-        , signals_(io_service_)
-        , acceptor_(io_service_)
-        , new_connection_()
-        , request_handler_(doc_root)
+        : _thread_pool_size(thread_pool_size)
+        , _signals(_io_service)
+        , _acceptor(_io_service)
+        , _new_connection()
+        , _request_handler(doc_root)
     {
-        signals_.add(SIGINT);
-        signals_.add(SIGTERM);
+        _signals.add(SIGINT);
+        _signals.add(SIGTERM);
 
 #       if defined(SIGQUIT)
-        signals_.add(SIGQUIT);
+        _signals.add(SIGQUIT);
 #       endif // defined(SIGQUIT)
 
-        signals_.async_wait(boost::bind(&Server::handleStop, this));
+        _signals.async_wait(boost::bind(&Server::handleStop, this));
 
         // Open the acceptor with the option to reuse the address (i.e. SO_REUSEADDR).
 
-        Tcp::resolver resolver(io_service_);
+        Tcp::resolver resolver(_io_service);
         Tcp::resolver::query query(address, port);
         Tcp::endpoint endpoint = *resolver.resolve(query);
-        acceptor_.open(endpoint.protocol());
-        acceptor_.set_option(Tcp::acceptor::reuse_address(true));
-        acceptor_.bind(endpoint);
-        acceptor_.listen();
+        _acceptor.open(endpoint.protocol());
+        _acceptor.set_option(Tcp::acceptor::reuse_address(true));
+        _acceptor.bind(endpoint);
+        _acceptor.listen();
 
         startAccept();
     }
@@ -69,8 +69,8 @@ namespace http_server {
         // Запуск всех потоков пула.
         PThreads threads;
 
-        for (std::size_t i = 0; i < thread_pool_size_; ++i) {
-            PThread thread(new Thread(boost::bind(&asio::io_service::run, &io_service_)));
+        for (std::size_t i = 0; i < _thread_pool_size; ++i) {
+            PThread thread(new Thread(boost::bind(&asio::io_service::run, &_io_service)));
             threads.push_back(thread);
         }
 

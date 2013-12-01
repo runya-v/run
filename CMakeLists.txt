@@ -44,9 +44,6 @@ set(ROOT_DIR         ${CMAKE_CURRENT_SOURCE_DIR})
 set(DATA_DIR         ${ROOT_DIR}/conf)
 set(BOOST_DIR        ${ROOT_DIR}/boost)
 set(SRC_DIR          ${ROOT_DIR}/src)
-set(FOREXD_DIR       ${SRC_DIR}/forexd)
-set(CLIENT_PROTO_DIR ${FOREXD_DIR}/client_protocol)
-set(MIND_PROTO_DIR   ${FOREXD_DIR}/mind_protocol)
 set(UTILS_DIR        ${SRC_DIR}/utils)
 set(BINARY_DIR       ${CMAKE_CURRENT_BINARY_DIR})
 
@@ -116,12 +113,32 @@ include(TakeComponent)
  
 
 # Включение в сборку компонент
+# Директорию test включается только, если определен макро ENABLE_TESTS=ON
 add_subdirectory("${SRC_DIR}")
 add_subdirectory("${SRC_DIR}/company-parser")
 
+set(LOG_LIBS z ${Boost_SYSTEM_LIBRARY} ${Boost_FILESYSTEM_LIBRARY} ${Boost_DATE_TIME_LIBRARY} ${Boost_IOSTREAMS_LIBRARY})
+
+if(ENABLE_TESTS)
+    message("Include tests directory to build process")
+
+    set(TESTS_DIR ${SRC_DIR}/tests)
+    message(STATUS "TESTS_DIR: ${TESTS_DIR}")
+
+    enable_testing()
+
+    set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${TESTS_DIR})
+    include(UTest)
+
+    add_subdirectory("${TESTS_DIR}")
+else(ENABLE_TESTS)
+    message("Directory tests is not included to build. Run cmake -DENABLE_TESTS=ON to include.")
+endif(ENABLE_TESTS)
+
 if(ENABLE_CTPP2)
     take_component(CTPP2)
-    add_subdirectory("${SRC_DIR}/http-server")
+    set(HTTP_SERVER_DIR  ${SRC_DIR}/http-server)
+    add_subdirectory("${HTTP_SERVER_DIR}")
 endif(ENABLE_CTPP2)
 
 if(ENABLE_WTCPP)
@@ -145,20 +162,3 @@ endif(ENABLE_CPPCMS AND ENADLE_HTMLCXX)
 if(ENABLE_MYSQL)
     take_component(MYSQL)
 endif(ENABLE_MYSQL)
-
-# Директорию test включается только, если определен макро ENABLE_TESTS=ON
-if(ENABLE_TESTS)
-    message("Include tests directory to build process")
-
-    set(TESTS_DIR ${SRC_DIR}/tests)
-    message(STATUS "TESTS_DIR: ${TESTS_DIR}")
-
-    enable_testing()
-
-    set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} ${TESTS_DIR})
-    include(UTest)
-
-    add_subdirectory("${TESTS_DIR}")
-else(ENABLE_TESTS)
-    message("Directory tests is not included to build. Run cmake -DENABLE_TESTS=ON to include.")
-endif(ENABLE_TESTS)

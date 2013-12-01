@@ -18,7 +18,8 @@ add_library(${APP_LIB}
     )
 
 
-add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/templating")
+add_subdirectory("${HTTP_SERVER_DIR}/templating")
+include_directories("${HTTP_SERVER_DIR}/templating")
 
 
 set(APP_BIN http-server)
@@ -28,6 +29,7 @@ add_executable(${APP_BIN}
 target_link_libraries(${APP_BIN}
     ${APP_LIB}
     templating
+    ctpp2
     base
     pthread
     ${Boost_THREAD_LIBRARY}
@@ -38,4 +40,7 @@ target_link_libraries(${APP_BIN}
     ${Boost_DATE_TIME_LIBRARY}
     )
 
+if(ENABLE_TESTS)
+    add_unit_test(ut_ctpp_html base http_server templating ctpp2 ${LOG_LIBS})
+endif(ENABLE_TESTS)
 

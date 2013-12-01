@@ -111,5 +111,17 @@ namespace base {
 } // namespace base
 
 
+// release private 
+#define AFTERX(name, x) name ## x
+#define XAFTERX(name, x) AFTERX(name, x)
+
+
+#ifndef _MSC_VER
+#define __FUNC__ __PRETTY_FUNCTION__
+#else // _MSC_VER
+#define __FUNC__ __FUNCTION__
+#endif // _MSC_VER
+
+
 #define REPLACE_CRLF(str, to) boost::regex_replace((str), boost::regex("\r\n"), (to))
 #define CRLF_TO_STR(str) REPLACE_CRLF((str), "<CRLF>")

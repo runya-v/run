@@ -27,25 +27,25 @@ namespace http_server {
         , private boost::noncopyable
     {
         /// Strand to ensure the connection's handlers are not called concurrently.
-        boost::asio::io_service::strand strand_;
+        boost::asio::io_service::strand _strand;
 
         /// Socket for the connection.
-        boost::asio::ip::tcp::socket socket_;
+        boost::asio::ip::tcp::socket _socket;
 
         /// The handler used to process the incoming request.
-        RequestHandler &request_handler_;
+        RequestHandler &_request_handler;
 
         /// Buffer for incoming data.
-        boost::array< char, 8192 > buffer_;
+        boost::array<char, 8192> _buffer;
 
         /// The incoming request.
-        Request request_;
+        Request _request;
 
         /// The parser for the incoming request.
-        RequestParser request_parser_;
+        RequestParser _request_parser;
 
         /// The reply to be sent back to the client.
-        Reply reply_;
+        Reply _reply;
 
         /// Handle completion of a read operation.
         void handleRead(const boost::system::error_code& e, std::size_t bytes_transferred);
@@ -64,5 +64,5 @@ namespace http_server {
         void start();
     };
 
-    typedef boost::shared_ptr< Connection > PConnection;
+    typedef boost::shared_ptr<Connection> PConnection;
 } // namespace http_server

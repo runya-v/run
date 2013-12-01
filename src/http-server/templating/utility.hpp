@@ -19,9 +19,12 @@ namespace tmplt {
         FileSaver(const char *source, const uint32_t size, const std::string &file_name, bool binary = false);
         ~FileSaver();
         
-        operator std::string();
+        operator const std::string&() const;
+        operator const std::string&();
     };
-
+    
+    typedef std::shared_ptr<FileSaver> FileSaverPtr;
+////////////////////////////////////////////////////////////////////////////////////////////////////
     
     
     class CFile
@@ -35,4 +38,21 @@ namespace tmplt {
 
         operator FILE* ();
     };
+
+    typedef std::shared_ptr<CFile> CFilePtr;
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+    
+    class StdoutToFile 
+        : boost::noncopyable
+    {
+        int _saved_stdout;
+        FILE *_file;
+        
+    public:
+        StdoutToFile(const std::string &file_name);
+        ~StdoutToFile();
+    };
+
+    typedef std::shared_ptr<StdoutToFile> StdoutToFilePtr;
 } // tmplt

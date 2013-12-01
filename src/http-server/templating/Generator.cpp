@@ -28,82 +28,103 @@
 using namespace tmplt;
 
 
-Generator::Generator(const Compiler &cmplr, const std::string &file_json, const std::string &file_html) {
-    CTPP::FileOutputCollector output_collector((CFile(file_html)));
+Generator::Generator(
+    const base::bfs::path &file_ct2, 
+    const base::bfs::path &file_json, 
+    const base::bfs::path &file_html, 
+    bool remove) 
+    : _remove(remove)
+    , _path_result(file_html)  
+{
+    CFile cfile_out(file_html.string());
+    CTPP::FileOutputCollector output_collector(cfile_out);
     CTPP::SyscallFactory syscall_factory(100);
     CTPP::STDLibInitializer::InitLibrary(syscall_factory);
-    CTPP::VMFileLoader loader(((const std::string&)cmplr).c_str());
+    CTPP::VMFileLoader loader(file_ct2.string().c_str());
     const CTPP::VMMemoryCore *vm_memory_core = loader.GetCore();
     CTPP::CDT hash;
     CTPP::CTPP2JSONFileParser json_file_parser(hash);
     
     try {
-        json_file_parser.Parse(file_json.c_str());
+        json_file_parser.Parse(file_json.string().c_str());
         CTPP::VM vm(&syscall_factory);
         vm.Init(vm_memory_core, &output_collector, nullptr);
         std::uint32_t ip = 0;
         vm.Run(vm_memory_core, &output_collector, ip, hash, nullptr);   
-        LOG(METHOD, base::Log::Level::INFO, "Generate html `" + file_html + "`.");                                    
+        LOG(INFO) << "Generate html `" << file_html.string() << "`.";                                    
+        CTPP::STDLibInitializer::DestroyLibrary(syscall_factory);
     }
     catch(CTPP::CDTTypeCastException &e) { 
-        LOG(METHOD, base::Log::Level::ERROR, std::string("Type Cast ") + e.what());                                    
+        LOG(ERROR) << "Type Cast " << e.what();                                    
     }
     catch(CTPP::CDTAccessException &e) { 
-        LOG(METHOD, base::Log::Level::ERROR, std::string("Array index out of bounds: %s\n") + e.what());                   
+        LOG(ERROR) << "Array index out of bounds: `" << e.what() << "`";                   
     }
     catch(CTPP::IllegalOpcode &e) { 
-        boost::format f = boost::format("Illegal opcode 0x%08X at 0x%08X") % e.GetOpcode() % e.GetIP();
-        LOG(METHOD, base::Log::Level::ERROR, f.str()); 
+        LOG(ERROR) << "Illegal opcode " << e.GetOpcode() << " at " << e.GetIP(); 
     }
     catch(CTPP::InvalidSyscall &e) {
         if (e.GetIP() not_eq 0) {
             CTPP::VMDebugInfo debug_info(e.GetDebugInfo());
-            boost::format f = boost::format("%s at 0x%08X (Template file \"%s\", Line %d, Pos %d)")
-                % e.what() % e.GetIP() % e.GetSourceName() % debug_info.GetLine() % debug_info.GetLinePos();
-            LOG(METHOD, base::Log::Level::ERROR, f.str());
+            LOG(ERROR)
+                << e.what() << " at "
+                << e.GetIP() << "(Template file `" << e.GetSourceName() << "`,"
+                << "Line " << debug_info.GetLine() << ", "
+                << "Pos " << debug_info.GetLinePos() << ")";
         }
         else {
-            LOG(METHOD, base::Log::Level::ERROR, std::string("Unsupported syscall: ") + e.what());
+            LOG(ERROR) << "Unsupported syscall: " << e.what();
         }
     }
     catch(CTPP::InvalidCall &e) {
         CTPP::VMDebugInfo debug_info(e.GetDebugInfo());
-        boost::format f = boost::format("at 0x%08X: Invalid block name \"%s\" in file \"%s\", Line %d, Pos %d")
-            % e.GetIP() % e.what() % e.GetSourceName() % debug_info.GetLine() % debug_info.GetLinePos();
-        LOG(METHOD, base::Log::Level::ERROR, f.str());
+        LOG(ERROR) 
+            << "at " << e.GetIP() << ": "
+            << "Invalid block name `" << e.what() << "` "
+            << "in file `" << e.GetSourceName() << "`, "
+            << "Line " << debug_info.GetLine()
+            << "Pos " << debug_info.GetLinePos();
     }
     catch(CTPP::CodeSegmentOverrun &e) { 
-        boost::format f = boost::format("%s at 0x%08X") % e.what() % e.GetIP();
-        LOG(METHOD, base::Log::Level::ERROR, f.str());
+        LOG(ERROR) << e.what() << " at " << e.GetIP();
     }
     catch(CTPP::StackOverflow &e) { 
-        boost::format f = boost::format("Stack overflow at 0x%08X") % e.GetIP();
-        LOG(METHOD, base::Log::Level::ERROR, f.str());
+        LOG(ERROR) << "Stack overflow at " << e.GetIP();
     }
     catch(CTPP::StackUnderflow &e) { 
-        boost::format f = boost::format("Stack underflow at 0x%08X") % e.GetIP();
-        LOG(METHOD, base::Log::Level::ERROR, f.str());
+        LOG(ERROR) << "Stack underflow at " << e.GetIP();
     }
     catch(CTPP::ExecutionLimitReached &e) { 
-        boost::format f = boost::format("Execution limit reached at 0x%08X") % e.GetIP();
-        LOG(METHOD, base::Log::Level::ERROR, f.str());
+        LOG(ERROR) << "Execution limit reached at " << e.GetIP();
     }
     catch(CTPP::VMException &e) { 
-        boost::format f = boost::format("VM generic exception: %s at 0x%08X") % e.what() % e.GetIP();
-        LOG(METHOD, base::Log::Level::ERROR, f.str());
+        LOG(ERROR) << "VM generic exception: " << e.what() << " at " << e.GetIP();
     }
     catch(CTPP::CTPPLogicError &e) { 
-        LOG(METHOD, base::Log::Level::ERROR, e.what());                                              
+        LOG(ERROR) << e.what();
     }
     catch(CTPP::CTPPUnixException &e) { 
-        boost::format f = boost::format("I/O in %s: %s") % e.what() % strerror(e.ErrNo());
-        LOG(METHOD, base::Log::Level::ERROR, f.str());
+        LOG(ERROR) << "I/O in " << e.what() << ": " << strerror(e.ErrNo());
     }
     catch(CTPP::CTPPException &e) { 
-        LOG(METHOD, base::Log::Level::ERROR, std::string("CTPP Generic exception: ") + e.what());                      
+        LOG(ERROR) << "CTPP Generic exception: " << e.what();                      
     }
     catch(...) {
-        LOG(METHOD, base::Log::Level::ERROR, "Undefined.");
+        LOG(ERROR) << "Undefined.";
     }
-    CTPP::STDLibInitializer::DestroyLibrary(syscall_factory);
 }
+
+
+Generator::~Generator() {
+    if (base::bfs::exists(_path_result) and _remove) {
+        base::bfs::remove(_path_result);
+        LOG(INFO) << "Delete: `" << _path_result.string() << "`.";
+    }
+}
+
+
+Generator::operator const std::string&() {
+    return _path_result.string();
+}
+
+

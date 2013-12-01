@@ -13,19 +13,15 @@
 
 
 namespace tmplt {
-    typedef std::vector<char> DataBuf;
-
-
     class Compiler 
         : public boost::noncopyable
     {
-        std::string _file_source;
-        DataBuf _result;
+        FileSaverPtr _result;
         
     public:
-        Compiler(const FileSaver &&fswr);
+        explicit Compiler(const base::bfs::path &&fswr);
         
-        operator const DataBuf&();
+        operator const std::string&() const;
         operator const std::string&();
     };
 } // tmplt

@@ -18,7 +18,7 @@ ThreadPool::ThreadPool(size_t threads, const std::string &name)
 {
     if (not threads) {
         threads = 1;
-        LOG(METHOD, base::Log::Level::DEBUG, "Set num threads to default.");
+        LOG(DEBUG) << "Set num threads to default.";
     }
 
     for (std::size_t i = 0; i < threads; ++i) {
@@ -74,17 +74,10 @@ ThreadPool::~ThreadPool() {
         _workers[i].join();
         counts_ss << "\n\tthread[" << i << "] = " << _execd_tasks_counts[i].get()[0] << ";";
     }
-
-    boost::format f = boost::format("Pool `%s` statistik:\n"
-                                    "\tloaded tasks   = %d;\n"
-                                    "\texecd tasks    = %d;\n"
-                                    "\tmax work tasks = %d;"
-                                    "%s")
-        % _name
-        % _gen_tasks
-        % _execd_tasks
-        % _max_tasks
-        % counts_ss.str()
-        ;
-    LOG(METHOD, base::Log::Level::DEBUG, f.str());
+    LOG(DEBUG) 
+        << "Pool `" << _name << "` statistik:\n"
+        << "\tloaded tasks   = " << _gen_tasks << ";\n"
+        << "\texecd tasks    = " << _execd_tasks << ";\n"
+        << "\tmax work tasks = " << _max_tasks << ";"
+        << counts_ss;
 }

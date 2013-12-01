@@ -7,52 +7,52 @@
 namespace http_server {
 
     RequestParser::RequestParser()
-        : state_(method_start)
+        : _state(method_start)
     {}
 
     void RequestParser::reset() {
-        state_ = method_start;
+        _state = method_start;
     }
 
 
     boost::tribool RequestParser::consume(Request& req, char input) {
-        switch (state_) {
+        switch (_state) {
         case method_start:
             if (not isChar(input) or isCtl(input) or isTspecial(input)) {
                 return false;
             }
             else {
-                state_ = method;
-                req.method.push_back(input);
+                _state = method;
+                req._method.push_back(input);
                 return boost::indeterminate;
             }
         case method:
             if (input == ' ') {
-                state_ = uri;
+                _state = uri;
                 return boost::indeterminate;
             }
             else if (not isChar(input) or isCtl(input) or isTspecial(input)) {
                 return false;
             }
             else {
-                req.method.push_back(input);
+                req._method.push_back(input);
                 return boost::indeterminate;
             }
         case uri:
             if (input == ' ') {
-                state_ = http_version_h;
+                _state = http_version_h;
                 return boost::indeterminate;
             }
             else if (isCtl(input)) {
                 return false;
             }
             else {
-                req.uri.push_back(input);
+                req._uri.push_back(input);
                 return boost::indeterminate;
             }
         case http_version_h:
             if (input == 'H') {
-                state_ = http_version_t_1;
+                _state = http_version_t_1;
                 return boost::indeterminate;
             }
             else {
@@ -60,7 +60,7 @@ namespace http_server {
             }
         case http_version_t_1:
             if (input == 'T') {
-                state_ = http_version_t_2;
+                _state = http_version_t_2;
                 return boost::indeterminate;
             }
             else {
@@ -68,7 +68,7 @@ namespace http_server {
             }
         case http_version_t_2:
             if (input == 'T') {
-                state_ = http_version_p;
+                _state = http_version_p;
                 return boost::indeterminate;
             }
             else {
@@ -76,7 +76,7 @@ namespace http_server {
             }
         case http_version_p:
             if (input == 'P') {
-                state_ = http_version_slash;
+                _state = http_version_slash;
                 return boost::indeterminate;
             }
             else {
@@ -84,9 +84,9 @@ namespace http_server {
             }
         case http_version_slash:
             if (input == '/') {
-                req.http_version_major = 0;
-                req.http_version_minor = 0;
-                state_ = http_version_major_start;
+                req._http_version_major = 0;
+                req._http_version_minor = 0;
+                _state = http_version_major_start;
                 return boost::indeterminate;
             }
             else {
@@ -94,8 +94,8 @@ namespace http_server {
             }
         case http_version_major_start:
             if (isDigit(input)) {
-                req.http_version_major = req.http_version_major * 10 + input - '0';
-                state_ = http_version_major;
+                req._http_version_major = req._http_version_major * 10 + input - '0';
+                _state = http_version_major;
                 return boost::indeterminate;
             }
             else {
@@ -103,11 +103,11 @@ namespace http_server {
             }
         case http_version_major:
             if (input == '.') {
-                state_ = http_version_minor_start;
+                _state = http_version_minor_start;
                 return boost::indeterminate;
             }
             else if (isDigit(input)) {
-                req.http_version_major = req.http_version_major * 10 + input - '0';
+                req._http_version_major = req._http_version_major * 10 + input - '0';
                 return boost::indeterminate;
             }
             else {
@@ -115,8 +115,8 @@ namespace http_server {
             }
         case http_version_minor_start:
             if (isDigit(input)) {
-                req.http_version_minor = req.http_version_minor * 10 + input - '0';
-                state_ = http_version_minor;
+                req._http_version_minor = req._http_version_minor * 10 + input - '0';
+                _state = http_version_minor;
                 return boost::indeterminate;
             }
             else {
@@ -124,11 +124,11 @@ namespace http_server {
             }
         case http_version_minor:
             if (input == '\r') {
-                state_ = expecting_newline_1;
+                _state = expecting_newline_1;
                 return boost::indeterminate;
             }
             else if (isDigit(input)) {
-                req.http_version_minor = req.http_version_minor * 10 + input - '0';
+                req._http_version_minor = req._http_version_minor * 10 + input - '0';
                 return boost::indeterminate;
             }
             else {
@@ -136,7 +136,7 @@ namespace http_server {
             }
         case expecting_newline_1:
             if (input == '\n') {
-                state_ = header_line_start;
+                _state = header_line_start;
                 return boost::indeterminate;
             }
             else {
@@ -144,25 +144,25 @@ namespace http_server {
             }
         case header_line_start:
             if (input == '\r') {
-                state_ = expecting_newline_3;
+                _state = expecting_newline_3;
                 return boost::indeterminate;
             }
-            else if (not req.headers.empty() && (input == ' ' or input == '\t')) {
-                state_ = header_lws;
+            else if (not req._headers.empty() && (input == ' ' or input == '\t')) {
+                _state = header_lws;
                 return boost::indeterminate;
             }
             else if (not isChar(input) or isCtl(input) or isTspecial(input)) {
                 return false;
             }
             else {
-                req.headers.push_back(Header());
-                req.headers.back().name.push_back(input);
-                state_ = header_name;
+                req._headers.push_back(Header());
+                req._headers.back()._name.push_back(input);
+                _state = header_name;
                 return boost::indeterminate;
             }
         case header_lws:
             if (input == '\r') {
-                state_ = expecting_newline_2;
+                _state = expecting_newline_2;
                 return boost::indeterminate;
             }
             else if (input == ' ' or input == '\t') {
@@ -172,25 +172,25 @@ namespace http_server {
                 return false;
             }
             else {
-                state_ = header_value;
-                req.headers.back().value.push_back(input);
+                _state = header_value;
+                req._headers.back()._value.push_back(input);
                 return boost::indeterminate;
             }
         case header_name:
             if (input == ':') {
-                state_ = space_before_header_value;
+                _state = space_before_header_value;
                 return boost::indeterminate;
             }
             else if (not isChar(input) or isCtl(input) or isTspecial(input)) {
                 return false;
             }
             else {
-                req.headers.back().name.push_back(input);
+                req._headers.back()._name.push_back(input);
                 return boost::indeterminate;
             }
         case space_before_header_value:
             if (input == ' ') {
-                state_ = header_value;
+                _state = header_value;
                 return boost::indeterminate;
             }
             else {
@@ -198,19 +198,19 @@ namespace http_server {
             }
         case header_value:
             if (input == '\r') {
-                state_ = expecting_newline_2;
+                _state = expecting_newline_2;
                 return boost::indeterminate;
             }
             else if (isCtl(input)) {
                 return false;
             }
             else {
-                req.headers.back().value.push_back(input);
+                req._headers.back()._value.push_back(input);
                 return boost::indeterminate;
             }
         case expecting_newline_2:
             if (input == '\n') {
-                state_ = header_line_start;
+                _state = header_line_start;
                 return boost::indeterminate;
             }
             else {

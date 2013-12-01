@@ -23,16 +23,15 @@ namespace base {
     class Log {
     public:
         enum class Level {
-            NONE,
-            INFO,
-            DEBUG,
-            WARNING,
-            ERROR,
-            FATAL
+            _info,
+            _debug,
+            _warning,
+            _error,
+            _fatal
         };
 
     private:
-        typedef std::tuple<std::string, Level, std::string, boost::posix_time::ptime> QueueTask;
+        typedef std::tuple<Level, std::string, std::string, boost::posix_time::ptime> QueueTask;
         typedef std::queue<QueueTask> Queue;
 
         virtual void execute();
@@ -72,14 +71,44 @@ namespace base {
             bool log_out_file,
             bool log_file_compress = false,
             uint32_t log_file_depth = LOG_FILE_DEPTH);
-        void print(const std::string& module, const Level& level, const std::string& message);
+        void print(const Level& level, const std::string& module, const std::string& message);
 
         void start();
         void stop();
     };
+    
+    struct LogAggregator {
+        std::stringstream _stream;
+        Log::Level _level;
+        std::string _module;
+
+        LogAggregator(const Log::Level &level, const std::string &module) 
+            : _level(level)
+            , _module(module)
+        {}
+
+        template<class Type>
+        LogAggregator& operator << (const Type &value) {
+            _stream << value;
+            return *this;
+        }   
+        
+        ~LogAggregator() {
+            Singleton<Log>::getInstance()->print(_level, _module, _stream.str().c_str());
+        }
+    };
 } // namespace base
 
 
-#define LOG(module, level, msg) base::Singleton<base::Log>::getInstance()->print((module), (level), (msg))
+#define LOGM(level, method) base::LogAggregator XAFTERX(log_, __LINE__)((level), (method)); XAFTERX(log_, __LINE__)
+#define LOG(level) LOGM((level), __FUNC__)
+
+#define INFO    base::Log::Level::_info
+#define DEBUG   base::Log::Level::_debug
+#define WARNING base::Log::Level::_warning
+#define ERROR   base::Log::Level::_error
+#define FATAL   base::Log::Level::_fatal
+
+#define METHOD (__FUNC__)
+
 #define MODULE typeid(*this).name()
-#define METHOD (std::string(MODULE) + "::" + __FUNCTION__)

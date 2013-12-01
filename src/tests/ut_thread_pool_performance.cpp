@@ -84,11 +84,7 @@ struct CalcWorkUnitTime
         }
         boost::posix_time::time_duration dt = boost::posix_time::microsec_clock::local_time() - start_time;
         _unit_time = std::ceil((double)dt.total_microseconds() / (double)CALC_ITERATIONS);
-
-        boost::format f = boost::format("Unit work time: %d mks;")
-            % _unit_time
-            ;
-        LOG(METHOD, base::Log::Level::DEBUG, f.str());
+        LOG(DEBUG) << "Unit work time: " << _unit_time << " mks;";
     }
 
     std::uint64_t getIterations(std::uint64_t need_time)
@@ -128,18 +124,12 @@ public:
         , _sub_tasks(0)
         , _max_tasks(0)
     {
-        boost::format f = boost::format("Start:\n"
-                                        "\ttime interval = %d;\n"
-                                        "\ttask time     = %d;\n"
-                                        "\tworks by task = %d;\n"
-                                        "\tworks freq    = %d")
-            % timer
-            % _task_time
-            % _works_by_task
-            % _calc_unit_time.getFrequence()
-            ;
-        LOG(METHOD, base::Log::Level::DEBUG, f.str());
-
+        LOG(DEBUG) 
+            << "Start:\n"
+            << "\ttime interval = " << timer << ";\n"
+            << "\ttask time     = " << _task_time << ";\n"
+            << "\tworks by task = " << _works_by_task << ";\n"
+            << "\tworks freq    = " << _calc_unit_time.getFrequence() << ";\n";
         std::this_thread::sleep_for(std::chrono::milliseconds(1000));
 
         auto exec_handle = std::bind(&Worker::handleExecute, this, base::ph::_1);
@@ -158,13 +148,10 @@ public:
         while (((boost::posix_time::microsec_clock::local_time() - start_time).total_microseconds()) < timer);
 
         // Complete
-        f = boost::format("Generate statistik:\n"
-                          "\tmidle task time = %d;\n"
-                          "\tmax duty cycle  = %d;")
-            % (_task_time_sum / task_count)
-            % (std::uint64_t)std::floor((double)(task_count * SECOND) / (double)timer)
-            ;
-        LOG(METHOD, base::Log::Level::DEBUG, f.str());
+        LOG(DEBUG) 
+            << "Generate statistik:\n"
+            << "\tmidle task time = " << (_task_time_sum / task_count) << ";\n"
+            << "\tmax duty cycle  = " << (std::uint64_t)std::floor((double)(task_count * SECOND) / (double)timer) << ";";
         _pool.reset();
     }
 
@@ -184,14 +171,13 @@ public:
         _task_time_sum += exe_dt;
         _works_by_task = std::floor((double)(_task_time * wbt) / ((double)exe_dt));
 
-        boost::format f = boost::format("ws = %d; init dt = %d; exe dt = %d; total = %d; sum = %d")
-            % wbt
-            % init_dt
-            % exe_dt
-            % (init_dt + exe_dt)
-            % _task_time_sum
+        LOG(DEBUG) 
+            << "ws = "        << wbt 
+            << "; init dt = " << init_dt 
+            << "; exe dt = "  << exe_dt 
+            << "; total = "   << (init_dt + exe_dt)
+            << "; sum = "     << _task_time_sum 
             ;
-        LOG(METHOD, base::Log::Level::DEBUG, f.str());
     }
 };
 

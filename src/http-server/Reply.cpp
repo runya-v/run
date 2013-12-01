@@ -63,17 +63,17 @@ namespace http_server {
 
     Reply::Buffers Reply::toBuffers() {
         Reply::Buffers buffers;
-        buffers.push_back(status_strings::toBuffer(status));
+        buffers.push_back(status_strings::toBuffer(_status));
 
-        for (std::size_t i = 0; i < headers.size(); ++i) {
-            Header &h = headers[i];
-            buffers.push_back(asio::buffer(h.name));
+        for (std::size_t i = 0; i < _headers.size(); ++i) {
+            Header &h = _headers[i];
+            buffers.push_back(asio::buffer(h._name));
             buffers.push_back(asio::buffer(misc_strings::_name_value_separator));
-            buffers.push_back(asio::buffer(h.value));
+            buffers.push_back(asio::buffer(h._value));
             buffers.push_back(asio::buffer(misc_strings::_crlf));
         }
         buffers.push_back(asio::buffer(misc_strings::_crlf));
-        buffers.push_back(asio::buffer(content));
+        buffers.push_back(asio::buffer(_content));
 
         return buffers;
     }
@@ -184,13 +184,13 @@ namespace http_server {
 
     Reply Reply::stockReply(Reply::StatusType status) {
         Reply rep;
-        rep.status = status;
-        rep.content = stock_replies::toString(status);
-        rep.headers.resize(2);
-        rep.headers[0].name = "Content-Length";
-        rep.headers[0].value = boost::lexical_cast< std::string >(rep.content.size());
-        rep.headers[1].name = "Content-Type";
-        rep.headers[1].value = "text/html";
+        rep._status = status;
+        rep._content = stock_replies::toString(status);
+        rep._headers.resize(2);
+        rep._headers[0]._name = "Content-Length";
+        rep._headers[0]._value = boost::lexical_cast<std::string>(rep._content.size());
+        rep._headers[1]._name = "Content-Type";
+        rep._headers[1]._value = "text/html";
         return rep;
     }
 }

@@ -15,14 +15,14 @@
 
 namespace http_server {
 
-    typedef std::vector< Header > Headers;
+    typedef std::vector<Header> Headers;
 
 
-struct Request {
-      std::string method;
-      std::string uri;
-      int http_version_major;
-      int http_version_minor;
-      Headers headers;
+    struct Request {
+        std::string _method;
+        std::string _uri;
+        int _http_version_major;
+        int _http_version_minor;
+        Headers _headers;
     };
 } // namespace http_server
