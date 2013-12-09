@@ -11,6 +11,7 @@
 #include <vector>
 #include <boost/asio.hpp>
 
+#include "base.hpp"
 #include "Request.hpp"
 
 

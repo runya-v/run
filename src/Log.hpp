@@ -92,13 +92,15 @@ namespace base {
             _stream << value;
             return *this;
         }   
-        
+
         ~LogAggregator() {
             Singleton<Log>::getInstance()->print(_level, _module, _stream.str().c_str());
         }
     };
 } // namespace base
 
+
+#define LOG_TO_STDOUT base::Singleton<base::Log>::getInstance()->init(true, false);
 
 #define LOGM(level, method) base::LogAggregator XAFTERX(log_, __LINE__)((level), (method)); XAFTERX(log_, __LINE__)
 #define LOG(level) LOGM((level), __FUNC__)

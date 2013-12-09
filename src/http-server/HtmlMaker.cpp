@@ -50,10 +50,15 @@ HtmlMaker::HtmlMaker(const std::string &need_html_file, bool remove)
         
         if (check_tmpl and check_json) {
             CheckExistsComponent check_html(need_path);
-
-            LOG(INFO) << "{" << (time_t)check_html << ":" << (time_t)check_tmpl << "}";
             
-            if (not check_html or (check_html and (time_t)check_html < (time_t)check_tmpl))
+            bool is_regen = not check_html or (
+                check_html and (
+                    (time_t)check_html < (time_t)check_tmpl or 
+                    (time_t)check_html < (time_t)check_json
+                )
+            );
+            
+            if (is_regen)
             { 
                 tmplt::Compiler cmplr(check_tmpl);
                 _html_gen.reset(new tmplt::Generator(base::bfs::path(cmplr), check_json, need_path, remove));

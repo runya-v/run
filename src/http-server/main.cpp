@@ -11,10 +11,13 @@
 #include <boost/bind.hpp>
 #include <boost/lexical_cast.hpp>
 
+#include "Log.hpp"
 #include "Server.hpp"
 
 
 int main(int argc, char **argv) {
+    LOG_TO_STDOUT;
+
     try {
         // Check command line arguments.
         if (argc not_eq 5) {
@@ -34,7 +37,7 @@ int main(int argc, char **argv) {
         s.run();
     }
     catch (std::exception& e) {
-        std::cerr << "exception: " << e.what() << "\n";
+        LOG(ERROR) << "exception: " << e.what() << "\n";
     }
     return 0;
 }

@@ -187,10 +187,8 @@ namespace http_server {
         rep._status = status;
         rep._content = stock_replies::toString(status);
         rep._headers.resize(2);
-        rep._headers[0]._name = "Content-Length";
-        rep._headers[0]._value = boost::lexical_cast<std::string>(rep._content.size());
-        rep._headers[1]._name = "Content-Type";
-        rep._headers[1]._value = "text/html";
+        rep._headers[0] = { "Content-Length", boost::lexical_cast<std::string>(rep._content.size()) };
+        rep._headers[1] = { "Content-Type", "text/html" };
         return rep;
     }
 }

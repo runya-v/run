@@ -174,7 +174,6 @@ public:
 
 struct TestGenerate {
     TestGenerate(const base::bfs::path &cur_path) {
-        base::Singleton<base::Log>::getInstance()->init(true, false);
         tmplt::FileSaver file_tmpl(TEST_TMPL, sizeof(TEST_TMPL) - 1, (cur_path / "test.tmpl").string());
         tmplt::FileSaver file_json(TEST_JSON, sizeof(TEST_JSON) - 1, (cur_path / "test.json").string());
         http_server::HtmlMaker make((cur_path / "test.html").string());
@@ -186,21 +185,23 @@ struct TestGenerate {
 
 
 BOOST_AUTO_TEST_CASE(TestCtppHttpGenerate) {
+    LOG_TO_STDOUT;
     base::bfs::path cur_path = base::bfs::absolute(base::bfs::current_path());
    
     if (base::bfs::exists(cur_path / "test.html")) {
-        LOG(DEBUG) << "Remove `" << cur_path << "`";
-        base::bfs::remove(cur_path);
+        LOG(DEBUG) << "Remove `" << (cur_path / "test.html") << "`";
+        base::bfs::remove(cur_path / "test.html");
     }
     TestGenerate tgen(cur_path);
 }
 
 BOOST_AUTO_TEST_CASE(TestCtppHttpUpdate) {
+    LOG_TO_STDOUT;
+    std::this_thread::sleep_for(std::chrono::milliseconds(1000));
     base::bfs::path cur_path = base::bfs::absolute(base::bfs::current_path());
 
     if (not base::bfs::exists(cur_path / "test.html")) {
         BOOST_ERROR( "Old version file is not exists." );        
     }
-    std::this_thread::sleep_for(std::chrono::milliseconds(1000));
     TestGenerate tgen(cur_path);
 }

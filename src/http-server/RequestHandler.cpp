@@ -84,6 +84,7 @@ namespace http_server {
 
         // Make new html version by template
         if (extension == "html") {
+            LOG(INFO) << "Request HTML: `" << _doc_root + request_path << "`.";
             HtmlMaker html_maker(_doc_root + request_path); 
         }
 
@@ -105,8 +106,7 @@ namespace http_server {
             }
             rep._headers.resize(2);
             rep._headers[0] = { "Content-Length", rep._headers[0]._value = boost::lexical_cast<std::string>(rep._content.size()) };
-            rep._headers[1]._name  = "Content-Type";
-            rep._headers[1]._value = mime_types::ExtensionToType(extension);
+            rep._headers[1] = { "Content-Type", mime_types::ExtensionToType(extension) };
         }
     }
 }
