@@ -93,9 +93,14 @@ namespace base {
             return *this;
         }   
 
+        //void operator << (std::flush) {
+        //    Singleton<Log>::getInstance()->print(_level, _module, _stream.str().c_str());
+        //}   
+
         ~LogAggregator() {
             Singleton<Log>::getInstance()->print(_level, _module, _stream.str().c_str());
         }
+        
     };
 } // namespace base
 
