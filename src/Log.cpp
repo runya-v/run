@@ -242,3 +242,22 @@ void Log::stop() {
         _thread.reset();
     }
 }
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+LogSequence::Head::Next::Next(const Next &next) 
+    : _stream(next._stream)
+{}
+
+
+LogSequence::Head::Head(const Head &head)
+    : _stream(head._stream)
+    , _level(head._level)
+    , _module(head._module)
+{}
+
+
+LogSequence::LogSequence(const Log::Level &level, const std::string &module) 
+    : _level(level)
+    , _module(module)
+{}

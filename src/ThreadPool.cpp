@@ -79,5 +79,5 @@ ThreadPool::~ThreadPool() {
         << "\tloaded tasks   = " << _gen_tasks << ";\n"
         << "\texecd tasks    = " << _execd_tasks << ";\n"
         << "\tmax work tasks = " << _max_tasks << ";"
-        << counts_ss;
+        << counts_ss.str();
 }

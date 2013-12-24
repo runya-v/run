@@ -77,37 +77,68 @@ namespace base {
         void stop();
     };
     
-    struct LogAggregator {
-        std::stringstream _stream;
+    
+    struct LogSequence {
+        struct Head {
+            struct Next {
+                std::stringstream *_stream;
+
+                template<class Type>
+                explicit Next(std::stringstream *stream, const Type &value) 
+                    : _stream(stream)
+                {
+                    (*_stream) << value;
+                }
+
+                Next(const Next &next);
+
+                template<class Type>
+                Next operator << (const Type &value) {
+                    return Next(_stream, value);
+                }
+            };
+
+            std::shared_ptr<std::stringstream> _stream;
+            Log::Level _level;
+            std::string _module;
+          
+            template<class Type>
+            explicit Head(const Log::Level &level, const std::string& module, const Type &value) 
+                : _stream(new std::stringstream)
+                , _level(level)
+                , _module(module)
+            {
+                (*_stream) << value;
+            }
+
+            Head(const Head &head);
+            
+            ~Head() {
+                base::Singleton<base::Log>::getInstance()->print(_level, _module, _stream->str().c_str());
+            }
+
+            template<class Type>
+            Next operator << (const Type &value) {
+                return Next(_stream.get(), value);
+            }
+        };
+        
         Log::Level _level;
         std::string _module;
 
-        LogAggregator(const Log::Level &level, const std::string &module) 
-            : _level(level)
-            , _module(module)
-        {}
+        LogSequence(const Log::Level &level, const std::string &module);
 
         template<class Type>
-        LogAggregator& operator << (const Type &value) {
-            _stream << value;
-            return *this;
-        }   
-
-        //void operator << (std::flush) {
-        //    Singleton<Log>::getInstance()->print(_level, _module, _stream.str().c_str());
-        //}   
-
-        ~LogAggregator() {
-            Singleton<Log>::getInstance()->print(_level, _module, _stream.str().c_str());
+        Head operator << (const Type &value) {
+            return Head(_level, _module, value);
         }
-        
     };
 } // namespace base
 
 
 #define LOG_TO_STDOUT base::Singleton<base::Log>::getInstance()->init(true, false);
 
-#define LOGM(level, method) base::LogAggregator XAFTERX(log_, __LINE__)((level), (method)); XAFTERX(log_, __LINE__)
+#define LOGM(level, method) base::LogSequence XAFTERX(log_, __LINE__)((level), (method)); XAFTERX(log_, __LINE__)
 #define LOG(level) LOGM((level), __FUNC__)
 
 #define INFO    base::Log::Level::_info
