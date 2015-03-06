@@ -1,12 +1,16 @@
 set(PLUGIN "company_parser")
 
 # Тип разбора компаний с учётом имеющих собственный сайт включается директивой ALL_PARSE=1
-if(BUILD_UTESTS)
+
+OPTION(ENABLE_ALL_PARSE "Enable TESTS support [default: ON]"   ON)
+
+
+if(ENABLE_ALL_PARSE)
     message("Set cmake parse companies with url.")
-    add_definitionselse(-DALL_PARSE)
-else(BUILD_UTESTS)
+    add_definitions(-DALL_PARSE)
+else()
     message("If you need parse companies with url - run cmake -DALL_PARSE=1 to include.")
-endif(BUILD_UTESTS)
+endif()
 
 add_library(${PLUGIN} SHARED
     ${SRC_DIR}/Plugin.cpp

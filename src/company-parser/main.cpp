@@ -41,14 +41,14 @@ public:
     bool execute() {
         po::options_description desc("Allowed options");
         desc.add_options()
-            ("help,h",       "Help information.")
-            ("separate,s", "Separate input company file.")
-            ("all,a",        "Convert all files in directory.")
+            ("help,h",        "Help information.")
+            ("separate,s",    "Separate input company file.")
+            ("all,a",         "Convert all files in directory.")
             ("separate-dir,S", po::value< std::string >()->default_value("separated"), "Directory name for separated files.")
             ("file,f",         po::value< std::string >()->default_value("companies2.xml"), "Company file name.")
             ("count,c",        po::value< uint32_t >()->default_value(1000), "Company count in group for separate.")
             ("rubric,r",       po::value< std::string >()->default_value("rubrics2.xml"), "Rubric files name.")
-            ("result-dir,R", po::value< std::string >()->default_value("result"), "Directory name for complete result.")
+            ("result-dir,R",   po::value< std::string >()->default_value("result"), "Directory name for complete result.")
             ;
 
         po::variables_map vm;

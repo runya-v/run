@@ -421,7 +421,7 @@ namespace NParser {
                             convert._rubric
                             );
 
-                        file_name << convert._company.str();
+                        file_name << str;
                     }
                 }
                 catch (std::exception &e) {
@@ -431,7 +431,7 @@ namespace NParser {
             //std::clog << "# `" << res_name << "` is complete.\n" << std::flush;
         }
         catch (std::exception &e) {
-            std::cerr << "Error in parse XML:" << e.what() << "file: `" << file_path << "`\n" << std::flush;
+            std::cerr << "Error in parse XML:" << e.what() << ": `" << file_path << "`\n" << std::flush;
         }
     }
 

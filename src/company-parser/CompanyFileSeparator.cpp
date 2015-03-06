@@ -63,7 +63,8 @@ namespace NParser {
 
     CompanyFileSeparator::CompanyFileSeparator(
         std::string const& file, std::string const& path, uint32_t need_count
-        ) {
+        )
+    {
 
         if (need_count < g_min_count) {
             need_count = g_min_count;
